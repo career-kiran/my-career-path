@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Next step | My Career Path</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  color: #333;
+}
+
+/* ===== HEADER ===== */
+.header {
+  padding: 30px 40px;
+}
+
+.site-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* ===== MAIN LAYOUT ===== */
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  padding: 40px;
+  min-height: calc(100vh - 120px);
+}
+
+/* ===== LEFT: OPTIONS (VERTICAL) ===== */
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.option-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 35px 30px;
+  cursor: pointer;
+  transition: border 0.2s ease;
+}
+
+.option-card:hover {
+  border-color: #999;
+}
+
+.option-card h3 {
+  margin: 0 0 14px 0;
+  font-size: 18px;
+}
+
+.option-card p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.7;
+}
+
+/* ===== RIGHT: TEXT ===== */
+.side-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.side-text h1 {
+  font-size: 38px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.side-text p {
+  font-size: 16px;
+  color: #666;
+  max-width: 420px;
+  line-height: 1.7;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  <div class="site-title">My Career Path</div>
+</div>
+
+<div class="main">
+
+  <!-- LEFT OPTIONS -->
+  <div class="options">
+
+    <div class="option-card" onclick="goNext('buckets.html')">
+      <h3>See what might suit you</h3>
+      <p>
+        Based on what you shared, we will gently suggest some directions.
+      </p>
+    </div>
+
+    <div class="option-card" onclick="goNext('search-subject.html')">
+      <h3>Search by subject</h3>
+      <p>
+        If you like a particular subject, start here.
+      </p>
+    </div>
+
+    <div class="option-card" onclick="goNext('search-profession.html')">
+      <h3>Search by profession</h3>
+      <p>
+        If you already know a profession you are curious about.
+      </p>
+    </div>
+
+  </div>
+
+  <!-- RIGHT TEXT -->
+  <div class="side-text">
+    <h1>Let’s take the next step together.</h1>
+    <p>Where would you like to start?</p>
+  </div>
+
+</div>
+</div>
+
+<script>
+function goNext(page) {
+  document.body.classList.add('fade-out');
+  setTimeout(function () {
+    window.location.href = page;
+  }, 600);
+}
+</script>
+
+</body>
+</html>
+</body>
+</html>

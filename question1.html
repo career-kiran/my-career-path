@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Question 1 | My Career Path</title>
+
+<style>
+/* ===== GLOBAL RESET ===== */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  color: #333;
+}
+
+/* ===== FULL SCREEN WRAPPER ===== */
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;        /* vertical centering */
+  justify-content: center;    /* horizontal centering */
+}
+
+/* ===== CONTENT AREA ===== */
+.content {
+  width: 100%;
+  max-width: 900px;
+  padding: 60px 40px;
+}
+
+/* ===== HEADER ===== */
+.site-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+/* ===== QUESTION ===== */
+h1 {
+  font-weight: normal;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+/* ===== OPTIONS ===== */
+.option {
+  margin: 26px 0;
+  font-size: 18px;
+}
+
+.option label {
+  cursor: pointer;
+}
+
+.option input {
+  margin-right: 12px;
+}
+
+/* ===== NOTE ===== */
+.note {
+  margin-top: 30px;
+  color: #666;
+  font-size: 15px;
+}
+
+/* ===== BUTTON ===== */
+.button-area {
+  margin-top: 40px;
+}
+
+button {
+  padding: 14px 28px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #555;
+}
+</style>
+</head>
+
+<body>
+
+<div class="page">
+  <div class="content">
+
+    <!-- Website name -->
+    <div class="site-title">My Career Path</div>
+
+    <!-- Question -->
+    <h1>How are you feeling right now?</h1>
+
+    <!-- Options -->
+    <div class="option">
+      <label>
+        <input type="radio" name="q1">
+        I feel confused
+      </label>
+    </div>
+
+    <div class="option">
+      <label>
+        <input type="radio" name="q1">
+        I feel pressured by others
+      </label>
+    </div>
+
+    <div class="option">
+      <label>
+        <input type="radio" name="q1">
+        I am not sure yet
+      </label>
+    </div>
+
+    <div class="option">
+      <label>
+        <input type="radio" name="q1">
+        I feel okay, just exploring
+      </label>
+    </div>
+
+    <!-- Note -->
+    <div class="note">
+      There is no right or wrong answer.
+    </div>
+   
+
+    <!-- Continue -->
+    <div class="button-area">
+      <button 
+      onclick="location.href='transition1.html'">Continue</button>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
