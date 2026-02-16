@@ -1,0 +1,273 @@
+/* ===== BODY ===== */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* ===== HEADER ===== */
+.header {
+    background-color: white;
+    padding: 25px 0;
+}
+
+.header .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.site-title {
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #111;
+}
+
+.bucket-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.bucket-nav a {
+    text-decoration: none;
+    color: #555;
+}
+
+.bucket-nav a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+.header-links {
+    margin-top: 10px;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+}
+
+.header-links a:hover {
+    text-decoration: underline;
+}
+
+/* ===== MAIN CONTENT ===== */
+
+.main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: left;
+    animation: fadeIn 0.5s ease-in;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+/* ===== LIST SPACING ===== */
+
+ul {
+  line-height: 1.8;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+  color: #444;
+}
+
+/* ===== REAL LIFE EXAMPLES ===== */
+
+.real-life-box {
+    border-left: 4px solid #007BFF;   /* BLUE LINE */
+    padding-left: 15px;
+    margin: 25px 0;
+}
+
+/* ===== COURSE BOXES ===== */
+
+.courses-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.course-box {
+    flex: 0 0 calc(33.33% - 25px);   /* 3 per row */
+    border: 2px solid #bbb;
+    padding: 25px;
+    border-radius: 12px;
+    background: #fff;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+.course-box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.course-box:active {
+    transform: translateY(-2px);
+}
+
+.course-box p {
+    margin: 8px 0;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+    .course-box {
+        flex: 1 1 calc(50% - 25px);
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .course-box {
+        flex: 1 1 100%;
+    }
+}
+/* ===== EXAM FULL FORMS ===== */
+
+.exam-box {
+    background: #f4f8ff;   /* same light blue background */
+    padding: 20px;
+    border-radius: 12px;
+    margin: 30px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* ===== IMPORTANT NOTE ===== */
+
+.important-note {
+    border-left: 4px solid #007BFF;
+    background: #f4f8ff;
+    padding: 15px;
+    margin-top: 30px;
+}
+.ladder-container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.ladder-box {
+    flex: 1 1 45%;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.ladder {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    font-weight: 500;
+}
+
+.ladder li {
+    margin: 6px 0;
+}
+
+
+
+/* ===== Section refinement ===== */
+
+h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 45px;
+    margin-bottom: 15px;
+    color: #1a3c6e;
+    letter-spacing: 0.3px;
+    border-top: 1px solid #eee;
+    padding-top: 12px;
+}
+
+/* remove line from first section only */
+.main h2:first-of-type {
+    border-top: none;
+    padding-top: 0;
+}
+
+/* ===== Home Hero Section ===== */
+
+.hero-title {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1a3c6e;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  line-height: 1.6;
+  color: #555;
+}
+
+.start-button {
+  display: inline-block;
+  background-color: #1a3c6e;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.start-button:hover {
+  background-color: #16335c;
+  transform: translateY(-2px);
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+    text-align: center;
+}
+header {
+    text-align: left;
+}
+
+.bucket-nav {
+    text-align: left;
+}
+
+.header-links {
+    text-align: left;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
