@@ -187,7 +187,253 @@ category: "Filmmaking",
 subjects: ["Media Studies","Communication","Art"],
 levels: ["12th","Graduation"],
 stream: ["Arts","Science","Commerce"]
+},
+
+{
+name: "Content Writer",
+description: "Writes articles, blogs, website content, and online posts.",
+page: "content-writer.html",
+bucket: "Creativity and Expression",
+category: "Writing",
+subjects: ["Literature","Communication","Media Studies"],
+levels: ["12th","Graduation"],
+stream: ["Arts","Science","Commerce"]
+},
+
+{
+name: "Journalist",
+description: "Researches and reports news stories for newspapers, television, and digital media.",
+page: "journalist.html",
+bucket: "Creativity and Expression",
+category: "Writing",
+subjects: ["Journalism","Literature","Political Science"],
+levels: ["12th","Graduation"],
+stream: ["Arts","Science","Commerce"]
+},
+
+{
+name: "Author (Book Writer)",
+description: "Writes books such as novels, stories, educational books, or other published works.",
+page: "author.html",
+bucket: "Creativity and Expression",
+category: "Writing",
+subjects: ["Literature","Language","Creative Writing"],
+levels: ["12th","Graduation"],
+stream: ["Arts","Science","Commerce"]
+},
+
+{
+name: "Copywriter",
+description: "Writes advertising and marketing content for brands, products, and campaigns.",
+page: "copywriter.html",
+bucket: "Creativity and Expression",
+category: "Writing",
+subjects: ["Literature","Marketing","Communication"],
+levels: ["12th","Graduation"],
+stream: ["Arts","Commerce","Science"]
+},
+
+{
+name: "Editor (Publishing / Media)",
+description: "Reviews, improves, and prepares written content for books, newspapers, and online publications.",
+page: "editor.html",
+bucket: "Creativity and Expression",
+category: "Writing",
+subjects: ["Literature","Journalism","Communication"],
+levels: ["12th","Graduation"],
+stream: ["Arts","Science","Commerce"]
+},
+
+{
+name: "Technical Writer",
+description: "Writes manuals, guides, and documentation to explain technical products and software.",
+page: "technical-writer.html",
+bucket: "Creativity and Expression",
+category: "Writing",
+subjects: ["English","Communication","Computer Science"],
+levels: ["12th","Graduation"],
+stream: ["Arts","Science","Commerce"]
+},
+
+{
+name: "Content Strategist",
+description: "Plans and manages content for websites, blogs, and digital platforms.",
+page: "content-strategist.html",
+bucket: "Creativity and Expression",
+category: "Writing",
+subjects: ["Communication","Marketing","Media Studies"],
+levels: ["12th","Graduation"],
+stream: ["Arts","Commerce","Science"]
+},
+
+{
+name: "Actor",
+description: "Performs characters in films, television shows, theatre, and other productions.",
+page: "actor.html",
+bucket: "Creativity and Expression",
+category: "Performing",
+subjects: ["Theatre","Drama","Literature"],
+levels: ["12th","Graduation"],
+stream: ["Arts","Science","Commerce"]
+},
+
+{
+name: "Dancer",
+description: "Performs dance in stage shows, films, television, and live performances.",
+page: "dancer.html",
+bucket: "Creativity and Expression",
+category: "Performing",
+subjects: ["Dance","Performing Arts","Physical Education"],
+levels: ["12th","Graduation"],
+stream: ["Arts","Science","Commerce"]
+},
+
+{
+name: "Theatre Artist",
+description: "Performs acting roles in stage plays and live theatre productions.",
+page: "theatre-artist.html",
+bucket: "Creativity and Expression",
+category: "Performing",
+subjects: ["Theatre","Drama","Literature"],
+levels: ["12th","Graduation"],
+stream: ["Arts","Science","Commerce"]
+},
+
+{
+name: "Stand-up Comedian",
+description: "Performs comedy acts and entertains audiences through live or recorded shows.",
+page: "standup-comedian.html",
+bucket: "Creativity and Expression",
+category: "Performing",
+subjects: ["Comedy","Performing Arts","Communication"],
+levels: ["12th","Graduation"],
+stream: ["Arts","Science","Commerce"]
+},
+
+{
+name: "Voice Artist (Voice Actor)",
+description: "Provides voice for animated characters, advertisements, films, audiobooks, and digital media.",
+page: "voice-artist.html",
+bucket: "Creativity and Expression",
+category: "Performing",
+subjects: ["Communication","Performing Arts","Media Studies"],
+levels: ["12th","Graduation"],
+stream: ["Arts","Science","Commerce"]
+},
+
+{
+name: "Singer",
+description: "Performs songs for concerts, films, albums, and live performances.",
+page: "singer.html",
+bucket: "Creativity and Expression",
+category: "Music",
+subjects: ["Music","Performing Arts"],
+levels: ["12th","Graduation"],
+stream: ["Arts","Science","Commerce"]
+},
+
+{
+name: "Music Composer",
+description: "Creates original music for films, albums, games, and other media.",
+page: "music-composer.html",
+bucket: "Creativity and Expression",
+category: "Music",
+subjects: ["Music","Composition","Sound Design"],
+levels: ["12th","Graduation"],
+stream: ["Arts","Science","Commerce"]
+},
+
+{
+name: "Music Producer",
+description: "Oversees the recording and production of songs and music tracks.",
+page: "music-producer.html",
+bucket: "Creativity and Expression",
+category: "Music",
+subjects: ["Music","Sound Engineering","Audio Production"],
+levels: ["12th","Graduation"],
+stream: ["Arts","Science","Commerce"]
+},
+
+{
+name: "Sound Engineer",
+description: "Records, mixes, and manages audio for music, films, and live events.",
+page: "sound-engineer.html",
+bucket: "Creativity and Expression",
+category: "Music",
+subjects: ["Music","Sound Engineering","Audio Technology"],
+levels: ["12th","Graduation"],
+stream: ["Arts","Science","Commerce"]
+},
+
+{
+name: "DJ (Disc Jockey)",
+description: "Plays and mixes music at events, clubs, radio stations, and live shows.",
+page: "dj.html",
+bucket: "Creativity and Expression",
+category: "Music",
+subjects: ["Music","Audio Mixing","Sound Technology"],
+levels: ["12th","Graduation"],
+stream: ["Arts","Science","Commerce"]
+},
+
+
+{
+name: "Photographer",
+description: "Captures images for events, media, advertisements, and creative projects.",
+page: "photographer.html",
+bucket: "Creativity and Expression",
+category: "Photography",
+subjects: ["Photography","Media Studies","Art"],
+levels: ["12th","Graduation"],
+stream: ["Arts","Science","Commerce"]
+},
+
+
+{
+name: "Wildlife Photographer",
+description: "Captures images of animals and nature for magazines, documentaries, and conservation work.",
+page: "wildlife-photographer.html",
+bucket: "Creativity and Expression",
+category: "Photography",
+subjects: ["Photography","Biology","Environmental Science"],
+levels: ["12th","Graduation"],
+stream: ["Science","Arts"]
+},
+
+
+{
+name: "Fashion Photographer",
+description: "Takes photographs for fashion magazines, brands, and clothing advertisements.",
+page: "fashion-photographer.html",
+bucket: "Creativity and Expression",
+category: "Photography",
+subjects: ["Photography","Fashion","Art"],
+levels: ["12th","Graduation"],
+stream: ["Arts","Science","Commerce"]
+},
+
+{
+name: "Photo Editor",
+description: "Edits and enhances photographs for media, advertising, and digital platforms.",
+page: "photo-editor.html",
+bucket: "Creativity and Expression",
+category: "Photography",
+subjects: ["Photography","Design","Computer Skills"],
+levels: ["12th","Graduation"],
+stream: ["Arts","Science","Commerce"]
+},
+
+{
+name: "Photojournalist",
+description: "Captures photographs that tell news stories for newspapers, magazines, and media outlets.",
+page: "photojournalist.html",
+bucket: "Creativity and Expression",
+category: "Photography",
+subjects: ["Photography","Journalism","Media Studies"],
+levels: ["12th","Graduation"],
+stream: ["Arts","Science","Commerce"]
 }
+
 
 
 
