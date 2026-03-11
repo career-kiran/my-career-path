@@ -467,6 +467,17 @@ levels: ["10th", "12th", "Graduation"],
 stream: ["Arts", "Science", "Commerce"]
 },
 
+{
+name: "Motion Graphics Designer",
+description: "Creates animated graphics, titles, and visual effects used in videos, advertisements, films, and digital media.",
+page: "motion-graphics-designer.html",
+bucket: "Creativity and Expression",
+category: "Design",
+subjects: ["Art", "Design", "Animation", "Computer Science", "Media Studies"],
+levels: ["10th", "12th", "Graduation"],
+stream: ["Arts", "Science", "Commerce"]
+},
+
 
 
 
