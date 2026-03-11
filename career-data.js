@@ -52,19 +52,6 @@ levels: ["12th","Graduation"],
 stream: ["Science","Arts"]
 },
 
-
-{
-name: "Interior Designer",
-description: "Designs how rooms and indoor spaces look and function.",
-page: "interior-designer.html",
-bucket: "Creativity and Expression",
-category:"Designing",
-subjects: ["Art","Design","Architecture"],
-levels: ["12th","Graduation"],
-stream: ["Arts","Science"]
-},
-
-
 {
 name: "Fashion Designer",
 description: "Designs clothing, accessories, and fashion styles.",
@@ -119,7 +106,7 @@ page: "video-editor.html",
 bucket: "Creativity and Expression",
 category: "Filmmaking",
 subjects: ["Media Studies","Film Studies","Computer"],
-levels: ["12th","Graduation"],
+levels: ["10th","12th","Graduation"],
 stream: ["Arts","Science"]
 },
 
@@ -432,7 +419,58 @@ category: "Photography",
 subjects: ["Photography","Journalism","Media Studies"],
 levels: ["12th","Graduation"],
 stream: ["Arts","Science","Commerce"]
-}
+},
+
+
+{
+name: "Interior Designer",
+description: "Designs and plans the inside of homes, offices, and other spaces to make them functional and beautiful.",
+page: "interior-designer.html",
+bucket: "Creativity and Expression",
+category: "Design",
+subjects: ["Art","Design","Architecture","Psychology"],
+levels: ["10th","12th","Graduation"],
+stream: ["Arts","Science","Commerce"]
+},
+
+{
+name: "Textile Designer",
+description: "Designs patterns and prints for fabrics used in clothing, home décor, and other textile products.",
+page: "textile-designer.html",
+bucket: "Creativity and Expression",
+category: "Design",
+subjects: ["Art", "Design", "Fashion", "Computer Science"],
+levels: ["10th", "12th", "Graduation"],
+stream: ["Arts", "Science", "Commerce"]
+},
+
+{
+name: "Animator",
+description: "Creates moving images and visual effects for movies, games, advertisements, and digital media.",
+page: "animator.html",
+bucket: "Creativity and Expression",
+category: "Design",
+subjects: ["Art", "Animation", "Computer Science", "Media Studies"],
+levels: ["10th", "12th", "Graduation"],
+stream: ["Arts", "Science", "Commerce"]
+},
+
+
+{
+name: "VFX Artist",
+description: "Creates visual effects for movies, television, advertisements, and video games using computer graphics and digital tools.",
+page: "vfx-artist.html",
+bucket: "Creativity and Expression",
+category: "Design",
+subjects: ["Art", "Animation", "Computer Science", "Media Studies"],
+levels: ["10th", "12th", "Graduation"],
+stream: ["Arts", "Science", "Commerce"]
+},
+
+
+
+
+
 
 
 
