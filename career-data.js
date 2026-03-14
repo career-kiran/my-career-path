@@ -65,13 +65,13 @@ stream: ["Arts"]
 
 
 {
-name: "Illustrator (Drawing Artist)",
+name: "Illustrator",
 description: "Creates drawings and visual artwork for books, brands, and media.",
 page: "illustrator.html",
 bucket: "Creativity and Expression",
 category: "Designing",
 subjects: ["Art","Design"],
-levels: ["12th","Graduation"],
+levels: ["10th", "12th","Graduation"],
 stream: ["Arts"]
 },
 
@@ -83,7 +83,7 @@ page: "animator.html",
 bucket: "Creativity and Expression",
 category: "Designing",
 subjects: ["Art","Design","Animation","Computer Graphics"],
-levels: ["12th","Graduation"],
+levels: ["10th", "12th","Graduation"],
 stream: ["Arts","Science"]
 },
 
@@ -104,8 +104,8 @@ name: "Video Editor",
 description: "Edits video footage to create films, YouTube videos, and digital content.",
 page: "video-editor.html",
 bucket: "Creativity and Expression",
-category: "Filmmaking",
-subjects: ["Media Studies","Film Studies","Computer"],
+category: "Filmmaking and Video Creation",
+subjects: ["Media Studies","Film Studies","Arts"],
 levels: ["10th","12th","Graduation"],
 stream: ["Arts","Science"]
 },
@@ -115,9 +115,9 @@ name: "Film Director",
 description: "Leads the creative vision of a film and guides actors and the production team.",
 page: "film-director.html",
 bucket: "Creativity and Expression",
-category: "Filmmaking",
+category: "Filmmaking and Video Creation",
 subjects: ["Media Studies","Film Studies","Literature"],
-levels: ["12th","Graduation"],
+levels: ["10th", "12th","Graduation"],
 stream: ["Arts","Science"]
 },
 
@@ -126,20 +126,20 @@ name: "Cinematographer",
 description: "Handles camera work, lighting, and visual style of films and videos.",
 page: "cinematographer.html",
 bucket: "Creativity and Expression",
-category: "Filmmaking",
+category: "Filmmaking and Video Creation",
 subjects: ["Media Studies","Film Studies","Photography"],
-levels: ["12th","Graduation"],
+levels: ["10th", "12th","Graduation"],
 stream: ["Arts","Science"]
 },
 
 {
-name: "Script Writer",
+name: "ScreenWriter",
 description: "Writes stories, dialogues, and scenes for films, series, and videos.",
-page: "script-writer.html",
+page: "screenwriter.html",
 bucket: "Creativity and Expression",
 category: "Filmmaking",
-subjects: ["Literature","Media Studies","Film Studies"],
-levels: ["12th","Graduation"],
+subjects: ["Literature","Media Studies","Film Studies", "Arts"],
+levels: ["10th", "12th","Graduation"],
 stream: ["Arts","Science"]
 },
 
@@ -199,13 +199,13 @@ stream: ["Arts","Science","Commerce"]
 },
 
 {
-name: "Author (Book Writer)",
+name: "Author / Writer",
 description: "Writes books such as novels, stories, educational books, or other published works.",
 page: "author.html",
 bucket: "Creativity and Expression",
 category: "Writing",
 subjects: ["Literature","Language","Creative Writing"],
-levels: ["12th","Graduation"],
+levels: ["10th", "12th","Graduation"],
 stream: ["Arts","Science","Commerce"]
 },
 
@@ -259,8 +259,8 @@ description: "Performs characters in films, television shows, theatre, and other
 page: "actor.html",
 bucket: "Creativity and Expression",
 category: "Performing",
-subjects: ["Theatre","Drama","Literature"],
-levels: ["12th","Graduation"],
+subjects: ["Theatre","Drama","Performing Arts","Media Studies"],
+levels: ["10th", "12th","Graduation"],
 stream: ["Arts","Science","Commerce"]
 },
 
@@ -336,7 +336,7 @@ description: "Oversees the recording and production of songs and music tracks.",
 page: "music-producer.html",
 bucket: "Creativity and Expression",
 category: "Music",
-subjects: ["Music","Sound Engineering","Audio Production"],
+subjects: ["Music","Sound Engineering","Audio Production", "Media Studies"],
 levels: ["12th","Graduation"],
 stream: ["Arts","Science","Commerce"]
 },
@@ -477,6 +477,99 @@ subjects: ["Art", "Design", "Animation", "Computer Science", "Media Studies"],
 levels: ["10th", "12th", "Graduation"],
 stream: ["Arts", "Science", "Commerce"]
 },
+
+{
+  name: "Concept Artist",
+  description: "Creates visual ideas and designs for characters, environments, and objects used in movies, games, animation, and digital media.",
+  page: "concept-artist.html",
+  bucket: "Creativity and Expression",
+  category: "Design",
+  subjects: ["Art", "Design", "Animation", "Media Studies"],
+  levels: ["10th", "12th", "Graduation"],
+  stream: ["Arts", "Science", "Commerce"]
+},
+
+
+{
+  name: "3D Artist",
+  description: "Creates 3D models, characters, environments, and objects used in movies, animation, video games, and digital media.",
+  page: "3d-artist.html",
+  bucket: "Creativity and Expression",
+  category: "Design",
+  subjects: ["Art", "Design", "Animation", "Computer Science"],
+  levels: ["10th", "12th", "Graduation"],
+  stream: ["Arts", "Science", "Commerce"]
+},
+
+{
+  name: "3D Animator",
+  description: "Creates movement for 3D characters and objects used in movies, animation, video games, and digital media.",
+  page: "3d-animator.html",
+  bucket: "Creativity and Expression",
+  category: "Design",
+  subjects: ["Art", "Animation", "Design", "Computer Science"],
+  levels: ["10th", "12th", "Graduation"],
+  stream: ["Arts", "Science", "Commerce"]
+},
+
+{
+  name: "Storyboard Artist",
+  description: "Creates visual sketches that show how scenes will appear in movies, animation, advertisements, and video productions.",
+  page: "storyboard-artist.html",
+  bucket: "Creativity and Expression",
+  category: "Design",
+  subjects: ["Art", "Design", "Animation", "Media Studies"],
+  levels: ["10th", "12th", "Graduation"],
+  stream: ["Arts", "Science", "Commerce"]
+},
+
+
+{
+  name: "Game Artist",
+  description: "Creates characters, environments, and visual elements used in video games.",
+  page: "game-artist.html",
+  bucket: "Creativity and Expression",
+  category: "Design",
+  subjects: ["Art", "Design", "Animation", "Computer Science"],
+  levels: ["10th", "12th", "Graduation"],
+  stream: ["Arts", "Science", "Commerce"]
+},
+
+{
+  name: "Art Director",
+  description: "Leads the visual style and creative direction of design, advertising, film, and digital media projects.",
+  page: "art-director.html",
+  bucket: "Creativity and Expression",
+  category: "Design",
+  subjects: ["Art", "Design", "Visual Communication"],
+  levels: ["10th", "12th", "Graduation"],
+  stream: ["Arts", "Science", "Commerce"]
+},
+
+{
+  name: "Film Director",
+  description: "Leads the creative vision of films, web series, advertisements, and video productions by guiding actors, camera teams, and storytelling on screen.",
+  page: "film-director.html",
+  bucket: "Creativity and Expression",
+  category: "Filmmaking and Video Creation",
+  subjects: ["Media Studies", "Film Studies", "Arts"],
+  levels: ["12th", "Graduation"],
+  stream: ["Arts", "Science", "Commerce"]
+},
+
+
+{
+  name: "Assistant Director",
+  description: "Assistant Directors help the film director manage the shooting schedule, coordinate the crew and actors, and ensure that film production runs smoothly.",
+  page: "assistant-director.html",
+  bucket: "Creativity and Expression",
+  category: "Filmmaking and Video Creation",
+  subjects: ["Media Studies", "Film Studies", "Arts"],
+  levels: ["10th", "12th", "Graduation"],
+  stream: ["Arts", "Science", "Commerce"]
+},
+
+
 
 
 
