@@ -1,206 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
-<title>Technology | My Career Path</title>
 
-<style>
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background: #fafafa;
-  color: #333;
-}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-/* ===== HEADER ===== */
-.header {
-  padding: 30px 40px 10px 40px;
-}
 
-.site-title {
-  font-size: 28px;
-  font-weight: bold;
-  margin-bottom: 25px;
-}
+<link rel="stylesheet" href="style.css">
 
-.bucket-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 18px;
-  font-size: 15px;
-}
-
-.bucket-nav a {
-  text-decoration: none;
-  color: #555;
-}
-
-.bucket-nav a:hover {
-  color: #000;
-  text-decoration: underline;
-}
-
-/* ===== CONTENT ===== */
-.content {
-  padding: 40px;
-}
-
-h1 {
-  font-weight: normal;
-  margin-bottom: 10px;
-}
-
-.description {
-  max-width: 750px;
-  color: #666;
-  margin-bottom: 40px;
-  line-height: 1.6;
-}
-
-/* ===== ROLE CARDS ===== */
-.role-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 20px;
-}
-
-.role-card {
-  background: #fff;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 20px;
-}
-
-.role-card h3 {
-  margin: 0 0 8px 0;
-  font-size: 18px;
-}
-
-.role-card p {
-  margin: 0;
-  font-size: 14px;
-  color: #555;
-}
-</style>
 </head>
+
 
 <body>
 
-<!-- ===== HEADER ===== -->
-<div class="header">
-  <div class="site-title">My Career Path</div>
 
-  <div class="bucket-nav">
-    <a href="helping-people.html">Helping people</a>
-    <a href="arts-humanities-science.html">Arts, humanities and science</a>
-    <a href="creativity-expression.html">Creativity and expression</a>
-    <a href="technology.html">Technology</a>
-    <a href="building-fixing.html">Building and fixing</a>
-    <a href="business.html">Business</a>
-    <a href="index.html">Start again</a>
-  </div>
+
+
+<div id="header"></div>
+
+<script src="layout.js"></script>
+
+
+<script src="search.js"></script>
+
+
+<div class="main">
+
+<button onclick="goBack()" class="back-button">← Back</button>
+
+<div class="career-header">
+<h1> 💻 Technology & Problem Solving</h1>
+<div class="career-action">
+
+<button onclick="savePage()">⭐ Save</button>
+<button onclick="sharePage()">📤 Share</button>
+</div>
 </div>
 
-<!-- ===== PAGE CONTENT ===== -->
-<div class="content">
 
-  <h1>Technology</h1>
 
-  <p class="description">
-    Careers where people use computers and technology to solve problems,
-    build software, manage systems, and work with data.
-  </p>
 
-  <div class="role-grid">
 
-    <div class="role-card">
-      <h3>Software Developer</h3>
-      <p>Builds software applications and programs.</p>
-    </div>
 
-    <div class="role-card">
-      <h3>Web Developer</h3>
-      <p>Creates and maintains websites.</p>
-    </div>
 
-    <div class="role-card">
-      <h3>App Developer</h3>
-      <p>Builds mobile applications.</p>
-    </div>
 
-    <div class="role-card">
-      <h3>Data Scientist</h3>
-      <p>Works with data to find patterns and insights.</p>
-    </div>
 
-    <div class="role-card">
-      <h3>AI / Machine Learning Engineer</h3>
-      <p>Builds systems that learn from data and make predictions.</p>
-    </div>
 
-    <div class="role-card">
-      <h3>Cyber Security Analyst</h3>
-      <p>Protects computer systems from cyber threats.</p>
-    </div>
 
-    <div class="role-card">
-      <h3>Cloud Engineer</h3>
-      <p>Manages cloud-based servers and services.</p>
-    </div>
+<h3>Technology and Problem Solving careers include:</h3>
 
-    <div class="role-card">
-      <h3>DevOps Engineer</h3>
-      <p>Improves software delivery and system reliability.</p>
-    </div>
+<div class="role-grid">
 
-    <div class="role-card">
-      <h3>Game Developer</h3>
-      <p>Creates video games and interactive experiences.</p>
-    </div>
+<div class="role-card">
+<a href="software-development.html">
+<h3>💻 Software & App Development</h3>
+<p>Create websites, apps, and software systems.</p>
+</a>
+</div>
 
-    <div class="role-card">
-      <h3>Game Tester</h3>
-      <p>Tests video games to find bugs and ensure smooth and    enjoyable.</p>
-    </div>
+<div class="role-card">
+<a href="data-ai.html">
+<h3>📊 Data & Artificial Intelligence</h3>
+<p>Work with data and build intelligent systems.</p>
+</a>
+</div>
 
-    <div class="role-card">
-      <h3>UI Engineer / Front-end Developer</h3>
-      <p>Builds the visual and interactive parts of websites or apps.</p>
-    </div>
+<div class="role-card">
+<a href="cybersecurity.html">
+<h3>🔐 Cybersecurity & Digital Safety</h3>
+<p>Protect computers, networks, and digital information.</p>
+</a>
+</div>
 
-    <div class="role-card">
-      <h3>Backend Developer</h3>
-      <p>Builds the server-side logic of applications.</p>
-    </div>
+<div class="role-card">
+<a href="cloud-network.html">
+<h3>☁️ Cloud & Network Systems</h3>
+<p>Manage cloud platforms, servers, and computer networks.</p>
+</a>
+</div>
 
-    <div class="role-card">
-      <h3>Full Stack Developer</h3>
-      <p>Works on both front-end and backend of applications.</p>
-    </div>
+<div class="role-card">
+<a href="robotics-automation.html">
+<h3>🤖 Robotics & Automation</h3>
+<p>Design robots and automated systems.</p>
+</a>
+</div>
 
-    <div class="role-card">
-      <h3>IT Support / System Administrator</h3>
-      <p>Maintains computers, servers, and IT systems.</p>
-    </div>
+<div class="role-card">
+<a href="electronics-hardware.html">
+<h3>🔌 Electronics & Hardware</h3>
+<p>Work with electronic circuits, devices, and hardware systems.</p>
+</a>
+</div>
 
-    <div class="role-card">
-      <h3>Network Engineer</h3>
-      <p>Designs and manages computer networks.</p>
-    </div>
+<div class="role-card">
+<a href="it-support.html">
+<h3>🖥️ IT Support & Computer Systems</h3>
+<p>Maintain computers, troubleshoot issues, and support users.</p>
+</a>
+</div>
 
-    <div class="role-card">
-      <h3>Database Administrator</h3>
-      <p>Manages and protects databases.</p>
-    </div>
-
-    <div class="role-card">
-      <h3>QA / Software Tester</h3>
-      <p>Tests software to find bugs and ensure quality.</p>
-    </div>
-
-  </div>
+<div class="role-card">
+<a href="engineering-design.html">
+<h3>⚙️ Engineering Design & Technology</h3>
+<p>Design and develop technical systems and products.</p>
+</a>
+</div>
 
 </div>
+
+
+
+
+<script src="reflection.js"></script>
+
+
+
+<button onclick="scrollToTop()" id="scrollTopBtn">↑ Top</button>
+
+
+<script>
+function scrollToTop(){
+window.scrollTo({
+top:0,
+behavior:'smooth'
+});
+}
+</script>
+
+
+<div id="footer"></div>
+
+<script src="navigation.js"></script>
+
+<script src="career-actions.js"></script>
+
+
+
+
 
 </body>
+
 </html>
