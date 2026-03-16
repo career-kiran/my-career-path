@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Subject Careers</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div id="header"></div>
+
+<div class="main">
+
+<h1 id="subjectTitle"></h1>
+
+<div id="careerResults"></div>
+
+</div>
+
+<script src="layout.js"></script>
+<script src="career-data.js"></script>
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function(){
+
+const params = new URLSearchParams(window.location.search);
+const subject = params.get("subject");
+
+const title = document.getElementById("subjectTitle");
+
+if(subject){
+title.textContent = "Careers related to " + subject;
+}
+
+let matches = window.careers.filter(career =>
+career.subjects.some(s => s.toLowerCase() === subject.toLowerCase())
+);
+
+const container = document.getElementById("careerResults");
+
+matches.forEach(career => {
+
+let item = document.createElement("a");
+item.className = "career-card";
+item.href = career.page;
+
+item.innerHTML = `
+<h3>${career.name}</h3>
+<p>${career.description}</p>
+
+`;
+
+container.appendChild(item);
+
+});
+
+});
+
+</script>
+
+</body>
+</html>
