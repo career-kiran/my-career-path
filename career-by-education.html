@@ -15,9 +15,29 @@
 
 <div id="header"></div>
 
+
+<script src="layout.js"></script>
+
+
+<script src="career-data.js"></script>
+<script src="search.js"></script>
+
 <div class="main">
 
+<button onclick="goBack()" class="back-button">← Back</button>
+
+
+
+<div class="career-header">
+
 <h1>Explore Careers by Education Level</h1>
+
+<div class="career-action">
+
+<button onclick="savePage()">⭐ Save</button>
+<button onclick="sharePage()">📤 Share</button>
+</div>
+</div>
 
 <div class="subjects-container">
 
@@ -43,5 +63,30 @@
 
 <script src="layout.js"></script>
 
+
+<script src="reflection.js"></script>
+
+
+
+<button onclick="scrollToTop()" id="scrollTopBtn">↑ Top</button>
+
+
+<script>
+function scrollToTop(){
+window.scrollTo({
+top:0,
+behavior:'smooth'
+});
+}
+</script>
+
+
+<div id="footer"></div>
+
+<script src="navigation.js"></script>
+
 </body>
+<script src="career-actions.js"></script>
+
 </html>
+
