@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Education Careers</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div id="header"></div>
+
+<div class="main">
+
+<h1 id="educationTitle"></h1>
+
+<div id="careerResults"></div>
+
+</div>
+
+<script src="layout.js"></script>
+<script src="career-data.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+
+const params = new URLSearchParams(window.location.search);
+const level = params.get("level");
+
+const title = document.getElementById("educationTitle");
+
+if(level){
+if(level === "Degree"){
+title.textContent = "Careers after Graduation";
+}else{
+title.textContent = "Careers after " + level;
+}
+}
+
+let matches = window.careers.filter(career =>
+career.levels.some(l => l.toLowerCase() === level.toLowerCase())
+);
+
+const container = document.getElementById("careerResults");
+
+matches.forEach(career => {
+
+let item = document.createElement("a");
+item.className = "career-card";
+item.href = career.page;
+
+item.innerHTML = `
+<h3>${career.name}</h3>
+<p>${career.description}</p>
+`;
+
+container.appendChild(item);
+
+});
+
+});
+</script>
+
+
+
+</body>
+
+</html>
