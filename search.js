@@ -65,3 +65,40 @@ suggestionBox.innerHTML = "";
 }
 
 });
+
+
+document.addEventListener("DOMContentLoaded", function(){
+
+const subject = document.body.dataset.subject;
+
+let matches = [];
+
+if(subject){
+matches = window.careers.filter(career =>
+career.subjects.some(s => s.toLowerCase() === subject.toLowerCase())
+);
+}
+
+const container = document.getElementById("careerResults");
+
+if(container){
+matches.forEach(career => {
+
+let item = document.createElement("div");
+item.className = "career-card";
+
+item.innerHTML = `
+<h3>${career.name}</h3>
+<p>${career.description}</p>
+<a href="${career.page}">Learn More</a>
+`;
+
+container.appendChild(item);
+
+});
+}
+
+});
+
+
+
