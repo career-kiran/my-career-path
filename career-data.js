@@ -570,10 +570,45 @@ stream: ["Arts", "Science", "Commerce"]
 },
 
 
+{
+  id: "electrician",
+  name: "Electrician",
+  description: "Electricians install, repair, and maintain electrical wiring, lighting systems, and electrical equipment in homes, buildings, and industries.",
+  page: "electrician.html",
+  bucket: "Building and Fixing",
+  subjects: ["Physics", "Mathematics"],
+  levels: ["10th", "12th", "Diploma"],
+  stream: ["Science", "Commerce", "Arts"],
+  type: "Private",
+  tags: ["repair", "electrical", "installation"]
+},
+
+{
+id: "web-developer",
+name: "Web Developer",
+description: "Web developers build and maintain websites and web applications.",
+page: "web-developer.html",
+bucket: "Technology and Problem Solving",
+subjects: ["Computer Science"],
+levels: ["10th","12th","Diploma","Degree"],
+stream: ["Science","Commerce","Arts"],
+type: "Private",
+tags: ["coding","web","programming"]
+},
 
 
-
-
+{
+id: "software-developer",
+name: "Software Developer",
+description: "Software developers design and build applications, programs, and systems used on computers and mobile devices.",
+page: "software-developer.html",
+bucket: "Technology and Problem Solving",
+subjects: ["Computer Science"],
+levels: ["12th","Diploma","Degree"],
+stream: ["Science","Commerce","Arts"],
+type: "Private",
+tags: ["coding","software","programming"]
+},
 
 
 
