@@ -58,7 +58,7 @@ description: "Designs clothing, accessories, and fashion styles.",
 page: "fashion-designer.html",
 bucket: "Creativity and Expression",
 category: "Designing",
-subjects: ["Art","Design","Textiles"],
+subjects: ["Art","Design","Home Science"],
 levels: ["12th","Graduation"],
 stream: ["Arts"]
 },
@@ -427,8 +427,8 @@ name: "Interior Designer",
 description: "Designs and plans the inside of homes, offices, and other spaces to make them functional and beautiful.",
 page: "interior-designer.html",
 bucket: "Creativity and Expression",
-category: "Design",
-subjects: ["Art","Design","Architecture","Psychology"],
+category: "Designing",
+subjects: ["Art","Design","Home science","Psychology"],
 levels: ["10th","12th","Graduation"],
 stream: ["Arts","Science","Commerce"]
 },
@@ -438,8 +438,8 @@ name: "Textile Designer",
 description: "Designs patterns and prints for fabrics used in clothing, home décor, and other textile products.",
 page: "textile-designer.html",
 bucket: "Creativity and Expression",
-category: "Design",
-subjects: ["Art", "Design", "Fashion", "Computer Science"],
+category: "Designing",
+subjects: ["Art", "Design", "Home Science", "Computer Science"],
 levels: ["10th", "12th", "Graduation"],
 stream: ["Arts", "Science", "Commerce"]
 },
@@ -449,7 +449,7 @@ name: "Animator",
 description: "Creates moving images and visual effects for movies, games, advertisements, and digital media.",
 page: "animator.html",
 bucket: "Creativity and Expression",
-category: "Design",
+category: "Designing",
 subjects: ["Art", "Animation", "Computer Science", "Media Studies"],
 levels: ["10th", "12th", "Graduation"],
 stream: ["Arts", "Science", "Commerce"]
@@ -461,7 +461,7 @@ name: "VFX Artist",
 description: "Creates visual effects for movies, television, advertisements, and video games using computer graphics and digital tools.",
 page: "vfx-artist.html",
 bucket: "Creativity and Expression",
-category: "Design",
+category: "Designing",
 subjects: ["Art", "Animation", "Computer Science", "Media Studies"],
 levels: ["10th", "12th", "Graduation"],
 stream: ["Arts", "Science", "Commerce"]
@@ -472,7 +472,7 @@ name: "Motion Graphics Designer",
 description: "Creates animated graphics, titles, and visual effects used in videos, advertisements, films, and digital media.",
 page: "motion-graphics-designer.html",
 bucket: "Creativity and Expression",
-category: "Design",
+category: "Designing",
 subjects: ["Art", "Design", "Animation", "Computer Science", "Media Studies"],
 levels: ["10th", "12th", "Graduation"],
 stream: ["Arts", "Science", "Commerce"]
@@ -483,7 +483,7 @@ stream: ["Arts", "Science", "Commerce"]
   description: "Creates visual ideas and designs for characters, environments, and objects used in movies, games, animation, and digital media.",
   page: "concept-artist.html",
   bucket: "Creativity and Expression",
-  category: "Design",
+  category: "Designing",
   subjects: ["Art", "Design", "Animation", "Media Studies"],
   levels: ["10th", "12th", "Graduation"],
   stream: ["Arts", "Science", "Commerce"]
@@ -495,7 +495,7 @@ stream: ["Arts", "Science", "Commerce"]
   description: "Creates 3D models, characters, environments, and objects used in movies, animation, video games, and digital media.",
   page: "3d-artist.html",
   bucket: "Creativity and Expression",
-  category: "Design",
+  category: "Designing",
   subjects: ["Art", "Design", "Animation", "Computer Science"],
   levels: ["10th", "12th", "Graduation"],
   stream: ["Arts", "Science", "Commerce"]
@@ -506,7 +506,7 @@ stream: ["Arts", "Science", "Commerce"]
   description: "Creates movement for 3D characters and objects used in movies, animation, video games, and digital media.",
   page: "3d-animator.html",
   bucket: "Creativity and Expression",
-  category: "Design",
+  category: "Designing",
   subjects: ["Art", "Animation", "Design", "Computer Science"],
   levels: ["10th", "12th", "Graduation"],
   stream: ["Arts", "Science", "Commerce"]
@@ -517,7 +517,7 @@ stream: ["Arts", "Science", "Commerce"]
   description: "Creates visual sketches that show how scenes will appear in movies, animation, advertisements, and video productions.",
   page: "storyboard-artist.html",
   bucket: "Creativity and Expression",
-  category: "Design",
+  category: "Designing",
   subjects: ["Art", "Design", "Animation", "Media Studies"],
   levels: ["10th", "12th", "Graduation"],
   stream: ["Arts", "Science", "Commerce"]
@@ -529,7 +529,7 @@ stream: ["Arts", "Science", "Commerce"]
   description: "Creates characters, environments, and visual elements used in video games.",
   page: "game-artist.html",
   bucket: "Creativity and Expression",
-  category: "Design",
+  category: "Designing",
   subjects: ["Art", "Design", "Animation", "Computer Science"],
   levels: ["10th", "12th", "Graduation"],
   stream: ["Arts", "Science", "Commerce"]
@@ -540,7 +540,7 @@ stream: ["Arts", "Science", "Commerce"]
   description: "Leads the visual style and creative direction of design, advertising, film, and digital media projects.",
   page: "art-director.html",
   bucket: "Creativity and Expression",
-  category: "Design",
+  category: "Designing",
   subjects: ["Art", "Design", "Visual Communication"],
   levels: ["10th", "12th", "Graduation"],
   stream: ["Arts", "Science", "Commerce"]
@@ -583,19 +583,6 @@ stream: ["Arts", "Science", "Commerce"]
   tags: ["repair", "electrical", "installation"]
 },
 
-{
-id: "web-developer",
-name: "Web Developer",
-description: "Web developers build and maintain websites and web applications.",
-page: "web-developer.html",
-bucket: "Technology and Problem Solving",
-subjects: ["Computer Science"],
-levels: ["10th","12th","Diploma","Degree"],
-stream: ["Science","Commerce","Arts"],
-type: "Private",
-tags: ["coding","web","programming"]
-},
-
 
 {
 id: "software-developer",
@@ -603,12 +590,65 @@ name: "Software Developer",
 description: "Software developers design and build applications, programs, and systems used on computers and mobile devices.",
 page: "software-developer.html",
 bucket: "Technology and Problem Solving",
+category: "Software & App Development",
 subjects: ["Computer Science"],
-levels: ["12th","Diploma","Degree"],
+levels: ["12th","Diploma","Graduation"],
 stream: ["Science","Commerce","Arts"],
 type: "Private",
 tags: ["coding","software","programming"]
 },
+
+
+{
+  id: "web-developer",
+  name: "Web Developer",
+  description: "Web developers create websites and web applications that people use on the internet.",
+  page: "web-developer.html",
+  bucket: "Technology and Problem Solving",
+  category: "Software & App Development",
+  subjects: ["Computer Science"],
+  levels: ["12th", "Diploma", "Graduation"],
+  stream: ["Science", "Commerce", "Arts"],
+  type: "Private",
+  tags: ["coding", "web", "development"]
+},
+
+
+{
+  id: "data-analyst",
+  name: "Data Analyst",
+  description: "Data analysts collect and study data to find patterns and help companies make better decisions.",
+  page: "data-analyst.html",
+  bucket: "Technology and Problem Solving",
+  category: "Data and Artificial Intelligence",
+  subjects: ["Mathematics", "Statistics"],
+  levels: ["12th", "Diploma", "Graduation"],
+  stream: ["Science", "Commerce"],
+  type: "Private",
+  tags: ["data", "analysis", "numbers"]
+},
+
+
+{
+  id: "cybersecurity-analyst",
+  name: "Cyber Security Analyst",
+  description: "Cyber security analysts protect systems and data from hackers. They find security risks and help keep information safe.",
+  page: "cybersecurity-analyst.html",
+  bucket: "Technology and Problem Solving",
+  category: "Cybersecurity and Digital Safety",
+  subjects: ["Computer Science", "Information Technology"],
+  levels: ["12th", "Diploma", "Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["cyber security", "network security", "digital safety"]
+},
+
+
+
+
+
+
+
 
 
 
