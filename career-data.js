@@ -1,4 +1,3 @@
-
 window.careers = [
 
 {
@@ -643,6 +642,20 @@ tags: ["coding","software","programming"]
   tags: ["cyber security", "network security", "digital safety"]
 },
 
+
+{
+  id: "cloud-engineer",
+  name: "Cloud Engineer",
+  description: "Cloud engineers build and manage systems that run on the internet. They help store data, run applications, and keep online services working smoothly.",
+  page: "cloud-engineer.html",
+  bucket: "Technology and Problem Solving",
+  category: "Cloud and Network Systems",
+  subjects: ["Computer Science", "Information Technology"],
+  levels: ["12th", "Diploma", "Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["cloud computing", "aws", "azure", "cloud systems"]
+},
 
 
 
