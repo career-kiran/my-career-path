@@ -1,3 +1,6 @@
+
+
+
 window.careers = [
 
 {
@@ -273,6 +276,7 @@ subjects: ["Dance","Performing Arts","Physical Education"],
 levels: ["12th","Graduation"],
 stream: ["Arts","Science","Commerce"]
 },
+
 
 {
 name: "Theatre Artist",
@@ -582,22 +586,6 @@ stream: ["Arts", "Science", "Commerce"]
   tags: ["repair", "electrical", "installation"]
 },
 
-
-{
-id: "software-developer",
-name: "Software Developer",
-description: "Software developers design and build applications, programs, and systems used on computers and mobile devices.",
-page: "software-developer.html",
-bucket: "Technology and Problem Solving",
-category: "Software & App Development",
-subjects: ["Computer Science"],
-levels: ["12th","Diploma","Graduation"],
-stream: ["Science","Commerce","Arts"],
-type: "Private",
-tags: ["coding","software","programming"]
-},
-
-
 {
   id: "web-developer",
   name: "Web Developer",
@@ -656,6 +644,190 @@ tags: ["coding","software","programming"]
   type: "Private",
   tags: ["cloud computing", "aws", "azure", "cloud systems"]
 },
+
+{
+  id: "robotics-engineer",
+  name: "Robotics Engineer",
+  description: "Robotics engineers design and build machines that can move and perform tasks automatically. They work on robots used in factories, hospitals, and daily life.",
+  page: "robotics-engineer.html",
+  bucket: "Technology and Problem Solving",
+  category: "Robotics and Automation",
+  subjects: ["Physics", "Mathematics", "Computer Science"],
+  levels: ["12th", "Diploma", "Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["robotics", "automation", "robots", "mechatronics", "engineering"]
+},
+
+
+
+{
+  id: "it-support-specialist",
+  name: "IT Support Specialist",
+  description: "IT support specialists help people fix computer problems and keep systems running smoothly. They work in offices, schools, companies, and support centers.",
+  page: "it-support-specialist.html",
+  bucket: "Technology and Problem Solving",
+  category: "IT Support and Computer Systems",
+  subjects: ["Computer Science", "Information Technology"],
+  levels: ["10th", "12th", "Diploma", "Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["it support", "technical support", "computer systems", "troubleshooting", "help desk"]
+},
+
+{
+  id: "electronics-engineer",
+  name: "Electronics Engineer",
+  description: "Electronics engineers design and build devices like mobile phones, TVs, medical machines, and smart systems. They make sure these devices work properly and safely in daily life.",
+  page: "electronics-engineer.html",
+  bucket: "Technology and Problem Solving",
+  category: "Electronics and Hardware",
+  subjects: ["Physics", "Mathematics", "Electronics"],
+  levels: ["10th", "12th", "Diploma", "Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["electronics", "circuits", "hardware", "electronic devices", "embedded systems"]
+},
+
+{
+  id: "electrical-engineer",
+  name: "Electrical Engineer",
+  description: "Electrical engineers work with electricity and power systems. They design, build, and maintain systems like wiring, power supply, and machines used in homes, industries, and large projects.",
+  page: "electrical-engineer.html",
+  bucket: "Technology and Problem Solving",
+  category: "Engineering Design and Technology",
+  subjects: ["Physics", "Mathematics"],
+  levels: ["10th", "12th", "Diploma", "Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["electricity", "power", "wiring", "energy", "machines", "infrastructure"]
+},
+
+{
+    id: "plumber",
+    name: "Plumber",
+    description: "Plumbers install, repair, and maintain water supply systems, pipes, and drainage systems in homes, buildings, and industries.",
+    page: "plumber.html",
+    bucket: "Building and Fixing",
+    subjects: [],
+    levels: ["10th", "12th", "Diploma"],
+    stream: ["Science", "Commerce", "Arts"],
+    type: "Private",
+    tags: ["repair", "technical", "hands-on"]
+},
+
+{
+  id: "software-developer",
+  name: "Software Developer",
+  description: "Software developers design and build applications, programs, and systems used on computers and mobile devices.",
+  page: "software-developer.html",
+  bucket: "Technology and Problem Solving",
+  category: "Software & App Development",
+  subjects: ["Computer Science"],
+  levels: ["12th", "Diploma", "Graduation"],
+  stream: ["Science", "Commerce", "Arts"],
+  type: "Private",
+  tags: ["coding", "software", "programming"]
+},
+
+{
+  id: "data-scientist",
+  name: "Data Scientist",
+  description: "Data scientists analyze large amounts of data, find patterns, and use it to predict future trends and help companies make better decisions.",
+  page: "data-scientist.html",
+  bucket: "Technology and Problem Solving",
+  category: "Data and Artificial Intelligence",
+  subjects: ["Mathematics", "Statistics", "Computer Science"],
+  levels: ["12th", "Diploma", "Graduation"],
+  stream: ["Science", "Commerce"],
+  type: "Private",
+  tags: ["data", "analysis", "technology", "problem-solving"]
+},
+
+{
+  id: "network-security-engineer",
+  name: "Network Security Engineer",
+  description: "Network security engineers protect computer networks from cyber attacks. They secure systems, monitor threats, and prevent unauthorized access.",
+  page: "network-security-engineer.html",
+  bucket: "Technology and Problem Solving",
+  category: "Cybersecurity & Digital Safety",
+  subjects: ["Computer Science", "Information Technology"],
+  levels: ["12th", "Diploma", "Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["network security", "cyber security", "firewalls", "digital safety"]
+},
+
+
+{
+  id: "automation-engineer",
+  name: "Automation Engineer",
+  description: "Automation engineers design and develop systems that can perform tasks automatically. They work on machines and processes used in industries and factories.",
+  page: "automation-engineer.html",
+  bucket: "Technology and Problem Solving",
+  category: "Robotics and Automation",
+  subjects: ["Physics", "Mathematics", "Computer Science"],
+  levels: ["12th", "Diploma", "Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["automation", "industrial automation", "control systems", "mechatronics", "engineering"]
+},
+
+
+
+{
+  id: "hardware-engineer",
+  name: "Hardware Engineer",
+  description: "Hardware engineers design and build physical electronic devices like computers, processors, and circuit boards. They test and improve hardware to make devices faster, smaller, and more efficient.",
+  page: "hardware-engineer.html",
+  bucket: "Technology and Problem Solving",
+  category: "Electronics and Hardware",
+  subjects: ["Physics", "Mathematics"],
+  levels:  ["Diploma", "Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["electronics", "hardware", "circuits", "embedded systems", "engineering"]
+},
+
+
+
+
+  {
+    name: "GATE",
+    description: "Graduate Aptitude Test in Engineering",
+    page: "gate.html",
+    keywords: ["gate"]
+  },
+
+
+{
+  id: "network-administrator",
+  name: "Network Administrator",
+  description: "Network administrators manage and maintain computer networks in companies. They ensure systems run smoothly, fix network issues, and keep data secure so communication between computers works properly.",
+  page: "network-administrator.html",
+  bucket: "Technology and Problem Solving",
+  category: "IT and Networking",
+  subjects: ["Computer Science"],
+  levels: ["Diploma", "Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["networking", "it support", "networks", "troubleshooting", "technology"]
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
