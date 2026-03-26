@@ -20,7 +20,7 @@
 
 <h1 id="subjectTitle"></h1>
 
-<div id="careerResults"></div>
+<div id="careerResults" class="role-grid"></div>
 
 </div>
 
@@ -37,33 +37,37 @@ const subject = params.get("subject");
 const title = document.getElementById("subjectTitle");
 
 if(subject){
-title.textContent = "Careers related to " + subject;
+  title.textContent = "Careers related to " + subject;
 }
 
 let matches = window.careers.filter(career =>
-career.subjects.some(s => s.toLowerCase() === subject.toLowerCase())
+  career.subjects && career.subjects.some(s =>
+    s.toLowerCase() === subject.toLowerCase()
+  )
 );
 
 const container = document.getElementById("careerResults");
 
+if (matches.length === 0) {
+  container.innerHTML = "<p>No careers found for this subject.</p>";
+}
+
 matches.forEach(career => {
+  let item = document.createElement("div");
+  item.className = "role-card";
 
-let item = document.createElement("a");
-item.className = "career-card";
-item.href = career.page;
+  item.innerHTML = `
+    <h3>${career.name}</h3>
+    <p>${career.description}</p>
+  `;
 
-item.innerHTML = `
-<h3>${career.name}</h3>
-<p>${career.description}</p>
+  item.onclick = () => {
+    window.location.href = career.page;
+  };
 
-`;
-
-container.appendChild(item);
-
+  container.appendChild(item);
 });
-
 });
-
 </script>
 
 </body>
