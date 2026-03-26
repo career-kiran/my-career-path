@@ -38,12 +38,14 @@ filtered.forEach(career => {
     card.className = "role-card";
 
     card.innerHTML = `
-      <a href="${career.page}">
-        <h3>${career.name}</h3>
-        <p>${career.description}</p>
-      </a>
-    `;
-
+  <a href="${career.page}">
+   <h3>
+  <span class="career-icon">${career.icon || ""}</span>
+  ${career.name}
+</h3>
+    <p>${career.description}</p>
+  </a>
+`;
     careerList.appendChild(card);
   }
 
