@@ -14,15 +14,33 @@
 
 <body>
 
-<div class="page-container">
+<div id="header"></div>
 
-<h1>Explore Careers Based on Subjects You Like</h1>
 
-<p>
-"If you enjoy a subject in school, you may enjoy careers related to it.
-Choose a subject below to explore possible career paths."
-</p>
+<script src="layout.js"></script>
 
+
+
+
+
+<div class="main">
+
+<button onclick="goBack()" class="back-button">← Back</button>
+
+
+
+<div class="career-header">
+
+<h1>Explore Careers by subject you like</h1>
+
+
+
+<div class="career-action">
+
+<button onclick="savePage()">⭐ Save</button>
+<button onclick="sharePage()">📤 Share</button>
+</div>
+</div>
 
 
 
@@ -104,15 +122,46 @@ Choose a subject below to explore possible career paths."
 
 
 
+<script src="reflection.js"></script>
 
 
 
+<button onclick="scrollToTop()" id="scrollTopBtn">↑ Top</button>
 
 
+<script>
+function scrollToTop(){
+window.scrollTo({
+top:0,
+behavior:'smooth'
+});
+}
+</script>
+
+
+<div id="footer"></div>
+
+<script src="navigation.js"></script>
+
+
+
+<script src="career-actions.js"></script>
 
 <script src="career-data.js"></script>
+
 <script src="search.js"></script>
+
+
+
 
 </body>
 
+
 </html>
+
+
+
+
+
+
+
