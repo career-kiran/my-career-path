@@ -50,7 +50,7 @@ page: "website-designer.html",
 bucket: "Creativity and Expression",
 category: "Designing",
 subjects: ["Design","Computer Science","Art"],
-levels: ["12th","Graduation"],
+levels: ["12th", "Diploma", "Graduation"],
 stream: ["Science","Arts"]
 },
 
@@ -578,9 +578,10 @@ stream: ["Arts", "Science", "Commerce"]
   name: "Electrician",
   description: "Electricians install, repair, and maintain electrical wiring, lighting systems, and electrical equipment in homes, buildings, and industries.",
   page: "electrician.html",
+  icon: "⚡",
   bucket: "Building and Fixing",
   subjects: ["Physics", "Mathematics"],
-  levels: ["10th", "12th", "Diploma"],
+  levels: ["10th", "12th", "ITI", "Diploma"],
   stream: ["Science", "Commerce", "Arts"],
   type: "Private",
   tags: ["repair", "electrical", "installation"]
@@ -730,6 +731,10 @@ stream: ["Arts", "Science", "Commerce"]
   tags: ["coding", "software", "programming"]
 },
 
+
+
+
+
 {
   id: "data-scientist",
   name: "Data Scientist",
@@ -816,13 +821,92 @@ stream: ["Arts", "Science", "Commerce"]
 
 
 
+{
+  id: "mechanical-engineer",
+  name: "Mechanical Engineer",
+  description: "Mechanical engineers design and work with machines like engines, vehicles, and industrial equipment. They help build, test, and improve machines so they work properly and efficiently.",
+  page: "mechanical-engineer.html",
+  icon: "🔧",
+  bucket: "Technology and Problem Solving",
+  category: "Engineering Design and Technology",
+  subjects: ["Physics", "Mathematics"],
+  levels: ["Diploma", "Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["mechanical", "machines", "engineering", "design", "manufacturing"]
+},
+
+
+
+{
+  id: "mobile-app-developer",
+  name: "Mobile App Developer",
+  description: "Mobile App Developers create apps for smartphones like Android and iPhone. They build, test, and improve apps so people can use them for communication, learning, shopping, and entertainment.",
+  page: "mobile-app-developer.html",
+  icon: "📱",
+  bucket: "Technology and Problem Solving",
+  category: "Software & App Development",
+  subjects: ["Computer Science"],
+  levels: ["Diploma", "Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["app development", "mobile apps", "programming", "software", "coding"]
+},
 
 
 
 
 
 
+{
+  id: "game-developer",
+  name: "Game Developer",
+  description: "Game Developers create video games for mobile, computer, and consoles. They design game logic, build features, and make sure the game runs smoothly for players.",
+  page: "game-developer.html",
+  icon: "🎮",
+  bucket: "Technology and Problem Solving",
+  category: "Software & App Development",
+  subjects: ["Computer Science"],
+  levels: ["Diploma", "Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["game development", "video games", "programming", "coding", "software"]
+},
 
+
+
+{
+  id: "full-stack-developer",
+  name: "Full Stack Developer",
+  description: "Full Stack Developers build both the front end (what users see) and the back end (how it works) of websites and applications. They create complete systems that are fast, responsive, and user-friendly.",
+  page: "full-stack-developer.html",
+  icon: "🧑‍💻",
+  bucket: "Technology and Problem Solving",
+  category: "Software & App Development",
+  subjects: ["Computer Science"],
+  levels: ["Diploma", "Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["full stack development", "web development", "frontend", "backend", "coding", "software"]
+},
+
+
+
+
+{
+  id: "frontend-developer",
+  name: "Frontend Developer",
+  description: "Frontend Developers create the part of websites and apps that users see and interact with. They focus on design, layout, buttons, and user experience to make everything look clean and easy to use.",
+  page: "frontend-developer.html",
+  icon: "💻",
+  bucket: "Technology and Problem Solving",
+  category: "Software & App Development",
+  subjects: ["Computer Science"],
+  levels: ["Diploma", "Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["frontend", "web development", "html", "css", "javascript", "ui design"]
+}
 
 
 
