@@ -755,7 +755,7 @@ stream: ["Arts", "Science", "Commerce"]
   description: "Network security engineers protect computer networks from cyber attacks. They secure systems, monitor threats, and prevent unauthorized access.",
   page: "network-security-engineer.html",
   bucket: "Technology and Problem Solving",
-  category: "Cybersecurity & Digital Safety",
+  category: "Cybersecurity and Digital Safety",
   subjects: ["Computer Science", "Information Technology"],
   levels: ["12th", "Diploma", "Graduation"],
   stream: ["Science"],
@@ -906,12 +906,171 @@ stream: ["Arts", "Science", "Commerce"]
   stream: ["Science"],
   type: "Private",
   tags: ["frontend", "web development", "html", "css", "javascript", "ui design"]
-}
+},
+
+
+{
+  id: "backend-developer",
+  name: "Backend Developer",
+  description: "Backend Developers build the part of websites and apps that users cannot see. They handle data, servers, and logic to make everything work smoothly behind the scenes.",
+  page: "backend-developer.html",
+  icon: "⚙️",
+  bucket: "Technology and Problem Solving",
+  category: "Software & App Development",
+  subjects: ["Computer Science"],
+  levels: ["Diploma", "Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["backend", "web development", "coding", "database", "api"]
+},
+
+
+{
+  id: "ai-engineer",
+  name: "AI Engineer",
+  description: "AI Engineers build intelligent systems that can learn from data, make decisions, and improve over time. They work on technologies like machine learning, chatbots, and automation.",
+  page: "ai-engineer.html",
+  icon: "🧠",
+  bucket: "Technology and Problem Solving",
+  category: "Data and Artificial Intelligence",
+  subjects: ["Mathematics", "Statistics", "Computer Science"],
+  levels: ["Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["ai", "data", "programming", "machine learning", "technology"]
+},
+
+
+{
+  id: "machine-learning-engineer",
+  name: "Machine Learning Engineer",
+  description: "Machine Learning Engineers build systems that learn from data and improve automatically. They create models used in recommendations, predictions, and intelligent applications.",
+  page: "machine-learning-engineer.html",
+  icon: "🤖",
+  bucket: "Technology and Problem Solving",
+  category: "Data and Artificial Intelligence",
+  subjects: ["Computer Science"],
+  levels: ["Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["ai", "machine learning", "data", "coding", "algorithms"]
+},
+
+
+{
+  id: "data-engineer",
+  name: "Data Engineer",
+  description: "Data Engineers build systems that collect, store, and organize large amounts of data. They make sure data is ready and easy to use for analysis and decision-making.",
+  page: "data-engineer.html",
+  icon: "🗄️",
+  bucket: "Technology and Problem Solving",
+  category: "Data and Artificial Intelligence",
+  subjects: ["Computer Science", "Mathematics"],
+  levels: ["Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["data", "coding", "backend", "problem-solving", "technology"]
+},
+
+
+{
+  id: "nlp-engineer",
+  name: "NLP Engineer",
+  description: "NLP Engineers build systems that understand and process human language. They create applications like chatbots, voice assistants, and translation tools that can communicate with users naturally.",
+  page: "nlp-engineer.html",
+  icon: "🗣️",
+  bucket: "Technology and Problem Solving",
+  category: "Data and Artificial Intelligence",
+  subjects: ["Computer Science", "Mathematics"],
+  levels: ["Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["nlp", "ai", "machine learning", "chatbots", "language", "python", "data"]
+},
+
+
+{
+  id: "computer-vision-engineer",
+  name: "Computer Vision Engineer",
+  description: "Computer Vision Engineers build systems that can understand and interpret images and videos. They create applications like face recognition, object detection, self-driving cars, and smart cameras that can 'see' and analyze the world.",
+  page: "computer-vision-engineer.html",
+  icon: "👁️",
+  bucket: "Technology and Problem Solving",
+  category: "Data and Artificial Intelligence",
+  subjects: ["Computer Science", "Mathematics"],
+  levels: ["Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["computer vision", "ai", "machine learning", "deep learning", "image processing", "opencv", "python", "data"]
+},
+
+{
+  id: "mlops-engineer",
+  name: "MLOps Engineer",
+  description: "MLOps Engineers build systems that deploy, monitor, and manage machine learning models in real-world applications. They create pipelines and tools that ensure AI models run smoothly, update regularly, and handle large-scale user data efficiently.",
+  page: "mlops-engineer.html",
+  icon: "⚙️",
+  bucket: "Technology and Problem Solving",
+  category: "Data and Artificial Intelligence",
+  subjects: ["Computer Science", "Mathematics"],
+  levels: ["Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["mlops", "ai", "machine learning", "deployment", "pipelines", "automation", "python", "data"]
+},
 
 
 
 
 
+{
+    id: "ethical-hacker",
+    name: "Ethical Hacker",
+    description: "Ethical hackers check computers and websites to find security problems. They help keep data safe by fixing these issues before real hackers attack.",
+    page: "ethical-hacker.html",
+    icon: "🛡️",
+    bucket: "Technology and Problem Solving",
+    category: "Cybersecurity and Digital Safety",
+    subjects: ["Computer Science"],
+    levels: ["Graduation"],
+    stream: ["Science"],
+    type: "Private",
+    tags: ["cyber security", "ethical hacking", "digital safety"]
+},
+
+
+
+
+{
+    id: "information-security-analyst",
+    name: "Information Security Analyst",
+    description: "Information Security Analysts protect systems and data from cyber attacks. They monitor systems, find security risks, and fix problems to keep information safe.",
+    page: "information-security-analyst.html",
+    icon: "🛡️",
+    bucket: "Technology and Problem Solving",
+    category: "Cybersecurity and Digital Safety",
+    subjects: ["Computer Science"],
+    levels: ["Graduation"],
+    stream: ["Science"],
+    type: "Private",
+    tags: ["cyber security", "data security", "network security"]
+},
+
+
+{
+    id: "digital-forensics-expert",
+    name: "Digital Forensics Expert",
+    description: "Digital Forensics Experts investigate cyber crimes by analyzing computers, mobiles, and systems. They recover deleted data, find digital evidence, and help track hackers or criminals.",
+    page: "digital-forensics-expert.html",
+    icon: "🕵️‍♂️",
+    bucket: "Technology and Problem Solving",
+    category: "Cybersecurity and Digital Safety",
+    subjects: ["Computer Science"],
+    levels: ["Graduation"],
+    stream: ["Science"],
+    type: "Private",
+    tags: ["cyber security", "digital forensics", "cyber crime investigation"]
+},
 
 
 
