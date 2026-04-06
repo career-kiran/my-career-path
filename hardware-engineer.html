@@ -69,7 +69,7 @@
 
 
 
-<h2>🧠 Imagine This...</h2>
+<h2> 🧑‍💻 What Do They Do?</h2>
 
 <div class="exam-card story-text">
   <p>
@@ -107,7 +107,7 @@
 
 
 
-<h2>👉 How This Works in Real Life?</h2>
+<h2>🧠 Imagine This...</h2>
 
 <div class="design-path">
 
@@ -344,15 +344,17 @@
 
 </div>
 
-<div class="try-yourself">
+<div class="important-box">
 <h2>Note:</h2>
 <p> Age limits, marks, and admission process may vary depending on the college or state.</p>
 
 <p>
-These courses are available in many colleges and universities across India. 
-You can choose based on your location, budget, and entrance exams.
+These courses are available in many colleges and universities across India. </p>
+<p>You can choose based on your location, budget, and entrance exams.
 </p>
 </div>
+
+
 
 <button class="accordion-header">🛠 Want to Try This Yourself?
 </button>
@@ -527,35 +529,41 @@ behavior:'smooth'
 
 
 <script>
-document.querySelectorAll(".accordion-header").forEach(button => {
-  button.addEventListener("click", function () {
+const accordions = document.querySelectorAll(".accordion-header");
 
-    const content = this.nextElementSibling;
+if (accordions.length > 0) {
 
-    // ✅ CLOSE all others first
-    document.querySelectorAll(".accordion-content").forEach(item => {
-      if (item !== content) {
-        item.style.display = "none";
+  accordions.forEach(button => {
+    button.addEventListener("click", function () {
+
+      const content = this.nextElementSibling;
+
+      // CLOSE all others
+      document.querySelectorAll(".accordion-content").forEach(item => {
+        if (item !== content) {
+          item.style.display = "none";
+        }
+      });
+
+      document.querySelectorAll(".accordion-header").forEach(btn => {
+        if (btn !== this) {
+          btn.classList.remove("active");
+        }
+      });
+
+      // TOGGLE current
+      if (content.style.display === "block") {
+        content.style.display = "none";
+        this.classList.remove("active");
+      } else {
+        content.style.display = "block";
+        this.classList.add("active");
       }
+
     });
-
-    document.querySelectorAll(".accordion-header").forEach(btn => {
-      if (btn !== this) {
-        btn.classList.remove("active");
-      }
-    });
-
-    // ✅ TOGGLE current
-    if (content.style.display === "block") {
-      content.style.display = "none";
-      this.classList.remove("active");
-    } else {
-      content.style.display = "block";
-      this.classList.add("active");
-    }
-
   });
-});
+
+}
 </script>
 
 
