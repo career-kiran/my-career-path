@@ -1072,8 +1072,213 @@ stream: ["Arts", "Science", "Commerce"]
     tags: ["cyber security", "digital forensics", "cyber crime investigation"]
 },
 
+{
+    id: "devops-engineer",
+    name: "DevOps Engineer",
+    description: "DevOps Engineers make sure apps and websites run smoothly. They manage servers, automate tasks, and help developers quickly build, test, and release applications without errors.",
+    page: "devops-engineer.html",
+    icon: "⚙️",
+    bucket: "Technology and Problem Solving",
+    category: "Cloud and Network Systems",
+    subjects: ["Computer Science"],
+    levels: ["Graduation"],
+    stream: ["Science"],
+    type: "Private",
+    tags: ["devops", "cloud computing", "automation", "deployment", "infrastructure"]
+},
+
+{
+    id: "network-engineer",
+    name: "Network Engineer",
+    description: "Network Engineers build and manage computer networks. They make sure internet connections, company networks, and systems work smoothly and securely without interruptions.",
+    page: "network-engineer.html",
+    icon: "🌐",
+    bucket: "Technology and Problem Solving",
+    category: "Cloud and Network Systems",
+    subjects: ["Computer Science"],
+    levels: ["Graduation"],
+    stream: ["Science"],
+    type: "Private",
+    tags: ["networking", "internet", "routers", "switches", "network security"]
+},
 
 
+{
+  id: "system-administrator",
+  name: "System Administrator",
+  description: "System Administrators manage and maintain computer systems and servers. They make sure computers, software, and networks run smoothly, fix issues, and keep systems secure and updated.",
+  page: "system-administrator.html",
+  icon: "🖥️",
+  bucket: "Technology and Problem Solving",
+  category: "Cloud and Network Systems",
+  subjects: ["Computer Science"],
+  levels: ["Diploma", "Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["technology", "systems", "network", "problem-solving", "security"]
+},
+
+
+{
+  id: "cloud-security-engineer",
+  name: "Cloud Security Engineer",
+  description: "Cloud Security Engineers protect data and systems stored online. They make sure cloud platforms are safe from hackers, fix security issues, and keep information secure.",
+  page: "cloud-security-engineer.html",
+  icon: "☁️",
+  bucket: "Technology and Problem Solving",
+  category: "Cloud and Network Systems",
+  subjects: ["Computer Science"],
+  levels: ["Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["technology", "cloud", "security", "network", "systems"]
+},
+
+
+
+
+
+
+{
+  id: "cloud-administrator",
+  name: "Cloud Administrator",
+  description: "Cloud Administrators manage and maintain cloud systems. They make sure servers, storage, and applications run smoothly and stay available.",
+  page: "cloud-administrator.html",
+  icon: "☁️",
+  bucket: "Technology and Problem Solving",
+  category: "Cloud and Network Systems",
+  subjects: ["Computer Science"],
+  levels: ["Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["technology", "cloud", "systems", "network", "infrastructure"]
+},
+
+
+
+
+
+
+{
+  id: "cloud-architect",
+  name: "Cloud Architect",
+  description: "Cloud Architects design and plan cloud systems. They decide how applications, servers, and data are structured to make systems scalable, secure, and efficient.",
+  page: "cloud-architect.html",
+  icon: "☁️🏗️",
+  bucket: "Technology and Problem Solving",
+  category: "Cloud and Network Systems",
+  subjects: ["Computer Science"],
+  levels: ["Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["technology", "cloud", "architecture", "design", "systems", "infrastructure"]
+},
+
+
+
+
+
+
+{
+    id: "site-reliability-engineer",
+    name: "Site Reliability Engineer",
+    description: "Site Reliability Engineers ensure that systems and applications run smoothly. They monitor performance, fix issues quickly, and prevent failures to keep services reliable and always available.",
+    page: "site-reliability-engineer.html",
+    icon: "⚙️",
+    bucket: "Technology and Problem Solving",
+    category: "Cloud and Network Systems",
+    subjects: ["Computer Science"],
+    levels: ["Graduation"],
+    stream: ["Science"],
+    type: "Private",
+    tags: ["technology", "reliability", "systems", "monitoring", "performance", "cloud"]
+},
+
+
+
+{
+    id: "platform-engineer",
+    name: "Platform Engineer",
+    description: "Platform Engineers build and manage systems that make it easier for developers to create, test, and run applications. They provide ready tools and environments so development becomes faster and smoother.",
+    page: "platform-engineer.html",
+    icon: "🧩",
+    bucket: "Technology and Problem Solving",
+    category: "Cloud and Network Systems",
+    subjects: ["Computer Science"],
+    levels: ["Graduation"],
+    stream: ["Science"],
+    type: "Private",
+    tags: ["technology", "platform", "devops", "systems", "cloud", "automation"]
+},
+
+
+
+
+
+{
+  id: "mechatronics-engineer",
+  name: "Mechatronics Engineer",
+  description: "Mechatronics engineers design and develop smart machines by combining mechanical, electrical, and computer systems. They work on automated systems, robots, and modern technologies used in industries and manufacturing.",
+  page: "mechatronics-engineer.html",
+  icon: "⚙️",
+  bucket: "Technology and Problem Solving",
+  category: "Robotics and Automation",
+  subjects: ["Physics", "Mathematics"],
+  levels: ["Diploma", "Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["automation", "robotics", "engineering", "machines", "electronics"]
+},
+
+
+
+{
+    id: "control-systems-engineer",
+    name: "Control Systems Engineer",
+    description: "Control Systems Engineers design systems that control how machines and processes behave. They make sure machines work smoothly, safely, and automatically in industries like manufacturing, robotics, and energy.",
+    page: "control-systems-engineer.html",
+    icon: "🎛️",
+    bucket: "Technology and Problem Solving",
+    category: "Robotics and Automation",
+    subjects: ["Physics"],
+    levels: ["Graduation"],
+    stream: ["Science"],
+    type: "Private",
+    tags: ["control", "automation", "systems", "engineering", "machines"]
+},
+
+
+
+
+{
+  id: "instrumentation-engineer",
+  name: "Instrumentation Engineer",
+  description: "Instrumentation engineers design and maintain systems that measure and control industrial processes. They work with sensors, control systems, and automation technologies to ensure machines and processes run safely and efficiently.",
+  page: "instrumentation-engineer.html",
+  icon: "📟",
+  bucket: "Technology and Problem Solving",
+  category: "Robotics and Automation",
+  subjects: ["Physics", "Mathematics"],
+  levels: ["Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["instrumentation", "control systems", "automation", "engineering", "electronics"]
+},
+
+{
+  id: "industrial-automation-engineer",
+  name: "Industrial Automation Engineer",
+  description: "Industrial Automation Engineers design and manage systems that automate machines and production processes in factories. They use sensors, control systems, and software to improve efficiency, reduce manual work, and ensure smooth industrial operations.",
+  page: "industrial-automation-engineer.html",
+  icon: "🏭",
+  bucket: "Technology and Problem Solving",
+  category: "Robotics and Automation",
+  subjects: ["Physics"],
+  levels: ["Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["automation", "industrial", "control", "systems", "engineering"]
+},
 
 
 
