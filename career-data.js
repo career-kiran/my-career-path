@@ -1,6 +1,3 @@
-
-
-
 window.careers = [
 
 {
@@ -676,6 +673,10 @@ stream: ["Arts", "Science", "Commerce"]
   tags: ["it support", "technical support", "computer systems", "troubleshooting", "help desk"]
 },
 
+
+
+
+
 {
   id: "electronics-engineer",
   name: "Electronics Engineer",
@@ -689,6 +690,9 @@ stream: ["Arts", "Science", "Commerce"]
   type: "Private",
   tags: ["electronics", "circuits", "hardware", "electronic devices", "embedded systems"]
 },
+
+
+
 
 {
   id: "electrical-engineer",
@@ -1279,6 +1283,371 @@ stream: ["Arts", "Science", "Commerce"]
   type: "Private",
   tags: ["automation", "industrial", "control", "systems", "engineering"]
 },
+
+{
+  id: "plc-engineer",
+  name: "PLC Engineer",
+  description: "PLC Engineers design and program systems that control machines in industries. They use Programmable Logic Controllers (PLC) to automate processes and ensure machines work correctly and efficiently.",
+  page: "plc-engineer.html",
+  icon: "🧠",
+  bucket: "Technology and Problem Solving",
+  category: "Robotics and Automation",
+  subjects: ["Physics"],
+  levels: ["Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["plc", "automation", "control", "systems", "engineering"]
+},
+
+
+
+
+{
+    id: "scada-engineer",
+    name: "SCADA Engineer",
+    description: "SCADA Engineers design and manage systems that monitor and control industrial processes. They use SCADA software to track machines, collect real-time data, and control operations from a central system.",
+    page: "scada-engineer.html",
+    icon: "🖥️",
+    bucket: "Technology and Problem Solving",
+    category: "Robotics and Automation",
+    subjects: ["Physics"],
+    levels: ["Graduation"],
+    stream: ["Science"],
+    type: "Private",
+    tags: ["scada", "automation", "monitoring", "control", "industrial", "systems"]
+},
+
+
+{
+    id: "robotics-software-engineer",
+    name: "Robotics Software Engineer",
+    description: "Robotics Software Engineers write programs that control how robots move and perform tasks. They develop software for sensors, automation systems, and intelligent machines used in industries and robotics applications.",
+    page: "robotics-software-engineer.html",
+    icon: "🤖",
+    bucket: "Technology and Problem Solving",
+    category: "Robotics and Automation",
+    subjects: ["Computer Science", "Electronics"],
+    levels: ["Graduation"],
+    stream: ["Science"],
+    type: "Private",
+    tags: ["robotics", "software", "programming", "automation", "systems"]
+},
+
+
+{
+    id: "civil-engineer",
+    name: "Civil Engineer",
+    description: "Civil engineers design and build structures like roads, bridges, buildings, and water systems. They make sure everything is safe, strong, and lasts for a long time.",
+    page: "civil-engineer.html",
+    icon: "🏗️",
+    bucket: "Technology and Problem Solving",
+    category: "Engineering Design and Technology",
+    subjects: ["Physics", "Mathematics"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science"],
+    type: "Private",
+    tags: ["civil", "construction", "engineering", "infrastructure", "design"]
+},
+
+
+{
+    id: "automobile-engineer",
+    name: "Automobile Engineer",
+    description: "Automobile engineers design and develop vehicles like cars, bikes, and trucks. They ensure vehicles are safe, efficient, and perform well on the road.",
+    page: "automobile-engineer.html",
+    icon: "🚗",
+    bucket: "Technology and Problem Solving",
+    category: "Engineering Design and Technology",
+    subjects: ["Physics", "Mathematics"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science"],
+    type: "Private",
+    tags: ["automobile", "vehicles", "engineering", "cars", "design"]
+},
+
+{
+    id: "software-engineer",
+    name: "Software Engineer",
+    description: "Software engineers create apps, websites, and systems we use every day. They write code to build things like mobile apps, games, and software that make our lives easier.",
+    page: "software-engineer.html",
+    icon: "💻",
+    bucket: "Technology and Problem Solving",
+    category: "Engineering Design and Technology",
+    subjects: ["Mathematics", "Computer Science"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science"],
+    type: "Private",
+    tags: ["software", "coding", "programming", "apps", "technology"]
+},
+
+{
+    id: "aeronautical-engineer",
+    name: "Aeronautical Engineer",
+    description: "Aeronautical engineers design and develop aircraft like airplanes, helicopters, and drones. They ensure these machines are safe, efficient, and can fly properly.",
+    page: "aeronautical-engineer.html",
+    icon: "✈️",
+    bucket: "Technology and Problem Solving",
+    category: "Engineering Design and Technology",
+    subjects: ["Physics", "Mathematics"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science"],
+    type: "Private",
+    tags: ["aeronautical", "aircraft", "aviation", "engineering", "flight"]
+},
+
+{
+    id: "aerospace-engineer",
+    name: "Aerospace Engineer",
+    description: "Aerospace engineers design and develop aircraft, rockets, and space systems. They ensure these machines are safe, efficient, and can operate in air and space.",
+    page: "aerospace-engineer.html",
+    icon: "🚀",
+    bucket: "Technology and Problem Solving",
+    category: "Engineering Design and Technology",
+    subjects: ["Physics", "Mathematics"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science"],
+    type: "Private",
+    tags: ["aerospace", "aircraft", "space", "engineering", "aviation"]
+},
+
+
+{
+    id: "avionics-engineer",
+    name: "Avionics Engineer",
+    description: "Avionics engineers work on the electronic systems used in aircraft, satellites, and spacecraft. They ensure systems like navigation, communication, and control work properly.",
+    page: "avionics-engineer.html",
+    icon: "📡",
+    bucket: "Technology and Problem Solving",
+    category: "Engineering Design and Technology",
+    subjects: ["Physics", "Mathematics"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science"],
+    type: "Private",
+    tags: ["avionics", "aircraft", "electronics", "aviation", "systems"]
+},
+
+
+{
+    id: "chemical-engineer",
+    name: "Chemical Engineer",
+    description: "Chemical engineers work on processes that convert raw materials into useful products like fuels, chemicals, medicines, and food. They design, develop, and optimize production processes to ensure efficiency, safety, and sustainability.",
+    page: "chemical-engineer.html",
+    icon: "⚗️",
+    bucket: "Technology and Problem Solving",
+    category: "Engineering Design and Technology",
+    subjects: ["Physics", "Chemistry", "Mathematics"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science"],
+    type: "Private",
+    tags: ["chemical", "process", "manufacturing", "industry", "production"]
+},
+
+
+{
+    id: "biomedical-engineer",
+    name: "Biomedical Engineer",
+    description: "Biomedical engineers work on medical equipment and devices used in hospitals and healthcare. They help design, maintain, and improve machines that support doctors in treating patients.",
+    page: "biomedical-engineer.html",
+    icon: "🩺",
+    bucket: "Technology and Problem Solving",
+    category: "Engineering Design and Technology",
+    subjects: ["Biology", "Mathematics"],
+    levels: ["Graduation"],
+    stream: ["Science"],
+    type: "Private",
+    tags: ["biomedical", "medical", "healthcare", "devices", "hospital"]
+},
+
+{
+    id: "biochemical-engineer",
+    name: "Biochemical Engineer",
+    description: "Biochemical engineers work on processes that use chemicals and biological materials to create useful products like medicines, food, and fuels. They design and improve systems used in industries such as pharmaceuticals, biotechnology, and manufacturing.",
+    page: "biochemical-engineer.html",
+    icon: "🧪",
+    bucket: "Technology and Problem Solving",
+    category: "Engineering Design and Technology",
+    subjects: ["Chemistry", "Biology", "Mathematics"],
+    levels: ["Graduation"],
+    stream: ["Science"],
+    type: "Private",
+    tags: ["biochemical", "chemical", "biotechnology", "pharmaceuticals", "processes"]
+},
+
+{
+    id: "biotechnology-engineer",
+    name: "Biotechnology Engineer",
+    description: "Biotechnology engineers use living organisms like bacteria, cells, and enzymes to create useful products such as medicines, vaccines, and food products. They work on developing solutions in healthcare, agriculture, and environmental fields.",
+    page: "biotechnology-engineer.html",
+    icon: "🧬",
+    bucket: "Technology and Problem Solving",
+    category: "Engineering Design and Technology",
+    subjects: ["Biology", "Chemistry", "Mathematics"],
+    levels: ["Graduation"],
+    stream: ["Science"],
+    type: "Private",
+    tags: ["biotechnology", "biotech", "biology", "healthcare", "research"]
+},
+
+
+
+{
+    id: "marine-engineer",
+    name: "Marine Engineer",
+    description: "Marine engineers work on ships and marine vessels, managing and maintaining engines, fuel systems, and mechanical equipment that keep ships running smoothly.",
+    page: "marine-engineer.html",
+    icon: "🚢",
+    bucket: "Technology and Problem Solving",
+    category: "Engineering Design and Technology",
+    subjects: ["Mathematics", "Physics"],
+    levels: ["Graduation"],
+    stream: ["Science"],
+    type: "Private",
+    tags: ["marine", "ship", "engineering", "mechanical", "transport"]
+},
+
+{
+    id: "environmental-engineer",
+    name: "Environmental Engineer",
+    description: "Environmental engineers protect the environment by reducing pollution and managing waste. They work on clean water, air quality, and systems that keep our surroundings safe.",
+    page: "environmental-engineer.html",
+    icon: "🌱",
+    bucket: "Technology and Problem Solving",
+    category: "Engineering Design and Technology",
+    subjects: ["Chemistry", "Biology", "Mathematics"],
+    levels: ["Graduation"],
+    stream: ["Science"],
+    type: "Private",
+    tags: ["environment", "pollution", "waste", "water", "sustainability"]
+},
+
+{
+    id: "industrial-engineer",
+    name: "Industrial Engineer",
+    description: "Industrial engineers improve systems and processes to make work faster, safer, and more efficient. They focus on reducing waste, saving time, and increasing productivity in industries.",
+    page: "industrial-engineer.html",
+    icon: "🏭",
+    bucket: "Technology and Problem Solving",
+    category: "Engineering Design and Technology",
+    subjects: ["Mathematics", "Physics"],
+    levels: ["Graduation"],
+    stream: ["Science"],
+    type: "Private",
+    tags: ["industrial", "production", "efficiency", "process", "manufacturing"]
+},
+
+{
+    id: "petroleum-engineer",
+    name: "Petroleum Engineer",
+    description: "Petroleum engineers work on extracting oil and natural gas from underground. They design drilling methods and systems to safely and efficiently bring these resources to the surface.",
+    page: "petroleum-engineer.html",
+    icon: "🛢️",
+    bucket: "Technology and Problem Solving",
+    category: "Engineering Design and Technology",
+    subjects: ["Physics", "Chemistry", "Mathematics"],
+    levels: ["Graduation"],
+    stream: ["Science"],
+    type: "Private",
+    tags: ["petroleum", "oil", "gas", "drilling", "energy"]
+},
+
+{
+    id: "petrochemical-engineer",
+    name: "Petrochemical Engineer",
+    description: "Petrochemical engineers convert crude oil and natural gas into useful products like petrol, diesel, plastics, and chemicals. They work in refineries and chemical plants.",
+    page: "petrochemical-engineer.html",
+    icon: "🛢️",
+    bucket: "Technology and Problem Solving",
+    category: "Engineering Design and Technology",
+    subjects: ["Chemistry", "Physics", "Mathematics"],
+    levels: ["Graduation"],
+    stream: ["Science"],
+    type: "Private",
+    tags: ["petrochemical", "refinery", "oil", "gas", "chemicals"]
+},
+
+{
+    id: "electronics-communication-engineer",
+    name: "Electronics & Communication Engineer",
+    description: "Electronics and Communication engineers design and develop electronic devices and communication systems like mobile networks, satellites, and embedded systems.",
+    page: "electronics-communication-engineer.html",
+    icon: "📡",
+    bucket: "Technology and Problem Solving",
+    category: "Engineering Design and Technology",
+    subjects: ["Physics", "Mathematics"],
+    levels: ["Graduation"],
+    stream: ["Science"],
+    type: "Private",
+    tags: ["electronics", "communication", "telecom", "embedded", "networks"]
+},
+
+
+
+
+{
+    id: "genetic-engineer",
+    name: "Genetic Engineer",
+    description: "Genetic engineers study and modify DNA to improve plants, animals, and human health using biotechnology and gene editing techniques.",
+    page: "genetic-engineer.html",
+    icon: "🧬",
+    bucket: "Technology and Problem Solving",
+    category: "Engineering Design and Technology",
+    subjects: ["Biology", "Chemistry"],
+    levels: ["Graduation"],
+    stream: ["Science"],
+    type: "Private",
+    tags: ["genetics", "dna", "biotechnology", "gene editing", "research"]
+},
+
+
+
+{
+  id: "embedded-systems-engineer",
+  name: "Embedded Systems Engineer",
+  description: "Embedded systems engineers design and develop small computer systems inside devices like washing machines, cars, smartwatches, and medical equipment. They make sure these systems work smoothly and control the device functions.",
+  page: "embedded-systems-engineer.html",
+  icon: "💻",
+  bucket: "Technology and Problem Solving",
+  category: "Electronics and Hardware",
+  subjects: ["Physics", "Mathematics", "Electronics"],
+  levels: ["Diploma", "Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["electronics", "embedded systems", "hardware", "circuits", "electronic devices"]
+},
+
+{
+  id: "iot-developer",
+  name: "IoT Developer",
+  description: "IoT developers build smart systems by connecting devices like sensors, machines, and everyday objects to the internet. They develop solutions for smart homes, healthcare, agriculture, and industries, ensuring devices communicate efficiently and automate tasks.",
+  page: "iot-developer.html",
+  icon: "📡",
+  bucket: "Technology and Problem Solving",
+  category: "Electronics and Hardware",
+  subjects: ["Physics", "Mathematics", "Electronics"],
+  levels: ["Diploma", "Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["iot", "internet of things", "embedded systems", "smart devices", "automation"]
+},
+
+
+{
+  id: "vlsi-engineer",
+  name: "VLSI Engineer",
+  description: "VLSI engineers design and develop microchips and integrated circuits used in devices like smartphones, computers, and electronics. They work on creating smaller, faster, and more efficient chips.",
+  page: "vlsi-engineer.html",
+  icon: "🔬",
+  bucket: "Technology and Problem Solving",
+  category: "Electronics and Hardware",
+  subjects: ["Physics", "Mathematics", "Electronics"],
+  levels: ["Graduation"],
+  stream: ["Science"],
+  type: "Private",
+  tags: ["vlsi", "chip design", "semiconductors", "electronics", "integrated circuits"]
+},
+
+
+
 
 
 
