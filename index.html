@@ -1,115 +1,369 @@
-<!DOCTYPE html>
-<html lang="en">
+
+
+
+
 <head>
   <meta charset="UTF-8">
-  <title>My Career Path</title>
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: #fafafa;
-      color: #333;
-    }
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 60px 40px;
-    }
+  <title>Discover Your Career Path | Find the Right Career for You</title>
 
-    .site-title {
-      font-size: 34px;
-      font-weight: bold;
-      text-align: center;
-      margin-bottom: 60px;
-    }
+  <meta name="description" content="Not sure which career suits you? Answer simple questions and discover careers based on your interests, skills, and personality.">
 
-    h1 {
-      font-size: 26px;
-      font-weight: normal;
-      margin-top: 30px;
-      margin-bottom: 30px;
-    }
+  <meta name="keywords" content="career guidance, career test, find your career, student career help, career path, choose career">
 
-    p {
-      font-size: 16px;
-      line-height: 1.8;
-      margin-bottom: 18px;
-      color: #444;
-    }
+  <link rel="stylesheet" href="style.css">
 
-    .start-btn {
-      margin-top: 40px;
-      padding: 12px 28px;
-      font-size: 16px;
-      background-color: #222;
-      color: #fff;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-    }
 
-    .start-btn:hover {
-      background-color: #000;
-    }
-.welcome-thought {
-  margin: 40px 0;
-  line-height: 2;
-  color: #444;
-  max-width: 700px;
-}
-  </style>
+
 </head>
 
-<body>
+<body class="home-page">
 
-  <div class="container">
 
-    <div class="site-title">My Career Path</div>
 
-    <h1>Welcome,</h1>
 
-    <p>
-      Choosing a career is one of the most important decisions you make in your life.
-    </p>
 
-    <p>
-      Many students feel confused and feel this way.
-    </p>
 
-    <p>
-      This website is here to help you understand yourself better and find courses you may like.
-    </p>
+<div class="main">
 
-    <p>
-      You don’t have to decide anything fast.
-    </p>
 
-    <p>
-      We will go step by step. Take your time.
-    </p>
-<div class="welcome-thought">
-  <p>Every profession is a noble profession.</p>
-  <p>The real question is whether it suits you.</p>
 
-  <p>
-    When we are in a place we don’t belong, even a good profession can feel wrong.
-    It’s not that the profession is bad — it’s just not where you fit.
-  </p>
 
-  <p><strong>That’s why choosing something you enjoy and feel comfortable matters.</strong></p>
+<div class="career-header">
+
+
+<nav class="navbar">
+  <div class="nav-container">
+
+    <div class="logo">My Career Path</div>
+
+   
+
+  <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="career-paths.html">Careers</a>
+    </div>
+
+
+<div class="site-search">
+<input type="text" id="careerSearch" placeholder="Search careers...">
+
+<div id="suggestions"></div>
+
+
+
+<button onclick="searchCareer()">Search</button>
 </div>
 
-    <p>
-      If you are ready, take a 5 minute journey to understand yourself.
-    </p>
 
-    <button class="start-btn" onclick="location.href='question1.html'">
-      Start
-    </button>
+<script src="career-data.js"></script>
+
+<script src="search.js"></script>
+
+
+   <div class="career-action">
+        <button onclick="savePage()">⭐ Save</button>
+        <button onclick="sharePage()">📤 Share</button>
+      </div>
+ 
+
 
   </div>
+</nav>
+
+
+
+</div>
+
+
+  <div class="home-container">
+
+
+  <div class="hero-section">
+
+  <!-- LEFT SIDE -->
+  <div class="hero-text">
+  
+    <h1>We will help you choose a career</h1>
+    <p>
+      Let's discuss and findout what you like
+    </p>
+    <button>Start Now</button>
+  </div>
+
+  <!-- RIGHT SIDE -->
+<div class="hero">
+  <video autoplay muted loop class="hero-video">
+    <source src="videos/career-video.mp4" type="video/mp4">
+  </video>
+ </div>
+</div>
+</div>
+
+
+  
+</div>
+
+
+<div class="feature-container">
+<div class="feature-card">
+    <div class="feature-icon">🎓</div>
+
+    <h3>Education Pathways</h3>
+
+    <p>
+        Find out what you can do after 10th, 12th, diploma or graduation.
+    </p>
+
+<div class="feature-arrow">→</div>
+</div>
+
+
+<div class="feature-card">
+    <div class="feature-icon">📚</div>
+
+    <h3>Subject Based Careers</h3>
+
+    <p>
+        Discover careers related to subjects like Science, Commerce, Arts and more.
+    </p>
+
+<div class="feature-arrow">→</div>
+</div>
+
+
+
+<div class="feature-card">
+    <div class="feature-icon">💼</div>
+
+    <h3>Career Information</h3>
+
+    <p>
+        We will help you understand a career, which exams to pass, and whether that career suits you or not.
+    </p>
+
+<div class="feature-arrow">→</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- EDUCATION LEVEL SECTION -->
+<section class="education-bg">
+
+  <div class="education-inner">
+
+    <div class="career-header">
+      <h2>Explore Careers by Education Level</h2>
+
+   
+    </div>
+
+    <div class="subjects-container">
+
+      <a href="career-10th.html" class="subject-card">📘 After 10th</a>
+      <a href="career-12th.html" class="subject-card">📚 After 12th</a>
+      <a href="career-diploma.html" class="subject-card">🛠 After Diploma</a>
+      <a href="career-graduation.html" class="subject-card">🎓 After Graduation</a>
+
+
+<div class="notion-grid">
+
+  <div class="notion-card">
+    <img src="images/img1.png">
+  
+  </div>
+
+  <div class="notion-card">
+    <img src="images/img2.png">
+    
+  </div>
+
+  <div class="notion-card">
+    <img src="images/img3.png">
+  
+  </div>
+
+</div>
+
+
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+
+<section class="home-buckets">
+ <h2 class="section-heading">Explore Career Buckets</h2>
+
+<div class="role-grid">
+
+
+
+<div class="role-card">
+<a href="helping-people.html">
+<div class="card-image">
+<img src="images/helping-people.jpeg">
+
+<div class="overlay-text">
+❤️ Health Care
+
+</div>
+</div>
+</a>
+</div>
+
+
+
+<div class="role-card">
+  <a href="arts-humanities-science.html">
+
+    <div class="card-image">
+      <img src="images/arts-humanities.jpeg" alt="Arts Humanities and Science">
+
+      <div class="overlay-text">
+        🎭 Arts, Humanities & Science
+      </div>
+    </div>
+
+  </a>
+</div>
+
+
+
+
+<div class="role-card">
+  <a href="technology.html">
+
+    <div class="card-image">
+      <img src="images/technology.jpeg" alt="Technology and Problem Solving">
+
+      <div class="overlay-text">
+        💻 Technology & Problem Solving
+      </div>
+    </div>
+
+  </a>
+</div>
+
+
+
+</section>
+
+
+
+<a href="career-paths.html" class="view-buckets-btn">
+    <span>Explore Other Buckets →</span>
+</a>
+
+<!-- SUBJECT SECTION -->
+
+<section class="subject-bg">
+
+<div class="subject-inner">
+<div class="subject-section">
+
+  <h2 class="section-heading">Explore Careers by subject you like</h2>
+
+  <!-- SCIENCE -->
+
+<div class="subjects-container">
+
+<div class="subject-card">🧪 Physics</div>
+
+<div class="subject-card">💻 Computer Science</div>
+
+<div class="subject-card">💼 Commerce</div>
+
+<div class="subject-card">🎨 Arts & Design</div>
+
+<div class="subject-card">🧠 Psychology</div>
+
+</div>
+
+<a href="search-by-subject.html" class="view-subjects-btn">
+    Explore Other Subjects →
+</a>
+
+<div class="notion-grid">
+
+  <div class="notion-card">
+    <img src="images/img4.png">
+  
+  </div>
+
+  <div class="notion-card">
+    <img src="images/img5.png">
+    
+  </div>
+
+  <div class="notion-card">
+    <img src="images/img6.png">
+  
+  </div>
+
+</div>
+
+
+  </div>
+
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+function toggleDropdown() {
+  const list = document.getElementById("dropdownList");
+  list.style.display = list.style.display === "block" ? "none" : "block";
+}
+
+function selectSubject(subject) {
+  document.getElementById("selectedSubject").innerText = subject;
+
+  window.location.href =
+    "subject-careers.html?subject=" + encodeURIComponent(subject);
+}
+
+document.addEventListener("click", function(e) {
+  const dropdown = document.querySelector(".subject-dropdown");
+  if (!dropdown.contains(e.target)) {
+    document.getElementById("dropdownList").style.display = "none";
+  }
+});
+</script>
+
+<script>
+function goToSubject(subject) {
+  window.location.href =
+    "subject-careers.html?subject=" + encodeURIComponent(subject);
+}
+</script>
 
 </body>
 </html>
