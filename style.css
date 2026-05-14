@@ -2608,3 +2608,14 @@ flex: 1;
 .story-content{
 flex:1;
 }
+
+.story-with-image{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:30px;
+}
+
+.story-with-image p{
+    flex:1;
+}
