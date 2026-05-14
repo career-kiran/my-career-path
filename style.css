@@ -2654,3 +2654,23 @@ grid-template-columns:1fr;
 }
 
 
+@media screen and (max-width: 600px) {
+
+.story-with-image{
+flex-direction:column;
+text-align:center;
+}
+
+.side-img{
+width:100%;
+max-width:280px;
+margin-top:15px;
+}
+
+.story-content{
+width:100%;
+}
+
+}
+
+
