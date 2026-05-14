@@ -2586,26 +2586,3 @@ border-radius:15px;
 
 
 
-.story-text {
-justify-content:space-between;
-align-items:center;
-flex-wrap: nowrap;
-font-size: 17px;
-line-height: 2;
-font-style: italic;
-color: #444;
-text-align: left;
-max-width: 1000px;
-margin: 30px auto;
-word-spacing: 2px;
-letter-spacing: 0.5px;
-}
-
-.story-text p{
-flex: 1;
-}
-
-.story-content{
-flex:1;
-}
-
