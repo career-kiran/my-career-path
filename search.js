@@ -7,7 +7,7 @@ career.name.toLowerCase().includes(input)
 );
 
 if(found){
-window.location.href = found.page;
+window.location.href = "./" + found.page;
 }else{
 alert("Career not found");
 }
@@ -41,7 +41,7 @@ let item = document.createElement("div");
 item.textContent = career.name;
 
 item.onclick = function(){
-window.location.href = career.page;
+window.location.href = "./" + career.page;
 };
 
 suggestionBox.appendChild(item);
@@ -96,7 +96,7 @@ item.className = "career-card";
 item.innerHTML = `
 <h3>${career.name}</h3>
 <p>${career.description}</p>
-<a href="${career.page}">Learn More</a>
+<a href="./${career.page}">Learn More</a>
 `;
 
 container.appendChild(item);
