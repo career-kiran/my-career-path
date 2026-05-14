@@ -2615,3 +2615,42 @@ height:auto;
 }
 
 
+@media screen and (max-width: 600px) {
+
+.accordion-header{
+font-size:18px;
+padding:14px 16px;
+line-height:1.4;
+}
+
+.accordion-content{
+padding:15px;
+}
+
+.course-box{
+margin-bottom:20px;
+}
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+.card-container{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.role-card{
+width:100%;
+box-sizing:border-box;
+}
+
+.top-college-grid{
+grid-template-columns:1fr;
+}
+
+}
+
+
