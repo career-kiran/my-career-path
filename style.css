@@ -2104,7 +2104,7 @@ main-container {
 .subject-card {
   padding: 10px 16px;
   background: white;
-  color: white;
+  color: black;
   border-radius: 10px;
   border: 1px solid #e5e7eb;
   cursor: pointer;
