@@ -21,6 +21,8 @@ setTimeout(function(){
 const searchBox = document.getElementById("careerSearch");
 const suggestionBox = document.getElementById("suggestions");
 
+if (!searchBox || !suggestionBox) return;
+
 searchBox.addEventListener("input", function(){
 
 let input = searchBox.value.toLowerCase().trim();
@@ -48,7 +50,7 @@ suggestionBox.appendChild(item);
 
 });
 
-},500);
+},1500);
 
 
 
@@ -57,8 +59,12 @@ suggestionBox.appendChild(item);
 
 document.addEventListener("click", function(event) {
 
+
 const searchBox = document.getElementById("careerSearch");
 const suggestionBox = document.getElementById("suggestions");
+
+if (!searchBox || !suggestionBox) return;
+
 
 if (!searchBox.contains(event.target) && !suggestionBox.contains(event.target)) {
 suggestionBox.innerHTML = "";
