@@ -110,14 +110,18 @@ stream: ["Arts","Science","Commerce"]
 
 
 {
+  id: "art-director",
   name: "Art Director",
-  description: "Leads the visual style and creative direction of design, advertising, film, and digital media projects.",
+  description: "Leads the visual style and design of projects in advertising, films, media, and digital content.",
   page: "art-director.html",
+  icon: "🎨",
   bucket: "Creativity and Expression",
   category: "Designing",
-  subjects: ["Art", "Design", "Visual Communication"],
+  subjects: ["Art and Design"],
   levels: ["10th", "12th", "Graduation"],
-  stream: ["Arts", "Science", "Commerce"]
+  stream: ["Arts", "Science", "Commerce"],
+  type: "Private",
+  tags: ["design", "creative direction", "visual design", "media", "branding"]
 },
 
 
@@ -268,14 +272,18 @@ stream: ["Arts","Science","Commerce"]
 },
 
 {
-name: "Cinematographer",
-description: "Handles camera work, lighting, and visual style of films and videos.",
-page: "cinematographer.html",
-bucket: "Creativity and Expression",
-category: "Filmmaking and Video Creation",
-subjects: ["Media Studies","Film Studies","Photography"],
-levels: ["10th", "12th","Graduation"],
-stream: ["Arts","Science"]
+    id: "cinematographer",
+    name: "Cinematographer",
+    description: "Plans camera shots, lighting, and visual style for movies, advertisements, and digital content.",
+    page: "cinematographer.html",
+    icon: "🎥",
+    bucket: "Creativity and Expression",
+    category: "Film Making and Video Creation",
+    subjects: ["Language & Literature"],
+    levels: ["10th", "12th", "Graduation"],
+    stream: ["Arts", "Science", "Commerce"],
+    type: "Private",
+    tags: ["cinematography", "camera work", "film production", "visual storytelling", "director of photography"]
 },
 
 {
@@ -708,14 +716,18 @@ stream: ["Arts","Science","Commerce"]
 },
 
 {
-name: "Fashion Designer",
-description: "Designs clothing, accessories, and fashion styles.",
-page: "fashion-designer.html",
-bucket: "Creativity and Expression",
-category: "Designing",
-subjects: ["Art","Design","Home Science"],
-levels: ["12th","Graduation"],
-stream: ["Arts"]
+    id: "fashion-designer",
+    name: "Fashion Designer",
+    description: "Creates stylish clothes, outfits, and fashion accessories for people, brands, and fashion shows.",
+    page: "fashion-designer.html",
+    icon: "👗",
+    bucket: "Creativity and Expression",
+    category: "Designing",
+    subjects: ["Art and Design"],
+    levels: ["10th", "12th", "Graduation"],
+    stream: ["Arts", "Science", "Commerce"],
+    type: "Private",
+    tags: ["fashion", "clothing design", "style", "textile", "creative design"]
 },
 
 {
@@ -732,14 +744,18 @@ stream: ["Arts","Science","Commerce"]
 
 
 {
-  name: "Film Director",
-  description: "Leads the creative vision of films, web series, advertisements, and video productions by guiding actors, camera teams, and storytelling on screen.",
-  page: "film-director.html",
-  bucket: "Creativity and Expression",
-  category: "Filmmaking and Video Creation",
-  subjects: ["Media Studies", "Film Studies", "Arts"],
-  levels: ["12th", "Graduation"],
-  stream: ["Arts", "Science", "Commerce"]
+    id: "film-director",
+    name: "Film Director",
+    description: "Leads the creative process of movies, short films, advertisements, and video productions.",
+    page: "film-director.html",
+    icon: "🎬",
+    bucket: "Creativity and Expression",
+    category: "Film Making and Video Creation",
+    subjects: ["Language & Literature"],
+    levels: ["10th", "12th", "Graduation"],
+    stream: ["Arts", "Science", "Commerce"],
+    type: "Private",
+    tags: ["film making", "direction", "cinema", "storytelling", "video production"]
 },
 
 
@@ -799,16 +815,19 @@ stream: ["Arts","Science","Commerce"]
 
 
 {
-name: "Game Designer",
-description: "Designs gameplay, characters, and levels for video games.",
-page: "game-designer.html",
-bucket: "Creativity and Expression",
-category: "Designing",
-subjects: ["Art","Design","Computer Science","Game Development"],
-levels: ["12th","Graduation"],
-stream: ["Science","Arts"]
+    id: "game-designer",
+    name: "Game Designer",
+    description: "Creates characters, levels, stories, and gameplay experiences for video games.",
+    page: "game-designer.html",
+    icon: "🎮",
+    bucket: "Creativity and Expression",
+    category: "Gaming and Design",
+    subjects: ["Art and Design", "Computer Science"],
+    levels: ["10th", "12th", "Graduation"],
+    stream: ["Arts", "Science", "Commerce"],
+    type: "Private",
+    tags: ["gaming", "video games", "creative design", "game development", "animation"]
 },
-
 
 {
   id: "game-developer",
@@ -852,14 +871,18 @@ stream: ["Science","Arts"]
 
 
 {
-name: "Graphic Designer",
-description: "Designs posters, logos, and social media graphics.",
-page: "graphic-designer.html",
-bucket: "Creativity and Expression",
-category: "Designing",
-subjects: ["Art","Design"],
-levels: ["12th","Graduation"],
-stream: ["Arts"]
+    id: "graphic-designer",
+    name: "Graphic Designer",
+    description: "Creates visual designs for brands, advertisements, social media, websites, packaging, and digital media using typography, colors, images, and layouts.",
+    page: "graphic-designer.html",
+    icon: "🎨",
+    bucket: "Creativity and Expression",
+    category: "Designing",
+    subjects: ["Art and Design"],
+    levels: ["10th", "12th", "Graduation"],
+    stream: ["Arts", "Science", "Commerce"],
+    type: "Private",
+    tags: ["graphic design", "branding", "visual design", "advertising", "creative media", "digital design"]
 },
 
 {
@@ -1021,7 +1044,17 @@ stream: ["Arts","Science","Commerce"]
   tags: ["it support", "troubleshooting", "hardware", "software", "network support"]
 },
 
-
+{
+  name: "JEE Main",
+  description: "Joint Entrance Examination (Main)",
+  page: "jee-main.html",
+  keywords: ["jee main","jee main exam","engineering entrance exam",
+    "iit entrance","nit admission","jee nta","btech entrance exam",
+    "engineering admission india",
+    "jee main india","pcm entrance exam","how to become engineer"],
+  tags: ["engineering","technology","physics","maths","entrance exam",
+    "btech","iit","nit"]
+},
 
 
 {
@@ -1163,6 +1196,23 @@ subjects: ["Music","Sound Engineering","Audio Production", "Media Studies"],
 levels: ["12th","Graduation"],
 stream: ["Arts","Science","Commerce"]
 },
+
+
+
+
+{
+  name: "NEET",
+  description: "National Eligibility cum Entrance Test",
+  page: "neet.html",
+  keywords: ["neet","neet exam","medical entrance exam","mbbs entrance","bds entrance","doctor exam","medical admission","neet ug",
+"medical course entrance","how to become doctor","pcb entrance exam",
+ "biology entrance exam","neet india"],
+  tags: ["medical","healthcare","biology","doctor","entrance exam","mbbs","bds"]
+},
+
+
+
+
 
 
 {
@@ -1607,38 +1657,50 @@ stream: ["Arts","Science","Commerce"]
 },
 
 {
-name: "UI / UX Designer",
-description: "Designs how apps and websites look and feel for users.",
-page: "ui-ux-designer.html",
-bucket: "Creativity and Expression",
-category: "Designing",
-subjects: ["Design","Computer Science","Psychology","Art"],
-levels: ["12th","Graduation"],
-stream: ["Science","Arts"]
+    id: "ui-ux-designer",
+    name: "UI/UX Designer",
+    description: "Designs user-friendly mobile apps, websites, and digital products by improving user experience and interface design.",
+    page: "ui-ux-designer.html",
+    icon: "📱",
+    bucket: "Creativity and Expression",
+    category: "Designing",
+    subjects: ["Art and Design"],
+    levels: ["10th", "12th", "Graduation"],
+    stream: ["Arts", "Science", "Commerce"],
+    type: "Private",
+    tags: ["ui ux", "user interface", "user experience", "digital design", "product design"]
 },
 
 
 {
-name: "VFX Artist",
-description: "Creates visual effects for movies, television, advertisements, and video games using computer graphics and digital tools.",
-page: "vfx-artist.html",
-bucket: "Creativity and Expression",
-category: "Designing",
-subjects: ["Art", "Animation", "Computer Science", "Media Studies"],
-levels: ["10th", "12th", "Graduation"],
-stream: ["Arts", "Science", "Commerce"]
+    id: "vfx-artist",
+    name: "VFX Artist",
+    description: "Creates visual effects, CGI scenes, and digital graphics for movies, games, advertisements, and digital media.",
+    page: "vfx-artist.html",
+    icon: "🪄",
+    bucket: "Creativity and Expression",
+    category: "Film Making and Video Creation",
+    subjects: ["Language & Literature"],
+    levels: ["10th", "12th", "Graduation"],
+    stream: ["Arts", "Science", "Commerce"],
+    type: "Private",
+    tags: ["vfx", "visual effects", "cgi", "animation", "digital graphics", "film production"]
 },
 
 
 {
-name: "Video Editor",
-description: "Edits video footage to create films, YouTube videos, and digital content.",
-page: "video-editor.html",
-bucket: "Creativity and Expression",
-category: "Filmmaking and Video Creation",
-subjects: ["Media Studies","Film Studies","Arts"],
-levels: ["10th","12th","Graduation"],
-stream: ["Arts","Science"]
+    id: "video-editor",
+    name: "Video Editor",
+    description: "Edits raw footage into engaging videos for films, YouTube, advertisements, and digital media.",
+    page: "video-editor.html",
+    icon: "✂️",
+    bucket: "Creativity and Expression",
+    category: "Film Making and Video Creation",
+    subjects: ["Language & Literature"],
+    levels: ["10th", "12th", "Graduation"],
+    stream: ["Arts", "Science", "Commerce"],
+    type: "Private",
+    tags: ["video editing", "film editing", "youtube editing", "digital media", "post production"]
 },
 
 {
@@ -1685,14 +1747,18 @@ stream: ["Arts","Science","Commerce"]
 
 
 {
-name: "Website Designer",
-description: "Designs the layout, look, and visual experience of websites.",
-page: "website-designer.html",
-bucket: "Creativity and Expression",
-category: "Designing",
-subjects: ["Design","Computer Science","Art"],
-levels: ["12th", "Diploma", "Graduation"],
-stream: ["Science","Arts"]
+    id: "website-designer",
+    name: "Website Designer",
+    description: "Designs attractive and user-friendly websites for businesses, brands, and online platforms.",
+    page: "website-designer.html",
+    icon: "💻",
+    bucket: "Creativity and Expression",
+    category: "Designing",
+    subjects: ["Art and Design", "Computer"],
+    levels: ["10th", "12th", "Graduation"],
+    stream: ["Arts", "Science", "Commerce"],
+    type: "Private",
+    tags: ["web design", "website", "ui", "creative", "digital design"]
 },
 
 
