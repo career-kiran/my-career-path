@@ -1,6 +1,3 @@
-
-
-
 document.addEventListener("DOMContentLoaded", function() {
 
 fetch("header.html")
@@ -16,8 +13,3 @@ document.getElementById("footer").innerHTML = data;
 });
 
 });
-
-
-
-
-
