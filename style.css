@@ -2656,19 +2656,18 @@ grid-template-columns:1fr;
 
 @media screen and (max-width: 600px) {
 
-.story-with-image{
+.story-text{
+display:flex;
 flex-direction:column;
-text-align:center;
+align-items:center;
+text-align:left;
 }
 
 .side-img{
 width:100%;
 max-width:280px;
-margin-top:15px;
-}
-
-.story-content{
-width:100%;
+height:auto;
+margin-top:20px;
 }
 
 }
