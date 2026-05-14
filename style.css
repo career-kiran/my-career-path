@@ -2106,7 +2106,7 @@ main-container {
   background: white;
   color: black;
   border-radius: 10px;
-  border: 1px solid #e5e7eb;
+  border: 1px solid #333;
   cursor: pointer;
   font-size: 14px;
   transition: 0.2s;
