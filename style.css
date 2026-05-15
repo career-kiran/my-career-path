@@ -1382,16 +1382,16 @@ main-container {
 
 
 
-.blue   { background: #e8f2ff; color: #2b6cb0; }
+.blue   { background: #e8f2ff; color: #333; }
 .lavender { background: #E6E6FA; color: #333; }
-.green  { background: #e6fffa; color: #059669; }
-.orange { background: #fff4e6; color: #d97706; }
+.green  { background: #e6fffa; color: #333; }
+.orange { background: #fff4e6; color: #333; }
 .red    { background: #ffe4e6; color: #dc2626; }
-.green  { background: #e6f7f1; color: #065f46; }
+.green  { background: #e6f7f1; color: #333; }
 .grey   { background: #e5e7eb; color: #333; }
 .pink   { background: #fce7f3; color: #333; }
 .brown  { background: #f3e5d8; color: #5a3e2b; }
-.olive  { background: #f4faea; color: #2e4d1f; }
+.olive  { background: #f4faea; color: #333; }
 .beige  { background: #f7efe5; color: #4e342e; }
 .peach  { background: #fff2eb; color: #333; }
 .teal   { background: #e6fffb; color: #0f766e; }
