@@ -2681,3 +2681,38 @@ border-radius:16px;
 }
 
 }
+
+.story-text{
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap:30px;
+}
+
+.story-list{
+padding-left:20px;
+line-height:1.8;
+flex:1;
+color:white;
+}
+
+.story-list li{
+margin-bottom:15px;
+color:white;
+}
+
+
+.side-img{
+    width: 280px;
+    border-radius: 15px;
+}
+
+
+
+.story-card{
+background: linear-gradient(135deg,#2563eb,#1d4ed8);
+padding:30px;
+border-radius:16px;
+margin:20px 0;
+}
+
