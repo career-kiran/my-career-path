@@ -2641,9 +2641,7 @@ transition: 0.2s;
 box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 transform: scale(1);
 
-display:flex;
-flex-direction:column;
-align-items:center;
+
 text-align:center;
 gap:6px;
 }
