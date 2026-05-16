@@ -1359,23 +1359,6 @@ main-container {
 
 
 
-.course-box{
-    animation: floating 3s ease-in-out infinite;
-}
-
-@keyframes floating{
-    0%{
-        transform: translateY(0px);
-    }
-
-    50%{
-        transform: translateY(-6px);
-    }
-
-    100%{
-        transform: translateY(0px);
-    }
-}
 
 
 .blue   { border-left: 3px solid #4a7cff; }
