@@ -2742,6 +2742,22 @@ padding-left:20px;
 
 }
 
+@media (max-width: 768px) {
+
+  .card-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .role-card{
+      width: 90%;
+      max-width: 90%;
+      box-sizing: border-box;
+  }
+
+}
+
 .story-text{
 display:flex;
 justify-content:space-between;
