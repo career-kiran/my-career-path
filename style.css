@@ -1342,8 +1342,9 @@ main-container {
 .accordion-header::after {
   content: " (Tap to view)";
   font-size: 13px;
-  color: #555;
-  margin-left: 6px;
+  font-weight: 500;
+  color: #666;
+  margin-left: 8px;
 }
 
 .accordion-header:hover {
@@ -1352,43 +1353,30 @@ main-container {
   
 }
 
-
-
-
-
-
-.accordion-header {
-    display: block;
-    width: auto;
-    font-size: 18px;
-    font-weight: 600;
-    color: #111;
-
-    padding: 12px 16px;
-    margin: 12px 0;
-
-    border-radius: 14px;
-    border: 1px solid rgba(51, 51, 51, 0.4);
-
-    background: rgba(255, 255, 255, 0.15); /* glass effect */
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-
 .accordion-header {
   background: #E6E6FA;   /* THIS adds box color */
 }
 
 
-.accordion-header {
-  background: #f9fafb;
+
+.course-box{
+    animation: floating 3s ease-in-out infinite;
 }
+
+@keyframes floating{
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-6px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
 
 .blue   { border-left: 3px solid #4a7cff; }
 .green  { border-left: 3px solid #00b894; }
@@ -1456,6 +1444,9 @@ border-top:0.5px solid #14b8a6;
 border-bottom:0.5px solid #14b8a6;
 background:#FAFAFA;
 }
+
+
+
 
 
 
@@ -2641,14 +2632,16 @@ transition: 0.2s;
 box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 transform: scale(1);
 
-
+display:flex;
+flex-direction:column;
+align-items:center;
 text-align:center;
 gap:6px;
 }
 
 .accordion-header span{
 display:block;
-
+width:100%;
 }
 
 }
@@ -2674,7 +2667,7 @@ transition: all 0.3s ease;
 }
 
 .course-box{
-margin-bottom:5px;
+margin-bottom:10px;
 }
 
 }
