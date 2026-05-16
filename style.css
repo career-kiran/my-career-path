@@ -23,20 +23,50 @@ body {
 .header {
     background: #D1DDD4;
     
-    padding: 25px 0;
+    padding: 16px 0;
 }
 
 .header .container {
     max-width: 1000px;
     margin: 0 auto;
     text-align: left;
+    padding: 0 18px;
 }
+
+.header-links {
+    margin-top: 6px;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 4px 0;
+}
+
+.header-links a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    text-align: left;
+}
+
+.header-links {
+    text-align: left;
+}
+
+
+
 
 .site-title {
     font-family: 'Poppins', sans-ser;
-    font-size: 34px;
+    font-size: 28px;
     font-weight: 700;
-    margin-bottom: 25px;
+    margin-bottom: 14px;
+    line-height: 1.1;
     
 }
 
@@ -44,7 +74,7 @@ body {
     font-family: 'Inter', sans-serif;
     display: flex;
     flex-wrap: wrap;
-    gap: 18px;
+    gap: 12px;
     font-size: 15px;
     font-weight: 500;
     margin-bottom: 10px;
@@ -53,7 +83,7 @@ body {
 .bucket-nav a {
     text-decoration: none;
     color: #555;
-    font-size: 16px;
+    font-size: 15px;
     
 }
 
@@ -62,19 +92,10 @@ body {
     color: #000;
 }
 
-.header-links {
-    margin-top: 10px;
+.bucket-nav {
+    text-align: left;
 }
 
-.header-links a {
-    text-decoration: none;
-    color: #555;
-    font-size: 20px;
-}
-
-.header-links a:hover {
-    text-decoration: underline;
-}
 
 /* ===== MAIN CONTENT ===== */
 
@@ -199,15 +220,7 @@ font-size:18px;
 
 
 
-/* ===== MOBILE RESPONSIVE ===== */
 
-@media (max-width: 768px){
-
-.course-box{
-flex: 0 0 100%;
-}
-
-}
 
 
 
@@ -244,19 +257,7 @@ text-indent: 0;
 
 
 
-/* Tablet */
-@media (max-width: 992px) {
-    .course-box {
-        flex: 1 1 calc(50% - 25px);
-    }
-}
 
-/* Mobile */
-@media (max-width: 600px) {
-    .course-box {
-        flex: 1 1 100%;
-    }
-}
 /* ===== EXAM FULL FORMS ===== */
 
 .exam-box {
@@ -275,31 +276,6 @@ text-indent: 0;
     background: #f4f8ff;
     padding: 15px;
     margin-top: 30px;
-}
-.ladder-container {
-    display: flex;
-    gap: 40px;
-    flex-wrap: wrap;
-    margin-top: 30px;
-}
-
-.ladder-box {
-    flex: 1 1 45%;
-    background: #ffffff;
-    border-radius: 12px;
-    padding: 20px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-}
-
-.ladder {
-    list-style: none;
-    padding-left: 0;
-    text-align: center;
-    font-weight: 500;
-}
-
-.ladder li {
-    margin: 6px 0;
 }
 
 
@@ -379,17 +355,7 @@ h1 {
     text-align: center;
     
 }
-header {
-    text-align: left;
-}
 
-.bucket-nav {
-    text-align: left;
-}
-
-.header-links {
-    text-align: left;
-}
 
 @keyframes fadeIn {
     from { opacity: 0; }
@@ -409,23 +375,100 @@ header {
     gap: 25px;
 }
 
-.role-card {
-    background: #fff;
-    padding: 15px 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-    transition: transform 0.3s ease;
 
+
+
+
+.role-card {
+background: #fff;
+padding: 15px 20px;
+border-radius: 18px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+transition: 0.25s ease;
+cursor: pointer;
+overflow: hidden;
 }
 
 .role-card:hover {
-    transform: translateY(-4px);
+transform: translateY(-4px);
+box-shadow: 0 8px 20px rgba(0,0,0,0.10);
 }
+
+.role-card:active {
+transform: scale(0.97);
+}
+
+
+
+
 
 .role-card a {
     text-decoration: none;
     color: inherit;
 }
+
+.role-card h3 {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.role-card p {
+  margin-bottom: 0;
+  font-size: 13px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;   /* 👈 LIMIT TO 2 LINES */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+
+
+.role-card:hover img {
+  transform: scale(1.05);
+}
+
+
+/* CARD */
+.role-card {
+background: #fff;
+border-radius: 18px;
+padding: 15px 20px;
+text-align: center;
+box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+transition: 0.25s ease;
+cursor: pointer;
+overflow: hidden;
+min-width: 250px;
+flex: 0 0 250px;
+scroll-snap-align: start;
+}
+
+
+
+.role-card:hover {
+transform: translateY(-4px);
+box-shadow: 0 8px 20px rgba(0,0,0,0.10);
+}
+
+
+.role-card:active {
+  transform: scale(0.97);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .info-box {
     background: #f9fbfc;
@@ -520,7 +563,7 @@ header {
 
 
 .exam-card {
-  background-color: #;
+  background-color: #EBF2ED;
   padding: 20px;
   border-radius: 10px;
   margin: 20px 0;
@@ -534,8 +577,9 @@ header {
 .exam-card p {
   margin: 8px 0;
   line-height: 1.6;
-  color: white;
+  color: #333;
 }
+
 
 
 
@@ -555,14 +599,7 @@ header {
 }
 
 
-.role-card {
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
 
-.role-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-}
 
 
 
@@ -671,7 +708,7 @@ text-align:center;
 min-width:180px;
 transition:all 0.25s ease;
 cursor:pointer;
-background:#EBF2ED;
+background:#F0F4F1;
 }
 
 
@@ -692,41 +729,44 @@ box-shadow:0 6px 15px rgba(0,0,0,0.08);
 
 
 
-.career-header{
-display:flex;
-justify-content:space-between;
-align-items:center;
-width:100%;
-margin-bottom:20px;
+.career-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 25px;
+  padding-top: 20px;
+  gap: 12px;
+  flex-wrap: wrap;
 }
 
-.career-title{
-margin:0;
+.career-header h2 {
+  font-size: 26px;
+  line-height: 1.15;
+  margin:0;
 }
 
-.career-actions{
-display:flex;
-gap:20px;
-font-weight:500;
-cursor:pointer;
+.career-action button {
+  margin-left: 10px;
+  padding: 8px 14px;
+  border: none;
+  background: #fff;
+  border-radius: 14px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.career-action button:hover {
+  background: #f1f5f9;
 }
 
 
-.career-actions button{
-background:none;
-border:none;
-cursor:pointer;
-font-size:16px;
-color:#333;
-}
 
-.career-actions button:focus{
-outline:none;
-}
 
-.career-actions button:hover{
-text-decoration:underline;
-}
+
+
+
 
 
 
@@ -1100,22 +1140,7 @@ margin:6px 0;
 
 
 
-@media (max-width: 768px) {
 
-.story-text{
-padding: 18px;
-}
-
-.story-text p{
-font-size: 16px;
-line-height: 1.9;
-}
-
-.story-heading{
-font-size: 22px;
-}
-
-}
 
 
 
@@ -1366,10 +1391,10 @@ main-container {
 }
 
 .blue   { border-left: 3px solid #4a7cff; }
-.green  { border-left: 3ppx solid #00b894; }
-.orange { border-left: 3px solid #f59e0b; }
-.red    { border-left: 3px solid #ef4444; }
-.lavender { border-left: 3px solid #7C3AED; }
+.green  { border-left: 3px solid #00b894; }
+.orange { border-left: 8px solid #f59e0b; border-right: 8px solid #f59e0b;}
+.red    { border-left: 8px solid #ef4444; border-right: 8px solid #ef4444;}
+.lavender { border-left: 8px solid #7C3AED; border-right: 8px solid #7C3AED}
 .green  { border-left: 3px solid #10b981; }
 .grey   { border-left: 3px solid #9ca3af; }
 .pink   { border-left: 3px solid #ec4899; }
@@ -1377,28 +1402,27 @@ main-container {
 .olive  { border-left: 3px solid #A8D66D; }
 .beige  { border-left: 3px solid #c8a97e; }
 .peach  { border-left: 3px solid #ffb38a; }
-.teal   { border-left: 3px solid #14b8a6; }
+.teal   { border-left: 8px solid #14b8a6; border-right: 8px solid #14b8a6; }
 .coral  { border-left: 3px solid #fb7185; }
 .rose   { border-left: 3px solid #e879f9; }
 
 
 
 .blue   { background: #e8f2ff; color: #333; }
-.lavender { background: #E6E6FA; color: #333; }
+.lavender { background: #FAFAFA; color: #333; }
 .green  { background: #e6fffa; color: #333; }
-.orange { background: #fff4e6; color: #333; }
-.red    { background: #ffe4e6; color: #dc2626; }
+.orange { background: #FAFAFA; color: #333; }
+.red    { background: #FAFAFA; color: #333; }
 .green  { background: #e6f7f1; color: #333; }
 .grey   { background: #e5e7eb; color: #333; }
 .pink   { background: #fce7f3; color: #333; }
 .brown  { background: #f3e5d8; color: #5a3e2b; }
 .olive  { background: #f4faea; color: #333; }
-.beige  { background: #f7efe5; color: #4e342e; }
+.beige  { background: #f7efe5; color: #333; }
 .peach  { background: #fff2eb; color: #333; }
-.teal   { background: #e6fffb; color: #0f766e; }
-.coral  { background: #fff1f2; color: #be123c; }
+.teal   { background: #FAFAFA; color: #333; }
+.coral  { background: #fff1f2; color: #333; }
 .rose   { background: #fdf4ff; color: #333; }
-
 
 
 .orange{
@@ -1407,7 +1431,6 @@ border-right:8px solid #f59e0b;
 border-top:0.5px solid #f59e0b;
 border-bottom:0.5px solid #f59e0b;
 background:#FAFAFA;
-color:#333;
 }
 
 .red{
@@ -1416,7 +1439,6 @@ border-right:8px solid #ef4444;
 border-top:0.5px solid #ef4444;
 border-bottom:0.5px solid #ef4444;
 background:#FAFAFA;
-color:#333;
 }
 
 .lavender{
@@ -1425,7 +1447,6 @@ border-right:8px solid #7C3AED;
 border-top:0.5px solid #7C3AED;
 border-bottom:0.5px solid #7C3AED;
 background:#FAFAFA;
-color:#333;
 }
 
 .teal{
@@ -1434,8 +1455,8 @@ border-right:8px solid #14b8a6;
 border-top:0.5px solid #14b8a6;
 border-bottom:0.5px solid #14b8a6;
 background:#FAFAFA;
-color:#333;
 }
+
 
 
 .day-life {
@@ -1446,50 +1467,14 @@ color:#333;
 
 
 
-.role-card {
-  padding: 15px 20px;
-  transition: 0.2s;
-  text-align: center;
-  border: 2px solid #e5e7eb;
-  text-decoration: none;
-  color: inherit;
-  display: block;
-}
-
-
-.role-card h3 {
-  margin-bottom: 5px;
-  font-size: 20px;
-}
-
-.role-card p {
-  margin-bottom: 0;
-  font-size: 13px;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;   /* 👈 LIMIT TO 2 LINES */
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
 
 
 
-.role-card {
-  cursor: pointer;
-}
 
-.role-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 22px rgba(0,0,0,0.15);
-  border: 1px solid #e0e0e0;
-}
 
-.role-card:active {
-  transform: scale(0.97);
-}
 
-.role-card h3 {
-  font-size: 20px;
-}
+
+
 
 .career-icon {
   font-size: 22px;
@@ -1689,29 +1674,9 @@ color:#333;
   scroll-snap-type: x mandatory;
 }
 
-/* CARD */
-.role-card {
-  background: #fff;
-  border-radius: 15px;
-  padding: 15px;
-  text-align: center;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-  transition: 0.3s;
-}
 
-.role-card {
-  min-width: 250px;
-  flex: 0 0 250px;
-  scroll-snap-align: start;
-}
 
-.role-card:hover {
-  transform: none;
-}
 
-.role-card:active {
-  transform: scale(0.97);
-}
 
 /* ICON */
 .icon {
@@ -1958,10 +1923,6 @@ color:#333;
 
 
 
-
-
-
-
 .role-card {
   border-radius: 16px;
   overflow: hidden;
@@ -1985,6 +1946,12 @@ color:#333;
   transition: transform 0.4s ease;
 }
 
+
+
+
+
+
+
 /* TEXT AREA */
 .card-content {
   padding: 8px 12px;
@@ -2002,15 +1969,7 @@ color:#333;
   display: none;
 }
 
-/* HOVER EFFECT */
-.role-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 15px 35px rgba(0,0,0,0.12);
-}
 
-.role-card:hover img {
-  transform: scale(1.05);
-}
 
 
 
@@ -2100,14 +2059,6 @@ color:#333;
 
 
 
-
-
-
-
-
-
-
-
 .subject-section {
   padding: 50px 20px;
   text-align: left;
@@ -2147,13 +2098,14 @@ color:#333;
   cursor: pointer;
   font-size: 14px;
   transition: 0.2s;
+  border-left: 4px solid #7C3AED;
+  font-weight: normal;
+  
 
   width: auto;
   min-width: 150px;
   text-align: center;
   font-size: 16px;
-  border-left: 3px solid #7C3AED;
-  font-weight: normal;
   
 }
 
@@ -2189,30 +2141,6 @@ color:#333;
   margin: auto;
 }
 
-.career-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 25px;
-  padding-top: 20px;
-}
-
-.career-header h2 {
-  font-size: 30px;
-}
-
-.career-action button {
-  margin-left: 10px;
-  padding: 6px 12px;
-  border: none;
-  background: #fff;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-.career-action button:hover {
-  background: #f1f5f9;
-}
 
 
 
@@ -2563,9 +2491,8 @@ gap:30px;
 }
 
 .story-text p{
-} 
-
-
+flex:1;
+}
 
 .side-img{
 width:250px;
@@ -2599,7 +2526,6 @@ border-radius:15px;
     
     font-size:12px;
     color: #333;
-    border-left: 2px solid #333;
 }
 
 .college-links{
@@ -2626,6 +2552,50 @@ border-radius:15px;
 }
 
 
+/* ===== MOBILE RESPONSIVE ===== */
+
+@media (max-width: 768px){
+
+.course-box{
+flex: 0 0 100%;
+}
+
+}
+
+
+/* Tablet */
+@media (max-width: 992px) {
+    .course-box {
+        flex: 1 1 calc(50% - 25px);
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .course-box {
+        flex: 1 1 100%;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+.story-text{
+padding: 18px;
+}
+
+.story-text p{
+font-size: 16px;
+line-height: 1.9;
+}
+
+.story-heading{
+font-size: 22px;
+}
+
+}
+
+
 @media screen and (max-width: 600px) {
 
 body{
@@ -2638,7 +2608,7 @@ overflow-x:hidden;
 padding:15px;
 width:100%;
 box-sizing:border-box;
-background-color:#FAFAFA;
+background-color:#FBFBFA;
 }
 
 h1{
@@ -2665,10 +2635,30 @@ height:auto;
 font-size:18px;
 padding:14px 16px;
 line-height:1.4;
+border-radius:14px;
+font-weight:600;
+transition: 0.2s;
+box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+transform: scale(1);
 }
+
+
+.accordion-header:active{
+transform: scale(0.98);
+}
+
+
+.accordion-header:hover{
+box-shadow:0 4px 12px rgba(0,0,0,0.12);
+}
+
+
 
 .accordion-content{
 padding:15px;
+border-radius: 0 0 14px 14px;
+overflow: hidden;
+transition: all 0.3s ease;
 }
 
 .course-box{
@@ -2772,6 +2762,10 @@ padding-left:20px;
 
 }
 
+
+
+
+
 .story-text{
 display:flex;
 justify-content:space-between;
@@ -2800,12 +2794,17 @@ color:white;
 
 
 .story-card{
-background:#235AD1;
+
+
 padding:30px;
 border-radius:16px;
 margin:20px 0;
+
+background:#235AD1;
 background: linear-gradient(135deg, #163FA8, #0A56CC);
 }
 
-.college-categoty h4{
+
+.college-category h4{
 color:#082065;
+}
