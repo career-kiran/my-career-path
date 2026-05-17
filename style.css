@@ -220,7 +220,15 @@ font-size:18px;
 
 
 
+/* ===== MOBILE RESPONSIVE ===== */
 
+@media (max-width: 768px){
+
+.course-box{
+flex: 0 0 100%;
+}
+
+}
 
 
 
@@ -257,7 +265,19 @@ text-indent: 0;
 
 
 
+/* Tablet */
+@media (max-width: 992px) {
+    .course-box {
+        flex: 1 1 calc(50% - 25px);
+    }
+}
 
+/* Mobile */
+@media (max-width: 600px) {
+    .course-box {
+        flex: 1 1 100%;
+    }
+}
 /* ===== EXAM FULL FORMS ===== */
 
 .exam-box {
@@ -375,100 +395,23 @@ h1 {
     gap: 25px;
 }
 
-
-
-
-
 .role-card {
-background: #fff;
-padding: 15px 20px;
-border-radius: 18px;
-box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-transition: 0.25s ease;
-cursor: pointer;
-overflow: hidden;
+    background: #fff;
+    padding: 15px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+
 }
 
 .role-card:hover {
-transform: translateY(-4px);
-box-shadow: 0 8px 20px rgba(0,0,0,0.10);
+    transform: translateY(-4px);
 }
-
-.role-card:active {
-transform: scale(0.97);
-}
-
-
-
-
 
 .role-card a {
     text-decoration: none;
     color: inherit;
 }
-
-.role-card h3 {
-  margin-bottom: 5px;
-  font-size: 20px;
-}
-
-.role-card p {
-  margin-bottom: 0;
-  font-size: 13px;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;   /* 👈 LIMIT TO 2 LINES */
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-
-
-.role-card:hover img {
-  transform: scale(1.05);
-}
-
-
-/* CARD */
-.role-card {
-background: #fff;
-border-radius: 18px;
-padding: 15px 20px;
-text-align: center;
-box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-transition: 0.25s ease;
-cursor: pointer;
-overflow: hidden;
-min-width: 250px;
-flex: 0 0 250px;
-scroll-snap-align: start;
-}
-
-
-
-.role-card:hover {
-transform: translateY(-4px);
-box-shadow: 0 8px 20px rgba(0,0,0,0.10);
-}
-
-
-.role-card:active {
-  transform: scale(0.97);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .info-box {
     background: #f9fbfc;
@@ -599,7 +542,14 @@ box-shadow: 0 8px 20px rgba(0,0,0,0.10);
 }
 
 
+.role-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
 
+.role-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
 
 
 
@@ -729,44 +679,41 @@ box-shadow:0 6px 15px rgba(0,0,0,0.08);
 
 
 
-.career-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 25px;
-  padding-top: 20px;
-  gap: 12px;
-  flex-wrap: wrap;
+.career-header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+width:100%;
+margin-bottom:20px;
 }
 
-.career-header h2 {
-  font-size: 26px;
-  line-height: 1.15;
-  margin:0;
+.career-title{
+margin:0;
 }
 
-.career-action button {
-  margin-left: 10px;
-  padding: 8px 14px;
-  border: none;
-  background: #fff;
-  border-radius: 14px;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  white-space: nowrap;
-}
-
-.career-action button:hover {
-  background: #f1f5f9;
+.career-actions{
+display:flex;
+gap:20px;
+font-weight:500;
+cursor:pointer;
 }
 
 
+.career-actions button{
+background:none;
+border:none;
+cursor:pointer;
+font-size:16px;
+color:#333;
+}
 
+.career-actions button:focus{
+outline:none;
+}
 
-
-
-
+.career-actions button:hover{
+text-decoration:underline;
+}
 
 
 
@@ -1140,7 +1087,22 @@ margin:6px 0;
 
 
 
+@media (max-width: 768px) {
 
+.story-text{
+padding: 18px;
+}
+
+.story-text p{
+font-size: 16px;
+line-height: 1.9;
+}
+
+.story-heading{
+font-size: 22px;
+}
+
+}
 
 
 
@@ -1342,9 +1304,8 @@ main-container {
 .accordion-header::after {
   content: " (Tap to view)";
   font-size: 13px;
-  font-weight: 500;
-  color: #666;
-  margin-left: 8px;
+  color: #555;
+  margin-left: 6px;
 }
 
 .accordion-header:hover {
@@ -1353,13 +1314,43 @@ main-container {
   
 }
 
+
+
+
+
+
+.accordion-header {
+    display: block;
+    width: auto;
+    font-size: 18px;
+    font-weight: 600;
+    color: #111;
+
+    padding: 12px 16px;
+    margin: 12px 0;
+
+    border-radius: 14px;
+    border: 1px solid rgba(51, 51, 51, 0.4);
+
+    background: rgba(255, 255, 255, 0.15); /* glass effect */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
 .accordion-header {
   background: #E6E6FA;   /* THIS adds box color */
 }
 
 
-
-
+.accordion-header {
+  background: #f9fafb;
+}
 
 .blue   { border-left: 3px solid #4a7cff; }
 .green  { border-left: 3px solid #00b894; }
@@ -1401,7 +1392,7 @@ border-left:8px solid #f59e0b;
 border-right:8px solid #f59e0b;
 border-top:0.5px solid #f59e0b;
 border-bottom:0.5px solid #f59e0b;
-background:#fffaf5;
+background:#FAFAFA;
 }
 
 .red{
@@ -1409,7 +1400,7 @@ border-left:8px solid #ef4444;
 border-right:8px solid #ef4444;
 border-top:0.5px solid #ef4444;
 border-bottom:0.5px solid #ef4444;
-background:#fffafa;
+background:#FAFAFA;
 }
 
 .lavender{
@@ -1417,7 +1408,7 @@ border-left:8px solid #7C3AED;
 border-right:8px solid #7C3AED;
 border-top:0.5px solid #7C3AED;
 border-bottom:0.5px solid #7C3AED;
-background:#fcfaff;
+background:#FAFAFA;
 }
 
 .teal{
@@ -1425,11 +1416,8 @@ border-left:8px solid #14b8a6;
 border-right:8px solid #14b8a6;
 border-top:0.5px solid #14b8a6;
 border-bottom:0.5px solid #14b8a6;
-background:#f8fffd;
+background:#FAFAFA;
 }
-
-
-
 
 
 
@@ -1441,14 +1429,50 @@ background:#f8fffd;
 
 
 
+.role-card {
+  padding: 15px 20px;
+  transition: 0.2s;
+  text-align: center;
+  border: 2px solid #e5e7eb;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+
+.role-card h3 {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.role-card p {
+  margin-bottom: 0;
+  font-size: 13px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;   /* 👈 LIMIT TO 2 LINES */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 
 
 
+.role-card {
+  cursor: pointer;
+}
 
+.role-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.15);
+  border: 1px solid #e0e0e0;
+}
 
+.role-card:active {
+  transform: scale(0.97);
+}
 
-
-
+.role-card h3 {
+  font-size: 20px;
+}
 
 .career-icon {
   font-size: 22px;
@@ -1648,9 +1672,29 @@ background:#f8fffd;
   scroll-snap-type: x mandatory;
 }
 
+/* CARD */
+.role-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
 
+.role-card {
+  min-width: 250px;
+  flex: 0 0 250px;
+  scroll-snap-align: start;
+}
 
+.role-card:hover {
+  transform: none;
+}
 
+.role-card:active {
+  transform: scale(0.97);
+}
 
 /* ICON */
 .icon {
@@ -1897,6 +1941,10 @@ background:#f8fffd;
 
 
 
+
+
+
+
 .role-card {
   border-radius: 16px;
   overflow: hidden;
@@ -1920,12 +1968,6 @@ background:#f8fffd;
   transition: transform 0.4s ease;
 }
 
-
-
-
-
-
-
 /* TEXT AREA */
 .card-content {
   padding: 8px 12px;
@@ -1943,7 +1985,15 @@ background:#f8fffd;
   display: none;
 }
 
+/* HOVER EFFECT */
+.role-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+}
 
+.role-card:hover img {
+  transform: scale(1.05);
+}
 
 
 
@@ -2115,6 +2165,32 @@ background:#f8fffd;
   margin: auto;
 }
 
+.career-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  padding-top: 20px;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.career-header h2 {
+  font-size: 30px;
+}
+
+.career-action button {
+  margin-left: 10px;
+  padding: 6px 12px;
+  border: none;
+  background: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.career-action button:hover {
+  background: #f1f5f9;
+}
 
 
 
@@ -2526,48 +2602,7 @@ border-radius:15px;
 }
 
 
-/* ===== MOBILE RESPONSIVE ===== */
 
-@media (max-width: 768px){
-
-.course-box{
-flex: 0 0 100%;
-}
-
-}
-
-
-/* Tablet */
-@media (max-width: 992px) {
-    .course-box {
-        flex: 1 1 calc(50% - 25px);
-    }
-}
-
-/* Mobile */
-@media (max-width: 600px) {
-    .course-box {
-        flex: 1 1 100%;
-    }
-}
-
-
-@media (max-width: 768px) {
-
-.story-text{
-padding: 18px;
-}
-
-.story-text p{
-font-size: 16px;
-line-height: 1.9;
-}
-
-.story-heading{
-font-size: 22px;
-}
-
-}
 
 
 @media screen and (max-width: 600px) {
@@ -2609,40 +2644,14 @@ height:auto;
 font-size:18px;
 padding:14px 16px;
 line-height:1.4;
-border-radius:14px;
-font-weight:600;
-transition: 0.2s;
-box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-transform: scale(1);
-
-
-text-align:center;
 }
-
-}
-
-
-
-.accordion-header:active{
-transform: scale(0.98);
-}
-
-
-.accordion-header:hover{
-box-shadow:0 4px 12px rgba(0,0,0,0.12);
-}
-
-
 
 .accordion-content{
 padding:15px;
-border-radius: 0 0 14px 14px;
-overflow: hidden;
-transition: all 0.3s ease;
 }
 
 .course-box{
-margin-bottom:5px;
+margin-bottom:20px;
 }
 
 }
