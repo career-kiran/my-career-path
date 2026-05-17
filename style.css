@@ -1665,11 +1665,23 @@ background:#FAFAFA;
 
 /* CARDS GRID */
 .card-container {
-  display: flex;
-  gap: 15px;
-  overflow-x: auto;
-  padding-bottom: 10px;
-  scroll-snap-type: x mandatory;
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    scroll-snap-type: x mandatory;
+
+    scrollbar-width: thin;
+}
+
+/* Chrome / Android */
+.card-container::-webkit-scrollbar {
+    height: 4px;
+}
+
+.card-container::-webkit-scrollbar-thumb {
+    background: #444;
+    border-radius: 10px;
 }
 
 /* CARD */
@@ -2796,4 +2808,28 @@ background: linear-gradient(135deg, #163FA8, #0A56CC);
 
 .college-category h4{
 color:#082065;
+}
+
+
+
+.self-check{
+background:#EBF0EC;
+border:1px solid #e3e8f5;
+padding:20px;
+border-radius:10px;
+margin-top:25px;
+}
+
+.self-check h2{
+margin-top:0;
+font-size:22px;
+}
+
+.self-check ul{
+margin-top:10px;
+padding-left:20px;
+}
+
+.self-check li{
+margin-bottom:8px;
 }
