@@ -7,7 +7,7 @@ window.careers = [
 {
   id: "3d-animator",
   name: "3D Animator",
-  description: "Creates movement for 3D characters and objects used in movies, animation, video games, and digital media.",
+  image: "images/3d-animator.jpeg",
   page: "3d-animator.html",
   icon: "🧊",
   bucket: "Creativity and Expression",
@@ -24,7 +24,7 @@ window.careers = [
 {
   id: "3d-artist",
   name: "3D Artist",
-  description: "Creates 3D models, textures, and environments used in games, films, and digital media.",
+  image:"images/3d-artist.jpeg",
   page: "3d-artist.html",
   icon: "🧊",
   bucket: "Creativity and Expression",
@@ -37,14 +37,18 @@ window.careers = [
 },
 
 {
-name: "Actor",
-description: "Performs characters in films, television shows, theatre, and other productions.",
-page: "actor.html",
-bucket: "Creativity and Expression",
-category: "Performing",
-subjects: ["Theatre","Drama","Performing Arts","Media Studies"],
-levels: ["10th", "12th","Graduation"],
-stream: ["Arts","Science","Commerce"]
+    id: "actor",
+    name: "Actor",
+    image: "images/actor.jpeg",
+    page: "actor.html",
+    icon: "🎭",
+    bucket: "Creativity and Expression",
+    category: "Performing and Entertaining",
+    subjects: ["Sociology", "Psychology", "Art & Design", "Language & Literature"],
+    levels: ["10th", "12th", "Graduation"],
+    stream: ["Arts", "Science", "Commerce"],
+    type: "Private",
+    tags: ["acting", "performing arts", "cinema", "theatre", "entertainment"]
 },
 
 {
@@ -79,6 +83,21 @@ stream: ["Arts","Science","Commerce"]
 
 
 {
+    id: "ai-content-strategist",
+    name: "AI Content Strategist",
+    image: "images/ai-content-strategist.jpeg",
+    page: "ai-content-strategist.html",
+    icon: "🤖",
+    bucket: "Creativity and Expression",
+    category: "Writing and Content Creation",
+    subjects: ["Language and Literature"],
+    levels: ["10th", "12th", "Graduation"],
+    stream: ["Arts", "Science", "Commerce"],
+    type: "Private",
+    tags: ["AI", "content", "marketing", "writing", "strategy"]
+},
+
+{
   id: "ai-engineer",
   name: "AI Engineer",
   description: "AI Engineers build intelligent systems that can learn from data, make decisions, and improve over time. They work on technologies like machine learning, chatbots, and automation.",
@@ -96,7 +115,7 @@ stream: ["Arts","Science","Commerce"]
 {
   id: "animator",
   name: "Animator",
-  description: "Creates moving visuals and animations for films, video games, advertisements, and digital media.",
+  image: "images/animator.jpeg",
   page: "animator.html",
   icon: "🎭",
   bucket: "Creativity and Expression",
@@ -112,7 +131,7 @@ stream: ["Arts","Science","Commerce"]
 {
   id: "art-director",
   name: "Art Director",
-  description: "Leads the visual style and design of projects in advertising, films, media, and digital content.",
+  image: "images/art-director.jpeg",
   page: "art-director.html",
   icon: "🎨",
   bucket: "Creativity and Expression",
@@ -137,14 +156,18 @@ stream: ["Arts","Science","Commerce"]
 },
 
 {
-name: "Author / Writer",
-description: "Writes books such as novels, stories, educational books, or other published works.",
-page: "author.html",
-bucket: "Creativity and Expression",
-category: "Writing",
-subjects: ["Literature","Language","Creative Writing"],
-levels: ["10th", "12th","Graduation"],
-stream: ["Arts","Science","Commerce"]
+    id: "author",
+    name: "Author",
+    image: "images/author.jpeg",
+    page: "author.html",
+    icon: "🖊️",
+    bucket: "Creativity and Expression",
+    category: "Writing and Content Creation",
+    subjects: ["Language and Literature"],
+    levels: ["10th", "12th", "Graduation"],
+    stream: ["Arts", "Science", "Commerce"],
+    type: "Private",
+    tags: ["writing", "storytelling", "publishing", "books", "creative writing"]
 },
 
 {
@@ -189,6 +212,20 @@ stream: ["Arts","Science","Commerce"]
     stream: ["Science"],
     type: "Private",
     tags: ["avionics", "aircraft", "electronics", "aviation", "systems"]
+},
+
+{
+    id: "ayurvedic-doctor",
+    name: "Ayurvedic Doctor",
+    image: "images/ayurvedic-doctor.jpeg",
+    page: "ayurvedic-doctor.html",
+    icon: "🌿",
+    bucket: "Health Care",
+    subjects: ["Biology", "Chemistry"],
+    levels: ["12th", "Graduation"],
+    stream: ["Science"],
+    type: "Government & Private",
+    tags: ["ayurveda", "ayurvedic doctor", "herbal medicine", "natural healing", "panchakarma", "healthcare", "medicine"]
 },
 
 
@@ -271,10 +308,26 @@ stream: ["Arts","Science","Commerce"]
     tags: ["chemical", "process", "manufacturing", "industry", "production"]
 },
 
+
+{
+    id: "choreographer",
+    name: "Choreographer",
+    image: "images/choreographer.jpeg",
+    page: "choreographer.html",
+    icon: "🕺",
+    bucket: "Creativity and Expression",
+    category: "Performing and Entertaining",
+    subjects: ["Physical Education", "Art & Design", "Psychology", "Language & Literature"],
+    levels: ["10th", "12th", "Graduation"],
+    stream: ["Arts", "Science", "Commerce"],
+    type: "Private",
+    tags: ["dance", "choreography", "performance", "stage", "entertainment"]
+},
+
 {
     id: "cinematographer",
     name: "Cinematographer",
-    description: "Plans camera shots, lighting, and visual style for movies, advertisements, and digital content.",
+    image: "images/cinematographer.jpeg",
     page: "cinematographer.html",
     icon: "🎥",
     bucket: "Creativity and Expression",
@@ -395,16 +448,6 @@ stream: ["Arts","Science","Commerce"]
   tags: ["computer vision", "ai", "machine learning", "deep learning", "image processing", "opencv", "python", "data"]
 },
 
-{
-  name: "Concept Artist",
-  description: "Creates visual ideas and designs for characters, environments, and objects used in movies, games, animation, and digital media.",
-  page: "concept-artist.html",
-  bucket: "Creativity and Expression",
-  category: "Designing",
-  subjects: ["Art", "Design", "Animation", "Media Studies"],
-  levels: ["10th", "12th", "Graduation"],
-  stream: ["Arts", "Science", "Commerce"]
-},
 
 {
 name: "Content Creator",
@@ -430,16 +473,19 @@ stream: ["Arts","Commerce","Science"]
 
 
 {
-name: "Content Writer",
-description: "Writes articles, blogs, website content, and online posts.",
-page: "content-writer.html",
-bucket: "Creativity and Expression",
-category: "Writing",
-subjects: ["Literature","Communication","Media Studies"],
-levels: ["12th","Graduation"],
-stream: ["Arts","Science","Commerce"]
+    id: "content-writer",
+    name: "Content Writer",
+    image: "images/content-writer.jpeg",
+    page: "content-writer.html",
+    icon: "📝",
+    bucket: "Creativity and Expression",
+    category: "Writing and Content Creation",
+    subjects: ["Language and Literature"],
+    levels: ["10th", "12th", "Graduation"],
+    stream: ["Arts", "Science", "Commerce"],
+    type: "Private",
+    tags: ["writing", "blogs", "articles", "content", "creative writing"]
 },
-
 {
     id: "control-systems-engineer",
     name: "Control Systems Engineer",
@@ -486,14 +532,18 @@ stream: ["Arts","Commerce","Science"]
 
 
 {
-name: "Dancer",
-description: "Performs dance in stage shows, films, television, and live performances.",
-page: "dancer.html",
-bucket: "Creativity and Expression",
-category: "Performing",
-subjects: ["Dance","Performing Arts","Physical Education"],
-levels: ["12th","Graduation"],
-stream: ["Arts","Science","Commerce"]
+    id: "dancer",
+    name: "Dancer",
+    image:"images/dancer.jpeg",
+    page: "dancer.html",
+    icon: "💃",
+    bucket: "Creativity and Expression",
+    category: "Performing and Entertaining",
+    subjects: ["Physical Education", "Art & Design", "Psychology", "Language & Literature"],
+    levels: ["10th", "12th", "Graduation"],
+    stream: ["Arts", "Science", "Commerce"],
+    type: "Private",
+    tags: ["dance", "performance", "stage", "entertainment", "choreography"]
 },
 
 
@@ -538,6 +588,21 @@ stream: ["Arts","Science","Commerce"]
   stream: ["Science", "Commerce"],
   type: "Private",
   tags: ["data", "analysis", "technology", "problem-solving"]
+},
+
+
+{
+    id: "dentist",
+    name: "Dentist",
+    image:"images/dentist.jpeg",
+    page: "dentist.html",
+    icon: "🦷",
+    bucket: "Health Care",
+    subjects: ["Biology", "Chemistry"],
+    levels: ["12th", "Graduation"],
+    stream: ["Science"],
+    type: "Government & Private",
+    tags: ["dentist", "dental", "teeth", "oral health", "dental care", "dental surgery"]
 },
 
 {
@@ -587,6 +652,7 @@ stream: ["Arts","Science","Commerce"]
 },
 
 
+
 {
 name: "DJ (Disc Jockey)",
 description: "Plays and mixes music at events, clubs, radio stations, and live shows.",
@@ -598,6 +664,20 @@ levels: ["12th","Graduation"],
 stream: ["Arts","Science","Commerce"]
 },
 
+
+{
+    id: "doctor",
+    name: "Doctor",
+    image: "images/doctor.jpeg",
+    page: "doctor.html",
+    icon: "🩺",
+    bucket: "Health Care",
+    subjects: ["Biology", "Chemistry"],
+    levels: ["12th", "Graduation"],
+    stream: ["Science"],
+    type: "Government & Private",
+    tags: ["doctor", "physician", "medical", "hospital", "healthcare", "medicine"]
+},
 
 {
 name: "Editor (Publishing / Media)",
@@ -718,7 +798,7 @@ stream: ["Arts","Science","Commerce"]
 {
     id: "fashion-designer",
     name: "Fashion Designer",
-    description: "Creates stylish clothes, outfits, and fashion accessories for people, brands, and fashion shows.",
+    image:"images/fashion-designer.jpeg",
     page: "fashion-designer.html",
     icon: "👗",
     bucket: "Creativity and Expression",
@@ -746,7 +826,7 @@ stream: ["Arts","Science","Commerce"]
 {
     id: "film-director",
     name: "Film Director",
-    description: "Leads the creative process of movies, short films, advertisements, and video productions.",
+    image: "images/film-director.jpeg",
     page: "film-director.html",
     icon: "🎬",
     bucket: "Creativity and Expression",
@@ -801,16 +881,7 @@ stream: ["Arts","Science","Commerce"]
   tags: ["full stack development", "web development", "frontend", "backend", "coding", "software"]
 },
 
-{
-  name: "Game Artist",
-  description: "Creates characters, environments, and visual elements used in video games.",
-  page: "game-artist.html",
-  bucket: "Creativity and Expression",
-  category: "Designing",
-  subjects: ["Art", "Design", "Animation", "Computer Science"],
-  levels: ["10th", "12th", "Graduation"],
-  stream: ["Arts", "Science", "Commerce"]
-},
+
 
 
 
@@ -873,7 +944,7 @@ stream: ["Arts","Science","Commerce"]
 {
     id: "graphic-designer",
     name: "Graphic Designer",
-    description: "Creates visual designs for brands, advertisements, social media, websites, packaging, and digital media using typography, colors, images, and layouts.",
+    image:"images/graphic-designer.jpeg",
     page: "graphic-designer.html",
     icon: "🎨",
     bucket: "Creativity and Expression",
@@ -899,16 +970,7 @@ stream: ["Arts","Science","Commerce"]
   tags: ["electronics", "hardware", "circuits", "embedded systems", "engineering"]
 },
 
-{
-name: "Illustrator",
-description: "Creates drawings and visual artwork for books, brands, and media.",
-page: "illustrator.html",
-bucket: "Creativity and Expression",
-category: "Designing",
-subjects: ["Art","Design"],
-levels: ["10th", "12th","Graduation"],
-stream: ["Arts"]
-},
+
 
 
 {
@@ -942,16 +1004,7 @@ stream: ["Arts"]
 },
 
 
-{
-name: "Interior Designer",
-description: "Designs and plans the inside of homes, offices, and other spaces to make them functional and beautiful.",
-page: "interior-designer.html",
-bucket: "Creativity and Expression",
-category: "Designing",
-subjects: ["Art","Design","Home science","Psychology"],
-levels: ["10th","12th","Graduation"],
-stream: ["Arts","Science","Commerce"]
-},
+
 
 
 {
@@ -1058,14 +1111,18 @@ stream: ["Arts","Science","Commerce"]
 
 
 {
-name: "Journalist",
-description: "Researches and reports news stories for newspapers, television, and digital media.",
-page: "journalist.html",
-bucket: "Creativity and Expression",
-category: "Writing",
-subjects: ["Journalism","Literature","Political Science"],
-levels: ["12th","Graduation"],
-stream: ["Arts","Science","Commerce"]
+    id: "journalist",
+    name: "Journalist",
+    image: "images/journalist.jpeg",
+    page: "journalist.html",
+    icon: "📰",
+    bucket: "Creativity and Expression",
+    category: "Writing and Content Creation",
+    subjects: ["Language and Literature"],
+    levels: ["10th", "12th", "Graduation"],
+    stream: ["Arts", "Science", "Commerce"],
+    type: "Private",
+    tags: ["journalism", "news", "reporting", "media", "writing"]
 },
 
 
@@ -1164,37 +1221,36 @@ stream: ["Arts","Science","Commerce"]
 
 
 
+
+
 {
-name: "Motion Graphics Designer",
-description: "Creates animated graphics, titles, and visual effects used in videos, advertisements, films, and digital media.",
-page: "motion-graphics-designer.html",
-bucket: "Creativity and Expression",
-category: "Designing",
-subjects: ["Art", "Design", "Animation", "Computer Science", "Media Studies"],
-levels: ["10th", "12th", "Graduation"],
-stream: ["Arts", "Science", "Commerce"]
+    id: "music-composer",
+    name: "Music Composer",
+    image:"images/music-composer.jpeg",
+    page: "music-composer.html",
+    icon: "🎼",
+    bucket: "Creativity and Expression",
+    category: "Music and Sound Creation",
+    subjects: ["Language & Literature", "Art & Design"],
+    levels: ["10th", "12th", "Graduation"],
+    stream: ["Arts", "Science", "Commerce"],
+    type: "Private",
+    tags: ["music", "composer", "melody", "film music", "background score", "songwriting"]
 },
 
 {
-name: "Music Composer",
-description: "Creates original music for films, albums, games, and other media.",
-page: "music-composer.html",
-bucket: "Creativity and Expression",
-category: "Music",
-subjects: ["Music","Composition","Sound Design"],
-levels: ["12th","Graduation"],
-stream: ["Arts","Science","Commerce"]
-},
-
-{
-name: "Music Producer",
-description: "Oversees the recording and production of songs and music tracks.",
-page: "music-producer.html",
-bucket: "Creativity and Expression",
-category: "Music",
-subjects: ["Music","Sound Engineering","Audio Production", "Media Studies"],
-levels: ["12th","Graduation"],
-stream: ["Arts","Science","Commerce"]
+    id: "music-producer",
+    name: "Music Producer",
+    image: "images/music-producer.jpeg",
+    page: "music-producer.html",
+    icon: "🎛️",
+    bucket: "Creativity and Expression",
+    category: "Music and Sound Creation",
+    subjects: ["Language & Literature", "Art & Design"],
+    levels: ["10th", "12th", "Graduation"],
+    stream: ["Arts", "Science", "Commerce"],
+    type: "Private",
+    tags: ["music", "producer", "beat making", "mixing", "recording", "audio production"]
 },
 
 
@@ -1277,6 +1333,20 @@ stream: ["Arts","Science","Commerce"]
   tags: ["nlp", "ai", "machine learning", "chatbots", "language", "python", "data"]
 },
 
+
+{
+    id: "nurse",
+    name: "Nurse",
+    image: "images/nurse.jpeg",
+    page: "nurse.html",
+    icon: "👩‍⚕️",
+    bucket: "Health Care",
+    subjects: ["Biology", "Chemistry"],
+    levels: ["12th", "Graduation"],
+    stream: ["Science"],
+    type: "Government & Private",
+    tags: ["nurse", "nursing", "healthcare", "patient care", "hospital", "medical support"]
+},
 {
   id: "pcb-design-engineer",
   name: "PCB Design Engineer",
@@ -1407,13 +1477,29 @@ stream: ["Arts","Science","Commerce"]
 
 {
 name: "Product Designer",
-description: "Designs physical or digital products used by people everyday.",
+image:"images/product-designer.jpeg",
 page: "product-designer.html",
 bucket: "Creativity and Expression",
 category: "Designing",
 subjects: ["Art","Design","Computer Science","Physics","Psychology"],
 levels: ["12th","Graduation"],
 stream: ["Science","Arts"]
+},
+
+
+{
+    id: "radio-jockey",
+    name: "Radio Jockey",
+    image: "images/radio-jockey.jpeg",
+    page: "radio-jockey.html",
+    icon: "🎙️",
+    bucket: "Creativity and Expression",
+    category: "Performing and Entertaining",
+    subjects: ["Language & Literature", "Psychology", "Art & Design"],
+    levels: ["10th", "12th", "Graduation"],
+    stream: ["Arts", "Science", "Commerce"],
+    type: "Private",
+    tags: ["radio", "hosting", "podcast", "communication", "entertainment"]
 },
 
 
@@ -1473,15 +1559,35 @@ levels: ["10th", "12th","Graduation"],
 stream: ["Arts","Science"]
 },
 
+
 {
-name: "Singer",
-description: "Performs songs for concerts, films, albums, and live performances.",
-page: "singer.html",
-bucket: "Creativity and Expression",
-category: "Music",
-subjects: ["Music","Performing Arts"],
-levels: ["12th","Graduation"],
-stream: ["Arts","Science","Commerce"]
+    id: "script-writer",
+    name: "Script Writer",
+    image: "images/script-writer.jpeg",
+    page: "script-writer.html",
+    icon: "📝",
+    bucket: "Creativity and Expression",
+    category: "Film Making and Video Creation",
+    subjects: ["Language & Literature"],
+    levels: ["10th", "12th", "Graduation"],
+    stream: ["Arts", "Science", "Commerce"],
+    type: "Private",
+    tags: ["screenwriting", "storytelling", "cinema", "dialogue writing", "film writing"]
+},
+
+{
+    id: "singer",
+    name: "Singer / Vocal Artist",
+    image: "images/singer.jpeg",
+    page: "singer.html",
+    icon: "🎤",
+    bucket: "Creativity and Expression",
+    category: "Music and Sound Creation",
+    subjects: ["Language & Literature", "Art & Design"],
+    levels: ["10th", "12th", "Graduation"],
+    stream: ["Arts", "Science", "Commerce"],
+    type: "Private",
+    tags: ["singing", "music", "vocal", "playback", "performance", "entertainment"]
 },
 
 {
@@ -1540,14 +1646,18 @@ stream: ["Arts","Science"]
 },
 
 {
-name: "Sound Engineer",
-description: "Records, mixes, and manages audio for music, films, and live events.",
-page: "sound-engineer.html",
-bucket: "Creativity and Expression",
-category: "Music",
-subjects: ["Music","Sound Engineering","Audio Technology"],
-levels: ["12th","Graduation"],
-stream: ["Arts","Science","Commerce"]
+    id: "sound-engineer",
+    name: "Sound Engineer",
+    image: "images/sound-engineer.jpeg",
+    page: "sound-engineer.html",
+    icon: "🎧",
+    bucket: "Creativity and Expression",
+    category: "Music and Sound Creation",
+    subjects: ["Physics", "Art & Design"],
+    levels: ["10th", "12th", "Graduation"],
+    stream: ["Arts", "Science", "Commerce"],
+    type: "Private",
+    tags: ["sound", "audio", "mixing", "recording", "studio", "live sound"]
 },
 
 
@@ -1563,16 +1673,7 @@ stream: ["Arts","Science","Commerce"]
 },
 
 
-{
-  name: "Storyboard Artist",
-  description: "Creates visual sketches that show how scenes will appear in movies, animation, advertisements, and video productions.",
-  page: "storyboard-artist.html",
-  bucket: "Creativity and Expression",
-  category: "Designing",
-  subjects: ["Art", "Design", "Animation", "Media Studies"],
-  levels: ["10th", "12th", "Graduation"],
-  stream: ["Arts", "Science", "Commerce"]
-},
+
 
 {
   id: "system-administrator",
@@ -1633,16 +1734,7 @@ stream: ["Arts","Science","Commerce"]
 },
 
 
-{
-name: "Textile Designer",
-description: "Designs patterns and prints for fabrics used in clothing, home décor, and other textile products.",
-page: "textile-designer.html",
-bucket: "Creativity and Expression",
-category: "Designing",
-subjects: ["Art", "Design", "Home Science", "Computer Science"],
-levels: ["10th", "12th", "Graduation"],
-stream: ["Arts", "Science", "Commerce"]
-},
+
 
 
 {
@@ -1659,7 +1751,7 @@ stream: ["Arts","Science","Commerce"]
 {
     id: "ui-ux-designer",
     name: "UI/UX Designer",
-    description: "Designs user-friendly mobile apps, websites, and digital products by improving user experience and interface design.",
+    image: "images/ui-ux-designer.jpeg",
     page: "ui-ux-designer.html",
     icon: "📱",
     bucket: "Creativity and Expression",
@@ -1673,9 +1765,25 @@ stream: ["Arts","Science","Commerce"]
 
 
 {
+    id: "ux-content-designer",
+    name: "UX / Content Designer",
+    image: "images/ux-content-designer.jpeg",
+    page: "ux-content-designer.html",
+    icon: "🖥️",
+    bucket: "Creativity and Expression",
+    category: "Writing and Content Creation",
+    subjects: ["Language and Literature", "Psychology", "Art and Design"],
+    levels: ["12th", "Graduation"],
+    stream: ["Arts", "Science", "Commerce"],
+    type: "Private",
+    tags: ["ux", "content design", "ui", "writing", "digital products"]
+},
+
+
+{
     id: "vfx-artist",
     name: "VFX Artist",
-    description: "Creates visual effects, CGI scenes, and digital graphics for movies, games, advertisements, and digital media.",
+    image: "images/vfx-artist.jpeg",
     page: "vfx-artist.html",
     icon: "🪄",
     bucket: "Creativity and Expression",
@@ -1691,7 +1799,7 @@ stream: ["Arts","Science","Commerce"]
 {
     id: "video-editor",
     name: "Video Editor",
-    description: "Edits raw footage into engaging videos for films, YouTube, advertisements, and digital media.",
+    image: "images/video-editor.jpeg",
     page: "video-editor.html",
     icon: "✂️",
     bucket: "Creativity and Expression",
@@ -1719,14 +1827,18 @@ stream: ["Arts","Science","Commerce"]
 },
 
 {
-name: "Voice Artist (Voice Actor)",
-description: "Provides voice for animated characters, advertisements, films, audiobooks, and digital media.",
-page: "voice-artist.html",
-bucket: "Creativity and Expression",
-category: "Performing",
-subjects: ["Communication","Performing Arts","Media Studies"],
-levels: ["12th","Graduation"],
-stream: ["Arts","Science","Commerce"]
+    id: "voice-artist",
+    name: "Voice Artist",
+    image: "images/voice-artist.jpeg",
+    page: "voice-artist.html",
+    icon: "🎙️",
+    bucket: "Creativity and Expression",
+    category: "Performing and Entertaining",
+    subjects: ["Language & Literature", "Psychology", "Art & Design"],
+    levels: ["10th", "12th", "Graduation"],
+    stream: ["Arts", "Science", "Commerce"],
+    type: "Private",
+    tags: ["voice acting", "dubbing", "audio", "radio", "entertainment"]
 },
 
 
@@ -1749,7 +1861,7 @@ stream: ["Arts","Science","Commerce"]
 {
     id: "website-designer",
     name: "Website Designer",
-    description: "Designs attractive and user-friendly websites for businesses, brands, and online platforms.",
+    image: "images/website-designer.jpeg",
     page: "website-designer.html",
     icon: "💻",
     bucket: "Creativity and Expression",
