@@ -971,7 +971,19 @@ stream: ["Arts","Science","Commerce"]
 },
 
 
-
+{
+    id: "homeopathy-doctor",
+    name: "Homeopathy Doctor",
+    image: "images/homeopathy-doctor.jpeg",
+    page: "homeopathy-doctor.html",
+    icon: "🌸",
+    bucket: "Health Care",
+    subjects: ["Biology", "Chemistry"],
+    levels: ["12th", "Graduation"],
+    stream: ["Science"],
+    type: "Government & Private",
+    tags: ["homeopathy", "homeopathy doctor", "natural medicine", "holistic healing", "alternative medicine", "healthcare", "BHMS"]
+},
 
 {
   id: "industrial-automation-engineer",
@@ -1429,6 +1441,22 @@ levels: ["12th","Graduation"],
 stream: ["Arts","Science","Commerce"]
 },
 
+
+{
+    id: "physiotherapist",
+    name: "Physiotherapist",
+    image: "images/physiotherapist.jpeg",
+    page: "physiotherapist.html",
+    icon: "🏃",
+    bucket: "Health Care",
+    subjects: ["Biology", "Chemistry"],
+    levels: ["12th", "Graduation"],
+    stream: ["Science"],
+    type: "Government & Private",
+    tags: ["physiotherapist", "physiotherapy", "physical therapy", "rehabilitation", "pain relief", "exercise therapy", "BPT"]
+},
+
+
 {
     id: "platform-engineer",
     name: "Platform Engineer",
@@ -1779,6 +1807,20 @@ stream: ["Arts","Science","Commerce"]
     tags: ["ux", "content design", "ui", "writing", "digital products"]
 },
 
+
+{
+    id: "veterinary-doctor",
+    name: "Veterinary Doctor",
+    image: "images/veterinary-doctor.jpeg",
+    page: "veterinary-doctor.html",
+    icon: "🐾",
+    bucket: "Health Care",
+    subjects: ["Biology", "Chemistry"],
+    levels: ["12th", "Graduation"],
+    stream: ["Science"],
+    type: "Government & Private",
+    tags: ["veterinary doctor", "veterinarian", "animal doctor", "pet care", "animal healthcare", "veterinary science", "BVSc"]
+},
 
 {
     id: "vfx-artist",
