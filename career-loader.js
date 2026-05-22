@@ -40,15 +40,20 @@ if (
     card.className = "role-card";
 
     card.innerHTML = `
-  <a href="${career.page}">
-<img src="${career.image}" class="career-img">
+<a href="${career.page}">
 
-   <h3>
-  <span class="career-icon">${career.icon || ""}</span>
-  ${career.name}
-</h3>
-    <p>${career.description}</p>
-  </a>
+<div class="card-image">
+
+    <img src="${career.image}" class="career-img">
+
+    <div class="overlay-text">
+        <span class="career-icon">${career.icon || ""}</span>
+        ${career.name}
+    </div>
+
+</div>
+
+</a>
 `;
     careerList.appendChild(card);
   }
