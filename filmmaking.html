@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Role Name | My Career Path</title>
+<link rel="stylesheet" 
+href="style.css">
+
+</head>
+
+<body>
+<div id="header"></div>
+
+<script>
+fetch("header.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("header").innerHTML = data;
+});
+</script>
+
+
+<!-- ===== MAIN CONTENT ===== -->
+<div class="main">
+
+   
+
+
+<h1>Filmmaking & Video Creation</h1>
+
+
+<blockquote class="design-quote">
+  "If you enjoy telling stories through videos, films, or digital content,
+this area might interest you.<br><br>
+ Think about movies, YouTube videos, advertisements, or documentaries.
+Someone plans, shoots, edits, and produces them."
+</blockquote>
+
+<p>
+
+</p>
+
+<p>
+
+</p>
+
+<h3>Here are some careers in filmmaking:</h3>
+
+<div id="career-list" class="role-grid"></div>
+
+
+
+</div>
+
+
+<script src="career-data.js"></script>
+
+<script>
+
+const careerList = document.getElementById("career-list");
+
+window.careers.forEach(career => {
+
+if (career.category === "Filmmaking") {
+
+const card = document.createElement("div");
+
+card.className = "role-card";
+
+card.innerHTML = `
+<a href="${career.page}">
+<h3>${career.name}</h3>
+<p>${career.description}</p>
+</a>
+`;
+
+careerList.appendChild(card);
+
+}
+
+});
+
+</script>
+</body>
+</html>
