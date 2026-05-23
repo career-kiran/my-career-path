@@ -1516,6 +1516,20 @@ stream: ["Science","Arts"]
 
 
 {
+    id: "psychologist",
+    name: "Psychologist",
+    image: "images/psychologist.jpeg",
+    page: "psychologist.html",
+    icon: "🧠",
+    bucket: "Arts",
+    subjects: ["Psychology", "Biology", "Sociology", "Language & Literature"],
+    levels: ["12th", "Graduation"],
+    stream: ["Arts", "Science"],
+    type: "Government & Private",
+    tags: ["psychologist", "psychology", "mental health", "counselling", "therapy", "human behaviour"]
+},
+
+{
     id: "radio-jockey",
     name: "Radio Jockey",
     image: "images/radio-jockey.jpeg",
