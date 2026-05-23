@@ -680,6 +680,20 @@ stream: ["Arts","Science","Commerce"]
 },
 
 {
+    id: "economist",
+    name: "Economist",
+    image: "images/economist.jpeg",
+    page: "economist.html",
+    icon: "📈",
+    bucket: "Arts",
+    subjects: ["Economics", "Mathematics", "Statistics", "Sociology"],
+    levels: ["12th", "Graduation"],
+    stream: ["Arts", "Commerce"],
+    type: "Government & Private",
+    tags: ["economist", "economics", "finance", "economy", "business analysis", "policy making"]
+},
+
+{
 name: "Editor (Publishing / Media)",
 description: "Reviews, improves, and prepares written content for books, newspapers, and online publications.",
 page: "editor.html",
