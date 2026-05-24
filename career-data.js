@@ -276,6 +276,21 @@ window.careers = [
     tags: ["biomedical", "medical", "healthcare", "devices", "hospital"]
 },
 
+
+{
+    id: "biotechnologist",
+    name: "Biotechnologist",
+    image: "images/biotechnologist.jpeg",
+    page: "biotechnologist.html",
+    icon: "🧬",
+    bucket: "Science",
+    subjects: ["Biology", "Chemistry", "Genetics", "Microbiology"],
+    levels: ["Graduation"],
+    stream: ["Science"],
+    type: "Government & Private",
+    tags: ["biotechnologist", "biotechnology", "genetics", "research", "vaccines", "microbiology"]
+},
+
 {
     id: "biotechnology-engineer",
     name: "Biotechnology Engineer",
@@ -548,17 +563,17 @@ stream: ["Arts","Commerce","Science"]
 
 
 {
-  id: "data-analyst",
-  name: "Data Analyst",
-  description: "Data analysts collect and study data to find patterns and help companies make better decisions.",
-  page: "data-analyst.html",
-  bucket: "Technology and Problem Solving",
-  category: "Data and Artificial Intelligence",
-  subjects: ["Mathematics", "Statistics"],
-  levels: ["12th", "Diploma", "Graduation"],
-  stream: ["Science", "Commerce"],
-  type: "Private",
-  tags: ["data", "analysis", "numbers"]
+    id: "data-analyst",
+    name: "Data Analyst",
+    image: "images/data-analyst.jpeg",
+    page: "data-analyst.html",
+    icon: "📊",
+    bucket: "Arts",
+    subjects: ["Mathematics", "Statistics", "Computer Science", "Economics"],
+    levels: ["10th", "12th", "Graduation"],
+    stream: ["Science", "Commerce"],
+    type: "Government & Private",
+    tags: ["data analyst", "data analysis", "statistics", "business analytics", "reports", "data visualization"]
 },
 
 {
@@ -742,7 +757,7 @@ stream: ["Arts","Science","Commerce"]
   bucket: "Technology and Problem Solving",
   category: "Electronics and Hardware",
   subjects: ["Physics", "Mathematics", "Electronics"],
-  levels: ["10th", "12th", "Diploma", "Graduation"],
+  levels: ["Diploma", "Graduation"],
   stream: ["Science"],
   type: "Private",
   tags: ["electronics", "circuits", "hardware", "electronic devices", "embedded systems"]
@@ -756,7 +771,7 @@ stream: ["Arts","Science","Commerce"]
   bucket: "Technology and Problem Solving",
   category: "Engineering Design and Technology",
   subjects: ["Physics", "Mathematics"],
-  levels: ["10th", "12th", "Diploma", "Graduation"],
+  levels: ["Diploma", "Graduation"],
   stream: ["Science"],
   type: "Private",
   tags: ["electricity", "power", "wiring", "energy", "machines", "infrastructure"]
@@ -775,6 +790,21 @@ stream: ["Arts","Science","Commerce"]
   stream: ["Science"],
   type: "Private",
   tags: ["electronics", "embedded systems", "hardware", "circuits", "electronic devices"]
+},
+
+
+{
+    id: "environmental-scientist",
+    name: "Environmental Scientist",
+    image: "images/environmental-scientist.jpeg",
+    page: "environmental-scientist.html",
+    icon: "🌍",
+    bucket: "Arts",
+    subjects: ["Biology", "Chemistry", "Environmental Science", "Geography"],
+    levels: ["Graduation"],
+    stream: ["Science"],
+    type: "Government & Private",
+    tags: ["environmental scientist", "environment", "climate change", "pollution", "ecology", "sustainability"]
 },
 
 
