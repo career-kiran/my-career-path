@@ -307,6 +307,21 @@ window.careers = [
 },
 
 
+{
+    id: "carpenter",
+    name: "Carpenter",
+    image: "images/carpenter.jpeg",
+    page: "carpenter.html",
+    icon: "🪚",
+    bucket: "Practical",
+    subjects: ["Mathematics", "Physics", "Computer Science"],
+    levels: ["10th", "12th"],
+    stream: ["Science", "Commerce", "Arts"],
+    type: "Government & Private",
+    tags: ["carpenter", "woodworking", "furniture making", "wood work", "construction", "interior work", "carpentry"]
+},
+
+
 
 {
     id: "chemical-engineer",
