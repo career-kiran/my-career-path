@@ -1535,14 +1535,15 @@ stream: ["Arts","Science","Commerce"]
 {
     id: "plumber",
     name: "Plumber",
-    description: "Plumbers install, repair, and maintain water supply systems, pipes, and drainage systems in homes, buildings, and industries.",
+    image: "images/plumber.jpeg",
     page: "plumber.html",
-    bucket: "Building and Fixing",
-    subjects: [],
-    levels: ["10th", "12th", "Diploma"],
-    stream: ["Science", "Commerce", "Arts"],
-    type: "Private",
-    tags: ["repair", "technical", "hands-on"]
+    icon: "🔧",
+    bucket: "Practical",
+    subjects: ["Mathematics", "Physics", "Chemistry", "Computer Science"],
+    levels: ["10th", "12th"],
+    stream: ["Science"],
+    type: "Government & Private",
+    tags: ["plumber", "plumbing", "pipe fitting", "water systems", "sanitary work", "pipe repair", "plumbing technician"]
 },
 
 
