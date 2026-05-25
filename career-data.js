@@ -720,17 +720,17 @@ stream: ["Arts","Science","Commerce"]
 },
 
 {
-  id: "electrician",
-  name: "Electrician",
-  description: "Electricians install, repair, and maintain electrical wiring, lighting systems, and electrical equipment in homes, buildings, and industries.",
-  page: "electrician.html",
-  icon: "⚡",
-  bucket: "Building and Fixing",
-  subjects: ["Physics", "Mathematics"],
-  levels: ["10th", "12th", "ITI", "Diploma"],
-  stream: ["Science", "Commerce", "Arts"],
-  type: "Private",
-  tags: ["repair", "electrical", "installation"]
+    id: "electrician",
+    name: "Electrician",
+    image: "images/electrician.jpeg",
+    page: "electrician.html",
+    icon: "⚡",
+    bucket: "Practical",
+    subjects: ["Mathematics", "Physics", "Chemistry", "Computer Science"],
+    levels: ["10th", "12th"],
+    stream: ["Science"],
+    type: "Government & Private",
+    tags: ["electrician", "electrical wiring", "electrical technician", "power systems", "electrical repair", "ITI electrician", "electrical maintenance"]
 },
 
 {
