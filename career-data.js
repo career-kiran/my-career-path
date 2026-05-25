@@ -244,6 +244,22 @@ window.careers = [
   tags: ["backend", "web development", "coding", "database", "api"]
 },
 
+
+{
+    id: "beautician",
+    name: "Beautician",
+    image: "images/beautician.jpeg",
+    page: "beautician.html",
+    icon: "💄",
+    bucket: "Practical",
+    subjects: ["Art and Design", "Home Science"],
+    levels: ["10th", "12th"],
+    stream: ["Science", "Commerce", "Arts"],
+    type: "Government & Private",
+    tags: ["beautician", "makeup artist", "beauty therapist", "hair stylist", "salon", "skincare", "beauty services"]
+},
+
+
 {
     id: "biochemical-engineer",
     name: "Biochemical Engineer",
@@ -1805,6 +1821,21 @@ stream: ["Arts","Science","Commerce"]
   stream: ["Science"],
   type: "Private",
   tags: ["system engineer", "system administration", "networking", "servers", "it infrastructure"]
+},
+
+
+{
+    id: "tailor",
+    name: "Tailor",
+    image: "images/tailor.jpeg",
+    page: "tailor.html",
+    icon: "🧵",
+    bucket: "Practical",
+    subjects: ["Art and Design", "Fashion Designing", "Home Science"],
+    levels: ["10th", "12th"],
+    stream: ["Science", "Commerce", "Arts"],
+    type: "Government & Private",
+    tags: ["tailor", "tailoring", "fashion", "stitching", "clothing", "garment making", "boutique", "sewing"]
 },
 
 
