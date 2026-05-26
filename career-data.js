@@ -337,6 +337,19 @@ window.careers = [
     tags: ["carpenter", "woodworking", "furniture making", "wood work", "construction", "interior work", "carpentry"]
 },
 
+{
+    id: "chartered-accountant",
+    name: "Chartered Accountant",
+    image: "images/chartered-accountant.jpeg",
+    page: "chartered-accountant.html",
+    icon: "📊",
+    bucket: "Business",
+    subjects: ["Accountancy", "Mathematics", "Economics"],
+    levels: ["12th", "Graduation"],
+    stream: ["Commerce", "Science", "Arts"],
+    type: "Government & Private",
+    tags: ["chartered accountant", "CA", "accounting", "taxation", "auditing", "finance", "business", "ICAI"]
+},
 
 
 {
