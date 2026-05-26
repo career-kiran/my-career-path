@@ -299,7 +299,7 @@ window.careers = [
     image: "images/biotechnologist.jpeg",
     page: "biotechnologist.html",
     icon: "🧬",
-    bucket: "Science",
+    bucket: "Arts",
     subjects: ["Biology", "Chemistry", "Genetics", "Microbiology"],
     levels: ["Graduation"],
     stream: ["Science"],
