@@ -1031,6 +1031,24 @@ stream: ["Arts","Science","Commerce"]
     tags: ["graphic design", "branding", "visual design", "advertising", "creative media", "digital design"]
 },
 
+
+
+{
+    id: "hair-stylist",
+    name: "Hair Stylist",
+    image: "images/hair-stylist.jpeg",
+    page: "hair-stylist.html",
+    icon: "💇",
+    bucket: "Practical",
+    subjects: ["Art and Design", "Home Science"],
+    levels: ["10th", "12th","ITI"],
+    stream: ["Science", "Commerce", "Arts"],
+    type: "Government & Private",
+    tags: ["hair stylist", "barber", "hairdresser", "hairstyling", "hair cutting", "salon", "grooming", "hair coloring"]
+},
+
+
+
 {
   id: "hardware-engineer",
   name: "Hardware Engineer",
