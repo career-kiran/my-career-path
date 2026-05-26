@@ -108,6 +108,8 @@
 
 
 <div class="feature-container">
+
+<a href="#education-section" class="feature-link">
 <div class="feature-card">
     <div class="feature-icon">🎓</div>
 
@@ -117,9 +119,13 @@
         Find out what you can do after 10th, 12th, diploma or graduation.
     </p>
 
-<div class="feature-arrow">→</div>
+<div class="feature-arrow">⬇</div>
 </div>
+</a>
 
+
+
+<a href="#subject-section" class="feature-link">
 
 <div class="feature-card">
     <div class="feature-icon">📚</div>
@@ -130,10 +136,14 @@
         Discover careers related to subjects like Science, Commerce, Arts and more.
     </p>
 
-<div class="feature-arrow">→</div>
+<div class="feature-arrow">⬇</div>
 </div>
 
+</a>
 
+
+
+<a href="#career-info-section" class="feature-link">
 
 <div class="feature-card">
     <div class="feature-icon">💼</div>
@@ -144,8 +154,11 @@
         We will help you understand a career, which exams to pass, and whether that career suits you or not.
     </p>
 
-<div class="feature-arrow">→</div>
+<div class="feature-arrow">⬇</div>
+
 </div>
+
+</a>
 </div>
 
 
@@ -160,7 +173,7 @@
 
 
 <!-- EDUCATION LEVEL SECTION -->
-<section class="education-bg">
+<section id="education-section"class="education-bg">
 
   <div class="education-inner">
 
@@ -185,10 +198,7 @@
   
   </div>
 
-  <div class="notion-card">
-    <img src="images/img2.png">
-    
-  </div>
+
 
   <div class="notion-card">
     <img src="images/img3.png">
@@ -209,7 +219,7 @@
 
 
 
-<section class="home-buckets">
+<section id="career-info-section"class="home-buckets">
  <h2 class="section-heading">Explore Career Buckets</h2>
 
 <div class="role-grid">
@@ -272,9 +282,12 @@
     <span>Explore Other Buckets →</span>
 </a>
 
+
+
+
 <!-- SUBJECT SECTION -->
 
-<section class="subject-bg">
+<section id="subject-section"class="subject-bg">
 
 <div class="subject-inner">
 <div class="subject-section">
@@ -285,15 +298,20 @@
 
 <div class="subjects-container">
 
-<div class="subject-card">🧪 Physics</div>
+  <a href="subject-careers.html?subject=Physics" class="subject-card">
+    ⚛️ Physics
+  </a>
 
-<div class="subject-card">💻 Computer Science</div>
+  <a href="subject-careers.html?subject=Computer Science" class="subject-card">
+    💻 Computer Science
+  </a>
 
-<div class="subject-card">💼 Commerce</div>
+<a href="subject-careers.html?subject=Commerce" class="subject-card">💼 Commerce </a>
 
-<div class="subject-card">🎨 Arts & Design</div>
+<a href="subject-careers.html?subject=Art and Design" class="subject-card">🎨 Art & Design</a>
 
-<div class="subject-card">🧠 Psychology</div>
+
+<a href="subject-careers.html?subject=Psychology" class="subject-card">🧠 Psychology</a>
 
 </div>
 
@@ -313,10 +331,6 @@
     
   </div>
 
-  <div class="notion-card">
-    <img src="images/img6.png">
-  
-  </div>
 
 </div>
 
@@ -329,10 +343,7 @@
 
 
 
-
-
-
-
+    
 
 
 
@@ -364,6 +375,37 @@ function goToSubject(subject) {
     "subject-careers.html?subject=" + encodeURIComponent(subject);
 }
 </script>
+
+
+
+
+<footer class="footer">
+
+<div class="footer-container">
+
+<div class="footer-left">
+<h3>My Career Path</h3>
+
+<p>
+Helping students explore careers,
+subjects, and educational pathways.
+</p>
+</div>
+
+<div class="footer-links">
+<a href="index.html">Home</a>
+<a href="career-paths.html">Careers</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</div>
+
+</div>
+
+<div class="footer-bottom">
+<p>©️ 2026 My Career Path</p>
+</div>
+
+</footer>
 
 </body>
 </html>
