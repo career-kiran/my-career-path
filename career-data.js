@@ -331,7 +331,7 @@ window.careers = [
     icon: "🪚",
     bucket: "Practical",
     subjects: ["Mathematics", "Physics", "Computer Science"],
-    levels: ["10th", "12th"],
+    levels: ["10th", "12th","ITI"],
     stream: ["Science", "Commerce", "Arts"],
     type: "Government & Private",
     tags: ["carpenter", "woodworking", "furniture making", "wood work", "construction", "interior work", "carpentry"]
@@ -758,7 +758,7 @@ stream: ["Arts","Science","Commerce"]
     icon: "⚡",
     bucket: "Practical",
     subjects: ["Mathematics", "Physics", "Chemistry", "Computer Science"],
-    levels: ["10th", "12th"],
+    levels: ["10th", "12th","ITI"],
     stream: ["Science"],
     type: "Government & Private",
     tags: ["electrician", "electrical wiring", "electrical technician", "power systems", "electrical repair", "ITI electrician", "electrical maintenance"]
@@ -1571,7 +1571,7 @@ stream: ["Arts","Science","Commerce"]
     icon: "🔧",
     bucket: "Practical",
     subjects: ["Mathematics", "Physics", "Chemistry", "Computer Science"],
-    levels: ["10th", "12th"],
+    levels: ["10th", "12th","ITI"],
     stream: ["Science"],
     type: "Government & Private",
     tags: ["plumber", "plumbing", "pipe fitting", "water systems", "sanitary work", "pipe repair", "plumbing technician"]
