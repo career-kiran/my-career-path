@@ -1182,6 +1182,19 @@ stream: ["Arts","Science","Commerce"]
   tags: ["instrumentation", "control systems", "automation", "engineering", "electronics"]
 },
 
+{
+    id: "instrumentalist",
+    name: "Instrumentalist",
+    image: "images/instrumentalist.jpeg",
+    page: "instrumentalist.html",
+    icon: "🎸",
+    bucket: "Music & Sound Creation",
+    subjects: ["Arts & Design", "Language & Literature"],
+    levels: ["10th", "12th", "Graduation"],
+    stream: ["Arts", "Commerce", "Science"],
+    type: "Freelance & Private",
+    tags: ["instrumentalist", "musician", "guitarist", "pianist", "drummer", "music performance", "studio musician", "live music"]
+},
 
 {
   id: "iot-developer",
