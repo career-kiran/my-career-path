@@ -725,7 +725,19 @@ stream: ["Arts","Commerce","Science"]
     tags: ["cyber security", "digital forensics", "cyber crime investigation"]
 },
 
-
+{
+    id: "digital-marketer",
+    name: "Digital Marketer",
+    image: "images/digital-marketer.jpeg",
+    page: "digital-marketer.html",
+    icon: "📱",
+    bucket: "Business",
+    subjects: ["Commerce", "Computer Science"],
+    levels: ["10th", "12th", "Graduation"],
+    stream: ["Commerce", "Science", "Arts"],
+    type: "Government & Private",
+    tags: ["digital marketing", "social media", "SEO", "online advertising", "content marketing", "analytics", "branding", "marketing"]
+},
 
 {
 name: "DJ (Disc Jockey)",
