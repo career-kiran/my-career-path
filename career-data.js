@@ -1243,6 +1243,20 @@ stream: ["Arts","Science","Commerce"]
     tags: ["journalism", "news", "reporting", "media", "writing"]
 },
 
+{
+    id: "logistics-manager",
+    name: "Logistics Manager",
+    image: "images/logistics-manager.jpeg",
+    page: "logistics-manager.html",
+    icon: "🚚",
+    bucket: "Business",
+    subjects: ["Business Studies", "Economics", "Mathematics"],
+    levels: ["Graduation"],
+    stream: ["Commerce", "Science", "Arts"],
+    type: "Government & Private",
+    tags: ["logistics manager", "supply chain", "transportation", "warehouse management", "shipping", "delivery management", "operations", "inventory"]
+},
+
 
 {
   id: "machine-learning-engineer",
@@ -1821,6 +1835,20 @@ levels: ["12th","Graduation"],
 stream: ["Arts","Science","Commerce"]
 },
 
+
+{
+    id: "supply-chain-manager",
+    name: "Supply Chain Manager",
+    image: "images/supply-chain-manager.jpeg",
+    page: "supply-chain-manager.html",
+    icon: "📦",
+    bucket: "Business",
+    subjects: ["Business Studies", "Economics", "Mathematics"],
+    levels: ["Graduation"],
+    stream: ["Commerce", "Science", "Arts"],
+    type: "Government & Private",
+    tags: ["supply chain manager", "logistics", "warehouse management", "inventory control", "transportation", "distribution", "operations", "supply chain"]
+},
 
 
 
