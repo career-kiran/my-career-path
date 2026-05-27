@@ -324,6 +324,21 @@ window.careers = [
 
 
 {
+    id: "business-analyst",
+    name: "Business Analyst",
+    image: "images/business-analyst.jpeg",
+    page: "business-analyst.html",
+    icon: "📊",
+    bucket: "Business",
+    subjects: ["Business Studies", "Economics", "Mathematics"],
+    levels: ["Graduation"],
+    stream: ["Commerce", "Science", "Arts"],
+    type: "Government & Private",
+    tags: ["business analyst", "data analysis", "business strategy", "market research", "business intelligence", "analytics", "operations", "management"]
+},
+
+
+{
     id: "carpenter",
     name: "Carpenter",
     image: "images/carpenter.jpeg",
