@@ -982,7 +982,7 @@ stream: ["Arts","Science","Commerce"]
 },
 
 {
-    id: "fullstackdeveloper",
+    id: "fullstack-developer",
     name: "Full Stack Developer",
     image: "images/fullstack-developer.jpeg",
     page: "fullstack-developer.html",
