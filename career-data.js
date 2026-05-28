@@ -230,19 +230,20 @@ window.careers = [
 
 
 {
-  id: "backend-developer",
-  name: "Backend Developer",
-  description: "Backend Developers build the part of websites and apps that users cannot see. They handle data, servers, and logic to make everything work smoothly behind the scenes.",
-  page: "backend-developer.html",
-  icon: "⚙️",
-  bucket: "Technology and Problem Solving",
-  category: "Software & App Development",
-  subjects: ["Computer Science"],
-  levels: ["Diploma", "Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["backend", "web development", "coding", "database", "api"]
+    id: "backend-developer",
+    name: "Backend Developer",
+    image: "images/backend-developer.jpeg",
+    page: "backend-developer.html",
+    icon: "🖥️",
+    bucket: "Technology & Problem Solving",
+    category: "Software & App Development",
+    subjects: ["Computer Science", "Mathematics"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science", "Commerce"],
+    type: "Private & Freelance",
+    tags: ["backend developer", "software developer", "server-side developer", "api developer", "database developer", "node js", "python developer", "java backend"]
 },
+
 
 
 {
@@ -966,36 +967,34 @@ stream: ["Arts","Science","Commerce"]
 },
 
 {
-  id: "frontend-developer",
-  name: "Frontend Developer",
-  description: "Frontend Developers create the part of websites and apps that users see and interact with. They focus on design, layout, buttons, and user experience to make everything look clean and easy to use.",
-  page: "frontend-developer.html",
-  icon: "💻",
-  bucket: "Technology and Problem Solving",
-  category: "Software & App Development",
-  subjects: ["Computer Science"],
-  levels: ["Diploma", "Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["frontend", "web development", "html", "css", "javascript", "ui design"]
+    id: "frontend-developer",
+    name: "Frontend Developer",
+    image: "images/frontend-developer.jpeg",
+    page: "frontend-developer.html",
+    icon: "🎨",
+    bucket: "Technology & Problem Solving",
+    category: "Software & App Development",
+    subjects: ["Computer Science", "Design & Creativity"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science", "Commerce"],
+    type: "Private & Freelance",
+    tags: ["frontend developer", "web developer", "ui developer", "react developer", "html css javascript", "website designer", "frontend engineer", "responsive design"]
 },
-
 
 {
-  id: "full-stack-developer",
-  name: "Full Stack Developer",
-  description: "Full Stack Developers build both the front end (what users see) and the back end (how it works) of websites and applications. They create complete systems that are fast, responsive, and user-friendly.",
-  page: "full-stack-developer.html",
-  icon: "🧑‍💻",
-  bucket: "Technology and Problem Solving",
-  category: "Software & App Development",
-  subjects: ["Computer Science"],
-  levels: ["Diploma", "Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["full stack development", "web development", "frontend", "backend", "coding", "software"]
+    id: "fullstackdeveloper",
+    name: "Full Stack Developer",
+    image: "images/fullstack-developer.jpeg",
+    page: "fullstack-developer.html",
+    icon: "🧑‍💻",
+    bucket: "Technology & Problem Solving",
+    category: "Software & App Development",
+    subjects: ["Computer Science", "Programming"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science", "Commerce"],
+    type: "Private & Freelance",
+    tags: ["full stack developer", "web developer", "mern stack developer", "software engineer", "frontend backend developer", "react nodejs developer", "app developer", "full stack engineer"]
 },
-
 
 
 
@@ -1016,20 +1015,19 @@ stream: ["Arts","Science","Commerce"]
 },
 
 {
-  id: "game-developer",
-  name: "Game Developer",
-  description: "Game Developers create video games for mobile, computer, and consoles. They design game logic, build features, and make sure the game runs smoothly for players.",
-  page: "game-developer.html",
-  icon: "🎮",
-  bucket: "Technology and Problem Solving",
-  category: "Software & App Development",
-  subjects: ["Computer Science"],
-  levels: ["Diploma", "Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["game development", "video games", "programming", "coding", "software"]
+    id: "game-developer",
+    name: "Game Developer",
+    image: "images/game-developer.jpeg",
+    page: "game-developer.html",
+    icon: "🎮",
+    bucket: "Technology & Problem Solving",
+    category: "Software & App Development",
+    subjects: ["Computer Science", "Programming"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science", "Commerce"],
+    type: "Private & Freelance",
+    tags: ["game developer", "game programmer", "unity developer", "unreal engine developer", "mobile game developer", "video game designer", "game coding", "indie game developer"]
 },
-
 
 
 
@@ -1378,18 +1376,18 @@ stream: ["Arts","Science","Commerce"]
 },
 
 {
-  id: "mobile-app-developer",
-  name: "Mobile App Developer",
-  description: "Mobile App Developers create apps for smartphones like Android and iPhone. They build, test, and improve apps so people can use them for communication, learning, shopping, and entertainment.",
-  page: "mobile-app-developer.html",
-  icon: "📱",
-  bucket: "Technology and Problem Solving",
-  category: "Software & App Development",
-  subjects: ["Computer Science"],
-  levels: ["Diploma", "Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["app development", "mobile apps", "programming", "software", "coding"]
+    id: "mobile-app-developer",
+    name: "Mobile App Developer",
+    image: "images/mobile-app-developer.jpeg",
+    page: "mobile-app-developer.html",
+    icon: "📱",
+    bucket: "Technology & Problem Solving",
+    category: "Software & App Development",
+    subjects: ["Computer Science", "Programming"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science", "Commerce"],
+    type: "Private & Freelance",
+    tags: ["mobile app developer", "android developer", "ios developer", "flutter developer", "react native developer", "app programmer", "mobile software engineer", "application developer"]
 },
 
 
