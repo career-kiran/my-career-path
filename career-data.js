@@ -98,18 +98,18 @@ window.careers = [
 },
 
 {
-  id: "ai-engineer",
-  name: "AI Engineer",
-  description: "AI Engineers build intelligent systems that can learn from data, make decisions, and improve over time. They work on technologies like machine learning, chatbots, and automation.",
-  page: "ai-engineer.html",
-  icon: "🧠",
-  bucket: "Technology and Problem Solving",
+    id: "ai-engineer",
+    name: "AI Engineer",
+    image: "images/ai-engineer.jpeg",
+    page: "ai-engineer.html",
+    icon: "🤖",
+    bucket: "Technology and Problem Solving",
   category: "Data and Artificial Intelligence",
-  subjects: ["Mathematics", "Statistics", "Computer Science"],
-  levels: ["Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["ai", "data", "programming", "machine learning", "technology"]
+    subjects: ["Computer Science", "Mathematics", "Programming"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science"],
+    type: "Private & Freelance",
+    tags: ["ai engineer", "artificial intelligence engineer", "machine learning engineer", "deep learning engineer", "generative ai", "ai developer", "ml engineer", "data science"]
 },
 
 {
@@ -652,17 +652,18 @@ stream: ["Arts","Commerce","Science"]
 },
 
 {
-  id: "data-scientist",
-  name: "Data Scientist",
-  description: "Data scientists analyze large amounts of data, find patterns, and use it to predict future trends and help companies make better decisions.",
-  page: "data-scientist.html",
-  bucket: "Technology and Problem Solving",
-  category: "Data and Artificial Intelligence",
-  subjects: ["Mathematics", "Statistics", "Computer Science"],
-  levels: ["12th", "Diploma", "Graduation"],
-  stream: ["Science", "Commerce"],
-  type: "Private",
-  tags: ["data", "analysis", "technology", "problem-solving"]
+    id: "data-scientist",
+    name: "Data Scientist",
+    image: "images/data-scientist.jpeg",
+    page: "data-scientist.html",
+    icon: "📊",
+    bucket: "Technology and Problem Solving",
+    category: "Data and Artificial Intelligence",
+    subjects: ["Mathematics", "Computer Science", "Statistics"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science"],
+    type: "Private & Freelance",
+    tags: ["data scientist", "data science", "big data", "analytics", "statistics", "machine learning", "artificial intelligence", "business intelligence"]
 },
 
 
@@ -1298,18 +1299,18 @@ stream: ["Arts","Science","Commerce"]
 
 
 {
-  id: "machine-learning-engineer",
-  name: "Machine Learning Engineer",
-  description: "Machine Learning Engineers build systems that learn from data and improve automatically. They create models used in recommendations, predictions, and intelligent applications.",
-  page: "machine-learning-engineer.html",
-  icon: "🤖",
-  bucket: "Technology and Problem Solving",
-  category: "Data and Artificial Intelligence",
-  subjects: ["Computer Science"],
-  levels: ["Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["ai", "machine learning", "data", "coding", "algorithms"]
+    id: "machine-learning-engineer",
+    name: "Machine Learning Engineer",
+    image: "images/machine-learning-engineer.jpeg",
+    page: "machine-learning-engineer.html",
+    icon: "🧠",
+    bucket: "Technology and Problem Solving",
+    category: "Data and Artificial Intelligence",
+    subjects: ["Computer Science", "Mathematics", "Programming"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science"],
+    type: "Private & Freelance",
+    tags: ["machine learning engineer", "ml engineer", "artificial intelligence", "machine learning", "deep learning", "predictive analytics", "ai developer", "data science"]
 },
 
 {
@@ -1361,18 +1362,18 @@ stream: ["Arts","Science","Commerce"]
 
 
 {
-  id: "mlops-engineer",
-  name: "MLOps Engineer",
-  description: "MLOps Engineers build systems that deploy, monitor, and manage machine learning models in real-world applications. They create pipelines and tools that ensure AI models run smoothly, update regularly, and handle large-scale user data efficiently.",
-  page: "mlops-engineer.html",
-  icon: "⚙️",
-  bucket: "Technology and Problem Solving",
-  category: "Data and Artificial Intelligence",
-  subjects: ["Computer Science", "Mathematics"],
-  levels: ["Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["mlops", "ai", "machine learning", "deployment", "pipelines", "automation", "python", "data"]
+    id: "mlops-engineer",
+    name: "MLOps Engineer",
+    image: "images/mlops-engineer.jpeg",
+    page: "mlops-engineer.html",
+    icon: "⚙️",
+    bucket: "Technology and Problem Solving",
+    category: "Data and Artificial Intelligence",
+    subjects: ["Computer Science", "Mathematics", "Programming"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science"],
+    type: "Private & Freelance",
+    tags: ["mlops engineer", "machine learning operations", "ai deployment engineer", "model deployment", "cloud engineering", "devops", "machine learning", "artificial intelligence"]
 },
 
 {
@@ -1490,18 +1491,18 @@ stream: ["Arts","Science","Commerce"]
 
 
 {
-  id: "nlp-engineer",
-  name: "NLP Engineer",
-  description: "NLP Engineers build systems that understand and process human language. They create applications like chatbots, voice assistants, and translation tools that can communicate with users naturally.",
-  page: "nlp-engineer.html",
-  icon: "🗣️",
-  bucket: "Technology and Problem Solving",
-  category: "Data and Artificial Intelligence",
-  subjects: ["Computer Science", "Mathematics"],
-  levels: ["Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["nlp", "ai", "machine learning", "chatbots", "language", "python", "data"]
+    id: "nlp-engineer",
+    name: "NLP Engineer",
+    image: "images/nlp-engineer.jpeg",
+    page: "nlp-engineer.html",
+    icon: "💬",
+    bucket: "Technology and Problem Solving",
+    category: "Data and Artificial Intelligence",
+    subjects: ["Computer Science", "Mathematics", "Programming"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science"],
+    type: "Private & Freelance",
+    tags: ["nlp engineer", "natural language processing", "chatbot developer", "language ai", "conversational ai", "speech recognition", "artificial intelligence", "machine learning"]
 },
 
 
