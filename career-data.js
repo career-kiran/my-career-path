@@ -591,19 +591,19 @@ stream: ["Arts","Commerce","Science"]
 
 
 {
-  id: "cybersecurity-analyst",
-  name: "Cyber Security Analyst",
-  description: "Cyber security analysts protect systems and data from hackers. They find security risks and help keep information safe.",
-  page: "cybersecurity-analyst.html",
-  bucket: "Technology and Problem Solving",
-  category: "Cybersecurity and Digital Safety",
-  subjects: ["Computer Science", "Information Technology"],
-  levels: ["12th", "Diploma", "Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["cyber security", "network security", "digital safety"]
+    id: "cybersecurity-analyst",
+    name: "Cybersecurity Analyst",
+    image: "images/cybersecurity-analyst.jpeg",
+    page: "cybersecurity-analyst.html",
+    icon: "🛡️",
+    bucket: "Technology and Problem Solving",
+    category: "Cybersecurity and Digital Safety",
+    subjects: ["Computer Science", "Information Technology", "Mathematics"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science"],
+    type: "Private & Government",
+    tags: ["cybersecurity analyst", "cyber security", "ethical hacking", "network security", "information security", "cyber threats", "incident response", "digital security"]
 },
-
 
 
 {
@@ -715,17 +715,20 @@ stream: ["Arts","Commerce","Science"]
 {
     id: "digital-forensics-expert",
     name: "Digital Forensics Expert",
-    description: "Digital Forensics Experts investigate cyber crimes by analyzing computers, mobiles, and systems. They recover deleted data, find digital evidence, and help track hackers or criminals.",
+    image: "images/digital-forensics-expert.jpeg",
     page: "digital-forensics-expert.html",
-    icon: "🕵️‍♂️",
+    icon: "🔍",
     bucket: "Technology and Problem Solving",
     category: "Cybersecurity and Digital Safety",
-    subjects: ["Computer Science"],
-    levels: ["Graduation"],
+    subjects: ["Computer Science", "Information Technology", "Mathematics"],
+    levels: ["Diploma", "Graduation"],
     stream: ["Science"],
-    type: "Private",
-    tags: ["cyber security", "digital forensics", "cyber crime investigation"]
+    type: "Government & Private",
+    tags: ["digital forensics expert", "digital forensics", "computer forensics", "cyber crime investigation", "digital evidence", "forensic analyst", "cyber investigation", "cybersecurity"]
 },
+
+
+
 
 {
     id: "digital-marketer",
@@ -884,18 +887,17 @@ stream: ["Arts","Science","Commerce"]
 {
     id: "ethical-hacker",
     name: "Ethical Hacker",
-    description: "Ethical hackers check computers and websites to find security problems. They help keep data safe by fixing these issues before real hackers attack.",
+    image: "images/ethical-hacker.jpeg",
     page: "ethical-hacker.html",
-    icon: "🛡️",
+    icon: "👨‍💻",
     bucket: "Technology and Problem Solving",
     category: "Cybersecurity and Digital Safety",
-    subjects: ["Computer Science"],
-    levels: ["Graduation"],
+    subjects: ["Computer Science", "Information Technology", "Mathematics"],
+    levels: ["Diploma", "Graduation"],
     stream: ["Science"],
-    type: "Private",
-    tags: ["cyber security", "ethical hacking", "digital safety"]
+    type: "Private & Government",
+    tags: ["ethical hacker", "ethical hacking", "penetration tester", "cybersecurity", "network security", "vulnerability assessment", "security testing", "cyber defense"]
 },
-
 
 {
     id: "environmental-engineer",
@@ -1154,16 +1156,16 @@ stream: ["Arts","Science","Commerce"]
 {
     id: "information-security-analyst",
     name: "Information Security Analyst",
-    description: "Information Security Analysts protect systems and data from cyber attacks. They monitor systems, find security risks, and fix problems to keep information safe.",
+    image: "images/information-security-analyst.jpeg",
     page: "information-security-analyst.html",
-    icon: "🛡️",
+    icon: "🔐",
     bucket: "Technology and Problem Solving",
     category: "Cybersecurity and Digital Safety",
-    subjects: ["Computer Science"],
-    levels: ["Graduation"],
+    subjects: ["Computer Science", "Information Technology", "Mathematics"],
+    levels: ["Diploma", "Graduation"],
     stream: ["Science"],
-    type: "Private",
-    tags: ["cyber security", "data security", "network security"]
+    type: "Private & Government",
+    tags: ["information security analyst", "information security", "cybersecurity", "data protection", "network security", "risk management", "security monitoring", "digital safety"]
 },
 
 {
@@ -1475,17 +1477,18 @@ stream: ["Arts","Science","Commerce"]
 
 
 {
-  id: "network-security-engineer",
-  name: "Network Security Engineer",
-  description: "Network security engineers protect computer networks from cyber attacks. They secure systems, monitor threats, and prevent unauthorized access.",
-  page: "network-security-engineer.html",
-  bucket: "Technology and Problem Solving",
-  category: "Cybersecurity and Digital Safety",
-  subjects: ["Computer Science", "Information Technology"],
-  levels: ["12th", "Diploma", "Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["network security", "cyber security", "firewalls", "digital safety"]
+    id: "network-security-engineer",
+    name: "Network Security Engineer",
+    image: "images/network-security-engineer.jpeg",
+    page: "network-security-engineer.html",
+    icon: "🌐",
+    bucket: "Technology and Problem Solving",
+    category: "Cybersecurity and Digital Safety",
+    subjects: ["Computer Science", "Information Technology", "Mathematics"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science"],
+    type: "Private & Government",
+    tags: ["network security engineer", "network security", "cybersecurity", "firewall", "network protection", "security engineer", "cyber defense", "network monitoring"]
 },
 
 
