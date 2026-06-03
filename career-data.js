@@ -430,18 +430,18 @@ window.careers = [
 },
 
 {
-  id: "cloud-administrator",
-  name: "Cloud Administrator",
-  description: "Cloud Administrators manage and maintain cloud systems. They make sure servers, storage, and applications run smoothly and stay available.",
-  page: "cloud-administrator.html",
-  icon: "☁️",
-  bucket: "Technology and Problem Solving",
-  category: "Cloud and Network Systems",
-  subjects: ["Computer Science"],
-  levels: ["Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["technology", "cloud", "systems", "network", "infrastructure"]
+    id: "cloud-administrator",
+    name: "Cloud Administrator",
+    image: "images/cloud-administrator.jpeg",
+    page: "cloud-administrator.html",
+    icon: "☁️",
+    bucket: "Technology and Problem Solving",
+    category: "Cloud and Network Systems",
+    subjects: ["Computer Science", "Information Technology", "Mathematics"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science"],
+    type: "Private & Government",
+    tags: ["cloud administrator", "cloud computing", "cloud engineer", "aws", "azure", "google cloud", "cloud infrastructure", "server administration"]
 },
 
 {
@@ -462,17 +462,18 @@ window.careers = [
 
 
 {
-  id: "cloud-engineer",
-  name: "Cloud Engineer",
-  description: "Cloud engineers build and manage systems that run on the internet. They help store data, run applications, and keep online services working smoothly.",
-  page: "cloud-engineer.html",
-  bucket: "Technology and Problem Solving",
-  category: "Cloud and Network Systems",
-  subjects: ["Computer Science", "Information Technology"],
-  levels: ["12th", "Diploma", "Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["cloud computing", "aws", "azure", "cloud systems"]
+    id: "cloud-engineer",
+    name: "Cloud Engineer",
+    image: "images/cloud-engineer.jpeg",
+    page: "cloud-engineer.html",
+    icon: "☁️",
+    bucket: "Technology and Problem Solving",
+    category: "Cloud and Network Systems",
+    subjects: ["Computer Science", "Information Technology", "Mathematics"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science"],
+    type: "Private & Government",
+    tags: ["cloud engineer", "cloud computing", "cloud infrastructure", "aws", "azure", "google cloud", "cloud architecture", "cloud deployment"]
 },
 
 
@@ -699,16 +700,16 @@ stream: ["Arts","Commerce","Science"]
 {
     id: "devops-engineer",
     name: "DevOps Engineer",
-    description: "DevOps Engineers make sure apps and websites run smoothly. They manage servers, automate tasks, and help developers quickly build, test, and release applications without errors.",
+    image: "images/devops-engineer.jpeg",
     page: "devops-engineer.html",
     icon: "⚙️",
     bucket: "Technology and Problem Solving",
     category: "Cloud and Network Systems",
-    subjects: ["Computer Science"],
-    levels: ["Graduation"],
+    subjects: ["Computer Science", "Information Technology", "Mathematics"],
+    levels: ["Diploma", "Graduation"],
     stream: ["Science"],
-    type: "Private",
-    tags: ["devops", "cloud computing", "automation", "deployment", "infrastructure"]
+    type: "Private & Government",
+    tags: ["devops engineer", "devops", "cloud computing", "automation", "software deployment", "cloud infrastructure", "system administration", "ci cd"]
 },
 
 
@@ -1483,7 +1484,7 @@ stream: ["Arts","Science","Commerce"]
     page: "network-security-engineer.html",
     icon: "🌐",
     bucket: "Technology and Problem Solving",
-    category: "Cybersecurity and Digital Safety",
+    category: "Cloud and Network Systems",
     subjects: ["Computer Science", "Information Technology", "Mathematics"],
     levels: ["Diploma", "Graduation"],
     stream: ["Science"],
@@ -1799,16 +1800,16 @@ stream: ["Arts","Science"]
 {
     id: "site-reliability-engineer",
     name: "Site Reliability Engineer",
-    description: "Site Reliability Engineers ensure that systems and applications run smoothly. They monitor performance, fix issues quickly, and prevent failures to keep services reliable and always available.",
+    image: "images/site-reliability-engineer.jpeg",
     page: "site-reliability-engineer.html",
-    icon: "⚙️",
+    icon: "🖥️",
     bucket: "Technology and Problem Solving",
     category: "Cloud and Network Systems",
-    subjects: ["Computer Science"],
-    levels: ["Graduation"],
+    subjects: ["Computer Science", "Information Technology", "Mathematics"],
+    levels: ["Diploma", "Graduation"],
     stream: ["Science"],
-    type: "Private",
-    tags: ["technology", "reliability", "systems", "monitoring", "performance", "cloud"]
+    type: "Private & Government",
+    tags: ["site reliability engineer", "sre", "system reliability", "cloud computing", "infrastructure", "system monitoring", "automation", "uptime"]
 },
 
 {
