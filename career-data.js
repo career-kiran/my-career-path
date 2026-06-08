@@ -54,32 +54,33 @@ window.careers = [
 {
     id: "aeronautical-engineer",
     name: "Aeronautical Engineer",
-    description: "Aeronautical engineers design and develop aircraft like airplanes, helicopters, and drones. They ensure these machines are safe, efficient, and can fly properly.",
+    image: "images/aeronautical-engineer.jpeg",
     page: "aeronautical-engineer.html",
     icon: "✈️",
     bucket: "Technology and Problem Solving",
-    category: "Engineering Design and Technology",
-    subjects: ["Physics", "Mathematics"],
+    category: "Aviation and Aerospace",
+    subjects: ["Physics", "Mathematics", "Computer Science"],
     levels: ["Diploma", "Graduation"],
     stream: ["Science"],
-    type: "Private",
-    tags: ["aeronautical", "aircraft", "aviation", "engineering", "flight"]
+    type: "Private & Government",
+    tags: ["aeronautical engineer", "aeronautical engineering", "aircraft design", "aviation engineer", "aerospace engineering", "aerodynamics", "aircraft systems", "aviation technology", "aircraft maintenance", "aviation career"]
 },
 
 {
     id: "aerospace-engineer",
     name: "Aerospace Engineer",
-    description: "Aerospace engineers design and develop aircraft, rockets, and space systems. They ensure these machines are safe, efficient, and can operate in air and space.",
+    image: "images/aerospace-engineer.jpeg",
     page: "aerospace-engineer.html",
     icon: "🚀",
     bucket: "Technology and Problem Solving",
     category: "Engineering Design and Technology",
-    subjects: ["Physics", "Mathematics"],
+    subjects: ["Physics", "Mathematics", "Computer Science"],
     levels: ["Diploma", "Graduation"],
     stream: ["Science"],
-    type: "Private",
-    tags: ["aerospace", "aircraft", "space", "engineering", "aviation"]
+    type: "Private & Government",
+    tags: ["aerospace engineer", "aerospace engineering", "rocket engineer", "satellite engineer", "spacecraft engineer", "space technology", "rocket design", "satellite systems", "space missions", "avionics engineer", "aerospace career", "rocket science", "space exploration", "space engineering", "launch vehicle engineer"]
 },
+
 
 
 {
@@ -110,6 +111,22 @@ window.careers = [
     stream: ["Science"],
     type: "Private & Freelance",
     tags: ["ai engineer", "artificial intelligence engineer", "machine learning engineer", "deep learning engineer", "generative ai", "ai developer", "ml engineer", "data science"]
+},
+
+
+{
+    id: "ai-robotics-engineer",
+    name: "AI Robotics Engineer",
+    image: "images/ai-robotics-engineer.jpeg",
+    page: "ai-robotics-engineer.html",
+    icon: "🧠",
+    bucket: "Technology and Problem Solving",
+    category: "Robotics and Automation",
+    subjects: ["Physics", "Mathematics", "Computer Science"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science"],
+    type: "Private & Government",
+    tags: ["ai robotics engineer", "artificial intelligence", "robotics", "machine learning", "computer vision", "autonomous systems", "intelligent robots", "robotics automation", "ai engineer", "robotics career"]
 },
 
 {
@@ -198,6 +215,23 @@ window.careers = [
     type: "Private",
     tags: ["automobile", "vehicles", "engineering", "cars", "design"]
 },
+
+{
+    id: "autonomous-systems-engineer",
+    name: "Autonomous Systems Engineer",
+    image: "images/autonomous-systems-engineer.jpeg",
+    page: "autonomous-systems-engineer.html",
+    icon: "🚗",
+    bucket: "Technology and Problem Solving",
+    category: "Robotics and Automation",
+    subjects: ["Physics", "Mathematics", "Computer Science"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science"],
+    type: "Private & Government",
+    tags: ["autonomous systems engineer", "self driving cars", "autonomous vehicles", "autonomous robots", "artificial intelligence", "robotics", "automation", "computer vision", "drones", "intelligent systems"]
+},
+
+
 
 {
     id: "avionics-engineer",
@@ -827,17 +861,18 @@ stream: ["Arts","Science","Commerce"]
 
 
 {
-  id: "electronics-engineer",
-  name: "Electronics Engineer",
-  description: "Electronics engineers design and build devices like mobile phones, TVs, medical machines, and smart systems. They make sure these devices work properly and safely in daily life.",
-  page: "electronics-engineer.html",
-  bucket: "Technology and Problem Solving",
-  category: "Electronics and Hardware",
-  subjects: ["Physics", "Mathematics", "Electronics"],
-  levels: ["Diploma", "Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["electronics", "circuits", "hardware", "electronic devices", "embedded systems"]
+    id: "electronics-engineer",
+    name: "Electronics Engineer",
+    image: "images/electronics-engineer.jpeg",
+    page: "electronics-engineer.html",
+    icon: "⚡",
+    bucket: "Technology and Problem Solving",
+    category: "Electronics and Hardware",
+    subjects: ["Physics", "Mathematics", "Computer Science"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science"],
+    type: "Private & Government",
+    tags: ["electronics engineer", "electronics engineering", "electronic circuits", "electronics design", "hardware engineer", "embedded systems", "communication systems", "electronic devices", "electronics technology", "electronics career"]
 },
 
 {
@@ -855,20 +890,19 @@ stream: ["Arts","Science","Commerce"]
 },
 
 {
-  id: "embedded-systems-engineer",
-  name: "Embedded Systems Engineer",
-  description: "Embedded systems engineers design and develop small computer systems inside devices like washing machines, cars, smartwatches, and medical equipment. They make sure these systems work smoothly and control the device functions.",
-  page: "embedded-systems-engineer.html",
-  icon: "💻",
-  bucket: "Technology and Problem Solving",
-  category: "Electronics and Hardware",
-  subjects: ["Physics", "Mathematics", "Electronics"],
-  levels: ["Diploma", "Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["electronics", "embedded systems", "hardware", "circuits", "electronic devices"]
+    id: "embedded-systems-engineer",
+    name: "Embedded Systems Engineer",
+    image: "images/embedded-systems-engineer.jpeg",
+    page: "embedded-systems-engineer.html",
+    icon: "🔌",
+    bucket: "Technology and Problem Solving",
+    category: "Electronics and Hardware",
+    subjects: ["Physics", "Mathematics", "Computer Science"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science"],
+    type: "Private & Government",
+    tags: ["embedded systems engineer", "embedded systems", "microcontroller", "firmware", "electronics", "iot", "arduino", "raspberry pi", "embedded software", "embedded hardware"]
 },
-
 
 {
     id: "environmental-scientist",
@@ -1120,6 +1154,24 @@ stream: ["Arts","Science","Commerce"]
     tags: ["homeopathy", "homeopathy doctor", "natural medicine", "holistic healing", "alternative medicine", "healthcare", "BHMS"]
 },
 
+
+{
+    id: "iot-developer",
+    name: "IoT Developer",
+    image: "images/iot-developer.jpeg",
+    page: "iot-developer.html",
+    icon: "📡",
+    bucket: "Technology and Problem Solving",
+    category: "Electronics and Hardware",
+    subjects: ["Physics", "Mathematics", "Computer Science"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science"],
+    type: "Private & Government",
+    tags: ["iot developer", "internet of things", "iot engineer", "smart devices", "sensors", "embedded systems", "connected devices", "iot applications", "automation", "smart technology"]
+},
+
+
+
 {
   id: "industrial-automation-engineer",
   name: "Industrial Automation Engineer",
@@ -1199,20 +1251,6 @@ stream: ["Arts","Science","Commerce"]
     tags: ["instrumentalist", "musician", "guitarist", "pianist", "drummer", "music performance", "studio musician", "live music"]
 },
 
-{
-  id: "iot-developer",
-  name: "IoT Developer",
-  description: "IoT developers build smart systems by connecting devices like sensors, machines, and everyday objects to the internet. They develop solutions for smart homes, healthcare, agriculture, and industries, ensuring devices communicate efficiently and automate tasks.",
-  page: "iot-developer.html",
-  icon: "📡",
-  bucket: "Technology and Problem Solving",
-  category: "Electronics and Hardware",
-  subjects: ["Physics", "Mathematics", "Electronics"],
-  levels: ["Diploma", "Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["iot", "internet of things", "embedded systems", "smart devices", "automation"]
-},
 
 {
   id: "it-security-analyst",
@@ -1349,18 +1387,18 @@ stream: ["Arts","Science","Commerce"]
 },
 
 {
-  id: "mechatronics-engineer",
-  name: "Mechatronics Engineer",
-  description: "Mechatronics engineers design and develop smart machines by combining mechanical, electrical, and computer systems. They work on automated systems, robots, and modern technologies used in industries and manufacturing.",
-  page: "mechatronics-engineer.html",
-  icon: "⚙️",
-  bucket: "Technology and Problem Solving",
-  category: "Robotics and Automation",
-  subjects: ["Physics", "Mathematics"],
-  levels: ["Diploma", "Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["automation", "robotics", "engineering", "machines", "electronics"]
+    id: "mechatronics-engineer",
+    name: "Mechatronics Engineer",
+    image: "images/mechatronics-engineer.jpeg",
+    page: "mechatronics-engineer.html",
+    icon: "⚙️",
+    bucket: "Technology and Problem Solving",
+    category: "Robotics and Automation",
+    subjects: ["Physics", "Mathematics", "Computer Science"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science"],
+    type: "Private & Government",
+    tags: ["mechatronics engineer", "mechatronics", "robotics", "automation", "electronics", "mechanical systems", "control systems", "embedded systems", "industrial automation", "robotics engineering"]
 },
 
 
@@ -1523,19 +1561,21 @@ stream: ["Arts","Science","Commerce"]
     type: "Government & Private",
     tags: ["nurse", "nursing", "healthcare", "patient care", "hospital", "medical support"]
 },
+
+
 {
-  id: "pcb-design-engineer",
-  name: "PCB Design Engineer",
-  description: "PCB Design Engineers design printed circuit boards that connect electronic components in devices like mobile phones, computers, and machines. They plan the layout and connections to ensure devices work properly.",
-  page: "pcb-design-engineer.html",
-  icon: "🔌",
-  bucket: "Technology and Problem Solving",
-  category: "Electronics and Hardware",
-  subjects: ["Physics", "Mathematics", "Electronics"],
-  levels: ["Diploma", "Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["pcb", "circuit board", "electronics", "hardware", "design"]
+    id: "pcb-design-engineer",
+    name: "PCB Design Engineer",
+    image: "images/pcb-design-engineer.jpeg",
+    page: "pcb-design-engineer.html",
+    icon: "🔋",
+    bucket: "Technology and Problem Solving",
+    category: "Electronics and Hardware",
+    subjects: ["Physics", "Mathematics", "Computer Science"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science"],
+    type: "Private & Government",
+    tags: ["pcb design engineer", "pcb designer", "printed circuit board", "electronics engineer", "circuit board", "hardware design", "pcb layout", "electronics hardware", "circuit design", "pcb development"]
 },
 
 
@@ -1711,32 +1751,34 @@ stream: ["Science","Arts"]
 
 
 {
-  id: "robotics-engineer",
-  name: "Robotics Engineer",
-  description: "Robotics engineers design and build machines that can move and perform tasks automatically. They work on robots used in factories, hospitals, and daily life.",
-  page: "robotics-engineer.html",
-  bucket: "Technology and Problem Solving",
-  category: "Robotics and Automation",
-  subjects: ["Physics", "Mathematics", "Computer Science"],
-  levels: ["12th", "Diploma", "Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["robotics", "automation", "robots", "mechatronics", "engineering"]
+    id: "robotics-engineer",
+    name: "Robotics Engineer",
+    image: "images/robotics-engineer.jpeg",
+    page: "robotics-engineer.html",
+    icon: "🤖",
+    bucket: "Technology and Problem Solving",
+    category: "Robotics and Automation",
+    subjects: ["Physics", "Mathematics", "Computer Science"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science"],
+    type: "Private & Government",
+    tags: ["robotics engineer", "robotics", "robot design", "automation", "industrial robots", "robotics engineering", "mechatronics", "sensors", "control systems", "robot development"]
 },
 
 {
     id: "robotics-software-engineer",
     name: "Robotics Software Engineer",
-    description: "Robotics Software Engineers write programs that control how robots move and perform tasks. They develop software for sensors, automation systems, and intelligent machines used in industries and robotics applications.",
+    image: "images/robotics-software-engineer.jpeg",
     page: "robotics-software-engineer.html",
     icon: "🤖",
     bucket: "Technology and Problem Solving",
     category: "Robotics and Automation",
-    subjects: ["Computer Science", "Electronics"],
-    levels: ["Graduation"],
+    subjects: ["Physics", "Mathematics", "Computer Science"],
+    levels: ["Diploma", "Graduation"],
     stream: ["Science"],
-    type: "Private",
-    tags: ["robotics", "software", "programming", "automation", "systems"]
+    type: "Private & Government",
+    tags: ["robotics software engineer","robotics","robot programming","automation","artificial intelligence","computer vision",
+        "ROS","autonomous systems","robotics engineer","robot software"]
 },
 
 
@@ -2062,18 +2104,18 @@ stream: ["Arts","Science","Commerce"]
 },
 
 {
-  id: "vlsi-engineer",
-  name: "VLSI Engineer",
-  description: "VLSI engineers design and develop microchips and integrated circuits used in devices like smartphones, computers, and electronics. They work on creating smaller, faster, and more efficient chips.",
-  page: "vlsi-engineer.html",
-  icon: "🔬",
-  bucket: "Technology and Problem Solving",
-  category: "Electronics and Hardware",
-  subjects: ["Physics", "Mathematics", "Electronics"],
-  levels: ["Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["vlsi", "chip design", "semiconductors", "electronics", "integrated circuits"]
+    id: "vlsi-engineer",
+    name: "VLSI Engineer",
+    image: "images/vlsi-engineer.jpeg",
+    page: "vlsi-engineer.html",
+    icon: "💻",
+    bucket: "Technology and Problem Solving",
+    category: "Electronics and Hardware",
+    subjects: ["Physics", "Mathematics", "Electronics"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science"],
+    type: "Private & Government",
+    tags: ["vlsi engineer", "semiconductor engineer", "chip design engineer", "integrated circuits", "ic design", "microelectronics", "semiconductor", "chip design", "hardware engineering", "vlsi"]
 },
 
 {
