@@ -58,7 +58,7 @@ window.careers = [
     page: "aeronautical-engineer.html",
     icon: "✈️",
     bucket: "Technology and Problem Solving",
-    category: "Aviation and Aerospace",
+    category: "Engineering Design and Technology",
     subjects: ["Physics", "Mathematics", "Computer Science"],
     levels: ["Diploma", "Graduation"],
     stream: ["Science"],
@@ -204,16 +204,16 @@ window.careers = [
 {
     id: "automobile-engineer",
     name: "Automobile Engineer",
-    description: "Automobile engineers design and develop vehicles like cars, bikes, and trucks. They ensure vehicles are safe, efficient, and perform well on the road.",
+    image: "images/automobile-engineer.jpeg",
     page: "automobile-engineer.html",
     icon: "🚗",
     bucket: "Technology and Problem Solving",
     category: "Engineering Design and Technology",
-    subjects: ["Physics", "Mathematics"],
+    subjects: ["Physics", "Mathematics", "Computer Science"],
     levels: ["Diploma", "Graduation"],
     stream: ["Science"],
-    type: "Private",
-    tags: ["automobile", "vehicles", "engineering", "cars", "design"]
+    type: "Private & Government",
+    tags: ["automobile engineer", "automobile engineering", "automotive engineer", "vehicle design", "car engineer", "automotive technology", "vehicle systems", "car manufacturing", "electric vehicles", "automobile industry", "vehicle testing", "automotive career", "automotive jobs", "engine design", "transportation engineering"]
 },
 
 {
@@ -298,16 +298,16 @@ window.careers = [
 {
     id: "biochemical-engineer",
     name: "Biochemical Engineer",
-    description: "Biochemical engineers work on processes that use chemicals and biological materials to create useful products like medicines, food, and fuels. They design and improve systems used in industries such as pharmaceuticals, biotechnology, and manufacturing.",
+    image: "images/biochemical-engineer.jpeg",
     page: "biochemical-engineer.html",
     icon: "🧪",
     bucket: "Technology and Problem Solving",
     category: "Engineering Design and Technology",
-    subjects: ["Chemistry", "Biology", "Mathematics"],
-    levels: ["Graduation"],
+    subjects: ["Biology", "Chemistry", "Mathematics"],
+    levels: ["Diploma", "Graduation"],
     stream: ["Science"],
-    type: "Private",
-    tags: ["biochemical", "chemical", "biotechnology", "pharmaceuticals", "processes"]
+    type: "Private & Government",
+    tags: ["biochemical engineer", "biochemical engineering", "biotechnology engineer", "bioengineering", "bioprocess engineer", "pharmaceutical engineer", "vaccine production", "biotechnology industry", "food processing", "biochemical technology"]
 },
 
 
@@ -315,16 +315,16 @@ window.careers = [
 {
     id: "biomedical-engineer",
     name: "Biomedical Engineer",
-    description: "Biomedical engineers work on medical equipment and devices used in hospitals and healthcare. They help design, maintain, and improve machines that support doctors in treating patients.",
+    image: "images/biomedical-engineer.jpeg",
     page: "biomedical-engineer.html",
-    icon: "🩺",
+    icon: "🧑‍⚕️",
     bucket: "Technology and Problem Solving",
     category: "Engineering Design and Technology",
-    subjects: ["Biology", "Mathematics"],
-    levels: ["Graduation"],
+    subjects: ["Biology", "Physics", "Mathematics"],
+    levels: ["Diploma", "Graduation"],
     stream: ["Science"],
-    type: "Private",
-    tags: ["biomedical", "medical", "healthcare", "devices", "hospital"]
+    type: "Private & Government",
+    tags: ["biomedical engineer", "biomedical engineering", "medical devices", "healthcare technology", "medical equipment", "x ray machine", "MRI scanner", "prosthetics", "hospital technology", "biomedical technology"]
 },
 
 
