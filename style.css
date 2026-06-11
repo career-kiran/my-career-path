@@ -1523,7 +1523,7 @@ background:#f8fffd;
 
 
 .exam-content {
-  background: #f9fbff;
+  background: #D1DDD4;
   border: 1px solid #e3e8f5;
   padding: 20px;
   border-radius: 10px;
@@ -2506,6 +2506,7 @@ html{
     max-width: 350px;
 
     line-height: 1.7;
+    color: white;
 }
 
 .footer-links{
@@ -2872,4 +2873,14 @@ margin-bottom:8px;
     font-size:20px;
     font-weight:bold;
     text-shadow:2px 2px 8px rgba(0,0,0,0.7);
+}
+
+
+
+
+.step-title{
+    color:#1e88e5;
+    font-weight:bold;
+    font-size:16px;
+    margin-bottom:5px;
 }

@@ -345,16 +345,16 @@ window.careers = [
 {
     id: "biotechnology-engineer",
     name: "Biotechnology Engineer",
-    description: "Biotechnology engineers use living organisms like bacteria, cells, and enzymes to create useful products such as medicines, vaccines, and food products. They work on developing solutions in healthcare, agriculture, and environmental fields.",
+    image: "images/biotechnology-engineer.jpeg",
     page: "biotechnology-engineer.html",
     icon: "🧬",
     bucket: "Technology and Problem Solving",
     category: "Engineering Design and Technology",
     subjects: ["Biology", "Chemistry", "Mathematics"],
-    levels: ["Graduation"],
+    levels: ["Diploma", "Graduation"],
     stream: ["Science"],
-    type: "Private",
-    tags: ["biotechnology", "biotech", "biology", "healthcare", "research"]
+    type: "Private & Government",
+    tags: ["biotechnology engineer", "biotechnology engineering", "biotech engineer", "genetic engineering", "biotechnology", "vaccines", "medicines", "genetic technology", "biotechnology industry", "biotechnology career"]
 },
 
 
@@ -405,16 +405,16 @@ window.careers = [
 {
     id: "chemical-engineer",
     name: "Chemical Engineer",
-    description: "Chemical engineers work on processes that convert raw materials into useful products like fuels, chemicals, medicines, and food. They design, develop, and optimize production processes to ensure efficiency, safety, and sustainability.",
+    image: "images/chemical-engineer.jpeg",
     page: "chemical-engineer.html",
     icon: "⚗️",
     bucket: "Technology and Problem Solving",
     category: "Engineering Design and Technology",
-    subjects: ["Physics", "Chemistry", "Mathematics"],
+    subjects: ["Chemistry", "Physics", "Mathematics"],
     levels: ["Diploma", "Graduation"],
     stream: ["Science"],
-    type: "Private",
-    tags: ["chemical", "process", "manufacturing", "industry", "production"]
+    type: "Private & Government",
+    tags: ["chemical engineer", "chemical engineering", "chemical process engineer", "industrial chemistry", "chemical manufacturing", "petrochemical engineer", "fertilizer industry", "pharmaceutical manufacturing", "chemical technology", "chemical engineering career"]
 },
 
 
@@ -451,16 +451,16 @@ window.careers = [
 {
     id: "civil-engineer",
     name: "Civil Engineer",
-    description: "Civil engineers design and build structures like roads, bridges, buildings, and water systems. They make sure everything is safe, strong, and lasts for a long time.",
+    image: "images/civil-engineer.jpeg",
     page: "civil-engineer.html",
     icon: "🏗️",
     bucket: "Technology and Problem Solving",
     category: "Engineering Design and Technology",
-    subjects: ["Physics", "Mathematics"],
+    subjects: ["Mathematics", "Physics", "Engineering Drawing"],
     levels: ["Diploma", "Graduation"],
     stream: ["Science"],
-    type: "Private",
-    tags: ["civil", "construction", "engineering", "infrastructure", "design"]
+    type: "Private & Government",
+    tags: ["civil engineer", "civil engineering", "construction engineer", "structural engineer", "building construction", "road construction", "bridge engineer", "infrastructure engineer", "civil engineering career", "civil engineering jobs"]
 },
 
 {
@@ -846,17 +846,17 @@ stream: ["Arts","Science","Commerce"]
 
 {
     id: "electronics-communication-engineer",
-    name: "Electronics & Communication Engineer",
-    description: "Electronics and Communication engineers design and develop electronic devices and communication systems like mobile networks, satellites, and embedded systems.",
+    name: "Electronics and Communication Engineer",
+    image: "images/electronics-communication-engineer.jpeg",
     page: "electronics-communication-engineer.html",
     icon: "📡",
     bucket: "Technology and Problem Solving",
     category: "Engineering Design and Technology",
-    subjects: ["Physics", "Mathematics"],
-    levels: ["Graduation"],
+    subjects: ["Physics", "Mathematics", "Electronics"],
+    levels: ["Diploma", "Graduation"],
     stream: ["Science"],
-    type: "Private",
-    tags: ["electronics", "communication", "telecom", "embedded", "networks"]
+    type: "Private & Government",
+    tags: ["electronics engineer", "communication engineer", "electronics and communication engineering", "ece engineer", "telecommunication engineer", "embedded systems", "network engineer", "communication systems", "electronics career", "ece jobs"]
 },
 
 
@@ -876,17 +876,18 @@ stream: ["Arts","Science","Commerce"]
 },
 
 {
-  id: "electrical-engineer",
-  name: "Electrical Engineer",
-  description: "Electrical engineers work with electricity and power systems. They design, build, and maintain systems like wiring, power supply, and machines used in homes, industries, and large projects.",
-  page: "electrical-engineer.html",
-  bucket: "Technology and Problem Solving",
-  category: "Engineering Design and Technology",
-  subjects: ["Physics", "Mathematics"],
-  levels: ["Diploma", "Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["electricity", "power", "wiring", "energy", "machines", "infrastructure"]
+    id: "electrical-engineer",
+    name: "Electrical Engineer",
+    image: "images/electrical-engineer.jpeg",
+    page: "electrical-engineer.html",
+    icon: "⚡",
+    bucket: "Technology and Problem Solving",
+    category: "Engineering Design and Technology",
+    subjects: ["Physics", "Mathematics", "Electricity"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science"],
+    type: "Private & Government",
+    tags: ["electrical engineer", "electrical engineering", "power engineer", "electricity", "power systems", "electrical design", "electrical maintenance", "power generation", "electrical engineering career", "electrical jobs"]
 },
 
 {
