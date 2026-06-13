@@ -792,8 +792,8 @@ stream: ["Arts","Science","Commerce"]
 
 
 {
-    id: "doctor",
-    name: "Doctor",
+    id: "allopathic doctor",
+    name: "Allopathic Doctor",
     image: "images/doctor.jpeg",
     page: "doctor.html",
     icon: "🩺",
