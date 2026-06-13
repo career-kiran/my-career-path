@@ -938,17 +938,19 @@ stream: ["Arts","Science","Commerce"]
 {
     id: "environmental-engineer",
     name: "Environmental Engineer",
-    description: "Environmental engineers protect the environment by reducing pollution and managing waste. They work on clean water, air quality, and systems that keep our surroundings safe.",
+    image: "images/environmental-engineer.jpeg",
     page: "environmental-engineer.html",
     icon: "🌱",
     bucket: "Technology and Problem Solving",
     category: "Engineering Design and Technology",
-    subjects: ["Chemistry", "Biology", "Mathematics"],
-    levels: ["Graduation"],
+    subjects: ["Environmental Science", "Chemistry", "Biology"],
+    levels: ["Diploma", "Graduation"],
     stream: ["Science"],
-    type: "Private",
-    tags: ["environment", "pollution", "waste", "water", "sustainability"]
+    type: "Private & Government",
+    tags: ["environmental engineer", "environmental engineering", "pollution control", "waste management", "water treatment", "air pollution", "sustainability", "environmental protection", "green technology", "environmental career"]
 },
+
+
 
 {
     id: "fashion-designer",
@@ -1157,6 +1159,27 @@ stream: ["Arts","Science","Commerce"]
 
 
 {
+    id: "ias-officer",
+    name: "IAS Officer",
+    image: "images/ias-officer.jpeg",
+    page: "ias-officer.html",
+
+    icon: "🏛️",
+    bucket: "Government Services",
+    category: "After Graduation",
+
+    subjects: ["Political Science", "History", "Geography", "Economics"],
+    levels: ["Graduation"],
+    stream: ["Arts", "Science", "Commerce"],
+
+    type: "Government",
+
+    tags: ["ias", "upsc", "civil services", "administration", "district collector", "government officer"]
+},
+
+
+
+{
     id: "iot-developer",
     name: "IoT Developer",
     image: "images/iot-developer.jpeg",
@@ -1358,33 +1381,32 @@ stream: ["Arts","Science","Commerce"]
 {
     id: "marine-engineer",
     name: "Marine Engineer",
-    description: "Marine engineers work on ships and marine vessels, managing and maintaining engines, fuel systems, and mechanical equipment that keep ships running smoothly.",
+    image: "images/marine-engineer.jpeg",
     page: "marine-engineer.html",
     icon: "🚢",
     bucket: "Technology and Problem Solving",
     category: "Engineering Design and Technology",
-    subjects: ["Mathematics", "Physics"],
-    levels: ["Graduation"],
+    subjects: ["Physics", "Mathematics", "Mechanical Systems"],
+    levels: ["Diploma", "Graduation"],
     stream: ["Science"],
-    type: "Private",
-    tags: ["marine", "ship", "engineering", "mechanical", "transport"]
+    type: "Private & Government",
+    tags: ["marine engineer", "marine engineering", "ship engineer", "merchant navy", "ship engines", "marine machinery", "cargo ships", "marine engineering career", "marine jobs", "ship maintenance"]
 },
 
 
-
 {
-  id: "mechanical-engineer",
-  name: "Mechanical Engineer",
-  description: "Mechanical engineers design and work with machines like engines, vehicles, and industrial equipment. They help build, test, and improve machines so they work properly and efficiently.",
-  page: "mechanical-engineer.html",
-  icon: "🔧",
-  bucket: "Technology and Problem Solving",
-  category: "Engineering Design and Technology",
-  subjects: ["Physics", "Mathematics"],
-  levels: ["Diploma", "Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["mechanical", "machines", "engineering", "design", "manufacturing"]
+    id: "mechanical-engineer",
+    name: "Mechanical Engineer",
+    image: "images/mechanical-engineer.jpeg",
+    page: "mechanical-engineer.html",
+    icon: "⚙️",
+    bucket: "Technology and Problem Solving",
+    category: "Engineering Design and Technology",
+    subjects: ["Physics", "Mathematics", "Mechanical Systems"],
+    levels: ["Diploma", "Graduation"],
+    stream: ["Science"],
+    type: "Private & Government",
+    tags: ["mechanical engineer", "mechanical engineering", "machines", "engines", "automobiles", "robotics", "manufacturing", "industrial machinery", "mechanical design", "engineering career"]
 },
 
 {
@@ -1598,18 +1620,17 @@ stream: ["Arts","Science","Commerce"]
 {
     id: "petrochemical-engineer",
     name: "Petrochemical Engineer",
-    description: "Petrochemical engineers convert crude oil and natural gas into useful products like petrol, diesel, plastics, and chemicals. They work in refineries and chemical plants.",
+    image: "images/petrochemical-engineer.jpeg",
     page: "petrochemical-engineer.html",
     icon: "🛢️",
     bucket: "Technology and Problem Solving",
     category: "Engineering Design and Technology",
     subjects: ["Chemistry", "Physics", "Mathematics"],
-    levels: ["Graduation"],
+    levels: ["Diploma", "Graduation"],
     stream: ["Science"],
-    type: "Private",
-    tags: ["petrochemical", "refinery", "oil", "gas", "chemicals"]
+    type: "Private & Government",
+    tags: ["petrochemical engineer", "petrochemical engineering", "oil refinery", "petroleum industry", "natural gas", "fuels", "plastics", "fertilizers", "chemicals", "refinery engineer", "petrochemical plants", "energy industry"]
 },
-
 
 {
 name: "Photo Editor",
@@ -1872,16 +1893,16 @@ stream: ["Arts","Science"]
 {
     id: "software-engineer",
     name: "Software Engineer",
-    description: "Software engineers create apps, websites, and systems we use every day. They write code to build things like mobile apps, games, and software that make our lives easier.",
+    image: "images/software-engineer.jpeg",
     page: "software-engineer.html",
     icon: "💻",
     bucket: "Technology and Problem Solving",
     category: "Engineering Design and Technology",
-    subjects: ["Mathematics", "Computer Science"],
+    subjects: ["Computer Science", "Mathematics", "Programming"],
     levels: ["Diploma", "Graduation"],
     stream: ["Science"],
-    type: "Private",
-    tags: ["software", "coding", "programming", "apps", "technology"]
+    type: "Private & Government",
+    tags: ["software engineer", "software engineering", "computer programming", "coding", "app development", "web development", "software developer", "computer science", "technology career", "software jobs"]
 },
 
 {
