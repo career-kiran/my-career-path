@@ -51,6 +51,22 @@ window.careers = [
     tags: ["acting", "performing arts", "cinema", "theatre", "entertainment"]
 },
 
+
+{
+    id: "advocate",
+    name: "Advocate",
+    image: "images/advocate.jpeg",
+    page: "advocate.html",
+    icon: "⚖️",
+    bucket: "Business",
+    subjects: ["Political Science", "History", "English"],
+    levels: ["Graduation"],
+    stream: ["Commerce", "Science", "Arts"],
+    type: "Government & Private",
+    tags: ["advocate", "lawyer", "law", "legal services", "court", "litigation", "legal advisor", "criminal law", "civil law", "justice"]
+},
+
+
 {
     id: "aeronautical-engineer",
     name: "Aeronautical Engineer",
