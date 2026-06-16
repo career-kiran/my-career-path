@@ -97,7 +97,15 @@ window.careers = [
     tags: ["aerospace engineer", "aerospace engineering", "rocket engineer", "satellite engineer", "spacecraft engineer", "space technology", "rocket design", "satellite systems", "space missions", "avionics engineer", "aerospace career", "rocket science", "space exploration", "space engineering", "launch vehicle engineer"]
 },
 
-
+{
+    contentType: "exam",
+    id: "aiapget",
+    name: "AIAPGET",
+    description: "All India AYUSH Post Graduate Entrance Test",
+    page: "aiapget.html",
+    keywords: ["aiapget", "ayush pg entrance exam", "bams pg admission", "bhms pg admission", "bums pg admission", "bsms pg admission", "ayurveda pg", "homeopathy pg", "unani pg", "siddha pg"],
+    tags: ["ayush", "bams", "bhms", "bums", "bsms", "postgraduate", "medical entrance exam"]
+},
 
 {
     id: "ai-content-strategist",
@@ -1261,6 +1269,30 @@ stream: ["Arts","Science","Commerce"]
     tags: ["information security analyst", "information security", "cybersecurity", "data protection", "network security", "risk management", "security monitoring", "digital safety"]
 },
 
+
+{
+    contentType: "exam",
+    id: "ini-cet",
+    name: "INI-CET",
+    description: "Institute of National Importance Combined Entrance Test",
+    page: "ini-cet.html",
+    keywords: ["ini cet", "medical pg entrance exam", "aiims pg", "jipmer pg", "pgimer pg", "nimhans pg", "md admission", "ms admission", "mbbs graduate"],
+    tags: ["medical", "postgraduate", "mbbs", "doctor", "md", "ms", "aiims", "jipmer", "pgimer", "nimhans", "entrance exam"]
+},
+
+
+{
+    contentType: "exam",
+    id: "ini-cet-dental",
+    name: "INI-CET Dental",
+    description: "Institute of National Importance Combined Entrance Test for Dental Courses",
+    page: "ini-cet-dental.html",
+    keywords: ["ini cet dental", "mds admission", "postgraduate dental entrance exam", "aiims dental admission", "bds postgraduate", "mds courses", "aiims exam", "ini cet dental eligibility", "ini cet dental exam pattern"],
+    tags: ["dentistry", "bds", "mds", "postgraduate", "dental entrance exam", "aiims"]
+},
+
+
+
 {
   id: "instrumentation-engineer",
   name: "Instrumentation Engineer",
@@ -1337,15 +1369,13 @@ stream: ["Arts","Science","Commerce"]
 },
 
 {
-  name: "JEE Main",
-  description: "Joint Entrance Examination (Main)",
-  page: "jee-main.html",
-  keywords: ["jee main","jee main exam","engineering entrance exam",
-    "iit entrance","nit admission","jee nta","btech entrance exam",
-    "engineering admission india",
-    "jee main india","pcm entrance exam","how to become engineer"],
-  tags: ["engineering","technology","physics","maths","entrance exam",
-    "btech","iit","nit"]
+    contentType: "exam",
+    id: "jee-main",
+    name: "JEE Main",
+    description: "Joint Entrance Examination (Main)",
+    page: "jee-main.html",
+    keywords: ["jee main", "engineering entrance exam", "iit entrance", "nit admission", "btech entrance exam", "jee nta", "pcm entrance exam"],
+    tags: ["engineering", "btech", "iit", "nit", "entrance exam"]
 },
 
 
@@ -1505,21 +1535,37 @@ stream: ["Arts","Science","Commerce"]
     tags: ["music", "producer", "beat making", "mixing", "recording", "audio production"]
 },
 
-
-
-
 {
-  name: "NEET",
-  description: "National Eligibility cum Entrance Test",
-  page: "neet.html",
-  keywords: ["neet","neet exam","medical entrance exam","mbbs entrance","bds entrance","doctor exam","medical admission","neet ug",
-"medical course entrance","how to become doctor","pcb entrance exam",
- "biology entrance exam","neet india"],
-  tags: ["medical","healthcare","biology","doctor","entrance exam","mbbs","bds"]
+    contentType: "exam",
+    id: "neet-mds",
+    name: "NEET MDS",
+    description: "National Eligibility cum Entrance Test for Master of Dental Surgery",
+    page: "neet-mds.html",
+    keywords: ["neet mds", "dental entrance exam", "mds admission", "bds postgraduate", "master of dental surgery", "dental pg entrance exam"],
+    tags: ["dentistry", "bds", "mds", "postgraduate", "dental entrance exam"]
 },
 
 
+{
+    contentType: "exam",
+    id: "neet-ug",
+    name: "NEET UG",
+    description: "National Eligibility cum Entrance Test (Undergraduate)",
+    page: "neet-ug.html",
+    keywords: ["neet", "medical entrance exam", "mbbs admission", "bds admission", "doctor", "medical college", "neet ug"],
+    tags: ["medical", "mbbs", "bds", "doctor", "entrance exam"]
+},
 
+
+{
+    contentType: "exam",
+    id: "neet-pg",
+    name: "NEET PG",
+    description: "National Eligibility cum Entrance Test (Postgraduate)",
+    page: "neet-pg.html",
+    keywords: ["neet pg", "postgraduate medical entrance exam", "md admission", "ms admission", "medical pg", "doctor", "mbbs graduate"],
+    tags: ["medical", "postgraduate", "mbbs", "doctor", "md", "ms", "entrance exam"]
+},
 
 
 
@@ -1957,6 +2003,17 @@ category: "Performing",
 subjects: ["Comedy","Performing Arts","Communication"],
 levels: ["12th","Graduation"],
 stream: ["Arts","Science","Commerce"]
+},
+
+
+{
+    contentType: "exam",
+    id: "state-level-nursing-entrance-exams",
+    name: "State-Level Nursing Entrance Exams",
+    description: "State-level entrance examinations for admission to nursing courses in India",
+    page: "state-level-nursing-entrance-exams.html",
+    keywords: ["state nursing entrance exams", "bsc nursing entrance exam", "nursing admission india", "keam nursing", "kcet nursing", "jenpas ug", "mht cet nursing", "nursing entrance test"],
+    tags: ["nursing", "bsc nursing", "healthcare", "state exam", "entrance exam"]
 },
 
 
