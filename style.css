@@ -1,6 +1,7 @@
 
 
 
+
 /* ===== BODY ===== */
 
 body {
@@ -419,6 +420,7 @@ h1 {
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     margin-top: 25px;
+    border: 1px solid #333;
 }
 
 .highlight-main {
@@ -1222,6 +1224,7 @@ font-weight: 500;
   padding: 15px;
   border-radius: 10px;
   background: #f5f5f5;
+  border: 1px solid #333;
 }
 
 
@@ -1367,7 +1370,7 @@ main-container {
 .green  { background: #e6fffa; color: #333; }
 .orange { background: #FAFAFA; color: #333; }
 .red    { background: #FAFAFA; color: #333; }
-.green  { background: #e6f7f1; color: #333; }
+.green  { background: #FAFAFA; color: #333; }
 .grey   { background: #e5e7eb; color: #333; }
 .pink   { background: #fce7f3; color: #333; }
 .brown  { background: #f3e5d8; color: #5a3e2b; }
