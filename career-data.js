@@ -139,6 +139,28 @@ window.careers = [
 
 
 {
+    contentType: "exam",
+    id: "aiims-bsc-nursing",
+    name: "AIIMS B.Sc Nursing",
+    description: "AIIMS B.Sc Nursing Entrance Examination",
+    page: "aiims-bsc-nursing.html",
+    keywords: ["aiims bsc nursing", "aiims nursing entrance exam", "bsc nursing admission", "aiims nursing", "nursing entrance exam", "aiims nursing eligibility"],
+    tags: ["nursing", "bsc nursing", "aiims", "healthcare", "entrance exam"]
+},
+
+
+{
+    contentType: "exam",
+    id: "aiims-msc-nursing-exam",
+    name: "AIIMS M.Sc Nursing Entrance Examination",
+    description: "National-level entrance examination for admission to M.Sc Nursing courses offered by AIIMS institutes",
+    page: "aiims-msc-nursing-exam.html",
+    keywords: ["aiims msc nursing", "aiims msc nursing entrance exam", "msc nursing admission", "aiims nursing pg", "postgraduate nursing"],
+    tags: ["nursing", "msc nursing", "aiims", "postgraduate", "entrance exam"]
+},
+
+
+{
     id: "ai-robotics-engineer",
     name: "AI Robotics Engineer",
     image: "images/ai-robotics-engineer.jpeg",
@@ -166,6 +188,17 @@ window.careers = [
   stream: ["Arts", "Science", "Commerce"],
   type: "Private",
   tags: ["animation", "2d animation", "3d animation", "visual effects", "gaming", "creative media"]
+},
+
+
+{
+    contentType: "exam",
+    id: "anm-nursing-entrance-exams",
+    name: "ANM Nursing Entrance Exams",
+    description: "Entrance examinations for admission to Auxiliary Nurse Midwife (ANM) courses in India",
+    page: "anm-nursing-entrance-exams.html",
+    keywords: ["anm nursing entrance exam", "auxiliary nurse midwife", "anm admission", "nursing entrance exam", "state nursing exam", "anm course"],
+    tags: ["nursing", "anm", "healthcare", "state exam", "entrance exam"]
 },
 
 
@@ -548,6 +581,28 @@ window.careers = [
   stream: ["Science"],
   type: "Private",
   tags: ["technology", "cloud", "security", "network", "systems"]
+},
+
+
+{
+    contentType: "exam",
+    id: "college-pg-nursing-entrance-exams",
+    name: "College PG Nursing Entrance Exams",
+    description: "College-level entrance examinations for admission to postgraduate nursing courses in India",
+    page: "college-pg-nursing-entrance-exams.html",
+    keywords: ["college pg nursing entrance exam", "msc nursing admission", "college nursing exam", "postgraduate nursing admission"],
+    tags: ["nursing", "msc nursing", "postgraduate", "healthcare", "college exam"]
+},
+
+
+{
+    contentType: "exam",
+    id: "college-post-basic-bsc-nursing-entrance-exams",
+    name: "College Post Basic B.Sc Nursing Entrance Exams",
+    description: "College-level entrance examinations for admission to Post Basic B.Sc Nursing courses in India",
+    page: "college-post-basic-bsc-nursing-entrance-exams.html",
+    keywords: ["college post basic bsc nursing entrance exam", "post basic bsc nursing admission", "pbbsc nursing entrance exam", "college nursing entrance exam"],
+    tags: ["nursing", "post basic bsc nursing", "healthcare", "college exam"]
 },
 
 {
@@ -1120,6 +1175,17 @@ stream: ["Arts","Science","Commerce"]
 
 
 {
+    contentType: "exam",
+    id: "gnm-nursing-entrance-exams",
+    name: "GNM Nursing Entrance Exams",
+    description: "Entrance examinations for admission to General Nursing and Midwifery (GNM) courses in India",
+    page: "gnm-nursing-entrance-exams.html",
+    keywords: ["gnm nursing entrance exam", "general nursing and midwifery", "gnm admission", "nursing entrance exam", "state nursing exam", "gnm course"],
+    tags: ["nursing", "gnm", "healthcare", "state exam", "entrance exam"]
+},
+
+
+{
     id: "graphic-designer",
     name: "Graphic Designer",
     image:"images/graphic-designer.jpeg",
@@ -1468,6 +1534,39 @@ stream: ["Arts","Science","Commerce"]
     stream: ["Science"],
     type: "Private & Government",
     tags: ["mechatronics engineer", "mechatronics", "robotics", "automation", "electronics", "mechanical systems", "control systems", "embedded systems", "industrial automation", "robotics engineering"]
+},
+
+
+{
+    contentType: "exam",
+    id: "merit-pg-nursing-admissions",
+    name: "Merit-Based PG Nursing Admissions",
+    description: "Merit-based admission process for postgraduate nursing courses in India",
+    page: "merit-pg-nursing-admission.html",
+    keywords: ["merit based msc nursing admission", "msc nursing admission", "postgraduate nursing admission"],
+    tags: ["nursing", "msc nursing", "postgraduate", "merit based admission"]
+},
+
+
+{
+    contentType: "exam",
+    id: "merit-ug-nursing-admission",
+    name: "Merit-Based UG Nursing Admission",
+    description: "Merit-based admission process for undergraduate nursing courses in India",
+    page: "merit-ug-nursing-admission.html",
+    keywords: ["merit based ug nursing admission", "bsc nursing admission", "gnm admission", "nursing admission without entrance exam"],
+    tags: ["nursing", "bsc nursing", "gnm", "admission", "merit based"]
+},
+
+
+{
+    contentType: "exam",
+    id: "merit-based-post-basic-bsc-nursing-admission",
+    name: "Merit-Based Post Basic B.Sc Nursing Admission",
+    description: "Merit-based admission process for Post Basic B.Sc Nursing courses in India",
+    page: "merit-based-post-basic-bsc-nursing-admission.html",
+    keywords: ["merit based post basic bsc nursing admission", "post basic bsc nursing admission", "pbbsc nursing admission"],
+    tags: ["nursing", "post basic bsc nursing", "healthcare", "merit based admission"]
 },
 
 
@@ -2006,6 +2105,27 @@ stream: ["Arts","Science","Commerce"]
 },
 
 
+
+{
+    contentType: "exam",
+    id: "state-level-cet",
+    name: "State-Level CET Entrance Exams",
+    description: "Common Entrance Tests conducted by various state authorities for admission to professional courses in India",
+    page: "state-level-cet.html",
+    keywords: ["state cet", "cet exam", "mht cet", "kcet", "keam", "wbjee", "state entrance exam"],
+    tags: ["cet", "entrance exam", "engineering", "pharmacy", "nursing", "physiotherapy"]
+},
+
+{
+    contentType: "exam",
+    id: "state-level-pg-cet",
+    name: "State-Level PG CET Entrance Exams",
+    description: "Postgraduate Common Entrance Tests conducted by various state authorities for admission to postgraduate courses in India",
+    page: "state-level-pg-cet.html",
+    keywords: ["state pg cet", "pg cet exam", "postgraduate entrance exam", "state level pg admission", "pg admission"],
+    tags: ["pg cet", "postgraduate", "entrance exam", "state exam", "higher education"]
+},
+
 {
     contentType: "exam",
     id: "state-level-nursing-entrance-exams",
@@ -2015,6 +2135,30 @@ stream: ["Arts","Science","Commerce"]
     keywords: ["state nursing entrance exams", "bsc nursing entrance exam", "nursing admission india", "keam nursing", "kcet nursing", "jenpas ug", "mht cet nursing", "nursing entrance test"],
     tags: ["nursing", "bsc nursing", "healthcare", "state exam", "entrance exam"]
 },
+
+
+{
+    contentType: "exam",
+    id: "state-pg-nursing-entrance-exams",
+    name: "State PG Nursing Entrance Exams",
+    description: "State-level entrance examinations for admission to postgraduate nursing courses in India",
+    page: "state-pg-nursing-entrance-exams.html",
+    keywords: ["state pg nursing entrance exam", "msc nursing entrance exam", "postgraduate nursing admission", "msc nursing", "nursing pg admission", "state nursing entrance exam"],
+    tags: ["nursing", "msc nursing", "postgraduate", "healthcare", "state exam"]
+},
+
+
+{
+    contentType: "exam",
+    id: "state-post-basic-bsc-nursing-entrance-exams",
+    name: "State Post Basic B.Sc Nursing Entrance Exams",
+    description: "State-level entrance examinations for admission to Post Basic B.Sc Nursing courses in India",
+    page: "state-post-basic-bsc-nursing-entrance-exams.html",
+    keywords: ["post basic bsc nursing entrance exam", "state post basic bsc nursing exam", "pbbsc nursing admission"],
+    tags: ["nursing", "post basic bsc nursing", "healthcare", "state exam"]
+},
+
+
 
 
 {
@@ -2136,6 +2280,39 @@ stream: ["Arts","Science","Commerce"]
     tags: ["ui ux", "user interface", "user experience", "digital design", "product design"]
 },
 
+
+{
+    contentType: "exam",
+    id: "university-entrance-exams",
+    name: "University-Level Entrance Exams",
+    description: "Entrance examinations conducted by universities for admission to various courses in India",
+    page: "university-entrance-exams.html",
+    keywords: ["university entrance exam", "university admission test", "college entrance exam", "university admissions"],
+    tags: ["university", "entrance exam", "admission", "higher education"]
+},
+
+
+
+{
+    contentType: "exam",
+    id: "university-pg-nursing-entrance-exams",
+    name: "University PG Nursing Entrance Exams",
+    description: "University-level entrance examinations for admission to postgraduate nursing courses in India",
+    page: "university-pg-nursing-entrance-exams.html",
+    keywords: ["university pg nursing entrance exam", "msc nursing admission", "university nursing entrance exam", "postgraduate nursing admission"],
+    tags: ["nursing", "msc nursing", "postgraduate", "healthcare", "university exam"]
+},
+
+
+{
+    contentType: "exam",
+    id: "university-post-basic-bsc-nursing-entrance-exams",
+    name: "University Post Basic B.Sc Nursing Entrance Exams",
+    description: "University-level entrance examinations for admission to Post Basic B.Sc Nursing courses in India",
+    page: "university-post-basic-bsc-nursing-entrance-exams.html",
+    keywords: ["post basic bsc nursing", "pbbsc nursing admission", "university nursing entrance exam"],
+    tags: ["nursing", "post basic bsc nursing", "healthcare", "university exam"]
+},
 
 {
     id: "ux-content-designer",
