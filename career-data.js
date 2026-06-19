@@ -705,6 +705,27 @@ stream: ["Arts","Commerce","Science"]
 
 
 {
+    contentType: "exam",
+    id: "cuet-ug",
+    name: "CUET UG",
+    description: "National-level entrance examination for admission to undergraduate courses in participating universities",
+    page: "cuet-ug.html",
+    keywords: ["cuet ug", "common university entrance test", "undergraduate entrance exam", "nta cuet"],
+    tags: ["cuet", "undergraduate", "entrance exam", "national exam"]
+},
+
+
+{
+    contentType: "exam",
+    id: "cuet-pg",
+    name: "CUET PG",
+    description: "Common University Entrance Test for Postgraduate Programmes",
+    page: "cuet-pg.html",
+    keywords: ["cuet pg", "common university entrance test pg", "pg entrance exam", "masters admission", "nta cuet pg"],
+    tags: ["postgraduate", "masters", "pg entrance exam", "national exam"]
+},
+
+{
     id: "cybersecurity-analyst",
     name: "Cybersecurity Analyst",
     image: "images/cybersecurity-analyst.jpeg",
@@ -782,6 +803,17 @@ stream: ["Arts","Commerce","Science"]
 
 
 {
+    contentType: "exam",
+    id: "dbt-bet",
+    name: "DBT BET",
+    description: "Biotechnology Eligibility Test",
+    page: "dbt-bet.html",
+    keywords: ["dbt bet", "biotechnology eligibility test", "dbt jrf", "biotechnology research fellowship", "life sciences research"],
+    tags: ["biotechnology", "research", "jrf", "phd", "national exam"]
+},
+
+
+{
     id: "dentist",
     name: "Dentist",
     image:"images/dentist.jpeg",
@@ -824,6 +856,18 @@ stream: ["Arts","Commerce","Science"]
     type: "Private & Government",
     tags: ["devops engineer", "devops", "cloud computing", "automation", "software deployment", "cloud infrastructure", "system administration", "ci cd"]
 },
+
+
+{
+    contentType: "exam",
+    id: "dhr-bret",
+    name: "DHR-BRET",
+    description: "Biomedical Research Eligibility Test",
+    page: "dhr-bret.html",
+    keywords: ["dhr bret", "biomedical research eligibility test", "jrf exam", "biomedical research fellowship", "health research"],
+    tags: ["biomedical sciences", "research", "jrf", "phd", "national exam"]
+},
+
 
 
 {
@@ -1267,6 +1311,26 @@ stream: ["Arts","Science","Commerce"]
     tags: ["ias", "upsc", "civil services", "administration", "district collector", "government officer"]
 },
 
+{
+    contentType: "exam",
+    id: "icar-aieea-pg",
+    name: "ICAR AIEEA PG",
+    description: "National-level entrance examination for admission to postgraduate agriculture and allied science courses",
+    page: "icar-aieea-pg.html",
+    keywords: ["icar aieea pg", "agriculture pg entrance exam", "icar pg admission", "aieea pg"],
+    tags: ["agriculture", "postgraduate", "entrance exam", "icar"]
+},
+
+
+{
+    contentType: "exam",
+    id: "iit-jam",
+    name: "IIT JAM",
+    description: "Joint Admission Test for Masters",
+    page: "iit-jam.html",
+    keywords: ["iit jam", "joint admission test for masters", "msc admission", "iit pg admission", "science entrance exam"],
+    tags: ["science", "masters", "pg entrance exam", "national exam"]
+},
 
 
 {
@@ -1539,6 +1603,17 @@ stream: ["Arts","Science","Commerce"]
 
 {
     contentType: "exam",
+    id: "merit-based-admission",
+    name: "Merit-Based Admission",
+    description: "Admission process based on academic performance without an entrance examination",
+    page: "merit-based-admission.html",
+    keywords: ["merit based admission", "direct admission", "college admission", "university admission", "admission without entrance exam"],
+    tags: ["admission", "merit list", "direct admission", "college admission", "university admission"]
+},
+
+
+{
+    contentType: "exam",
     id: "merit-pg-nursing-admissions",
     name: "Merit-Based PG Nursing Admissions",
     description: "Merit-based admission process for postgraduate nursing courses in India",
@@ -1666,7 +1741,15 @@ stream: ["Arts","Science","Commerce"]
     tags: ["medical", "postgraduate", "mbbs", "doctor", "md", "ms", "entrance exam"]
 },
 
-
+{
+    contentType: "exam",
+    id: "nest",
+    name: "NEST",
+    description: "National Entrance Screening Test for admission to integrated science programmes",
+    page: "nest.html",
+    keywords: ["nest", "national entrance screening test", "science entrance exam"],
+    tags: ["science", "entrance exam", "national exam"]
+},
 
 {
   id: "network-administrator",
@@ -1714,7 +1797,15 @@ stream: ["Arts","Science","Commerce"]
     tags: ["network security engineer", "network security", "cybersecurity", "firewall", "network protection", "security engineer", "cyber defense", "network monitoring"]
 },
 
-
+{
+    contentType: "exam",
+    id: "nimcet",
+    name: "NIMCET",
+    description: "National-level entrance examination for admission to MCA programmes in participating NITs",
+    page: "nimcet.html",
+    keywords: ["nimcet", "mca entrance exam", "nit mca admission", "mca admission", "national level exam"],
+    tags: ["mca", "computer applications", "nit", "entrance exam", "postgraduate"]
+},
 
 {
     id: "nlp-engineer",
@@ -1762,6 +1853,16 @@ stream: ["Arts","Science","Commerce"]
     tags: ["pcb design engineer", "pcb designer", "printed circuit board", "electronics engineer", "circuit board", "hardware design", "pcb layout", "electronics hardware", "circuit design", "pcb development"]
 },
 
+
+{
+    contentType: "exam",
+    id: "personal-interview",
+    name: "Personal Interview",
+    description: "A selection process used by colleges and universities to understand a student's interests, goals, and suitability for a course",
+    page: "personal-interview.html",
+    keywords: ["personal interview", "admission interview", "college interview", "university interview", "interview questions"],
+    tags: ["admission", "interview", "college admission", "university admission", "selection process"]
+},
 
 {
     id: "petroleum-engineer",
@@ -2312,6 +2413,17 @@ stream: ["Arts","Science","Commerce"]
     page: "university-post-basic-bsc-nursing-entrance-exams.html",
     keywords: ["post basic bsc nursing", "pbbsc nursing admission", "university nursing entrance exam"],
     tags: ["nursing", "post basic bsc nursing", "healthcare", "university exam"]
+},
+
+
+{
+    contentType: "exam",
+    id: "university-phd-entrance-exams",
+    name: "University Ph.D. Entrance Exams",
+    description: "University-level entrance examinations for Ph.D. admissions",
+    page: "university-phd-entrance-exams.html",
+    keywords: ["phd entrance exam", "research entrance test", "ret", "doctoral entrance exam", "phd admission"],
+    tags: ["research", "phd", "doctoral studies", "university exam"]
 },
 
 {
