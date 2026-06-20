@@ -1988,6 +1988,22 @@ background:#f8fffd;
 }
 
 
+@media (max-width: 768px) {
+
+    .courses-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .course-box {
+        flex: none;
+        width: 100%;
+        max-width: 100%;
+    }
+
+}
+
+
 
 
 .role-card {
