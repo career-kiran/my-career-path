@@ -1965,6 +1965,28 @@ background:#f8fffd;
 
 
 
+/* ==========================
+   Mobile Responsive Design
+   ========================== */
+
+@media (max-width: 768px) {
+
+    .mini-course-container {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .mini-course {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+}
+
 
 
 
