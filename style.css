@@ -1552,6 +1552,9 @@ background:#f8fffd;
   margin-bottom: 8px;
 }
 
+.exam-content p {
+  line-height: 1.8;
+}
 
 
 .official-link {

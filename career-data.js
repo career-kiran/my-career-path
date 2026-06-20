@@ -1202,6 +1202,17 @@ stream: ["Arts","Science","Commerce"]
     keywords: ["gate"]
   },
 
+
+{
+    contentType: "exam",
+    id: "gate-economics",
+    name: "GATE Economics",
+    description: "GATE Economics (XH-C1) for admission to postgraduate and research programmes in economics and related fields",
+    page: "gate-economics.html",
+    keywords: ["gate economics", "xh-c1", "iit economics", "economics entrance exam", "gate exam"],
+    tags: ["economics", "gate", "iit", "research", "postgraduate"]
+},
+
 {
     id: "genetic-engineer",
     name: "Genetic Engineer",
@@ -1451,6 +1462,17 @@ stream: ["Arts","Science","Commerce"]
     stream: ["Arts", "Commerce", "Science"],
     type: "Freelance & Private",
     tags: ["instrumentalist", "musician", "guitarist", "pianist", "drummer", "music performance", "studio musician", "live music"]
+},
+
+
+{
+    contentType: "exam",
+    id: "isi-admission-test",
+    name: "ISI Admission Test",
+    description: "Entrance examination conducted by the Indian Statistical Institute for admission to its undergraduate, postgraduate, and research programmes",
+    page: "isi-admission-test.html",
+    keywords: ["isi admission test", "indian statistical institute", "statistics admission", "mathematics admission", "data science admission"],
+    tags: ["statistics", "mathematics", "data science", "research", "entrance exam"]
 },
 
 
