@@ -12,7 +12,7 @@
 
 </head>
 
-<body>
+<body data-subject="">
 
 <div id="header"></div>
 
@@ -20,58 +20,33 @@
 
 <h1 id="subjectTitle"></h1>
 
-<div id="careerResults" class="role-grid"></div>
+<div id="career-list" class="role-grid"></div>
 
 </div>
 
 <script src="layout.js"></script>
 <script src="career-data.js"></script>
 
+
+
 <script>
-
-document.addEventListener("DOMContentLoaded", function(){
-
 const params = new URLSearchParams(window.location.search);
 const subject = params.get("subject");
 
-const title = document.getElementById("subjectTitle");
-
-if(subject){
-  title.textContent = "Careers related to " + subject;
+if (subject) {
+  document.body.dataset.subject = subject;
 }
-
-let matches = window.careers.filter(career =>
-  career.subjects && career.subjects.some(s =>
-    s.toLowerCase() === subject.toLowerCase()
-  )
-);
-
-
-
-matches.sort((a, b) => a.name.localeCompare(b.name));
-const container = document.getElementById("careerResults");
-
-if (matches.length === 0) {
-  container.innerHTML = "<p>No careers found for this subject.</p>";
-}
-
-matches.forEach(career => {
-  let item = document.createElement("div");
-  item.className = "role-card";
-
-  item.innerHTML = `
-    <h3>${career.name}</h3>
-    <p>${career.description}</p>
-  `;
-
-  item.onclick = () => {
-    window.location.href = career.page;
-  };
-
-  container.appendChild(item);
-});
-});
 </script>
 
+<script>
+if (subject) {
+  const title = document.getElementById("subjectTitle");
+  if (title) {
+    title.textContent = "Careers related to " + subject;
+  }
+}
+</script>
+
+<script src="career-loader.js"></script>
 </body>
 </html>
