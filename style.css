@@ -1780,6 +1780,8 @@ background:#f8fffd;
 #12355B,
 #1B4D8C
 );
+
+  background: #102A43;
   
   border-radius: 24px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
@@ -1795,9 +1797,11 @@ background:#f8fffd;
 .hero-text h1 {
   font-size: 50px;
   font-weight: 700;
-  color: FFFFFF;
+  color: #FFFFFF;
   line-height: 1.2;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+  text-shadow: 0 0 20px rgba(255,255,255,0.12);
+
 }
 
 .hero-text h2 {
@@ -1808,12 +1812,13 @@ background:#f8fffd;
 
 .hero-text p {
   font-size: 18px;
-  color: #E8D7A5;
+  color: #A7F3D0;
   line-height: 1.7;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   margin: 16px 0 28px;
   word-spacing: 4px;
   letter-spacing: 2px;
+  font-weight: 500;
 }
 
 /* BUTTON */
@@ -2057,13 +2062,26 @@ background:#f8fffd;
 .overlay-text {
   position: absolute;
  
-  color: white;
+  color: #FFFFFF;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
   z-index: 2;
   text-align: center;
   width: 90%;
 }
+
+.overlay-text{
+    position:absolute;
+    bottom:15px;
+    left:15px;
+    color:#FFFFFF;
+    font-size:20px;
+    font-weight:600;
+    text-shadow:2px 2px 8px rgba(0,0,0,0.7);
+}
+
+
+
 
 
 
@@ -2127,7 +2145,7 @@ background:#f8fffd;
   margin-bottom: 40px;
   margin-top: 0;
   text-align: left;
-  color: black;
+  color: #1E293B;
 }
 
 .category-heading {
@@ -2173,7 +2191,7 @@ background:#f8fffd;
 
 
 .subject-bg {
-  background: #D1DDD4;
+  background: #F8FAFC;
   padding: 30px 20px;
   width: 100%;
 }
@@ -2187,7 +2205,7 @@ background:#f8fffd;
 
 
 .education-bg {
-  background: #17A2A4;
+  background: #D1DDD4;
   padding: 20px 20px;
   width: 100%;
 }
@@ -2225,6 +2243,26 @@ background:#f8fffd;
 }
 
 
+.home-buckets{
+    padding: 40px 60px;
+    background: #D1DDD4;
+}
+
+.home-buckets .section-heading{
+    margin-bottom: 28px;
+}
+
+.home-buckets .role-grid{
+    justify-content: center;
+    gap: 35px;
+}
+
+
+.self-discovery-section{
+    padding: 60px;
+    background: #F8FAFC;
+    
+}
 
 
 
@@ -2297,9 +2335,9 @@ background:#f8fffd;
 .feature-card{
     background: white;
     border-radius: 18px;
-    padding: 32px;
-    width: 240px;
-    min-height: 240px;
+    padding: 10px 20px 20px 20px;
+    width: 220px;
+    height: 180px;
 
     border: 2px solid #efe4d6;
     border-top: 4px solid #3b82f6;
@@ -2319,14 +2357,15 @@ background:#f8fffd;
 }
 
 .feature-icon{
-    font-size: 38px;
-    margin-bottom: 15px;
+    font-size: 32px;
+    margin-bottom: 6px;
 }
 
 .feature-card h3{
     font-size: 22px;
     margin-bottom: 12px;
     color: #222;
+    margin-top:0;
 }
 
 .feature-card p{
@@ -2338,10 +2377,10 @@ background:#f8fffd;
 
 .feature-arrow{
     position: absolute;
-    bottom: 20px;
+    bottom: 0px;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 30px;
+    font-size: 24px;
     color: #3b82f6;
     font-weight: 900;
     animation: arrowBounce 1.5s infinite;
@@ -2367,22 +2406,6 @@ transform: translateX(-50%) translateY(0);
 
 .feature-card:hover .feature-arrow{
     transform: translateX(5px);
-}
-
-
-
-.home-buckets{
-    padding: 40px 60px;
-    background: #E2E8F0;
-}
-
-.home-buckets .section-heading{
-    margin-bottom: 28px;
-}
-
-.home-buckets .role-grid{
-    justify-content: center;
-    gap: 35px;
 }
 
 
@@ -2521,7 +2544,7 @@ html{
     max-width: 350px;
 
     line-height: 1.7;
-    color: white;
+    color: #CBD5E1;
 }
 
 .footer-links{
@@ -2558,7 +2581,7 @@ html{
     text-align: center;
 
     font-size: 14px;
-    color: white;
+    color: #94A3B8;
 }
 
 
@@ -2934,16 +2957,6 @@ margin-bottom:8px;
     border-radius:14px;
 }
 
-.overlay-text{
-    position:absolute;
-    bottom:15px;
-    left:15px;
-    color:white;
-    font-size:20px;
-    font-weight:bold;
-    text-shadow:2px 2px 8px rgba(0,0,0,0.7);
-}
-
 
 
 
@@ -2952,4 +2965,20 @@ margin-bottom:8px;
     font-weight:bold;
     font-size:16px;
     margin-bottom:5px;
+}
+
+
+
+
+
+/* This forces ALL section headings on the page to be dark navy and bold */
+h2, .career-header h2, .section-heading {
+    color: #1E293B !important;       /* Deep Dark Navy */
+    font-weight: 700 !important;    /* Bold and strong */
+}
+
+/* Keeps your education level cards crisp and bold */
+.education-bg .subject-card, .subject-bg .subject-card {
+    color: #334155 !important;       /* Dark Slate Gray */
+    font-weight: 600 !important;    /* Semi-bold */
 }
