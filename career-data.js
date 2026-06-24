@@ -36,6 +36,17 @@ window.careers = [
   tags: ["3d modeling", "texturing", "gaming", "visual effects", "creative media"]
 },
 
+
+{
+    contentType: "exam",
+    id: "aaft-get",
+    name: "AAFT GET",
+    description: "AAFT Global Entrance Test conducted for admission to various creative, media, design, fashion, animation, journalism, and arts programmes offered by AAFT",
+    page: "aaft-get.html",
+    keywords: ["aaft get", "aaft global entrance test", "aaft admission", "media entrance exam", "design entrance exam"],
+    tags: ["media", "fashion", "design", "animation", "journalism", "arts"]
+},
+
 {
     id: "actor",
     name: "Actor",
@@ -174,6 +185,21 @@ window.careers = [
     type: "Private & Government",
     tags: ["ai robotics engineer", "artificial intelligence", "robotics", "machine learning", "computer vision", "autonomous systems", "intelligent robots", "robotics automation", "ai engineer", "robotics career"]
 },
+
+{
+    id: "allopathic doctor",
+    name: "Allopathic Doctor",
+    image: "images/doctor.jpeg",
+    page: "doctor.html",
+    icon: "🩺",
+    bucket: "Health Care",
+    subjects: ["Biology", "Chemistry"],
+    levels: ["12th", "Graduation"],
+    stream: ["Science"],
+    type: "Government & Private",
+    tags: ["doctor", "physician", "medical", "hospital", "healthcare", "medicine"]
+},
+
 
 {
   id: "animator",
@@ -444,6 +470,17 @@ window.careers = [
     tags: ["carpenter", "woodworking", "furniture making", "wood work", "construction", "interior work", "carpentry"]
 },
 
+
+{
+    contentType: "exam",
+    id: "ceed",
+    name: "CEED",
+    description: "CEED is a national-level design entrance examination conducted by IIT Bombay for admission to Master of Design (M.Des) and related postgraduate design programmes.",
+    page: "ceed.html",
+    keywords: ["ceed", "common entrance examination for design", "mdes admission", "design entrance exam", "iit bombay", "design courses"],
+    tags: ["design", "ceed", "mdes", "postgraduate", "creative", "entrance exam"]
+},
+
 {
     id: "chartered-accountant",
     name: "Chartered Accountant",
@@ -690,7 +727,15 @@ stream: ["Arts","Commerce","Science"]
     tags: ["control", "automation", "systems", "engineering", "machines"]
 },
 
-
+{
+    contentType: "exam",
+    id: "creative-aptitude-tests",
+    name: "Creative Aptitude Tests",
+    description: "Creative Aptitude Tests are entrance examinations used for admission to design, fashion, architecture, fine arts, animation, and other creative programmes.",
+    page: "creative-aptitude-tests.html",
+    keywords: ["creative aptitude test", "design aptitude test", "nid dat", "uceed", "nift entrance exam", "nata", "aieed", "design entrance exam", "creative careers", "design courses"],
+    tags: ["creative", "design", "fashion", "architecture", "fine arts", "animation", "entrance exam"]
+},
 
 {
 name: "Copywriter",
@@ -915,18 +960,15 @@ stream: ["Arts","Science","Commerce"]
 
 
 {
-    id: "allopathic doctor",
-    name: "Allopathic Doctor",
-    image: "images/doctor.jpeg",
-    page: "doctor.html",
-    icon: "🩺",
-    bucket: "Health Care",
-    subjects: ["Biology", "Chemistry"],
-    levels: ["12th", "Graduation"],
-    stream: ["Science"],
-    type: "Government & Private",
-    tags: ["doctor", "physician", "medical", "hospital", "healthcare", "medicine"]
+    contentType: "exam",
+    id: "direct-admission",
+    name: "Direct Admission",
+    description: "Direct Admission allows students to join courses without appearing for a national or state-level entrance examination, subject to eligibility requirements and seat availability.",
+    page: "direct-admission.html",
+    keywords: ["direct admission", "admission without entrance exam", "college admission", "course admission", "eligibility", "seat availability"],
+    tags: ["admission", "direct admission", "college", "diploma", "certificate", "education"]
 },
+
 
 {
     id: "economist",
@@ -1130,6 +1172,17 @@ levels: ["12th","Graduation"],
 stream: ["Arts","Science","Commerce"]
 },
 
+
+{
+    contentType: "exam",
+    id: "fine-arts-cet",
+    name: "Fine Arts CET",
+    description: "Entrance examinations, drawing tests, and aptitude assessments used by fine arts colleges for admission to Bachelor of Fine Arts programmes",
+    page: "fine-arts-cet.html",
+    keywords: ["fine arts cet", "bfa entrance exam", "fine arts admission", "drawing test", "applied arts"],
+    tags: ["fine arts", "painting", "applied arts", "sculpture", "drawing", "bfa"]
+},
+
 {
     id: "frontend-developer",
     name: "Frontend Developer",
@@ -1143,6 +1196,17 @@ stream: ["Arts","Science","Commerce"]
     stream: ["Science", "Commerce"],
     type: "Private & Freelance",
     tags: ["frontend developer", "web developer", "ui developer", "react developer", "html css javascript", "website designer", "frontend engineer", "responsive design"]
+},
+
+
+{
+    contentType: "exam",
+    id: "ftii-jet",
+    name: "FTII JET",
+    description: "Film and Television Institute of India Entrance Test for admission to film, television, and media-related postgraduate courses",
+    page: "ftii-jet.html",
+    keywords: ["ftii jet", "ftii entrance test", "film school admission", "cinematography", "screenwriting"],
+    tags: ["film", "television", "media", "acting", "cinema", "filmmaking"]
 },
 
 {
@@ -1193,14 +1257,25 @@ stream: ["Arts","Science","Commerce"]
     tags: ["game developer", "game programmer", "unity developer", "unreal engine developer", "mobile game developer", "video game designer", "game coding", "indie game developer"]
 },
 
-
+{
+    contentType: "exam",
+    id: "gat",
+    name: "GAT (General Ability Test)",
+    description: "General Ability Test used in fashion, design, management, and technology admissions, including NIFT programmes",
+    page: "gat.html",
+    keywords: ["gat", "general ability test", "nift gat", "fashion technology entrance exam", "fashion management entrance exam"],
+    tags: ["fashion", "design", "aptitude", "nift", "technology", "management"]
+},
 
 {
+    contentType: "exam",
+    id: "gate",
     name: "GATE",
-    description: "Graduate Aptitude Test in Engineering",
+    description: "Graduate Aptitude Test in Engineering for admission to postgraduate programmes and research opportunities in engineering, technology, science, architecture, and related fields",
     page: "gate.html",
-    keywords: ["gate"]
-  },
+    keywords: ["gate", "graduate aptitude test in engineering", "mtech admission", "iit admission", "nit admission", "psu recruitment"],
+    tags: ["engineering", "technology", "postgraduate", "research", "iit", "psu"]
+},
 
 
 {
@@ -1432,7 +1507,15 @@ stream: ["Arts","Science","Commerce"]
     tags: ["dentistry", "bds", "mds", "postgraduate", "dental entrance exam", "aiims"]
 },
 
-
+{
+    contentType: "exam",
+    id: "institute-interview",
+    name: "Institute Interview",
+    description: "Institute Interview is an admission process used by colleges and universities to assess a candidate's interest, communication skills, and suitability for a course.",
+    page: "institute-interview.html",
+    keywords: ["institute interview", "personal interview", "admission interview", "college interview", "university interview"],
+    tags: ["interview", "admission", "selection", "college", "university"]
+},
 
 {
   id: "instrumentation-engineer",
@@ -1530,6 +1613,16 @@ stream: ["Arts","Science","Commerce"]
     tags: ["engineering", "btech", "iit", "nit", "entrance exam"]
 },
 
+{
+    contentType: "exam",
+    id: "jet-ftii-srfti",
+    name: "JET (FTII / SRFTI)",
+    description: "Joint Entrance Test for admission to film, television, media, and production-related courses offered by FTII and SRFTI",
+    page: "jet-ftii-srfti.html",
+    keywords: ["jet", "ftii", "srfti", "film school", "media entrance exam", "television studies"],
+    tags: ["film", "television", "media", "production", "direction", "cinema"]
+},
+
 
 {
     id: "journalist",
@@ -1559,6 +1652,18 @@ stream: ["Arts","Science","Commerce"]
     type: "Government & Private",
     tags: ["logistics manager", "supply chain", "transportation", "warehouse management", "shipping", "delivery management", "operations", "inventory"]
 },
+
+
+{
+    contentType: "exam",
+    id: "lpunest",
+    name: "LPUNEST",
+    description: "Lovely Professional University National Entrance and Scholarship Test for admission and scholarships in various undergraduate and postgraduate programmes",
+    page: "lpunest.html",
+    keywords: ["lpunest", "lpu admission", "lpu scholarship test", "entrance exam", "lovely professional university"],
+    tags: ["engineering", "design", "management", "science", "scholarship", "university entrance"]
+},
+
 
 
 {
@@ -1819,6 +1924,39 @@ stream: ["Arts","Science","Commerce"]
     tags: ["network security engineer", "network security", "cybersecurity", "firewall", "network protection", "security engineer", "cyber defense", "network monitoring"]
 },
 
+
+{
+    contentType: "exam",
+    id: "nid-dat",
+    name: "NID DAT",
+    description: "NID DAT is a national-level design entrance examination conducted by the National Institute of Design for admission to B.Des and M.Des programmes.",
+    page: "nid-dat.html",
+    keywords: ["nid dat", "design aptitude test", "national institute of design", "bdes admission", "mdes admission", "design entrance exam"],
+    tags: ["design", "nid", "creative", "bdes", "mdes", "entrance exam"]
+},
+
+
+{
+    contentType: "exam",
+    id: "nift-ug",
+    name: "NIFT UG",
+    description: "The NIFT Entrance Examination is a national-level entrance exam for admission to undergraduate and postgraduate programmes offered by the National Institute of Fashion Technology.",
+    page: "nift-ug.html",
+    keywords: ["nift entrance exam", "national institute of fashion technology", "fashion design entrance exam", "nift admission", "design courses", "fashion courses"],
+    tags: ["nift", "fashion", "design", "creative", "entrance exam"]
+},
+
+
+{
+    contentType: "exam",
+    id: "nift-pg",
+    name: "NIFT PG",
+    description: "National-level entrance examination for admission to postgraduate programmes such as M.Des, MFM, and M.F.Tech offered by the National Institute of Fashion Technology (NIFT)",
+    page: "nift-pg.html",
+    keywords: ["nift pg", "nift mdes", "nift mfm", "nift mftech", "nift postgraduate admission", "fashion design entrance exam"],
+    tags: ["fashion", "design", "management", "technology", "postgraduate", "nift"]
+},
+
 {
     contentType: "exam",
     id: "nimcet",
@@ -2012,7 +2150,15 @@ stream: ["Arts","Science","Commerce"]
     tags: ["plumber", "plumbing", "pipe fitting", "water systems", "sanitary work", "pipe repair", "plumbing technician"]
 },
 
-
+{
+    contentType: "exam",
+    id: "portfolio-review",
+    name: "Portfolio Review",
+    description: "Portfolio Review is an admission process used by creative institutions to evaluate a candidate's creative work, projects, and design skills.",
+    page: "portfolio-review.html",
+    keywords: ["portfolio review", "design portfolio", "creative admission", "portfolio evaluation", "design admission", "art portfolio"],
+    tags: ["portfolio", "admission", "design", "creative", "arts", "interview"]
+},
 
 {
 name: "Product Designer",
@@ -2128,6 +2274,17 @@ stream: ["Arts","Science"]
     stream: ["Arts", "Science", "Commerce"],
     type: "Private",
     tags: ["screenwriting", "storytelling", "cinema", "dialogue writing", "film writing"]
+},
+
+
+{
+    contentType: "exam",
+    id: "seed",
+    name: "SEED",
+    description: "Symbiosis Entrance Exam for Design conducted for admission to undergraduate design programmes offered by Symbiosis Institute of Design",
+    page: "seed.html",
+    keywords: ["seed", "symbiosis entrance exam for design", "sid admission", "design entrance exam", "bdes admission"],
+    tags: ["design", "creative", "symbiosis", "bdes", "entrance exam"]
 },
 
 {
@@ -2282,6 +2439,16 @@ stream: ["Arts","Science","Commerce"]
 },
 
 
+{
+    contentType: "exam",
+    id: "state-university-entrance-exams",
+    name: "State University Entrance Exams",
+    description: "Entrance examinations conducted by state universities for admission to various academic programmes",
+    page: "state-university-entrance-exams.html",
+    keywords: ["state university entrance exam", "university admission test", "state university admission"],
+    tags: ["university", "admission", "postgraduate", "research", "entrance exam"]
+},
+
 
 
 {
@@ -2386,6 +2553,17 @@ category: "Performing",
 subjects: ["Theatre","Drama","Literature"],
 levels: ["12th","Graduation"],
 stream: ["Arts","Science","Commerce"]
+},
+
+
+{
+    contentType: "exam",
+    id: "uceed",
+    name: "UCEED",
+    description: "UCEED is a national-level design entrance examination conducted by IIT Bombay for admission to Bachelor of Design (B.Des) programmes.",
+    page: "uceed.html",
+    keywords: ["uceed", "design entrance exam", "iit bombay", "bdes admission", "design courses", "uceed exam"],
+    tags: ["design", "uceed", "iit", "bdes", "creative", "entrance exam"]
 },
 
 {
