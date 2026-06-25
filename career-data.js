@@ -1144,6 +1144,17 @@ stream: ["Arts","Science","Commerce"]
 },
 
 
+{
+    contentType: "exam",
+    id: "feat",
+    name: "FEAT",
+    description: "FLAME Entrance Aptitude Test conducted for admission to undergraduate courses offered by FLAME University",
+    page: "feat.html",
+    keywords: ["feat", "flame entrance aptitude test", "flame university", "bba admission", "ba admission"],
+    tags: ["flame university", "liberal arts", "bba", "ba", "bsc"]
+},
+
+
 
 {
     id: "film-director",
@@ -1545,6 +1556,17 @@ stream: ["Arts","Science","Commerce"]
     stream: ["Arts", "Commerce", "Science"],
     type: "Freelance & Private",
     tags: ["instrumentalist", "musician", "guitarist", "pianist", "drummer", "music performance", "studio musician", "live music"]
+},
+
+
+{
+    contentType: "exam",
+    id: "ipu-cet",
+    name: "IPU CET",
+    description: "Indraprastha University Common Entrance Test conducted by GGSIPU for admission to various undergraduate, postgraduate, and professional courses",
+    page: "ipu-cet.html",
+    keywords: ["ipu cet", "ggsipu", "indraprastha university", "ip university admission", "entrance exam"],
+    tags: ["university entrance exam", "undergraduate", "postgraduate", "professional courses", "delhi"]
 },
 
 
@@ -1984,6 +2006,18 @@ stream: ["Arts","Science","Commerce"]
 
 
 {
+    contentType: "exam",
+    id: "nsd-entrance-exam",
+    name: "NSD Entrance Exam",
+    description: "Entrance examination conducted by the National School of Drama for admission to the Diploma in Dramatic Arts",
+    page: "nsd-entrance-exam.html",
+    keywords: ["nsd", "national school of drama", "acting", "theatre", "dramatic arts"],
+    tags: ["acting", "theatre", "drama", "performing arts", "postgraduate diploma"]
+},
+
+
+
+{
     id: "nurse",
     name: "Nurse",
     image: "images/nurse.jpeg",
@@ -2231,6 +2265,17 @@ stream: ["Science","Arts"]
     type: "Private & Government",
     tags: ["robotics software engineer","robotics","robot programming","automation","artificial intelligence","computer vision",
         "ROS","autonomous systems","robotics engineer","robot software"]
+},
+
+
+{
+    contentType: "exam",
+    id: "sat",
+    name: "SAT",
+    description: "Standardized entrance examination administered by the College Board for undergraduate admissions to universities worldwide",
+    page: "sat.html",
+    keywords: ["sat", "scholastic assessment test", "college board", "study abroad", "undergraduate admission"],
+    tags: ["international exam", "study abroad", "undergraduate", "college admission", "college board"]
 },
 
 
@@ -2764,7 +2809,15 @@ stream: ["Science","Arts"]
 },
 
 
-
+{
+    contentType: "exam",
+    id: "xoet",
+    name: "XOET",
+    description: "Xavier Online Entrance Test conducted for admission to undergraduate courses offered by Xavier University",
+    page: "xoet.html",
+    keywords: ["xoet", "xavier university entrance test", "xavier university", "bba admission", "bcom admission"],
+    tags: ["xavier university", "management", "commerce", "undergraduate"]
+},
 
 
 
