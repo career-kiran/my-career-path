@@ -41,7 +41,9 @@
 
    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
 
-  <div class="nav-links">
+  <div class="nav-links" id="navLinks">
+
+
       <a href="index.html">Home</a>
       <a href="career-paths.html">Careers</a>
     </div>
@@ -408,6 +410,16 @@ subjects, and educational pathways.
 </div>
 
 </footer>
+
+
+
+<script>
+function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("active");
+}
+</script>
+
+
 
 </body>
 </html>
