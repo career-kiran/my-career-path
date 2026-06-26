@@ -3043,9 +3043,13 @@ h2, .career-header h2, .section-heading {
 
 
 
-    .site-search {
-        display: none;
-    }
+  .site-search {
+    display: flex;
+    width: 100%;
+    margin: 15px 0;
+    justify-content: center;
+    align-items: center;
+}
 
     .nav-container {
         padding: 15px 20px;
