@@ -3053,6 +3053,11 @@ h2, .career-header h2, .section-heading {
     clear: both;
 }
 
+
+.home-search input {
+    width: 80%;
+}
+
     .nav-container {
         padding: 15px 20px;
     }
