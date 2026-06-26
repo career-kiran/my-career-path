@@ -3011,7 +3011,7 @@ h2, .career-header h2, .section-heading {
        width: 250px;
        height: auto;
         background: white;
-        padding: 80px 20px;
+        padding: 40px 20px;
         gap: 20px;
         transition: left 0.3s ease;
         box-shadow: 3px 0 10px rgba(0,0,0,0.2);
