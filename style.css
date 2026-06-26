@@ -2997,7 +2997,14 @@ h2, .career-header h2, .section-heading {
 }
 
 
+.close-menu {
+    display: none;
+}
+
+
 @media (max-width: 768px) {
+
+
 
     .menu-toggle {
         display: block;
@@ -3064,15 +3071,17 @@ h2, .career-header h2, .section-heading {
 }
 
 .close-menu {
+    display: block;
     font-size: 40px;
     font-weight: bold;
     cursor: pointer;
-    display: block;
     padding: 10px 15px;
     line-height: 1;
 }
+
 
     .nav-container {
         padding: 15px 20px;
     }
 }
+
