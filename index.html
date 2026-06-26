@@ -48,6 +48,8 @@
       <a href="career-paths.html">Careers</a>
     </div>
 
+<div class="overlay" id="overlay"></div>
+
 
 <div class="site-search">
 <input type="text" id="careerSearch" placeholder="Search careers...">
@@ -416,7 +418,13 @@ subjects, and educational pathways.
 <script>
 function toggleMenu() {
     document.getElementById("navLinks").classList.toggle("active");
+    document.getElementById("overlay").classList.toggle("active");
 }
+
+document.getElementById("overlay").onclick = function () {
+    document.getElementById("navLinks").classList.remove("active");
+    document.getElementById("overlay").classList.remove("active");
+};
 </script>
 
 
