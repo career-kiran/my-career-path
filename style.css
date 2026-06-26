@@ -3028,6 +3028,12 @@ h2, .career-header h2, .section-heading {
         
     }
 
+
+.nav-links a {
+    font-size: 18px;
+    font-weight: 600;
+}
+
     .nav-links.active {
         display: flex;
         left: 0;
@@ -3072,7 +3078,7 @@ h2, .career-header h2, .section-heading {
 
 .close-menu {
     display: block;
-    font-size: 40px;
+    font-size: 26px;
     font-weight: bold;
     cursor: pointer;
     padding: 10px 15px;
