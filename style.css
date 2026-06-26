@@ -575,6 +575,7 @@ h1 {
 
 
 
+
 .try-now-card{
   background:#f8fbff;
   border:1px solid #e3efff;
@@ -3060,6 +3061,15 @@ h2, .career-header h2, .section-heading {
 
 .site-search button {
     margin-left: 8px;
+}
+
+.close-menu {
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    padding: 10px 15px;
+    line-height: 1;
 }
 
     .nav-container {
