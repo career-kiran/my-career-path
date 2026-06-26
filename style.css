@@ -3058,6 +3058,10 @@ h2, .career-header h2, .section-heading {
     width: 80%;
 }
 
+.site-search button {
+    margin-left: 8px;
+}
+
     .nav-container {
         padding: 15px 20px;
     }
