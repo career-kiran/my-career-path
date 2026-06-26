@@ -2,6 +2,7 @@
 
 
 
+
 /* ===== BODY ===== */
 
 body {
@@ -2992,13 +2993,13 @@ h2, .career-header h2, .section-heading {
     }
 
     .nav-links {
-      display: block;
+      display: flex;
       flex-direction: column;
        position: fixed;
        top: 0;
        left: -260px;
        width: 250px;
-       height: 100%;
+       height: auto;
         background: white;
         padding: 80px 20px;
         gap: 20px;
