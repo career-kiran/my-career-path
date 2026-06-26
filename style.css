@@ -2992,7 +2992,7 @@ h2, .career-header h2, .section-heading {
     }
 
     .nav-links {
-      display: flex;
+      display: none;
       flex-direction: column;
        position: fixed;
        top: 0;
@@ -3010,6 +3010,7 @@ h2, .career-header h2, .section-heading {
     }
 
     .nav-links.active {
+        display: flex;
         left: 0;
     }
 
