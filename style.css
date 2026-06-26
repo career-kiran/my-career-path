@@ -3015,13 +3015,13 @@ h2, .career-header h2, .section-heading {
       flex-direction: column;
        position: fixed;
        top: 0;
-       left: -260px;
+       transform: translateX(-100%);
        width: 250px;
        height: auto;
         background: white;
         padding: 40px 20px;
         gap: 20px;
-        transition: left 0.3s ease;
+        transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
         box-shadow: 3px 0 10px rgba(0,0,0,0.2);
         z-index: 999;
         overflow: hidden;
@@ -3034,10 +3034,10 @@ h2, .career-header h2, .section-heading {
     font-weight: 600;
 }
 
-    .nav-links.active {
-        display: flex;
-        left: 0;
-    }
+  .nav-links.active {
+    display: flex;
+    transform: translateX(0);
+}
 
 .overlay {
     display: none;
