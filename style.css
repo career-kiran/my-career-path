@@ -3021,7 +3021,7 @@ h2, .career-header h2, .section-heading {
     height: auto;
 
     background: white;
-    padding: 40px 20px;
+    padding: 25px 20px 20px;
     gap: 10px;
 
     transform: translateX(-100%);
