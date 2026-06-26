@@ -100,12 +100,6 @@ body {
     text-align: left;
 }
 
-.menu-toggle {
-    display: none;
-    font-size: 30px;
-    color: #FAFAFA;
-    cursor: pointer;
-}
 
 
 /* ===== MAIN CONTENT ===== */
@@ -2124,6 +2118,14 @@ box-shadow: 0 8px 20px rgba(59,130,246,0.3);
 }
 
 
+.menu-toggle {
+    display: none;
+    font-size: 30px;
+    color: #1E3A8A;
+    cursor: pointer;
+}
+
+
 
 .logo {
   font-family: 'Trebuchet MS', Helvetica, sans-serif;
@@ -2983,15 +2985,21 @@ h2, .career-header h2, .section-heading {
 }
 
 
-
 @media (max-width: 768px) {
 
     .menu-toggle {
         display: block;
     }
 
-    .bucket-nav {
+    .nav-links {
         display: none;
     }
 
+    .site-search {
+        display: none;
+    }
+
+    .nav-container {
+        padding: 15px 20px;
+    }
 }
