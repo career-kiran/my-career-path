@@ -3043,12 +3043,14 @@ h2, .career-header h2, .section-heading {
 
 
 
-  .site-search {
+.site-search {
     display: flex;
-    width: 100%;
-    margin: 15px 0;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    margin: 15px auto;
+    text-align: center;
+    clear: both;
 }
 
     .nav-container {
