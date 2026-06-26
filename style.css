@@ -3099,23 +3099,17 @@ h2, .career-header h2, .section-heading {
 
 @media (max-width: 768px) {
 
+  .footer {
+    padding: 20px 60px 10px;
+  }
+
   .footer-container {
-      padding: 20px 15px;
-      gap: 12px;
-      text-align: center;
-      align-items: center;
-  }
-
-  .footer-links {
-      text-align: center;
-  }
-
-  .footer-links a {
-      margin: 6px 0;
+    gap: 20px;
   }
 
   .footer-bottom {
-      margin-top: 10px;
-      padding-top: 10px;
+    margin-top: 15px;
+    padding-top: 10px;
   }
+
 }
