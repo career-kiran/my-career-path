@@ -100,6 +100,13 @@ body {
     text-align: left;
 }
 
+.menu-toggle {
+    display: none;
+    font-size: 30px;
+    color: #FAFAFA;
+    cursor: pointer;
+}
+
 
 /* ===== MAIN CONTENT ===== */
 
@@ -2973,4 +2980,18 @@ h2, .career-header h2, .section-heading {
 .education-bg .subject-card, .subject-bg .subject-card {
     color: #334155 !important;       /* Dark Slate Gray */
     font-weight: 600 !important;    /* Semi-bold */
+}
+
+
+
+@media (max-width: 768px) {
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .bucket-nav {
+        display: none;
+    }
+
 }
