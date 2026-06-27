@@ -2720,7 +2720,7 @@ line-height:1.4;
 }
 
 .accordion-content{
-padding:15px;
+padding:15px
 width:100%;
 box-sizing:border-box;
 }
@@ -3134,9 +3134,6 @@ h2, .career-header h2, .section-heading {
 
 
 
-* {
-    outline: 1px solid red;
-}
 
 
 
