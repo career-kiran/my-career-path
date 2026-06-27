@@ -1,4 +1,6 @@
 
+
+
 html, 
 body {
     width: 100%;
@@ -174,6 +176,11 @@ ul li {
     
 }
 
+
+
+
+
+
 .course-box {
     flex: 0 0 calc(50% - 25px);   /* 2 per row */
     border: 1px solid #bbb;
@@ -229,6 +236,12 @@ font-size:18px;
 
 
 
+
+
+
+
+
+
 /* ===== MOBILE RESPONSIVE ===== */
 
 @media (max-width: 768px){
@@ -238,6 +251,8 @@ flex: 0 0 100%;
 }
 
 }
+
+
 
 
 
@@ -287,16 +302,11 @@ text-indent: 0;
         flex: 1 1 100%;
     }
 }
-/* ===== EXAM FULL FORMS ===== */
 
-.exam-box {
-    background: #f4f8ff;   /* same light blue background */
-    padding: 20px;
-    border-radius: 12px;
-    margin: 10px 0;
-    width: 100%;
-    box-sizing: border-box;
-}
+
+
+
+
 
 /* ===== IMPORTANT NOTE ===== */
 
@@ -306,6 +316,10 @@ text-indent: 0;
     padding: 15px;
     margin-top: 30px;
 }
+
+
+
+
 
 
 
@@ -493,6 +507,11 @@ h1 {
 
 
 
+
+
+
+
+
 .important-box {
   background-color: #F9F8F6;
   padding: 18px 22px;
@@ -512,6 +531,13 @@ h1 {
   
   
 }
+
+
+
+
+
+
+
 
 
 
@@ -537,6 +563,9 @@ h1 {
 
 
 
+
+
+
 .design-quote {
   font-size: 18px;
   font-style: italic;
@@ -545,6 +574,11 @@ h1 {
   text-align:center
  
 }
+
+
+
+
+
 
 .section-intro {
   margin-top: 20px;
@@ -555,19 +589,6 @@ h1 {
 
 
 
-
-.story-text {
-  font-size: 17px;
-  line-height: 2;
-  font-style: italic;
-  color: #444;
-  margin: 30px 0;
-  text-align: left;
-  max-width:750px;
-  margin: 30px auto;
-  word-spacing: 2px;
-  letter-spacing: 0.5px;
-}
 
 
 
@@ -587,6 +608,10 @@ h1 {
   padding:25px;
   margin:30px 0;
 }
+
+
+
+
 
 
 .step::before{
@@ -1001,6 +1026,24 @@ margin-top:4px;
 
 
 
+
+
+
+
+
+
+/* ===== EXAM FULL FORMS ===== */
+
+.exam-box {
+    background: #f4f8ff;   /* same light blue background */
+    padding: 20px;
+    border-radius: 12px;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
 .exam-note{
 font-size:13px;
 color:#666;
@@ -1040,12 +1083,6 @@ transform:translateY(-1px);
 
 
 
-
-.page-container{
-max-width: 900px;
-margin: auto;
-padding: 0 12px;
-}
 
 
 
@@ -1172,6 +1209,11 @@ margin: 20px 0;
 
 
 
+
+
+
+
+
 #career-list{
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
@@ -1215,6 +1257,13 @@ font-weight: 500;
 
 
 
+
+
+
+
+
+
+
 .mini-course-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1232,11 +1281,13 @@ font-weight: 500;
 }
 
 
-main-container {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;   /* 🔥 space between sections */
-}
+
+
+
+
+
+
+
 
 
 .course-title {
@@ -1253,30 +1304,16 @@ main-container {
 
 
 
+
+
+
+
 /* Accordion content hidden by default */
 .accordion-content {
   display: none;
 }
 
-/* Accordion heading (clean, like normal heading) */
-.accordion-header {
-  display: block;
-  border-radius: 12px;
-  cursor: pointer;
-  width: auto;
-  font-size: 18px;
-  font-weight: 600;
-  color: #111;              /* BLACK text */
 
-  background: #f2f4f7;
-  border: none;
-  padding: 10px 12px;
-  margin: 15px 0;
-
-  cursor: pointer;
-
-  -webkit-tap-highlight-color: transparent; /* remove blue tap */
-}
 
 /* Remove blue outline on click */
 .accordion-header:focus,
@@ -1317,7 +1354,6 @@ main-container {
 
 
 
-
 .accordion-header {
     display: block;
     width: auto;
@@ -1341,10 +1377,6 @@ main-container {
     transition: all 0.3s ease;
 }
 
-
-.accordion-header {
-  background: #E6E6FA;   /* THIS adds box color */
-}
 
 
 .accordion-header {
@@ -1417,6 +1449,18 @@ border-top:0.5px solid #14b8a6;
 border-bottom:0.5px solid #14b8a6;
 background:#f8fffd;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1574,16 +1618,6 @@ background:#f8fffd;
   text-decoration: underline;
 }
 
-
-.side-img {
-  
-  display: block;      /* Allows centering with margin */
-  width: 40%;          /* Makes it large on the screen */
-  max-width: 250px;    /* Prevents it from getting too huge on desktop */
-  margin: 20px auto;   /* Centers it horizontally and adds vertical space */
-  border-radius: 15px; /* Gives it those nice rounded corners */
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* Adds a professional shadow */
-}
 
 
 
@@ -2007,6 +2041,14 @@ box-shadow: 0 8px 20px rgba(59,130,246,0.3);
 
 
 
+
+
+
+
+
+
+
+
 /* TEXT AREA */
 .card-content {
   padding: 8px 12px;
@@ -2023,6 +2065,13 @@ box-shadow: 0 8px 20px rgba(59,130,246,0.3);
   color: #666;
   display: none;
 }
+
+
+
+
+
+
+
 
 /* HOVER EFFECT */
 .role-card:hover {
@@ -2061,6 +2110,16 @@ box-shadow: 0 8px 20px rgba(59,130,246,0.3);
   background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
 }
 
+
+
+
+
+
+
+
+
+
+
 /* TEXT ON IMAGE */
 .overlay-text {
   position: absolute;
@@ -2082,6 +2141,9 @@ box-shadow: 0 8px 20px rgba(59,130,246,0.3);
     font-weight:600;
     text-shadow:2px 2px 8px rgba(0,0,0,0.7);
 }
+
+
+
 
 
 
@@ -2129,12 +2191,24 @@ box-shadow: 0 8px 20px rgba(59,130,246,0.3);
 }
 
 
+
+
+
+
+
+
 .menu-toggle {
     display: none;
     font-size: 30px;
     color: #1E3A8A;
     cursor: pointer;
 }
+
+
+
+
+
+
 
 
 
@@ -2226,6 +2300,12 @@ box-shadow: 0 8px 20px rgba(59,130,246,0.3);
 
 
 
+
+
+
+
+
+
 .education-bg {
   background: #869A8A;
   padding: 20px 20px;
@@ -2236,6 +2316,13 @@ box-shadow: 0 8px 20px rgba(59,130,246,0.3);
   max-width: 1100px;
   margin: auto;
 }
+
+
+
+
+
+
+
 
 .career-header {
   display: flex;
@@ -2251,6 +2338,13 @@ box-shadow: 0 8px 20px rgba(59,130,246,0.3);
   font-size: 30px;
 }
 
+
+
+
+
+
+
+
 .career-action button {
   margin-left: 10px;
   padding: 6px 12px;
@@ -2263,6 +2357,16 @@ box-shadow: 0 8px 20px rgba(59,130,246,0.3);
 .career-action button:hover {
   background: #f1f5f9;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 .home-buckets{
@@ -2280,11 +2384,24 @@ box-shadow: 0 8px 20px rgba(59,130,246,0.3);
 }
 
 
+
+
+
+
+
+
+
+
 .self-discovery-section{
     padding: 60px;
     background: #F8FAFC;
     
 }
+
+
+
+
+
 
 
 
@@ -2339,6 +2456,14 @@ box-shadow: 0 8px 20px rgba(59,130,246,0.3);
 .notion-card:hover {
   border-color: #333;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -2435,6 +2560,17 @@ transform: translateX(-50%) translateY(0);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 .view-subjects-btn{
     display: table;
     background: linear-gradient(135deg, #3b82f6, #2563eb);
@@ -2454,6 +2590,10 @@ animation: subjectGlow 2.5s infinite;
     
 
 }
+
+
+
+
 
 
 
@@ -2499,11 +2639,24 @@ animation: subjectGlow 2.5s infinite;
 }
 
 
+
+
+
+
+
+
+
+
 .feature-link{
     text-decoration: none;
     color: inherit;
     display: block;
 }
+
+
+
+
+
 
 html{
     scroll-behavior: smooth;
@@ -2597,6 +2750,24 @@ html{
 
 
 
+
+
+
+
+.story-text {
+  font-size: 17px;
+  line-height: 2;
+  font-style: italic;
+  color: #444;
+  margin: 30px 0;
+  text-align: left;
+  max-width:750px;
+  margin: 30px auto;
+  word-spacing: 2px;
+  letter-spacing: 0.5px;
+}
+
+
 .story-text{
 display:flex;
 justify-content:space-between;
@@ -2604,14 +2775,72 @@ align-items:center;
 gap:30px;
 }
 
-.story-text p{
+
+
+
+
+
+
+.story-list{
+padding-left:20px;
+line-height:1.8;
 flex:1;
+color:white;
 }
 
-.side-img{
-width:250px;
-border-radius:15px;
+.story-list li{
+margin-bottom:15px;
+color:white;
 }
+
+
+.side-img{
+    width: 280px;
+    border-radius: 15px;
+}
+
+
+
+.story-card{
+
+
+padding:30px;
+border-radius:16px;
+margin:20px 0;
+
+background:#235AD1;
+background: linear-gradient(135deg, #163FA8, #0A56CC);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.side-img {
+  
+  display: block;      /* Allows centering with margin */
+  width: 40%;          /* Makes it large on the screen */
+  max-width: 250px;    /* Prevents it from getting too huge on desktop */
+  margin: 20px auto;   /* Centers it horizontally and adds vertical space */
+  border-radius: 15px; /* Gives it those nice rounded corners */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* Adds a professional shadow */
+}
+
 
 
 
@@ -2622,11 +2851,25 @@ border-radius:15px;
 
 
 
+
+
+
+
+
+
+
+
+
 .college-category{
     margin-bottom:20px;
     min-width: 260px;
     
 }
+
+
+
+
+
 
 .college-link{
     display:block;
@@ -2650,6 +2893,16 @@ border-radius:15px;
 }
 
 
+
+
+
+
+
+
+
+
+
+
 .top-college-grid{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -2664,6 +2917,9 @@ border-radius:15px;
     margin: 35px 0 25px;
     color: #5A005A;
 }
+
+
+
 
 
 
@@ -2702,6 +2958,13 @@ height:auto;
 }
 
 
+
+
+
+
+
+
+
 @media screen and (max-width: 600px) {
 
 .accordion-header{
@@ -2725,6 +2988,12 @@ margin-bottom:20px;
 
 
 
+
+
+
+
+
+
 @media screen and (max-width: 600px) {
 
 .card-container{
@@ -2743,6 +3012,13 @@ grid-template-columns:1fr;
 }
 
 }
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 600px) {
@@ -2768,6 +3044,12 @@ border-radius:16px;
 }
 
 
+
+
+
+
+
+
 @media screen and (max-width: 600px) {
 
 .story-text{
@@ -2789,6 +3071,13 @@ padding-left:20px;
 
 }
 
+
+
+
+
+
+
+
 @media (max-width: 768px) {
 
   .card-container{
@@ -2806,6 +3095,12 @@ padding-left:20px;
 }
 
 
+
+
+
+
+
+
 @media (max-width: 768px) {
 
     .header {
@@ -2818,6 +3113,12 @@ padding-left:20px;
     }
 
 }
+
+
+
+
+
+
 
 
 /* ==========================
@@ -2846,6 +3147,11 @@ padding-left:20px;
 }
 
 
+
+
+
+
+
 @media (max-width: 768px) {
 
     .courses-container {
@@ -2872,48 +3178,18 @@ padding-left:20px;
 
 
 
-.story-text{
-display:flex;
-justify-content:space-between;
-align-items:center;
-gap:30px;
-}
-
-.story-list{
-padding-left:20px;
-line-height:1.8;
-flex:1;
-color:white;
-}
-
-.story-list li{
-margin-bottom:15px;
-color:white;
-}
-
-
-.side-img{
-    width: 280px;
-    border-radius: 15px;
-}
 
 
 
-.story-card{
-
-
-padding:30px;
-border-radius:16px;
-margin:20px 0;
-
-background:#235AD1;
-background: linear-gradient(135deg, #163FA8, #0A56CC);
-}
 
 
 .college-category h4{
 color:#082065;
 }
+
+
+
+
 
 
 
@@ -2943,6 +3219,11 @@ margin-bottom:8px;
 
 
 
+
+
+
+
+
 .career-img{
     width:100%;
     height:180px;
@@ -2967,12 +3248,26 @@ margin-bottom:8px;
 
 
 
+
+
+
+
+
+
+
+
 .step-title{
     color:#1e88e5;
     font-weight:bold;
     font-size:16px;
     margin-bottom:5px;
 }
+
+
+
+
+
+
 
 
 
@@ -2991,9 +3286,22 @@ h2, .career-header h2, .section-heading {
 }
 
 
+
+
+
+
 .close-menu {
     display: none;
 }
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 768px) {
@@ -3037,6 +3345,7 @@ h2, .career-header h2, .section-heading {
     
 }
 
+
 .overlay {
     display: none;
     position: fixed;
@@ -3053,8 +3362,6 @@ h2, .career-header h2, .section-heading {
 }
 
 
-
-
 .site-search {
     display: flex;
     justify-content: center;
@@ -3066,13 +3373,16 @@ h2, .career-header h2, .section-heading {
 }
 
 
+
 .home-search input {
     width: 240px;
 }
 
+
 .site-search button {
     margin-left: 8px;
 }
+
 
 .close-menu {
     display: block;
@@ -3083,11 +3393,15 @@ h2, .career-header h2, .section-heading {
     line-height: 1;
 }
 
-
     .nav-container {
         padding: 15px 20px;
     }
 }
+
+
+
+
+
 
 
 
@@ -3111,6 +3425,13 @@ h2, .career-header h2, .section-heading {
   }
 
 }
+
+
+
+
+
+
+
 
 
 
