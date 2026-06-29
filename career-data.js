@@ -170,6 +170,27 @@ window.careers = [
     tags: ["nursing", "msc nursing", "aiims", "postgraduate", "entrance exam"]
 },
 
+{
+    contentType: "exam",
+    id: "ailet-pg",
+    name: "AILET PG",
+    description: "All India Law Entrance Test (Postgraduate) conducted by National Law University (NLU), Delhi for admission to LL.M. programmes.",
+    page: "ailet-pg.html",
+    keywords: ["ailet pg", "all india law entrance test pg", "llm entrance", "nlu delhi", "law entrance exam"],
+    tags: ["law", "national entrance exam", "LLM", "postgraduate", "NLU Delhi"]
+},
+
+
+{
+    contentType: "exam",
+    id: "ailet-ug",
+    name: "AILET UG",
+    description: "All India Law Entrance Test (Undergraduate) conducted by National Law University (NLU), Delhi for admission to the B.A. LL.B. (Hons.) programme.",
+    page: "ailet-ug.html",
+    keywords: ["ailet ug", "all india law entrance test ug", "ba llb entrance", "nlu delhi", "law entrance exam"],
+    tags: ["law", "national entrance exam", "BA LLB", "undergraduate", "NLU Delhi"]
+},
+
 
 {
     id: "ai-robotics-engineer",
@@ -471,6 +492,18 @@ window.careers = [
 },
 
 
+
+{
+    contentType: "exam",
+    id: "cat",
+    name: "CAT",
+    description: "Common Admission Test conducted by the Indian Institutes of Management (IIMs) for admission to MBA and other postgraduate management programmes.",
+    page: "cat.html",
+    keywords: ["cat", "common admission test", "mba entrance", "iim", "management entrance exam", "mba admissions"],
+    tags: ["management", "national entrance exam", "MBA", "postgraduate", "IIM"]
+},
+
+
 {
     contentType: "exam",
     id: "ceed",
@@ -556,6 +589,29 @@ window.careers = [
     type: "Private & Government",
     tags: ["civil engineer", "civil engineering", "construction engineer", "structural engineer", "building construction", "road construction", "bridge engineer", "infrastructure engineer", "civil engineering career", "civil engineering jobs"]
 },
+
+
+{
+    contentType: "exam",
+    id: "clat-pg",
+    name: "CLAT PG",
+    description: "Common Law Admission Test (Postgraduate) conducted by the Consortium of National Law Universities for admission to LL.M. programmes.",
+    page: "clat-pg.html",
+    keywords: ["clat pg", "common law admission test pg", "llm entrance", "law pg entrance", "consortium of nlus"],
+    tags: ["law", "national entrance exam", "LLM", "postgraduate", "NLUs"]
+},
+
+
+{
+    contentType: "exam",
+    id: "clat",
+    name: "CLAT UG",
+    description: "Common Law Admission Test conducted by the Consortium of National Law Universities for admission to undergraduate and postgraduate law programmes",
+    page: "clat-ug.html",
+    keywords: ["clat", "common law admission test", "law entrance", "nlu", "ba llb", "llm"],
+    tags: ["law", "national entrance exam", "undergraduate", "postgraduate", "NLU"]
+},
+
 
 {
     id: "cloud-administrator",
@@ -1528,6 +1584,17 @@ stream: ["Arts","Science","Commerce"]
     tags: ["interview", "admission", "selection", "college", "university"]
 },
 
+
+{
+    contentType: "exam",
+    id: "institute-level-admission",
+    name: "Institute-Level Admission",
+    description: "Admission process conducted directly by colleges or institutes to fill available seats based on their eligibility criteria.",
+    page: "institute-level-admission.html",
+    keywords: ["institute level admission", "college admission", "direct admission", "vacant seats", "management quota", "college counselling"],
+    tags: ["college admission", "direct admission", "institute level", "vacant seats", "management quota"]
+},
+
 {
   id: "instrumentation-engineer",
   name: "Instrumentation Engineer",
@@ -2007,6 +2074,27 @@ stream: ["Arts","Science","Commerce"]
 
 {
     contentType: "exam",
+    id: "nmat",
+    name: "NMAT",
+    description: "NMAT (NMIMS Management Aptitude Test) by GMAC conducted by the Graduate Management Admission Council (GMAC) for admission to MBA and other postgraduate management programmes.",
+    page: "nmat.html",
+    keywords: ["nmat", "nmat by gmac", "nmims management aptitude test", "mba entrance", "gmac", "mba admissions"],
+    tags: ["management", "national entrance exam", "MBA", "postgraduate", "GMAC"]
+},
+
+
+{
+    contentType: "exam",
+    id: "nmims-npat",
+    name: "NMIMS NPAT",
+    description: "NMIMS NPAT (National Test for Programs After Twelfth) conducted by NMIMS for admission to undergraduate programmes across its campuses.",
+    page: "nmims-npat.html",
+    keywords: ["nmims npat", "npat", "national test for programs after twelfth", "nmims entrance exam", "ug entrance exam", "nmims admissions"],
+    tags: ["university entrance exam", "undergraduate", "NMIMS", "NPAT", "after 12th"]
+},
+
+{
+    contentType: "exam",
     id: "nsd-entrance-exam",
     name: "NSD Entrance Exam",
     description: "Entrance examination conducted by the National School of Drama for admission to the Diploma in Dramatic Arts",
@@ -2362,6 +2450,28 @@ stream: ["Arts","Science"]
     tags: ["site reliability engineer", "sre", "system reliability", "cloud computing", "infrastructure", "system monitoring", "automation", "uptime"]
 },
 
+
+{
+    contentType: "exam",
+    id: "slat",
+    name: "SLAT",
+    description: "Symbiosis Law Admission Test conducted by Symbiosis International (Deemed University) for admission to integrated law programmes",
+    page: "slat.html",
+    keywords: ["slat", "symbiosis law admission test", "symbiosis law school", "law entrance", "ba llb", "bba llb"],
+    tags: ["law", "national entrance exam", "Symbiosis", "undergraduate", "integrated law"]
+},
+
+
+{
+    contentType: "exam",
+    id: "snap",
+    name: "SNAP",
+    description: "Symbiosis National Aptitude Test conducted by Symbiosis International (Deemed University) (SIU) for admission to MBA and other postgraduate management programmes.",
+    page: "snap.html",
+    keywords: ["snap", "symbiosis national aptitude test", "snap mba", "symbiosis mba", "mba entrance exam", "siu"],
+    tags: ["management", "national entrance exam", "MBA", "postgraduate", "Symbiosis"]
+},
+
 {
   id: "software-developer",
   name: "Software Developer",
@@ -2430,6 +2540,37 @@ stream: ["Arts","Science","Commerce"]
 },
 
 
+{
+    contentType: "exam",
+    id: "state-engineering-entrance-exams",
+    name: "State Engineering Entrance Exams",
+    description: "State-level engineering entrance examinations conducted by state governments or universities for admission to B.E., B.Tech, and other engineering programmes within their respective states.",
+    page: "state-engineering-entrance-exams.html",
+    keywords: ["state engineering entrance exams", "mht cet", "wbjee", "kcet", "keam", "ap eapcet", "ts eapcet", "state engineering admission"],
+    tags: ["engineering", "state entrance exam", "BTech", "BE", "undergraduate", "state-level"]
+},
+
+
+{
+    contentType: "exam",
+    id: "state-mba-entrance-exams",
+    name: "State MBA Entrance Exams",
+    description: "State-level MBA entrance examinations conducted by state governments or universities for admission to MBA and other postgraduate management programmes within their respective states.",
+    page: "state-mba-entrance-exams.html",
+    keywords: ["state mba entrance exams", "mah mba cet", "tancet mba", "kmat kerala", "karnataka pgcet mba", "ap icet", "ts icet", "state mba admission"],
+    tags: ["management", "state entrance exam", "MBA", "postgraduate", "state-level"]
+},
+
+{
+    contentType: "exam",
+    id: "state-law-entrance-exams",
+    name: "State-Level Law Entrance Exams",
+    description: "Overview of state-level law entrance examinations conducted by various states in India for admission to 3-year and 5-year LL.B. programmes.",
+    page: "state-law-entrance-exams.html",
+    keywords: ["state law entrance exams", "MH CET Law", "KLEE", "AP LAWCET", "TG LAWCET", "law entrance exams india", "state law exams"],
+    tags: ["law", "state entrance exam", "LLB", "5-year LLB", "3-year LLB", "undergraduate", "postgraduate"]
+},
+
 
 {
     contentType: "exam",
@@ -2440,6 +2581,18 @@ stream: ["Arts","Science","Commerce"]
     keywords: ["state cet", "cet exam", "mht cet", "kcet", "keam", "wbjee", "state entrance exam"],
     tags: ["cet", "entrance exam", "engineering", "pharmacy", "nursing", "physiotherapy"]
 },
+
+
+{
+    contentType: "exam",
+    id: "state-level-iti-selection",
+    name: "State Level ITI Selection",
+    description: "State-level admission process for Industrial Training Institute (ITI) courses based on Class 8, Class 10, or Class 12 marks, depending on the course and state rules.",
+    page: "state-iti-selection.html",
+    keywords: ["state iti selection", "iti admission", "iti merit list", "state iti admission", "industrial training institute", "iti counselling"],
+    tags: ["ITI", "state admission", "merit-based", "vocational education", "skill development"]
+},
+
 
 {
     contentType: "exam",
@@ -2462,6 +2615,8 @@ stream: ["Arts","Science","Commerce"]
 },
 
 
+
+
 {
     contentType: "exam",
     id: "state-pg-nursing-entrance-exams",
@@ -2470,6 +2625,17 @@ stream: ["Arts","Science","Commerce"]
     page: "state-pg-nursing-entrance-exams.html",
     keywords: ["state pg nursing entrance exam", "msc nursing entrance exam", "postgraduate nursing admission", "msc nursing", "nursing pg admission", "state nursing entrance exam"],
     tags: ["nursing", "msc nursing", "postgraduate", "healthcare", "state exam"]
+},
+
+
+{
+    contentType: "exam",
+    id: "state-polytechnic-entrance-exams",
+    name: "State Polytechnic Entrance Exams",
+    description: "Overview of state-level polytechnic entrance examinations conducted by various states in India for admission to diploma engineering and other diploma programmes.",
+    page: "state-polytechnic-entrance-exams.html",
+    keywords: ["state polytechnic entrance exams", "polytechnic admission", "diploma entrance exam", "engineering diploma", "polytechnic india"],
+    tags: ["polytechnic", "state entrance exam", "diploma", "engineering", "after 10th"]
 },
 
 
@@ -2806,6 +2972,17 @@ category: "Photography",
 subjects: ["Photography","Biology","Environmental Science"],
 levels: ["12th","Graduation"],
 stream: ["Science","Arts"]
+},
+
+
+{
+    contentType: "exam",
+    id: "xat",
+    name: "XAT",
+    description: "Xavier Aptitude Test conducted by XLRI Jamshedpur for admission to MBA and other postgraduate management programmes.",
+    page: "xat.html",
+    keywords: ["xat", "xavier aptitude test", "mba entrance", "xlri", "management entrance exam", "mba admissions"],
+    tags: ["management", "national entrance exam", "MBA", "postgraduate", "XLRI"]
 },
 
 
