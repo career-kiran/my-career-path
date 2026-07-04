@@ -64,6 +64,26 @@ window.careers = [
 
 
 {
+    contentType: "exam",
+    id: "advanced-audition",
+    name: "Advanced Audition",
+    description: "A selection process conducted by colleges, universities, and performing arts institutes to assess a student's advanced skills before admission to advanced performing arts programmes.",
+    page: "advanced-audition.html",
+    keywords: ["advanced audition", "performing arts admission", "advanced music audition", "advanced dance audition", "theatre audition"],
+    tags: ["performing arts", "advanced audition", "admission"]
+},
+
+{
+    contentType: "exam",
+    id: "advanced-dance-audition",
+    name: "Advanced Dance Audition",
+    description: "An admission process conducted by colleges, universities, and dance institutes to assess a student's advanced dance skills before admission to higher-level dance and choreography programmes.",
+    page: "advanced-dance-audition.html",
+    keywords: ["advanced dance audition", "dance audition", "choreography admission", "dance entrance", "performing arts admission", "dance selection process"],
+    tags: ["dance", "choreography", "performing arts", "audition", "admission"]
+},
+
+{
     id: "advocate",
     name: "Advocate",
     image: "images/advocate.jpeg",
@@ -193,6 +213,17 @@ window.careers = [
 
 
 {
+    contentType: "exam",
+    id: "aima-ugat",
+    name: "AIMA UGAT",
+    description: "AIMA UGAT (Under Graduate Aptitude Test) conducted by the All India Management Association (AIMA) for admission to undergraduate programmes such as BBA, BCA, BHM, B.Com, and Integrated MBA.",
+    page: "aima-ugat.html",
+    keywords: ["aima ugat", "ugat", "under graduate aptitude test", "aima entrance exam", "bba entrance exam", "bca entrance exam", "integrated mba entrance"],
+    tags: ["management", "national entrance exam", "undergraduate", "AIMA", "UGAT"]
+},
+
+
+{
     id: "ai-robotics-engineer",
     name: "AI Robotics Engineer",
     image: "images/ai-robotics-engineer.jpeg",
@@ -248,6 +279,16 @@ window.careers = [
     tags: ["nursing", "anm", "healthcare", "state exam", "entrance exam"]
 },
 
+{
+    contentType: "exam",
+    id: "aptitude-test",
+    name: "Aptitude Test",
+    description: "A selection process conducted by colleges, universities, and music institutes to assess a student's aptitude for admission to instrumental music courses.",
+    page: "aptitude-test.html",
+    keywords: ["aptitude test", "instrumental music aptitude test", "instrumental music admission", "music entrance test", "instrumentalist course admission"],
+    tags: ["music", "instrumental music", "aptitude", "admission"]
+},
+
 
 {
   id: "art-director",
@@ -274,6 +315,17 @@ window.careers = [
   subjects: ["Media Studies", "Film Studies", "Arts"],
   levels: ["10th", "12th", "Graduation"],
   stream: ["Arts", "Science", "Commerce"]
+},
+
+
+{
+    contentType: "exam",
+    id: "audition",
+    name: "Audition",
+    description: "An admission process in which colleges, universities, or training institutes assess a student's performance skills before offering admission to performing arts courses.",
+    page: "audition.html",
+    keywords: ["audition", "acting audition", "theatre audition", "dance audition", "music audition", "performing arts admission"],
+    tags: ["audition", "acting", "theatre", "dance", "music", "performing arts"]
 },
 
 {
@@ -382,6 +434,16 @@ window.careers = [
     tags: ["backend developer", "software developer", "server-side developer", "api developer", "database developer", "node js", "python developer", "java backend"]
 },
 
+
+{
+    contentType: "exam",
+    id: "basic-music-aptitude-test",
+    name: "Basic Music Aptitude Test",
+    description: "A selection process conducted by colleges, universities, and music institutes to assess a student's basic musical ability before admission to music programmes.",
+    page: "basic-music-aptitude-test.html",
+    keywords: ["basic music aptitude test", "music aptitude test", "music entrance test", "music course admission", "music institute admission"],
+    tags: ["music", "aptitude", "music test", "admission"]
+},
 
 
 {
@@ -521,7 +583,7 @@ window.careers = [
     page: "chartered-accountant.html",
     icon: "📊",
     bucket: "Business",
-    subjects: ["Accountancy", "Mathematics", "Economics"],
+    subjects: ["Accountancy", "Mathematics", "Economics", "Commerce"],
     levels: ["12th", "Graduation"],
     stream: ["Commerce", "Science", "Arts"],
     type: "Government & Private",
@@ -802,6 +864,16 @@ category: "Writing",
 subjects: ["Literature","Marketing","Communication"],
 levels: ["12th","Graduation"],
 stream: ["Arts","Commerce","Science"]
+},
+
+{
+    contentType: "info",
+    id: "creative-test",
+    name: "Creative Test",
+    description: "An admission assessment conducted by some colleges and training institutes to evaluate a student's creativity, imagination, and creative thinking before admission to creative courses.",
+    page: "creative-test.html",
+    keywords: ["creative test", "creative assessment", "animation admission", "design admission", "creative course admission"],
+    tags: ["creative", "admission process", "design", "animation", "fine arts"]
 },
 
 
@@ -1373,6 +1445,17 @@ stream: ["Arts","Science","Commerce"]
 
 {
     contentType: "exam",
+    id: "gmat",
+    name: "GMAT",
+    description: "GMAT (Graduate Management Admission Test) conducted by the Graduate Management Admission Council (GMAC) for admission to MBA and other postgraduate management programmes offered by business schools worldwide.",
+    page: "gmat.html",
+    keywords: ["gmat", "graduate management admission test", "gmat focus edition", "gmac", "mba entrance exam", "business school admission"],
+    tags: ["management", "international entrance exam", "MBA", "postgraduate", "GMAC"]
+},
+
+
+{
+    contentType: "exam",
     id: "gnm-nursing-entrance-exams",
     name: "GNM Nursing Entrance Exams",
     description: "Entrance examinations for admission to General Nursing and Midwifery (GNM) courses in India",
@@ -1573,6 +1656,40 @@ stream: ["Arts","Science","Commerce"]
     keywords: ["ini cet dental", "mds admission", "postgraduate dental entrance exam", "aiims dental admission", "bds postgraduate", "mds courses", "aiims exam", "ini cet dental eligibility", "ini cet dental exam pattern"],
     tags: ["dentistry", "bds", "mds", "postgraduate", "dental entrance exam", "aiims"]
 },
+
+
+{
+    contentType: "exam",
+    id: "institutional-aptitude-test",
+    name: "Institutional Aptitude Test",
+    description: "An admission test conducted by individual colleges, universities, or training institutes to assess a student's aptitude, skills, or creative ability before admission.",
+    page: "institutional-aptitude-test.html",
+    keywords: ["institutional aptitude test", "institute level admission test", "college admission test", "aptitude test", "creative test", "admission process"],
+    tags: ["admission", "aptitude", "college", "institution", "entrance"]
+},
+
+
+{
+    contentType: "exam",
+    id: "institute-drawing-test",
+    name: "Institute Drawing Test",
+    description: "An admission test conducted by individual colleges and training institutes to assess a student's drawing skills before admission to creative courses.",
+    page: "institute-drawing-test.html",
+    keywords: ["institute level drawing test", "drawing test", "creative course admission", "fine arts admission", "animation admission", "design admission"],
+    tags: ["drawing", "creative", "admission", "design", "fine arts"]
+},
+
+{
+    contentType: "exam",
+    id: "institutional-entrance-test",
+    name: "Institutional Entrance Test",
+    description: "An entrance examination conducted by individual colleges, universities, or training institutes for admission to their own courses.",
+    page: "institutional-entrance-test.html",
+    keywords: ["institutional entrance test", "institute level entrance test", "college entrance exam", "university entrance test", "private college admission"],
+    tags: ["admission", "entrance exam", "college", "university", "institution"]
+},
+
+
 
 {
     contentType: "exam",
@@ -1787,6 +1904,16 @@ stream: ["Arts","Science","Commerce"]
 
 
 {
+    contentType: "exam",
+    id: "mat",
+    name: "MAT",
+    description: "Management Aptitude Test conducted by the All India Management Association (AIMA) for admission to MBA and other postgraduate management programmes.",
+    page: "mat.html",
+    keywords: ["mat", "management aptitude test", "aima mat", "mat mba", "mba entrance exam", "management entrance exam"],
+    tags: ["management", "national entrance exam", "MBA", "postgraduate", "AIMA"]
+},
+
+{
     id: "mechanical-engineer",
     name: "Mechanical Engineer",
     image: "images/mechanical-engineer.jpeg",
@@ -1891,9 +2018,25 @@ stream: ["Arts","Science","Commerce"]
     tags: ["mobile app developer", "android developer", "ios developer", "flutter developer", "react native developer", "app programmer", "mobile software engineer", "application developer"]
 },
 
+{
+    contentType: "exam",
+    id: "music-aptitude-interview",
+    name: "Music Aptitude Interview",
+    description: "A selection process conducted by colleges, universities, and music institutes to assess a student's interest, musical understanding, communication skills, and suitability for admission to music programmes.",
+    page: "music-aptitude-interview.html",
+    keywords: ["music aptitude interview", "music interview", "music course admission", "music entrance interview", "performing arts admission"],
+    tags: ["music", "performing arts", "interview", "admission"]
+},
 
-
-
+{
+    contentType: "exam",
+    id: "music-aptitude-test",
+    name: "Music Aptitude Test",
+    description: "A selection process conducted by colleges, universities, and music institutes to assess a student's musical ability before admission to music programmes.",
+    page: "music-aptitude-test.html",
+    keywords: ["music aptitude test", "musical aptitude test", "music entrance test", "music course admission", "music institute admission"],
+    tags: ["music", "music aptitude", "admission", "music test"]
+},
 
 {
     id: "music-composer",
@@ -1924,6 +2067,18 @@ stream: ["Arts","Science","Commerce"]
     type: "Private",
     tags: ["music", "producer", "beat making", "mixing", "recording", "audio production"]
 },
+
+
+{
+    contentType: "exam",
+    id: "music-theory-test",
+    name: "Music Theory Test",
+    description: "A selection process conducted by colleges, universities, and music institutes to assess a student's knowledge of music theory before admission to music programmes.",
+    page: "music-theory-test.html",
+    keywords: ["music theory test", "music entrance test", "music theory exam", "music course admission", "performing arts admission"],
+    tags: ["music", "music theory", "performing arts", "admission", "test"]
+},
+
 
 {
     contentType: "exam",
@@ -2138,6 +2293,17 @@ stream: ["Arts","Science","Commerce"]
 
 {
     contentType: "exam",
+    id: "performance-video-submission",
+    name: "Performance Video Submission",
+    description: "A selection process conducted by colleges, universities, and performing arts institutes where students submit a recorded performance for admission to performing arts programmes.",
+    page: "performance-video-submission.html",
+    keywords: ["performance video submission", "video audition", "performance video", "online audition", "performing arts admission"],
+    tags: ["performing arts", "video submission", "online audition", "admission"]
+},
+
+
+{
+    contentType: "exam",
     id: "personal-interview",
     name: "Personal Interview",
     description: "A selection process used by colleges and universities to understand a student's interests, goals, and suitability for a course",
@@ -2280,6 +2446,17 @@ stream: ["Arts","Science","Commerce"]
     page: "portfolio-review.html",
     keywords: ["portfolio review", "design portfolio", "creative admission", "portfolio evaluation", "design admission", "art portfolio"],
     tags: ["portfolio", "admission", "design", "creative", "arts", "interview"]
+},
+
+
+{
+    contentType: "exam",
+    id: "practical-performance-exam",
+    name: "Practical Performance Exam",
+    description: "A selection process conducted by colleges, universities, and performing arts institutes to assess a student's practical performance skills before admission to performance-based programmes.",
+    page: "practical-performance-exam.html",
+    keywords: ["practical performance exam", "performance test", "performing arts admission", "music performance exam", "dance performance exam"],
+    tags: ["performing arts", "performance", "practical exam", "admission"]
 },
 
 {
@@ -2529,6 +2706,17 @@ stream: ["Arts","Science"]
 
 
 {
+    contentType: "exam",
+    id: "srfti-entrance-test",
+    name: "SRFTI Entrance Test",
+    description: "Entrance examination conducted by the Satyajit Ray Film & Television Institute (SRFTI) for admission to various film, television, animation, and media programmes.",
+    page: "srfti-entrance-test.html",
+    keywords: ["srfti entrance test", "srfti admission", "satyajit ray film and television institute", "film school entrance exam", "screen acting", "film direction", "cinematography", "editing", "animation"],
+    tags: ["film", "television", "media", "animation", "acting", "cinematography", "direction", "editing"]
+},
+
+
+{
 name: "Stand-up Comedian",
 description: "Performs comedy acts and entertains audiences through live or recorded shows.",
 page: "standup-comedian.html",
@@ -2559,6 +2747,17 @@ stream: ["Arts","Science","Commerce"]
     page: "state-mba-entrance-exams.html",
     keywords: ["state mba entrance exams", "mah mba cet", "tancet mba", "kmat kerala", "karnataka pgcet mba", "ap icet", "ts icet", "state mba admission"],
     tags: ["management", "state entrance exam", "MBA", "postgraduate", "state-level"]
+},
+
+
+{
+    contentType: "exam",
+    id: "state-mca-entrance-exams",
+    name: "State-Level MCA Entrance Exams",
+    description: "State-level entrance examinations conducted by state governments or universities for admission to Master of Computer Applications (MCA) programmes.",
+    page: "state-mca-entrance-exams.html",
+    keywords: ["state mca entrance exams", "mca entrance exam", "ojee mca", "ap icet mca", "ts icet mca", "mca admission"],
+    tags: ["computer applications", "state entrance exam", "MCA", "postgraduate", "state-level"]
 },
 
 {
@@ -2593,6 +2792,16 @@ stream: ["Arts","Science","Commerce"]
     tags: ["ITI", "state admission", "merit-based", "vocational education", "skill development"]
 },
 
+
+{
+    contentType: "exam",
+    id: "state-lateral-entry-entrance-exams",
+    name: "State-Level Lateral Entry Entrance Exams",
+    description: "State-level entrance examinations conducted by state governments or universities for lateral entry admission into the second year of Diploma and B.E./B.Tech programmes.",
+    page: "state-lateral-entry-entrance-exams.html",
+    keywords: ["state lateral entry entrance exams", "lateral entry", "LEET", "JELET", "JECLET", "diploma lateral entry", "BTech lateral entry", "engineering lateral entry"],
+    tags: ["engineering", "lateral entry", "state entrance exam", "diploma", "BTech", "undergraduate"]
+},
 
 {
     contentType: "exam",
@@ -2669,7 +2878,7 @@ stream: ["Arts","Science","Commerce"]
     page: "supply-chain-manager.html",
     icon: "📦",
     bucket: "Business",
-    subjects: ["Business Studies", "Economics", "Mathematics"],
+    subjects: ["Business Studies", "Economics", "Mathematics", "Commerce"],
     levels: ["Graduation"],
     stream: ["Commerce", "Science", "Arts"],
     type: "Government & Private",
@@ -2723,6 +2932,16 @@ stream: ["Arts","Science","Commerce"]
     tags: ["tailor", "tailoring", "fashion", "stitching", "clothing", "garment making", "boutique", "sewing"]
 },
 
+
+{
+    contentType: "exam",
+    id: "technical-interview",
+    name: "Technical Interview",
+    description: "A selection process conducted by colleges, universities, and institutes to assess a student's technical knowledge and problem-solving skills for admission to technical and professional courses.",
+    page: "technical-interview.html",
+    keywords: ["technical interview", "technical admission interview", "technical course admission", "engineering interview", "technical selection process"],
+    tags: ["technical interview", "admission", "engineering", "technology"]
+},
 
 {
   id: "technical-support-engineer",
@@ -2930,6 +3149,16 @@ stream: ["Arts","Science","Commerce"]
 
 
 {
+    contentType: "exam",
+    id: "voice-audition",
+    name: "Voice Audition",
+    description: "A selection process conducted by studios, media organizations, radio stations, and institutes to assess a candidate's voice quality, pronunciation, expression, and communication skills for voice acting, dubbing, radio, and related opportunities.",
+    page: "voice-audition.html",
+    keywords: ["voice audition", "voice acting audition", "dubbing audition", "voice over audition", "radio audition", "voice artist selection"],
+    tags: ["voice acting", "dubbing", "radio", "media", "audition", "performing arts"]
+},
+
+{
   id: "web-developer",
   name: "Web Developer",
   description: "Web developers create websites and web applications that people use on the internet.",
@@ -2972,6 +3201,17 @@ category: "Photography",
 subjects: ["Photography","Biology","Environmental Science"],
 levels: ["12th","Graduation"],
 stream: ["Science","Arts"]
+},
+
+
+{
+    contentType: "exam",
+    id: "writing-sample-review",
+    name: "Writing Sample Review",
+    description: "An admission process in which colleges, universities, or training institutes evaluate a student's writing skills before offering admission to writing-related courses.",
+    page: "writing-sample-review.html",
+    keywords: ["writing sample review", "writing assessment", "creative writing admission", "writing test", "journalism admission"],
+    tags: ["writing", "admission", "creative writing", "journalism", "literature"]
 },
 
 
