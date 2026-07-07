@@ -3461,10 +3461,10 @@ h2, .career-header h2, .section-heading {
 .footer-links{
     width:100%;
     display:flex;
-    justify-content:space-evenly;
+    justify-content:center;
     align-items:flex-start;
     margin:0;
-    gap:10px;
+    gap:50px;
 }
 
 .footer-column{
