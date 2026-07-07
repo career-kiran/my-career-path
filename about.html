@@ -1,136 +1,122 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
-<title>About this website | My Career Path</title>
 
-<style>
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background: #fafafa;
-  color: #333;
-  line-height: 1.9;
-}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-/* ===== HEADER ===== */
-.header {
-  padding: 30px 40px 10px 40px;
-}
 
-.site-title {
-  font-size: 28px;
-  font-weight: bold;
-  margin-bottom: 22px;
-}
 
-.bucket-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 18px;
-  font-size: 15px;
-}
+<link rel="stylesheet" href="style.css">
 
-.bucket-nav a {
-  text-decoration: none;
-  color: #555;
-}
-
-.bucket-nav a:hover {
-  color: #000;
-  text-decoration: underline;
-}
-
-.secondary-nav {
-  margin-top: 18px;
-  font-size: 14px;
-  color: #666;
-}
-
-.secondary-nav a {
-  text-decoration: none;
-  color: #666;
-}
-
-.secondary-nav a:hover {
-  text-decoration: underline;
-  color: #000;
-}
-
-/* ===== CONTENT ===== */
-.content {
-  padding: 40px;
-  max-width: 850px;
-}
-
-h1 {
-  font-weight: normal;
-  margin-bottom: 25px;
-}
-</style>
 </head>
+
 
 <body>
 
-<!-- ===== HEADER ===== -->
-<div class="header">
-  <div class="site-title">My Career Path</div>
 
-  <div class="bucket-nav">
-    <a href="helping-people.html">Helping people</a>
-    <a href="arts-science.html">Arts, humanities & science</a>
-    <a href="creativity.html">Creativity</a>
-    <a href="technology.html">Technology</a>
-    <a href="building.html">Building & fixing</a>
-    <a href="business.html">Business</a>
-  </div>
 
-  <div class="secondary-nav">
-    <a href="about.html">About this website</a> |
-    <a href="index.html">Start again</a>
-  </div>
-</div>
+
+<div id="header"></div>
+
+<script src="layout.js"></script>
+
+
+<script src="career-data.js"></script>
+<script src="search.js"></script>
+
+
+<div class="main">
+
+<button onclick="goBack()" class="back-button">← Back</button>
+
+<div class="career-header">
+
+
+
+
+
 
 <!-- ===== CONTENT ===== -->
-<div class="content">
+<div class="exam-content">
 
-<h1>About this website</h1>
+<h1>About This Website</h1>
 
 <p>
-Choosing a career can feel confusing, stressful, and overwhelming — especially when
-there is pressure to decide early or follow what others expect.
+Choosing a career can feel confusing, stressful, and overwhelming—especially when there is pressure to decide early or follow what others expect.
 </p>
 
 <p>
-<strong>My Career Path</strong> was created to help students understand themselves first,
-before choosing a course or profession.
+<strong>My Career Path</strong> was created to help students understand themselves first, before choosing a course or profession.
 </p>
 
 <p>
-This website does not tell you what you <em>must</em> become.
-Instead, it gently shows you different directions, roles, and learning paths,
-so you can make informed decisions at your own pace.
+This website does not tell you what you <em>must</em> become. Instead, it gently shows you different career directions, roles, courses, and educational pathways, so you can make informed decisions at your own pace.
 </p>
 
 <p>
-There is no hurry here.
-You don’t have to decide everything today.
-Many people take time to discover what they enjoy — and that’s completely okay.
+There is no hurry here. You don't have to decide everything today. Many people take time to discover what they enjoy—and that's completely okay.
+</p>
+
+<h2>Our Mission</h2>
+
+<p>
+Our mission is to help students explore careers with clarity, confidence, and curiosity by providing simple, reliable, and easy-to-understand career guidance.
+</p>
+
+<h2>What You'll Find Here</h2>
+
+<ul>
+  <li>Careers explained in simple language</li>
+  <li>Courses after Class 10, Class 12, and graduation</li>
+  <li>Entrance exam details</li>
+  <li>Top colleges and institutions for different courses</li>
+
+  <li>Self-reflection questions to help you discover whether a career is right for you</li>
+  <li>Official website links for entrance exams and institutions</li>
+</ul>
+
+<p>
+This website is designed to feel like a calm guide—not a coaching centre, not an exam portal, and not a comparison race.
 </p>
 
 <p>
-This website is designed to feel like a calm guide —
-not a coaching centre, not an exam portal, and not a comparison race.
-</p>
-
-<p>
-Take your time.
-Explore.
-Come back again.
-Your path will become clearer step by step.
+<strong>Take your time.</strong> Explore. Learn. Come back whenever you need. Your path will become clearer, one step at a time.
 </p>
 
 </div>
+
+</div>
+
+<script src="reflection.js"></script>
+
+
+
+<button onclick="scrollToTop()" id="scrollTopBtn">↑ Top</button>
+
+
+<script>
+function scrollToTop(){
+window.scrollTo({
+top:0,
+behavior:'smooth'
+});
+}
+</script>
+
+</div>
+
+<div id="footer"></div>
+
+<script src="navigation.js"></script>
+
+
+<script src="career-actions.js"></script>
+
+
 
 </body>
 </html>
