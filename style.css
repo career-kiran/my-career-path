@@ -3265,8 +3265,9 @@ margin-bottom:8px;
 .step-title{
     color:#1e88e5;
     font-weight:bold;
-    font-size:16px;
-    margin-bottom:5px;
+    font-size:18px;
+    margin-bottom:10px;
+    margin-top:10px;
 }
 
 
@@ -3425,18 +3426,10 @@ h2, .career-header h2, .section-heading {
     gap: 8px;
   }
 
-
-.footer-links{
-    align-items: flex-start;
-    text-align: left;
-    width: 100%;
+  .footer-links{
+    margin-left: -25px;
 }
 
-.footer-links a{
-    display: block;
-    width: 100%;
-    text-align: left;
-}
 
   .footer-bottom {
     margin-top: 8px;
