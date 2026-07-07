@@ -3200,7 +3200,7 @@ color:#082065;
 
 
 .self-check{
-background:#EBF0EC;
+background:#D1DDD4;
 border:1px solid #e3e8f5;
 padding:20px;
 border-radius:10px;
@@ -3425,10 +3425,25 @@ h2, .career-header h2, .section-heading {
     gap: 8px;
   }
 
+
+.footer-links{
+    align-items: flex-start;
+    text-align: left;
+    width: 100%;
+}
+
+.footer-links a{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
   .footer-bottom {
     margin-top: 8px;
     padding-top: 5px;
   }
+
+
 
 }
 

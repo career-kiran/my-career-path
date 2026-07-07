@@ -47,6 +47,23 @@ window.careers = [
     tags: ["media", "fashion", "design", "animation", "journalism", "arts"]
 },
 
+
+{
+  id: "accountant",
+  name: "Accountant",
+  image: "images/accountant.jpeg",
+  page: "accountant.html",
+  icon: "📊",
+  bucket: "Business and Management",
+  category: "Accounting and Finance",
+  subjects: ["Accountancy", "Commerce", "Mathematics", "Economics"],
+  levels: ["12th", "Diploma", "Graduation"],
+  stream: ["Commerce", "Science", "Arts"],
+  type: "Private & Government",
+  tags: ["accounting", "bookkeeping", "financial records", "taxation", "auditing"]
+},
+
+
 {
     id: "actor",
     name: "Actor",
@@ -167,6 +184,17 @@ window.careers = [
     type: "Private & Freelance",
     tags: ["ai engineer", "artificial intelligence engineer", "machine learning engineer", "deep learning engineer", "generative ai", "ai developer", "ml engineer", "data science"]
 },
+
+{
+    contentType: "exam",
+    id: "aifset",
+    name: "AIFSET",
+    description: "A national-level entrance exam conducted for admission to undergraduate and postgraduate forensic science courses in participating institutes.",
+    page: "aifset.html",
+    keywords: ["AIFSET", "All India Forensic Science Entrance Test", "forensic science entrance exam", "BSc forensic science admission", "MSc forensic science admission"],
+    tags: ["forensic science", "entrance exam", "national level", "admission"]
+},
+
 
 
 {
@@ -326,6 +354,21 @@ window.careers = [
     page: "audition.html",
     keywords: ["audition", "acting audition", "theatre audition", "dance audition", "music audition", "performing arts admission"],
     tags: ["audition", "acting", "theatre", "dance", "music", "performing arts"]
+},
+
+{
+  id: "auditor",
+  name: "Auditor",
+  image: "images/auditor.jpeg",
+  page: "auditor.html",
+  icon: "📋",
+  bucket: "Business and Management",
+  category: "Accounting and Finance",
+  subjects: ["Accountancy", "Commerce", "Mathematics", "Economics"],
+  levels: ["Graduation"],
+  stream: ["Commerce", "Science", "Arts"],
+  type: "Private & Government",
+  tags: ["auditor", "auditing", "financial records", "internal audit", "external audit"]
 },
 
 {
@@ -1529,22 +1572,50 @@ stream: ["Arts","Science","Commerce"]
 
 
 {
-    id: "ias-officer",
-    name: "IAS Officer",
-    image: "images/ias-officer.jpeg",
-    page: "ias-officer.html",
+  id: "ias-officer",
+  name: "IAS Officer",
+  image: "images/ias-officer.jpeg",
+  page: "ias-officer.html",
+  icon: "🏛️",
+  bucket: "Helping People",
+  category: "Government Services",
+  subjects: ["Political Science", "History", "Geography", "Economics", "Public Administration"],
+  levels: ["Graduation"],
+  stream: ["Arts", "Science", "Commerce"],
+  type: "Government",
+  tags: ["ias", "civil services", "upsc", "district collector", "public administration"]
+},
 
-    icon: "🏛️",
-    bucket: "Government Services",
-    category: "After Graduation",
 
-    subjects: ["Political Science", "History", "Geography", "Economics"],
-    levels: ["Graduation"],
-    stream: ["Arts", "Science", "Commerce"],
+{
+  id: "ifs-officer",
+  name: "IFS Officer",
+  image: "images/ifs-officer.jpeg",
+  page: "ifs-officer.html",
+  icon: "🌍",
+  bucket: "Helping People",
+  category: "Government Services",
+  subjects: ["Political Science", "History", "Geography", "Economics", "International Relations"],
+  levels: ["Graduation"],
+  stream: ["Arts", "Science", "Commerce"],
+  type: "Government",
+  tags: ["ifs", "indian foreign service", "diplomat", "embassy", "foreign affairs", "upsc"]
+},
 
-    type: "Government",
 
-    tags: ["ias", "upsc", "civil services", "administration", "district collector", "government officer"]
+{
+  id: "ips-officer",
+  name: "IPS Officer",
+  image: "images/ips-officer.jpeg",
+  page: "ips-officer.html",
+  icon: "👮",
+  bucket: "Helping People",
+  category: "Government Services",
+  subjects: ["Political Science", "History", "Geography", "Public Administration", "Criminology", "Law"],
+  levels: ["Graduation"],
+  stream: ["Arts", "Science", "Commerce"],
+  type: "Government",
+  tags: ["ips", "indian police service", "upsc", "police", "law and order"]
 },
 
 {
@@ -2377,6 +2448,20 @@ levels: ["12th","Graduation"],
 stream: ["Arts","Science","Commerce"]
 },
 
+{
+  id: "physical-education-teacher",
+  name: "Physical Education Teacher",
+  image: "images/physical-education-teacher.jpeg",
+  page: "physical-education-teacher.html",
+  icon: "🏃",
+  bucket: "Helping People",
+  category: "Education",
+  subjects: ["Physical Education", "Sports Science", "Biology"],
+  levels: ["Graduation", "Post Graduation"],
+  stream: ["Arts", "Science", "Commerce"],
+  type: "Private & Government",
+  tags: ["physical education", "pe teacher", "sports", "fitness", "coach"]
+},
 
 {
     id: "physiotherapist",
