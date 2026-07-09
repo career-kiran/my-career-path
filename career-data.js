@@ -282,6 +282,17 @@ window.careers = [
 
 
 {
+    contentType: "exam",
+    id: "ame-cet",
+    name: "AME CET",
+    description: "A national-level entrance examination conducted for admission to aviation courses such as Aircraft Maintenance Engineering, Aeronautical Engineering, Aerospace Engineering, Pilot Training, and other aviation-related programmes.",
+    page: "ame-cet.html",
+    keywords: ["AME CET", "Aircraft Maintenance Engineering Common Entrance Test", "aviation entrance exam", "AME admission", "aeronautical engineering entrance exam"],
+    tags: ["aviation", "aircraft maintenance engineering", "aeronautical engineering", "entrance exam"]
+},
+
+
+{
   id: "animator",
   name: "Animator",
   image: "images/animator.jpeg",
@@ -611,6 +622,17 @@ window.careers = [
 
 {
     contentType: "exam",
+    id: "cdac-ccat",
+    name: "C-DAC C-CAT",
+    description: "A national-level entrance examination conducted by the Centre for Development of Advanced Computing (C-DAC) for admission to postgraduate diploma programmes in advanced computing and related fields.",
+    page: "cdac-ccat.html",
+    keywords: ["C-DAC C-CAT", "CDAC CCAT", "Common Admission Test", "C-DAC entrance exam", "PG diploma admission"],
+    tags: ["computer science", "information technology", "postgraduate diploma", "entrance exam"]
+},
+
+
+{
+    contentType: "exam",
     id: "ceed",
     name: "CEED",
     description: "CEED is a national-level design entrance examination conducted by IIT Bombay for admission to Master of Design (M.Des) and related postgraduate design programmes.",
@@ -919,6 +941,15 @@ stream: ["Arts","Commerce","Science"]
     tags: ["creative", "admission process", "design", "animation", "fine arts"]
 },
 
+{
+    contentType: "exam",
+    id: "ctet",
+    name: "CTET",
+    description: "A national-level eligibility examination conducted to determine the eligibility of candidates for teaching positions in Central Government schools.",
+    page: "ctet.html",
+    keywords: ["CTET", "Central Teacher Eligibility Test", "Teacher Eligibility Test", "CBSE", "Teaching"],
+    tags: ["teacher", "ctet", "education", "eligibility test", "school teaching"]
+},
 
 {
     contentType: "exam",
@@ -1140,6 +1171,15 @@ stream: ["Arts","Science","Commerce"]
     tags: ["admission", "direct admission", "college", "diploma", "certificate", "education"]
 },
 
+{
+    contentType: "exam",
+    id: "dme-admission",
+    name: "DME Admission",
+    description: "The admission process for the Diploma in Marine Engineering (DME) course offered by approved maritime training institutes.",
+    page: "dme-admission.html",
+    keywords: ["DME Admission", "Diploma in Marine Engineering", "Marine Engineering Admission", "Merchant Navy"],
+    tags: ["marine engineering", "merchant navy", "maritime", "admission"]
+},
 
 {
     id: "economist",
@@ -2014,6 +2054,15 @@ stream: ["Arts","Science","Commerce"]
     tags: ["mechatronics engineer", "mechatronics", "robotics", "automation", "electronics", "mechanical systems", "control systems", "embedded systems", "industrial automation", "robotics engineering"]
 },
 
+{
+    contentType: "exam",
+    id: "merchant-navy-screening",
+    name: "Merchant Navy Screening",
+    description: "A selection process conducted by maritime institutes and shipping companies to assess candidates for admission to Merchant Navy courses and training programmes.",
+    page: "merchant-navy-screening.html",
+    keywords: ["merchant navy screening", "merchant navy selection process", "merchant navy admission", "maritime screening", "merchant navy interview"],
+    tags: ["merchant navy", "maritime", "screening", "admission"]
+},
 
 {
     contentType: "exam",
@@ -2908,7 +2957,15 @@ stream: ["Arts","Science","Commerce"]
     tags: ["nursing", "bsc nursing", "healthcare", "state exam", "entrance exam"]
 },
 
-
+{
+    contentType: "exam",
+    id: "state-level-pg-engineering-entrance-exam",
+    name: "State-Level PG Engineering Entrance Exam",
+    description: "A state-level entrance examination conducted by different state governments or state authorities for admission to postgraduate engineering courses offered by colleges within the respective state.",
+    page: "state-level-pg-engineering-entrance-exam.html",
+    keywords: ["state-level PG engineering entrance exam", "state PGCET", "MTech entrance exam", "ME entrance exam", "PG engineering admission"],
+    tags: ["engineering", "M.Tech", "M.E.", "state level", "entrance exam"]
+},
 
 
 {
@@ -2943,6 +3000,26 @@ stream: ["Arts","Science","Commerce"]
     tags: ["nursing", "post basic bsc nursing", "healthcare", "state exam"]
 },
 
+{
+    contentType: "exam",
+    id: "state-skill-university-aptitude-screening",
+    name: "State Skill University Aptitude Screening",
+    description: "An aptitude screening process conducted by some State Skill Universities to assess students for admission to skill-based courses.",
+    page: "state-skill-university-aptitude-screening.html",
+    keywords: ["State Skill University Aptitude Screening", "Skill University Admission", "Aptitude Screening", "Skill University Selection Process"],
+    tags: ["skill university", "aptitude screening", "admission", "selection process"]
+},
+
+
+{
+    contentType: "exam",
+    id: "state-teacher-eligibility-test",
+    name: "State Teacher Eligibility Test (State TET)",
+    description: "A state-level eligibility examination conducted by state governments to determine the eligibility of candidates for teaching positions in state government schools.",
+    page: "state-tet.html",
+    keywords: ["State TET", "Teacher Eligibility Test", "State Teacher Eligibility Test", "Teaching"],
+    tags: ["teacher", "state tet", "education", "eligibility test", "government schools"]
+},
 
 {
     contentType: "exam",
@@ -3081,6 +3158,17 @@ stream: ["Arts","Science","Commerce"]
     tags: ["design", "uceed", "iit", "bdes", "creative", "entrance exam"]
 },
 
+
+{
+    contentType: "exam",
+    id: "ugc-net",
+    name: "UGC NET",
+    description: "A national-level examination conducted to determine eligibility for Assistant Professor, Junior Research Fellowship (JRF), and admission to Ph.D. programmes in Indian universities and colleges.",
+    page: "ugc-net.html",
+    keywords: ["UGC NET", "National Eligibility Test", "Assistant Professor", "JRF", "PhD Admission", "NTA"],
+    tags: ["ugc", "net", "assistant professor", "jrf", "phd", "eligibility test"]
+},
+
 {
     id: "ui-ux-designer",
     name: "UI/UX Designer",
@@ -3139,6 +3227,17 @@ stream: ["Arts","Science","Commerce"]
     page: "university-phd-entrance-exams.html",
     keywords: ["phd entrance exam", "research entrance test", "ret", "doctoral entrance exam", "phd admission"],
     tags: ["research", "phd", "doctoral studies", "university exam"]
+},
+
+
+{
+    contentType: "exam",
+    id: "upsc-civil-services-examination",
+    name: "UPSC Civil Services Examination (CSE)",
+    description: "A national-level competitive examination conducted by the Union Public Service Commission (UPSC) to recruit officers for various civil services of the Government of India.",
+    page: "upsc-civil-services-examination.html",
+    keywords: ["UPSC CSE", "Civil Services Examination", "IAS Exam", "IPS Exam", "IFS Exam", "UPSC"],
+    tags: ["civil services", "government jobs", "UPSC", "IAS", "IPS", "IFS"]
 },
 
 {
