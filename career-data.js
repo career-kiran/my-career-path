@@ -397,19 +397,6 @@ window.careers = [
     tags: ["writing", "storytelling", "publishing", "books", "creative writing"]
 },
 
-{
-  id: "automation-engineer",
-  name: "Automation Engineer",
-  description: "Automation engineers design and develop systems that can perform tasks automatically. They work on machines and processes used in industries and factories.",
-  page: "automation-engineer.html",
-  bucket: "Technology and Problem Solving",
-  category: "Robotics and Automation",
-  subjects: ["Physics", "Mathematics", "Computer Science"],
-  levels: ["12th", "Diploma", "Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["automation", "industrial automation", "control systems", "mechatronics", "engineering"]
-},
 
 {
     id: "automobile-engineer",
@@ -443,20 +430,7 @@ window.careers = [
 
 
 
-{
-    id: "avionics-engineer",
-    name: "Avionics Engineer",
-    description: "Avionics engineers work on the electronic systems used in aircraft, satellites, and spacecraft. They ensure systems like navigation, communication, and control work properly.",
-    page: "avionics-engineer.html",
-    icon: "📡",
-    bucket: "Technology and Problem Solving",
-    category: "Engineering Design and Technology",
-    subjects: ["Physics", "Mathematics"],
-    levels: ["Diploma", "Graduation"],
-    stream: ["Science"],
-    type: "Private",
-    tags: ["avionics", "aircraft", "electronics", "aviation", "systems"]
-},
+
 
 {
     id: "ayurvedic-doctor",
@@ -755,20 +729,7 @@ window.careers = [
     tags: ["cloud administrator", "cloud computing", "cloud engineer", "aws", "azure", "google cloud", "cloud infrastructure", "server administration"]
 },
 
-{
-  id: "cloud-architect",
-  name: "Cloud Architect",
-  description: "Cloud Architects design and plan cloud systems. They decide how applications, servers, and data are structured to make systems scalable, secure, and efficient.",
-  page: "cloud-architect.html",
-  icon: "☁️🏗️",
-  bucket: "Technology and Problem Solving",
-  category: "Cloud and Network Systems",
-  subjects: ["Computer Science"],
-  levels: ["Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["technology", "cloud", "architecture", "design", "systems", "infrastructure"]
-},
+
 
 
 
@@ -788,20 +749,7 @@ window.careers = [
 },
 
 
-{
-  id: "cloud-security-engineer",
-  name: "Cloud Security Engineer",
-  description: "Cloud Security Engineers protect data and systems stored online. They make sure cloud platforms are safe from hackers, fix security issues, and keep information secure.",
-  page: "cloud-security-engineer.html",
-  icon: "☁️",
-  bucket: "Technology and Problem Solving",
-  category: "Cloud and Network Systems",
-  subjects: ["Computer Science"],
-  levels: ["Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["technology", "cloud", "security", "network", "systems"]
-},
+
 
 
 {
@@ -825,37 +773,10 @@ window.careers = [
     tags: ["nursing", "post basic bsc nursing", "healthcare", "college exam"]
 },
 
-{
-  id: "communication-engineer",
-  name: "Communication Engineer",
-  description: "Communication Engineers design and manage systems that help people and devices communicate, such as mobile networks, internet systems, and wireless communication. They ensure signals are transmitted clearly and efficiently.",
-  page: "communication-engineer.html",
-  icon: "📡",
-  bucket: "Technology and Problem Solving",
-  category: "Electronics and Hardware",
-  subjects: ["Physics", "Mathematics", "Electronics"],
-  levels: ["Diploma", "Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["communication", "telecom", "networking", "wireless", "signals", "electronics"]
-},
 
 
 
-{
-  id: "computer-vision-engineer",
-  name: "Computer Vision Engineer",
-  description: "Computer Vision Engineers build systems that can understand and interpret images and videos. They create applications like face recognition, object detection, self-driving cars, and smart cameras that can 'see' and analyze the world.",
-  page: "computer-vision-engineer.html",
-  icon: "👁️",
-  bucket: "Technology and Problem Solving",
-  category: "Data and Artificial Intelligence",
-  subjects: ["Computer Science", "Mathematics"],
-  levels: ["Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["computer vision", "ai", "machine learning", "deep learning", "image processing", "opencv", "python", "data"]
-},
+
 
 
 {
@@ -895,20 +816,7 @@ stream: ["Arts","Commerce","Science"]
     type: "Private",
     tags: ["writing", "blogs", "articles", "content", "creative writing"]
 },
-{
-    id: "control-systems-engineer",
-    name: "Control Systems Engineer",
-    description: "Control Systems Engineers design systems that control how machines and processes behave. They make sure machines work smoothly, safely, and automatically in industries like manufacturing, robotics, and energy.",
-    page: "control-systems-engineer.html",
-    icon: "🎛️",
-    bucket: "Technology and Problem Solving",
-    category: "Robotics and Automation",
-    subjects: ["Physics"],
-    levels: ["Graduation"],
-    stream: ["Science"],
-    type: "Private",
-    tags: ["control", "automation", "systems", "engineering", "machines"]
-},
+
 
 {
     contentType: "exam",
@@ -1018,20 +926,7 @@ stream: ["Arts","Commerce","Science"]
     tags: ["data analyst", "data analysis", "statistics", "business analytics", "reports", "data visualization"]
 },
 
-{
-  id: "data-engineer",
-  name: "Data Engineer",
-  description: "Data Engineers build systems that collect, store, and organize large amounts of data. They make sure data is ready and easy to use for analysis and decision-making.",
-  page: "data-engineer.html",
-  icon: "🗄️",
-  bucket: "Technology and Problem Solving",
-  category: "Data and Artificial Intelligence",
-  subjects: ["Computer Science", "Mathematics"],
-  levels: ["Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["data", "coding", "backend", "problem-solving", "technology"]
-},
+
 
 {
     id: "data-scientist",
@@ -1074,20 +969,7 @@ stream: ["Arts","Commerce","Science"]
     tags: ["dentist", "dental", "teeth", "oral health", "dental care", "dental surgery"]
 },
 
-{
-  id: "desktop-support-engineer",
-  name: "Desktop Support Engineer",
-  description: "Desktop support engineers help fix problems with computers, software, and hardware in offices. They install systems, troubleshoot issues, and make sure everything works smoothly.",
-  page: "desktop-support-engineer.html",
-  icon: "🖥️",
-  bucket: "Technology and Problem Solving",
-  category: "IT Support and Computer Systems",
-  subjects: ["Computer Science"],
-  levels: ["Diploma", "Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["desktop support", "computer hardware", "troubleshooting", "it support", "technology"]
-},
+
 
 {
     id: "devops-engineer",
@@ -1449,20 +1331,7 @@ stream: ["Arts","Science","Commerce"]
 
 
 
-{
-    id: "game-designer",
-    name: "Game Designer",
-    description: "Creates characters, levels, stories, and gameplay experiences for video games.",
-    page: "game-designer.html",
-    icon: "🎮",
-    bucket: "Creativity and Expression",
-    category: "Gaming and Design",
-    subjects: ["Art and Design", "Computer Science"],
-    levels: ["10th", "12th", "Graduation"],
-    stream: ["Arts", "Science", "Commerce"],
-    type: "Private",
-    tags: ["gaming", "video games", "creative design", "game development", "animation"]
-},
+
 
 {
     id: "game-developer",
@@ -1510,20 +1379,7 @@ stream: ["Arts","Science","Commerce"]
     tags: ["economics", "gate", "iit", "research", "postgraduate"]
 },
 
-{
-    id: "genetic-engineer",
-    name: "Genetic Engineer",
-    description: "Genetic engineers study and modify DNA to improve plants, animals, and human health using biotechnology and gene editing techniques.",
-    page: "genetic-engineer.html",
-    icon: "🧬",
-    bucket: "Technology and Problem Solving",
-    category: "Engineering Design and Technology",
-    subjects: ["Biology", "Chemistry"],
-    levels: ["Graduation"],
-    stream: ["Science"],
-    type: "Private",
-    tags: ["genetics", "dna", "biotechnology", "gene editing", "research"]
-},
+
 
 
 {
@@ -1581,19 +1437,7 @@ stream: ["Arts","Science","Commerce"]
 
 
 
-{
-  id: "hardware-engineer",
-  name: "Hardware Engineer",
-  description: "Hardware engineers design and build physical electronic devices like computers, processors, and circuit boards. They test and improve hardware to make devices faster, smaller, and more efficient.",
-  page: "hardware-engineer.html",
-  bucket: "Technology and Problem Solving",
-  category: "Electronics and Hardware",
-  subjects: ["Physics", "Mathematics"],
-  levels:  ["Diploma", "Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["electronics", "hardware", "circuits", "embedded systems", "engineering"]
-},
+
 
 
 {
@@ -1697,35 +1541,8 @@ stream: ["Arts","Science","Commerce"]
 
 
 
-{
-  id: "industrial-automation-engineer",
-  name: "Industrial Automation Engineer",
-  description: "Industrial Automation Engineers design and manage systems that automate machines and production processes in factories. They use sensors, control systems, and software to improve efficiency, reduce manual work, and ensure smooth industrial operations.",
-  page: "industrial-automation-engineer.html",
-  icon: "🏭",
-  bucket: "Technology and Problem Solving",
-  category: "Robotics and Automation",
-  subjects: ["Physics"],
-  levels: ["Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["automation", "industrial", "control", "systems", "engineering"]
-},
 
-{
-    id: "industrial-engineer",
-    name: "Industrial Engineer",
-    description: "Industrial engineers improve systems and processes to make work faster, safer, and more efficient. They focus on reducing waste, saving time, and increasing productivity in industries.",
-    page: "industrial-engineer.html",
-    icon: "🏭",
-    bucket: "Technology and Problem Solving",
-    category: "Engineering Design and Technology",
-    subjects: ["Mathematics", "Physics"],
-    levels: ["Graduation"],
-    stream: ["Science"],
-    type: "Private",
-    tags: ["industrial", "production", "efficiency", "process", "manufacturing"]
-},
+
 
 
 
@@ -1823,20 +1640,7 @@ stream: ["Arts","Science","Commerce"]
     tags: ["college admission", "direct admission", "institute level", "vacant seats", "management quota"]
 },
 
-{
-  id: "instrumentation-engineer",
-  name: "Instrumentation Engineer",
-  description: "Instrumentation engineers design and maintain systems that measure and control industrial processes. They work with sensors, control systems, and automation technologies to ensure machines and processes run safely and efficiently.",
-  page: "instrumentation-engineer.html",
-  icon: "📟",
-  bucket: "Technology and Problem Solving",
-  category: "Robotics and Automation",
-  subjects: ["Physics", "Mathematics"],
-  levels: ["Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["instrumentation", "control systems", "automation", "engineering", "electronics"]
-},
+
 
 {
     id: "instrumentalist",
@@ -1876,49 +1680,7 @@ stream: ["Arts","Science","Commerce"]
 },
 
 
-{
-  id: "it-security-analyst",
-  name: "IT Security Analyst",
-  description: "IT security analysts protect computer systems, networks, and data from cyber threats. They monitor security, detect attacks, and ensure systems are safe from hackers and malware.",
-  page: "it-security-analyst.html",
-  icon: "🔐",
-  bucket: "Technology and Problem Solving",
-  category: "IT Support and Computer Systems",
-  subjects: ["Computer Science"],
-  levels: ["Graduation", "Post Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["cybersecurity", "ethical hacking", "network security", "data protection", "security analyst"]
-},
 
-{
-  id: "it-support-specialist",
-  name: "IT Support Specialist",
-  description: "IT support specialists help people fix computer problems and keep systems running smoothly. They work in offices, schools, companies, and support centers.",
-  page: "it-support-specialist.html",
-  bucket: "Technology and Problem Solving",
-  category: "IT Support and Computer Systems",
-  subjects: ["Computer Science", "Information Technology"],
-  levels: ["10th", "12th", "Diploma", "Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["it support", "technical support", "computer systems", "troubleshooting", "help desk"]
-},
-
-{
-  id: "it-support-technician",
-  name: "IT Support Technician",
-  description: "IT support technicians help users fix basic computer, software, and network issues. They install systems, troubleshoot problems, and provide technical support in offices and service centers.",
-  page: "it-support-technician.html",
-  icon: "🛠️",
-  bucket: "Technology and Problem Solving",
-  category: "IT Support and Computer Systems",
-  subjects: ["Computer Science"],
-  levels: ["Diploma", "Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["it support", "troubleshooting", "hardware", "software", "network support"]
-},
 
 {
     contentType: "exam",
@@ -2242,35 +2004,9 @@ stream: ["Arts","Science","Commerce"]
     tags: ["science", "entrance exam", "national exam"]
 },
 
-{
-  id: "network-administrator",
-  name: "Network Administrator",
-  description: "Network administrators manage and maintain computer networks in companies. They ensure systems run smoothly, fix network issues, and keep data secure so communication between computers works properly.",
-  page: "network-administrator.html",
-  icon: "🌐",
-  bucket: "Technology and Problem Solving",
-  category: "IT Support and Computer Systems",
-  subjects: ["Computer Science"],
-  levels: ["Diploma", "Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["networking", "it support", "networks", "troubleshooting", "technology"]
-},
 
-{
-    id: "network-engineer",
-    name: "Network Engineer",
-    description: "Network Engineers build and manage computer networks. They make sure internet connections, company networks, and systems work smoothly and securely without interruptions.",
-    page: "network-engineer.html",
-    icon: "🌐",
-    bucket: "Technology and Problem Solving",
-    category: "Cloud and Network Systems",
-    subjects: ["Computer Science"],
-    levels: ["Graduation"],
-    stream: ["Science"],
-    type: "Private",
-    tags: ["networking", "internet", "routers", "switches", "network security"]
-},
+
+
 
 
 {
@@ -2432,20 +2168,7 @@ stream: ["Arts","Science","Commerce"]
     tags: ["admission", "interview", "college admission", "university admission", "selection process"]
 },
 
-{
-    id: "petroleum-engineer",
-    name: "Petroleum Engineer",
-    description: "Petroleum engineers work on extracting oil and natural gas from underground. They design drilling methods and systems to safely and efficiently bring these resources to the surface.",
-    page: "petroleum-engineer.html",
-    icon: "🛢️",
-    bucket: "Technology and Problem Solving",
-    category: "Engineering Design and Technology",
-    subjects: ["Physics", "Chemistry", "Mathematics"],
-    levels: ["Graduation"],
-    stream: ["Science"],
-    type: "Private",
-    tags: ["petroleum", "oil", "gas", "drilling", "energy"]
-},
+
 
 {
     id: "petrochemical-engineer",
@@ -2527,35 +2250,9 @@ stream: ["Arts","Science","Commerce"]
 },
 
 
-{
-    id: "platform-engineer",
-    name: "Platform Engineer",
-    description: "Platform Engineers build and manage systems that make it easier for developers to create, test, and run applications. They provide ready tools and environments so development becomes faster and smoother.",
-    page: "platform-engineer.html",
-    icon: "🧩",
-    bucket: "Technology and Problem Solving",
-    category: "Cloud and Network Systems",
-    subjects: ["Computer Science"],
-    levels: ["Graduation"],
-    stream: ["Science"],
-    type: "Private",
-    tags: ["technology", "platform", "devops", "systems", "cloud", "automation"]
-},
 
-{
-  id: "plc-engineer",
-  name: "PLC Engineer",
-  description: "PLC Engineers design and program systems that control machines in industries. They use Programmable Logic Controllers (PLC) to automate processes and ensure machines work correctly and efficiently.",
-  page: "plc-engineer.html",
-  icon: "🧠",
-  bucket: "Technology and Problem Solving",
-  category: "Robotics and Automation",
-  subjects: ["Physics"],
-  levels: ["Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["plc", "automation", "control", "systems", "engineering"]
-},
+
+
 
 
 {
@@ -2678,20 +2375,7 @@ stream: ["Science","Arts"]
 },
 
 
-{
-    id: "scada-engineer",
-    name: "SCADA Engineer",
-    description: "SCADA Engineers design and manage systems that monitor and control industrial processes. They use SCADA software to track machines, collect real-time data, and control operations from a central system.",
-    page: "scada-engineer.html",
-    icon: "🖥️",
-    bucket: "Technology and Problem Solving",
-    category: "Robotics and Automation",
-    subjects: ["Physics"],
-    levels: ["Graduation"],
-    stream: ["Science"],
-    type: "Private",
-    tags: ["scada", "automation", "monitoring", "control", "industrial", "systems"]
-},
+
 
 {
 name: "ScreenWriter",
@@ -2783,19 +2467,7 @@ stream: ["Arts","Science"]
     tags: ["management", "national entrance exam", "MBA", "postgraduate", "Symbiosis"]
 },
 
-{
-  id: "software-developer",
-  name: "Software Developer",
-  description: "Software developers design and build applications, programs, and systems used on computers and mobile devices.",
-  page: "software-developer.html",
-  bucket: "Technology and Problem Solving",
-  category: "Software & App Development",
-  subjects: ["Computer Science"],
-  levels: ["12th", "Diploma", "Graduation"],
-  stream: ["Science", "Commerce", "Arts"],
-  type: "Private",
-  tags: ["coding", "software", "programming"]
-},
+
 
 {
     id: "software-engineer",
@@ -3049,35 +2721,9 @@ stream: ["Arts","Science","Commerce"]
 
 
 
-{
-  id: "system-administrator",
-  name: "System Administrator",
-  description: "System Administrators manage and maintain computer systems and servers. They make sure computers, software, and networks run smoothly, fix issues, and keep systems secure and updated.",
-  page: "system-administrator.html",
-  icon: "🖥️",
-  bucket: "Technology and Problem Solving",
-  category: "Cloud and Network Systems",
-  subjects: ["Computer Science"],
-  levels: ["Diploma", "Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["technology", "systems", "network", "problem-solving", "security"]
-},
 
-{
-  id: "system-engineer",
-  name: "System Engineer",
-  description: "System engineers design, manage, and maintain computer systems and IT infrastructure. They ensure servers, networks, and software systems run smoothly in organizations.",
-  page: "system-engineer.html",
-  icon: "🖧",
-  bucket: "Technology and Problem Solving",
-  category: "IT Support and Computer Systems",
-  subjects: ["Computer Science"],
-  levels: ["Graduation", "Post-Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["system engineer", "system administration", "networking", "servers", "it infrastructure"]
-},
+
+
 
 
 {
@@ -3105,32 +2751,6 @@ stream: ["Arts","Science","Commerce"]
     tags: ["technical interview", "admission", "engineering", "technology"]
 },
 
-{
-  id: "technical-support-engineer",
-  name: "Technical Support Engineer",
-  description: "Technical support engineers help people fix problems with computers, software, and systems. They find issues, guide users step by step, and make sure everything works properly.",
-  page: "technical-support-engineer.html",
-  icon: "🖥️",
-  bucket: "Technology and Problem Solving",
-  category: "IT Support and Computer Systems",
-  subjects: ["Computer Science"],
-  levels: ["Diploma", "Graduation"],
-  stream: ["Science"],
-  type: "Private",
-  tags: ["it support", "troubleshooting", "computer systems", "software support", "technology"]
-},
-
-
-{
-name: "Technical Writer",
-description: "Writes manuals, guides, and documentation to explain technical products and software.",
-page: "technical-writer.html",
-bucket: "Creativity and Expression",
-category: "Writing",
-subjects: ["English","Communication","Computer Science"],
-levels: ["12th","Graduation"],
-stream: ["Arts","Science","Commerce"]
-},
 
 
 
@@ -3342,19 +2962,6 @@ stream: ["Arts","Science","Commerce"]
     tags: ["voice acting", "dubbing", "radio", "media", "audition", "performing arts"]
 },
 
-{
-  id: "web-developer",
-  name: "Web Developer",
-  description: "Web developers create websites and web applications that people use on the internet.",
-  page: "web-developer.html",
-  bucket: "Technology and Problem Solving",
-  category: "Software & App Development",
-  subjects: ["Computer Science"],
-  levels: ["12th", "Diploma", "Graduation"],
-  stream: ["Science", "Commerce", "Arts"],
-  type: "Private",
-  tags: ["coding", "web", "development"]
-},
 
 
 
