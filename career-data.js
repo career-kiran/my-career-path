@@ -202,7 +202,7 @@ window.careers = [
     id: "aiims-bsc-nursing",
     name: "AIIMS B.Sc Nursing",
     description: "AIIMS B.Sc Nursing Entrance Examination",
-    page: "aiims-bsc-nursing.html",
+    page: "aiims-nursing.html",
     keywords: ["aiims bsc nursing", "aiims nursing entrance exam", "bsc nursing admission", "aiims nursing", "nursing entrance exam", "aiims nursing eligibility"],
     tags: ["nursing", "bsc nursing", "aiims", "healthcare", "entrance exam"]
 },
@@ -313,7 +313,7 @@ window.careers = [
     id: "anm-nursing-entrance-exams",
     name: "ANM Nursing Entrance Exams",
     description: "Entrance examinations for admission to Auxiliary Nurse Midwife (ANM) courses in India",
-    page: "anm-nursing-entrance-exams.html",
+    page: "anm-entrance-exam.html",
     keywords: ["anm nursing entrance exam", "auxiliary nurse midwife", "anm admission", "nursing entrance exam", "state nursing exam", "anm course"],
     tags: ["nursing", "anm", "healthcare", "state exam", "entrance exam"]
 },
