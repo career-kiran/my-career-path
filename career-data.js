@@ -1398,7 +1398,7 @@ stream: ["Arts","Science","Commerce"]
     id: "gnm-nursing-entrance-exams",
     name: "GNM Nursing Entrance Exams",
     description: "Entrance examinations for admission to General Nursing and Midwifery (GNM) courses in India",
-    page: "gnm-nursing-entrance-exams.html",
+    page: "gnm-entrance-exam.html",
     keywords: ["gnm nursing entrance exam", "general nursing and midwifery", "gnm admission", "nursing entrance exam", "state nursing exam", "gnm course"],
     tags: ["nursing", "gnm", "healthcare", "state exam", "entrance exam"]
 },
@@ -1691,6 +1691,17 @@ stream: ["Arts","Science","Commerce"]
     keywords: ["jee main", "engineering entrance exam", "iit entrance", "nit admission", "btech entrance exam", "jee nta", "pcm entrance exam"],
     tags: ["engineering", "btech", "iit", "nit", "entrance exam"]
 },
+
+{
+    contentType: "exam",
+    id: "jee-advanced",
+    name: "JEE Advanced",
+    description: "Joint Entrance Examination (Advanced)",
+    page: "jee-advanced.html",
+    keywords: ["jee advanced", "iit entrance exam", "iit admission", "engineering entrance exam", "jee advanced nta", "pcm entrance exam"],
+    tags: ["engineering", "btech", "iit", "entrance exam"]
+},
+
 
 {
     contentType: "exam",
