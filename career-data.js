@@ -345,16 +345,6 @@ window.careers = [
 },
 
 
-{
-  name: "Assistant Director",
-  description: "Assistant Directors help the film director manage the shooting schedule, coordinate the crew and actors, and ensure that film production runs smoothly.",
-  page: "assistant-director.html",
-  bucket: "Creativity and Expression",
-  category: "Filmmaking and Video Creation",
-  subjects: ["Media Studies", "Film Studies", "Arts"],
-  levels: ["10th", "12th", "Graduation"],
-  stream: ["Arts", "Science", "Commerce"]
-},
 
 
 {
@@ -779,27 +769,7 @@ window.careers = [
 
 
 
-{
-name: "Content Creator",
-description: "Creates videos, digital content, and online media for platforms like YouTube and social media.",
-page: "content-creator.html",
-bucket: "Creativity and Expression",
-category: "Filmmaking",
-subjects: ["Media Studies","Communication","Art"],
-levels: ["12th","Graduation"],
-stream: ["Arts","Science","Commerce"]
-},
 
-{
-name: "Content Strategist",
-description: "Plans and manages content for websites, blogs, and digital platforms.",
-page: "content-strategist.html",
-bucket: "Creativity and Expression",
-category: "Writing",
-subjects: ["Communication","Marketing","Media Studies"],
-levels: ["12th","Graduation"],
-stream: ["Arts","Commerce","Science"]
-},
 
 
 {
@@ -828,16 +798,7 @@ stream: ["Arts","Commerce","Science"]
     tags: ["creative", "design", "fashion", "architecture", "fine arts", "animation", "entrance exam"]
 },
 
-{
-name: "Copywriter",
-description: "Writes advertising and marketing content for brands, products, and campaigns.",
-page: "copywriter.html",
-bucket: "Creativity and Expression",
-category: "Writing",
-subjects: ["Literature","Marketing","Communication"],
-levels: ["12th","Graduation"],
-stream: ["Arts","Commerce","Science"]
-},
+
 
 {
     contentType: "info",
@@ -1031,16 +992,6 @@ stream: ["Arts","Commerce","Science"]
     tags: ["digital marketing", "social media", "SEO", "online advertising", "content marketing", "analytics", "branding", "marketing"]
 },
 
-{
-name: "DJ (Disc Jockey)",
-description: "Plays and mixes music at events, clubs, radio stations, and live shows.",
-page: "dj.html",
-bucket: "Creativity and Expression",
-category: "Music",
-subjects: ["Music","Audio Mixing","Sound Technology"],
-levels: ["12th","Graduation"],
-stream: ["Arts","Science","Commerce"]
-},
 
 
 {
@@ -1077,16 +1028,7 @@ stream: ["Arts","Science","Commerce"]
     tags: ["economist", "economics", "finance", "economy", "business analysis", "policy making"]
 },
 
-{
-name: "Editor (Publishing / Media)",
-description: "Reviews, improves, and prepares written content for books, newspapers, and online publications.",
-page: "editor.html",
-bucket: "Creativity and Expression",
-category: "Writing",
-subjects: ["Literature","Journalism","Communication"],
-levels: ["12th","Graduation"],
-stream: ["Arts","Science","Commerce"]
-},
+
 
 {
     id: "electrician",
@@ -1225,16 +1167,7 @@ stream: ["Arts","Science","Commerce"]
     tags: ["fashion", "clothing design", "style", "textile", "creative design"]
 },
 
-{
-name: "Fashion Photographer",
-description: "Takes photographs for fashion magazines, brands, and clothing advertisements.",
-page: "fashion-photographer.html",
-bucket: "Creativity and Expression",
-category: "Photography",
-subjects: ["Photography","Fashion","Art"],
-levels: ["12th","Graduation"],
-stream: ["Arts","Science","Commerce"]
-},
+
 
 
 {
@@ -1265,16 +1198,6 @@ stream: ["Arts","Science","Commerce"]
 },
 
 
-{
-name: "Film Producer",
-description: "Manages the overall production of films including planning, budgeting, and coordination.",
-page: "film-producer.html",
-bucket: "Creativity and Expression",
-category: "Filmmaking",
-subjects: ["Media Studies","Film Studies","Business"],
-levels: ["12th","Graduation"],
-stream: ["Arts","Science","Commerce"]
-},
 
 
 {
@@ -2197,41 +2120,6 @@ stream: ["Arts","Science","Commerce"]
 },
 
 {
-name: "Photo Editor",
-description: "Edits and enhances photographs for media, advertising, and digital platforms.",
-page: "photo-editor.html",
-bucket: "Creativity and Expression",
-category: "Photography",
-subjects: ["Photography","Design","Computer Skills"],
-levels: ["12th","Graduation"],
-stream: ["Arts","Science","Commerce"]
-},
-
-
-{
-name: "Photographer",
-description: "Captures images for events, media, advertisements, and creative projects.",
-page: "photographer.html",
-bucket: "Creativity and Expression",
-category: "Photography",
-subjects: ["Photography","Media Studies","Art"],
-levels: ["12th","Graduation"],
-stream: ["Arts","Science","Commerce"]
-},
-
-
-{
-name: "Photojournalist",
-description: "Captures photographs that tell news stories for newspapers, magazines, and media outlets.",
-page: "photojournalist.html",
-bucket: "Creativity and Expression",
-category: "Photography",
-subjects: ["Photography","Journalism","Media Studies"],
-levels: ["12th","Graduation"],
-stream: ["Arts","Science","Commerce"]
-},
-
-{
   id: "physical-education-teacher",
   name: "Physical Education Teacher",
   image: "images/physical-education-teacher.jpeg",
@@ -2385,21 +2273,6 @@ stream: ["Science","Arts"]
     tags: ["international exam", "study abroad", "undergraduate", "college admission", "college board"]
 },
 
-
-
-
-{
-name: "ScreenWriter",
-description: "Writes stories, dialogues, and scenes for films, series, and videos.",
-page: "screenwriter.html",
-bucket: "Creativity and Expression",
-category: "Filmmaking",
-subjects: ["Literature","Media Studies","Film Studies", "Arts"],
-levels: ["10th", "12th","Graduation"],
-stream: ["Arts","Science"]
-},
-
-
 {
     id: "script-writer",
     name: "Script Writer",
@@ -2496,17 +2369,6 @@ stream: ["Arts","Science"]
 },
 
 {
-name: "Sound Designer",
-description: "Creates and edits sound effects, background audio, and sound atmosphere for films and videos.",
-page: "sound-designer.html",
-bucket: "Creativity and Expression",
-category: "Filmmaking",
-subjects: ["Media Studies","Music","Sound Engineering"],
-levels: ["12th","Graduation"],
-stream: ["Arts","Science"]
-},
-
-{
     id: "sound-engineer",
     name: "Sound Engineer",
     image: "images/sound-engineer.jpeg",
@@ -2530,18 +2392,6 @@ stream: ["Arts","Science"]
     page: "srfti-entrance-test.html",
     keywords: ["srfti entrance test", "srfti admission", "satyajit ray film and television institute", "film school entrance exam", "screen acting", "film direction", "cinematography", "editing", "animation"],
     tags: ["film", "television", "media", "animation", "acting", "cinematography", "direction", "editing"]
-},
-
-
-{
-name: "Stand-up Comedian",
-description: "Performs comedy acts and entertains audiences through live or recorded shows.",
-page: "standup-comedian.html",
-bucket: "Creativity and Expression",
-category: "Performing",
-subjects: ["Comedy","Performing Arts","Communication"],
-levels: ["12th","Graduation"],
-stream: ["Arts","Science","Commerce"]
 },
 
 
@@ -2762,23 +2612,6 @@ stream: ["Arts","Science","Commerce"]
     tags: ["technical interview", "admission", "engineering", "technology"]
 },
 
-
-
-
-
-
-{
-name: "Theatre Artist",
-description: "Performs acting roles in stage plays and live theatre productions.",
-page: "theatre-artist.html",
-bucket: "Creativity and Expression",
-category: "Performing",
-subjects: ["Theatre","Drama","Literature"],
-levels: ["12th","Graduation"],
-stream: ["Arts","Science","Commerce"]
-},
-
-
 {
     contentType: "exam",
     id: "uceed",
@@ -2989,20 +2822,6 @@ stream: ["Arts","Science","Commerce"]
     stream: ["Arts", "Science", "Commerce"],
     type: "Private",
     tags: ["web design", "website", "ui", "creative", "digital design"]
-},
-
-
-
-
-{
-name: "Wildlife Photographer",
-description: "Captures images of animals and nature for magazines, documentaries, and conservation work.",
-page: "wildlife-photographer.html",
-bucket: "Creativity and Expression",
-category: "Photography",
-subjects: ["Photography","Biology","Environmental Science"],
-levels: ["12th","Graduation"],
-stream: ["Science","Arts"]
 },
 
 
