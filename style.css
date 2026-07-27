@@ -1993,12 +1993,14 @@ box-shadow: 0 8px 20px rgba(59,130,246,0.3);
   .hero-section {
     flex-direction: column;
     text-align: center;
+    justify-content: flex-start;
+    gap: 20px;
   }
 
   .hero {
     width: 90%;
     height: auto;
-    margin-top: 20px;
+    margin-top: 0px;
   }
 
   .hero-text h1 {
