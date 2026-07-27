@@ -3445,6 +3445,11 @@ h2, .career-header h2, .section-heading {
 
 @media (max-width:768px){
 
+
+.self-discovery-section {
+    padding: 40px 20px 20px 20px;
+}
+
 .footer{
     padding:10px 20px 20px 20px;
 }
