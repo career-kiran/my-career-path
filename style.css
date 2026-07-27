@@ -2000,7 +2000,7 @@ box-shadow: 0 8px 20px rgba(59,130,246,0.3);
   .hero {
     width: 90%;
     height: auto;
-    margin-top: 0px;
+    margin-top: 5px;
   }
 
   .hero-text h1 {
