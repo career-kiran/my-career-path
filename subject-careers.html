@@ -18,6 +18,9 @@
 
 <div class="main">
 
+<button onclick="goBack()" class="back-button">← Back</button>
+
+
 <h1 id="subjectTitle"></h1>
 
 <div id="career-list" class="role-grid"></div>
@@ -46,6 +49,25 @@ if (subject) {
   }
 }
 </script>
+
+
+<button onclick="scrollToTop()" id="scrollTopBtn">↑ Top</button>
+
+
+<script>
+function scrollToTop(){
+window.scrollTo({
+top:0,
+behavior:'smooth'
+});
+}
+</script>
+
+
+
+<div id="footer"></div>
+
+<script src="navigation.js"></script>
 
 <script src="career-loader.js"></script>
 </body>
