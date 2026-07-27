@@ -3499,12 +3499,18 @@ h2, .career-header h2, .section-heading {
 
 .footer-left p{
 
-   margin-bottom:3px;
+   margin-bottom:0px;
 }
 
 .footer-left{
 
-   margin-top: 0;
+   margin-top: 0px;
+}
+
+. footer-left h3{
+   
+   margin-top: 5px;
+
 }
 
 }
