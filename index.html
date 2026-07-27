@@ -76,7 +76,7 @@
 <script src="search.js"></script>
 
 
- 
+ <script src="layout.js"></script>
 
 
   </div>
@@ -179,6 +179,9 @@
 <section id="career-info-section"class="home-buckets">
  <h2 class="section-heading">Explore Career Buckets</h2>
 
+
+<p class="tap-note">(Tap a bucket to explore)</p>
+
 <div class="role-grid">
 
 
@@ -251,6 +254,8 @@
 
   <h2 class="section-heading">Explore Careers by subject you like</h2>
 
+<p class="tap-note">(Tap a subject to explore)</p>
+
   <!-- SCIENCE -->
 
 <div class="subjects-container">
@@ -296,8 +301,12 @@
     <div class="career-header">
       <h2>Explore Careers by Education Level</h2>
 
+
+
    
     </div>
+
+<p class="tap-note">(Tap a level to explore)</p>
 
     <div class="subjects-container">
 
@@ -387,6 +396,27 @@ function goToSubject(subject) {
 
 
 
+<script src="reflection.js"></script>
+
+
+
+<button onclick="scrollToTop()" id="scrollTopBtn">↑ Top</button>
+
+
+<script>
+function scrollToTop(){
+window.scrollTo({
+top:0,
+behavior:'smooth'
+});
+}
+</script>
+
+</div>
+<script src="navigation.js"></script>
+
+
+
 
 <footer class="footer">
 
@@ -442,6 +472,9 @@ document.getElementById("overlay").onclick = function () {
 };
 </script>
 
+
+
+<script src="career-actions.js"></script>
 
 
 </body>
