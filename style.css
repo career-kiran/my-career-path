@@ -3492,6 +3492,11 @@ h2, .career-header h2, .section-heading {
     text-align:center;
 }
 
+.footer-left p{
+
+   margin-bottom:25px;
+}
+
 }
 
 
@@ -3505,7 +3510,7 @@ h2, .career-header h2, .section-heading {
 @media (max-width: 768px) {
 
     .hero {
-        height: 400px;
+        height: 300px;
     }
 
 }
