@@ -2683,8 +2683,8 @@ html{
 .footer{
     background:#0F172A;
     color:white;
-    margin-top:80px;
-    padding:40px 20px 20px;
+    margin-top:30px;
+    padding:20px 20px 20px;
     width:100%;
     margin-left:0;
     box-sizing:border-box;
@@ -2710,6 +2710,7 @@ html{
     font-size: 28px;
 
     margin-bottom: 12px;
+    margin-top: 30px;
 }
 
 .footer-left p{
@@ -2718,6 +2719,7 @@ html{
     line-height: 1.7;
     color: #CBD5E1;
 }
+
 
 .footer-links{
     display: flex;
