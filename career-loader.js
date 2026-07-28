@@ -31,7 +31,19 @@ filtered.forEach(career => {
 if (
   (!level || (career.levels && career.levels.includes(level))) &&
   (!bucket || (career.bucket && career.bucket.toLowerCase().trim() === bucket.toLowerCase().trim())) &&
-  (!category || (career.category && career.category.toLowerCase().trim() === category.toLowerCase().trim())) &&
+ (!category || (
+    career.category &&
+    (
+        (Array.isArray(career.category) &&
+            career.category.some(cat =>
+                cat.toLowerCase().trim() === category.toLowerCase().trim()
+            )
+        ) ||
+        (!Array.isArray(career.category) &&
+            career.category.toLowerCase().trim() === category.toLowerCase().trim()
+        )
+    )
+)) &&
   (!subject || (career.subjects && career.subjects.includes(subject)))
 )
  {
