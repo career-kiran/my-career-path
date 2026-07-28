@@ -1425,35 +1425,35 @@ font-weight: 500;
 
 
 .orange{
-border-left:8px solid #f59e0b;
-border-right:8px solid #f59e0b;
+border-left:6px solid #f59e0b;
+border-right:6px solid #f59e0b;
 border-top:0.5px solid #f59e0b;
 border-bottom:0.5px solid #f59e0b;
-background:#fffaf5;
+background:#FAFAFA;
 }
 
 .red{
-border-left:8px solid #ef4444;
-border-right:8px solid #ef4444;
+border-left:6px solid #ef4444;
+border-right:6px solid #ef4444;
 border-top:0.5px solid #ef4444;
 border-bottom:0.5px solid #ef4444;
-background:#fffafa;
+background:#FAFAFA;
 }
 
 .lavender{
-border-left:8px solid #7C3AED;
-border-right:8px solid #7C3AED;
+border-left:6px solid #7C3AED;
+border-right:6px solid #7C3AED;
 border-top:0.5px solid #7C3AED;
 border-bottom:0.5px solid #7C3AED;
-background:#fcfaff;
+background:#FAFAFA;
 }
 
 .teal{
-border-left:8px solid #14b8a6;
-border-right:8px solid #14b8a6;
+border-left:6px solid #14b8a6;
+border-right:6px solid #14b8a6;
 border-top:0.5px solid #14b8a6;
 border-bottom:0.5px solid #14b8a6;
-background:#f8fffd;
+background:#FAFAFA;
 }
 
 
