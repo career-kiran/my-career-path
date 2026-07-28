@@ -132,10 +132,11 @@ body {
 }
 
 .home-page .logo {
-  font-size: 40px;
+  font-size: 44px;
   color: #172554;
-  font-weight: 700;
-  font-family: 'Times New Roman';
+  font-weight: 800;
+  font-family: 'Poppins',
+  letter-spacing: 1px;
 
 }
 
