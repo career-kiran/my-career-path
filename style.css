@@ -3564,8 +3564,8 @@ h2, .career-header h2, .section-heading {
 @media (max-width:768px) {
 
     .back-button{
-        padding: 5px 10px;
-        font-size: 14px;
+        padding: 4px 8px;
+        font-size: 9px;
         border-radius: 15px;
     }
 
