@@ -133,14 +133,24 @@ body {
 
 .home-page .logo {
   font-size: 44px;
-  color: #172554;
+  color: #4285F4;
   font-weight: 800;
   font-family: 'Poppins',
   letter-spacing: 1px;
 
 }
 
+.home-page .logo {
+  font-size: 44px;
+  color: #4285F4; /* Google Blue for 'Gai' */
+  font-weight: 800;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+}
 
+.home-page .logo span {
+  color: #3BC76A; /* Google Green for 'vo' */
+}
 
 .home-page .main {
     background: transparent;
