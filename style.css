@@ -141,15 +141,15 @@ body {
 }
 
 .home-page .logo {
-  font-size: 36px;
-  color: #2563EB; /* Google Blue for 'Gai' */
+  font-size: 34px;
+  color: #1E40AF; /* Google Blue for 'Gai' */
   font-weight: 700;
   font-family: 'Plus Jakarta Sans', sans-serif;
   letter-spacing: 0.5px;
 }
 
 .home-page .logo span {
-  color: #3BC76A; /* Google Green for 'vo' */
+  color: #22C55E; /* Google Green for 'vo' */
 }
 
 .home-page .main {
@@ -3594,14 +3594,14 @@ h2, .career-header h2, .section-heading {
 
     .home-page .logo {
         font-size: 32px;
-        font-weight: 900;
+        font-weight: 700;
         font-family: 'Poppins', sans-serif;
         letter-spacing: 0.5px;
-        color: #2563EB;   /* Blue */
+        color: #1E40AF;   /* Blue */
     }
 
     .home-page .logo span {
-        color: #3BC76A;   /* Green 'o' */
+        color: #22C55E;   /* Green 'o' */
     }
 
 }
