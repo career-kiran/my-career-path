@@ -143,9 +143,9 @@ body {
 .home-page .logo {
   font-size: 36px;
   color: #2563EB; /* Google Blue for 'Gai' */
-  font-weight: 900;
-  font-family: 'Poppins', sans-serif;
-  letter-spacing: 1px;
+  font-weight: 700;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  letter-spacing: 0.5px;
 }
 
 .home-page .logo span {
@@ -3584,6 +3584,24 @@ h2, .career-header h2, .section-heading {
         padding: 4px 8px;
         font-size: 9px;
         border-radius: 15px;
+    }
+
+}
+
+
+/* Mobile only */
+@media (max-width: 768px) {
+
+    .home-page .logo {
+        font-size: 32px;
+        font-weight: 900;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 0.5px;
+        color: #2563EB;   /* Blue */
+    }
+
+    .home-page .logo span {
+        color: #3BC76A;   /* Green 'o' */
     }
 
 }
