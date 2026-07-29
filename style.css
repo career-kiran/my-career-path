@@ -142,8 +142,8 @@ body {
 
 .home-page .logo {
   font-size: 44px;
-  color: #4285F4; /* Google Blue for 'Gai' */
-  font-weight: 800;
+  color: #2563EB; /* Google Blue for 'Gai' */
+  font-weight: 900;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 1px;
 }
@@ -2863,8 +2863,8 @@ padding:30px;
 border-radius:16px;
 margin:20px 0;
 
-background:#235AD1;
-background: linear-gradient(135deg, #163FA8, #0A56CC);
+background:#235A01;
+background:#1E3A8A;
 }
 
 
