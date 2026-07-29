@@ -3605,3 +3605,22 @@ h2, .career-header h2, .section-heading {
     }
 
 }
+
+
+.site-search button{
+    margin-left: 12px;
+    padding: 12px 20px;
+    background: #2563EB;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.site-search button:hover{
+    background: #1D4ED8;
+}
