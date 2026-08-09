@@ -142,7 +142,7 @@ body {
 
 .home-page .logo {
   font-size: 34px;
-  color: #1E40AF; /* Google Blue for 'Gai' */
+  color: #1D4ED8; /* Google Blue for 'Gai' */
   font-weight: 700;
   font-family: 'Plus Jakarta Sans', sans-serif;
   letter-spacing: 0.5px;
@@ -1260,6 +1260,12 @@ margin:25px 0;
 font-size:16px;
 line-height:1.6;
 color:#333;
+}
+
+.tip-box strong {
+
+word-spacing: 3px;
+
 }
 
 
