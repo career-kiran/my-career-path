@@ -3676,25 +3676,6 @@ h2, .career-header h2, .section-heading {
 
 
 
-@media (max-width: 768px) {
-    .role-card {
-        width: 90%;
-        max-width: 90%;
-        min-width: 0;
-        flex: 0 1 auto;
-        box-sizing: border-box;
-        overflow: hidden;
-    }
-
-    .role-card h4,
-    .role-card p {
-        max-width: 100%;
-        box-sizing: border-box;
-        white-space: normal;
-        overflow-wrap: break-word;
-        word-wrap: break-word;
-    }
-}
 
 
 
@@ -3725,11 +3706,8 @@ h2, .career-header h2, .section-heading {
 }
 
 
-
-
-
 @media (max-width: 768px) {
-    .role-card {
+    .career-roles .role-card {
         width: 90%;
         max-width: 90%;
         min-width: 0;
@@ -3737,8 +3715,8 @@ h2, .career-header h2, .section-heading {
         box-sizing: border-box;
     }
 
-    .role-card h4,
-    .role-card p {
+    .career-roles .role-card h4,
+    .career-roles .role-card p {
         max-width: 100%;
         box-sizing: border-box;
         white-space: normal;
@@ -3746,10 +3724,12 @@ h2, .career-header h2, .section-heading {
         word-wrap: break-word;
     }
 
-    .role-card p {
-        display: block;
-        -webkit-line-clamp: unset;
-        -webkit-box-orient: unset;
-        overflow: visible;
+    .career-roles .role-card p.desc {
+        display: block !important;
+        -webkit-line-clamp: unset !important;
+        -webkit-box-orient: unset !important;
+        overflow: visible !important;
     }
 }
+
+
