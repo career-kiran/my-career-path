@@ -3695,3 +3695,18 @@ h2, .career-header h2, .section-heading {
         word-wrap: break-word;
     }
 }
+
+
+
+
+@media (max-width: 768px) {
+    .try-yourself .role-card .desc {
+        display: block;
+        -webkit-line-clamp: unset;
+        -webkit-box-orient: unset;
+        overflow: visible;
+        white-space: normal;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
+}
