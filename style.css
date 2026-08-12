@@ -3733,3 +3733,16 @@ h2, .career-header h2, .section-heading {
 }
 
 
+
+
+@media (max-width: 768px) {
+
+    .try-yourself .role-card {
+        width: 90%;
+        max-width: 90%;
+        min-width: 0;
+        flex: 0 1 auto;
+        box-sizing: border-box;
+    }
+
+}
