@@ -3755,3 +3755,14 @@ h2, .career-header h2, .section-heading {
     }
 
 }
+
+
+
+
+
+.choose-text {
+    font-size: 0.7em;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 8px;
+}
