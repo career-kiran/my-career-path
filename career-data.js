@@ -1812,6 +1812,21 @@ window.careers = [
     tags: ["journalism", "news", "reporting", "media", "writing"]
 },
 
+
+{
+    id: "judge",
+    name: "Judge",
+    image: "images/judge.jpeg",
+    page: "judge.html",
+    bucket: "Business",
+    category: "Law",
+    subjects: ["Political Science", "History", "English"],
+    levels: ["Graduation"],
+    stream: ["Commerce", "Science", "Arts"],
+    type: "Government",
+    tags: ["judge", "judiciary", "law", "court", "justice", "civil judge", "judicial magistrate", "district judge", "high court judge", "supreme court judge"]
+},
+
 {
     id: "logistics-manager",
     name: "Logistics Manager",
@@ -2348,6 +2363,22 @@ window.careers = [
     tags: ["probationary officer", "PO", "bank officer", "banking", "finance", "public sector banks"]
 },
 
+
+
+{
+    id: "procurement-manager",
+    name: "Procurement Manager",
+    image: "images/procurement-manager.jpeg",
+    page: "procurement-manager.html",
+    bucket: "Business",
+    category: "Logistics and Supply Chain",
+    subjects: ["Business Studies", "Economics", "Mathematics"],
+    levels: ["Graduation"],
+    stream: ["Commerce", "Science", "Arts"],
+    type: "Government & Private",
+    tags: ["procurement manager", "procurement", "purchasing", "supply chain", "vendor management", "business management"]
+},
+
 {
 name: "Product Designer",
 image:"images/product-designer.jpeg",
@@ -2575,6 +2606,17 @@ stream: ["Science","Arts"]
     page: "state-engineering-entrance-exams.html",
     keywords: ["state engineering entrance exams", "mht cet", "wbjee", "kcet", "keam", "ap eapcet", "ts eapcet", "state engineering admission"],
     tags: ["engineering", "state entrance exam", "BTech", "BE", "undergraduate", "state-level"]
+},
+
+
+{
+    contentType: "exam",
+    id: "state-judicial-service-examination",
+    name: "State Judicial Service Examination",
+    description: "Entrance examination conducted by individual states in India for recruitment to the State Judicial Service, including positions such as Civil Judge (Junior Division) and Judicial Magistrate.",
+    page: "state-judicial-service-examination.html",
+    keywords: ["state judicial service examination", "civil judge exam", "judicial service exam", "judicial magistrate exam", "civil judge junior division", "PCS J", "judiciary exam", "judge exam india"],
+    tags: ["law", "judicial service", "civil judge", "judicial magistrate", "judge", "law career", "government exam", "state level", "after graduation"]
 },
 
 
