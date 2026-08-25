@@ -96,6 +96,17 @@ window.careers = [
     tags: ["dance", "choreography", "performing arts", "audition", "admission"]
 },
 
+
+{
+    contentType: "exam",
+    id: "advanced-icitss",
+    name: "Advanced ICITSS",
+    description: "Advanced ICITSS is a mandatory training program for CA students that includes Advanced IT Training and Management and Communication Skills (MCS) Training. It must be completed after Practical Training and before appearing for the CA Final examination.",
+    page: "advanced-icitss.html",
+    keywords: ["Advanced ICITSS", "AICITSS", "ICAI Advanced ICITSS", "Advanced IT", "MCS", "Management and Communication Skills", "CA training", "CA Final"],
+    tags: ["ca", "advanced icitss", "training", "icai", "advanced it", "mcs", "soft skills"]
+},
+
 {
     id: "advocate",
     name: "Advocate",
@@ -436,6 +447,36 @@ window.careers = [
 
 
 {
+    id: "bank-clerk",
+    name: "Bank Clerk",
+    image: "images/bank-clerk.jpeg",
+    page: "bank-clerk.html",
+    bucket: "Business",
+    category: "Banking",
+    subjects: ["Commerce", "Mathematics", "Economics"],
+    levels: ["12th", "Graduation"],
+    stream: ["Arts", "Science", "Commerce"],
+    type: "Government & Private",
+    tags: ["bank clerk", "banking", "banking career", "bank jobs", "clerical jobs", "finance", "bank"]
+},
+
+
+{
+    id: "bank-manager",
+    name: "Bank Manager",
+    image: "images/bank-manager.jpeg",
+    page: "bank-manager.html",
+    bucket: "Business",
+    category: "Banking",
+    subjects: ["Commerce", "Mathematics", "Economics"],
+    levels: ["12th", "Graduation"],
+    stream: ["Arts", "Science", "Commerce"],
+    type: "Government & Private",
+    tags: ["bank manager", "banking", "bank officer", "PO", "finance", "bank"]
+},
+
+
+{
     contentType: "exam",
     id: "basic-music-aptitude-test",
     name: "Basic Music Aptitude Test",
@@ -535,6 +576,38 @@ window.careers = [
 
 
 {
+    contentType: "exam",
+    id: "ca-final",
+    name: "CA Final",
+    description: "CA Final is the final level of the Chartered Accountancy course in India. It tests students' knowledge of financial reporting, finance, auditing, taxation and other areas needed to become a Chartered Accountant.",
+    page: "ca-final.html",
+    keywords: ["ca final", "ca final exam", "chartered accountant", "icai final", "ca exam"],
+    tags: ["ca", "accounting", "finance", "auditing", "taxation", "icai"]
+},
+
+{
+    contentType: "exam",
+    id: "ca-foundation",
+    name: "CA Foundation",
+    description: "CA Foundation is the first level of the Chartered Accountancy course in India. It is conducted by the Institute of Chartered Accountants of India (ICAI).",
+    page: "ca-foundation.html",
+    keywords: ["ca foundation", "ca foundation exam", "chartered accountant", "icai foundation", "ca exam"],
+    tags: ["ca", "accounting", "finance", "chartered accountant", "icai"]
+},
+
+
+{
+    contentType: "exam",
+    id: "ca-intermediate",
+    name: "CA Intermediate",
+    description: "CA Intermediate is the second level of the Chartered Accountancy course in India. It tests students' knowledge of accounting, law, taxation, auditing, finance and other areas related to becoming a Chartered Accountant.",
+    page: "ca-intermediate.html",
+    keywords: ["ca intermediate", "ca intermediate exam", "chartered accountant", "icai intermediate", "ca exam"],
+    tags: ["ca", "accounting", "taxation", "auditing", "finance", "icai"]
+},
+
+
+{
     id: "carpenter",
     name: "Carpenter",
     image: "images/carpenter.jpeg",
@@ -581,6 +654,39 @@ window.careers = [
     tags: ["design", "ceed", "mdes", "postgraduate", "creative", "entrance exam"]
 },
 
+
+{
+    contentType: "exam",
+    id: "cfa-level-1",
+    name: "CFA Level I",
+    description: "CFA Level I is the first exam in the CFA Program. It tests your basic understanding of finance, investments and financial markets.",
+    page: "cfa-level-1.html",
+    keywords: ["cfa level 1", "cfa level i", "cfa exam", "chartered financial analyst", "cfa level 1 exam"],
+    tags: ["finance", "investment", "financial markets", "financial analysis"]
+},
+
+
+{
+    contentType: "exam",
+    id: "cfa-level-2",
+    name: "CFA Level II",
+    description: "CFA Level II is the second exam in the CFA Program. It tests how well candidates can use their knowledge of finance and investments to analyse different situations.",
+    page: "cfa-level-2.html",
+    keywords: ["cfa level 2", "cfa level ii", "cfa exam", "chartered financial analyst", "cfa level 2 exam"],
+    tags: ["finance", "investment", "financial analysis", "portfolio management"]
+},
+
+
+{
+    contentType: "exam",
+    id: "cfa-level-3",
+    name: "CFA Level III",
+    description: "CFA Level III is the final exam in the CFA Program. It tests how well candidates can apply their investment knowledge to real-world situations and make investment decisions.",
+    page: "cfa-level-3.html",
+    keywords: ["cfa level 3", "cfa level iii", "cfa exam", "chartered financial analyst", "cfa level 3 exam"],
+    tags: ["finance", "investment", "portfolio management", "private wealth", "private markets"]
+},
+
 {
     id: "chartered-accountant",
     name: "Chartered Accountant",
@@ -593,6 +699,35 @@ window.careers = [
     stream: ["Commerce", "Science", "Arts"],
     type: "Government & Private",
     tags: ["chartered accountant", "CA", "accounting", "taxation", "auditing", "finance", "business", "ICAI"]
+},
+
+
+{
+    id: "cost-and-management-accountant",
+    name: "Cost and Management Accountant",
+    image: "images/cma.jpeg",
+    page: "cma.html",
+    bucket: "Business",
+    category: "Finance",
+    subjects: ["Accountancy", "Mathematics", "Economics", "Commerce"],
+    levels: ["12th", "Graduation"],
+    stream: ["Commerce", "Science", "Arts"],
+    type: "Professional Course",
+    tags: ["cost and management accountant", "cma", "cost accountant", "management accountant", "accounting", "finance", "taxation", "auditing", "business", "icmai"]
+},
+
+{
+    id: "chartered-financial-analyst",
+    name: "Chartered Financial Analyst",
+    image: "images/cfa.jpeg",
+    page: "cfa.html",
+    bucket: "Business",
+    category: "Finance",
+    subjects: ["Accountancy", "Mathematics", "Economics", "Finance"],
+    levels: ["Graduation"],
+    stream: ["Commerce", "Science", "Arts"],
+    type: "Professional Certification",
+    tags: ["chartered financial analyst", "cfa", "cfa charter", "financial analyst", "finance", "investment", "portfolio management", "financial markets", "cfa institute"]
 },
 
 
@@ -709,7 +844,26 @@ window.careers = [
 },
 
 
+{
+    contentType: "exam",
+    id: "cma-foundation",
+    name: "CMA Foundation",
+    description: "CMA Foundation is the first level of the Cost and Management Accountancy course in India. It is conducted by the Institute of Cost Accountants of India (ICMAI).",
+    page: "cma-foundation.html",
+    keywords: ["cma foundation", "cma foundation exam", "cost and management accountant", "icmai foundation", "cma exam"],
+    tags: ["cma", "accounting", "finance", "cost accounting", "management accounting", "icmai"]
+},
 
+
+{
+    contentType: "exam",
+    id: "cma-intermediate",
+    name: "CMA Intermediate",
+    description: "CMA Intermediate is the second level of the Cost and Management Accountancy course in India. It is conducted by the Institute of Cost Accountants of India (ICMAI).",
+    page: "cma-intermediate.html",
+    keywords: ["cma intermediate", "cma intermediate exam", "cost and management accountant", "icmai intermediate", "cma exam"],
+    tags: ["cma", "cma intermediate", "accounting", "finance", "cost accounting", "management accounting", "icmai"]
+},
 
 
 {
@@ -1320,6 +1474,74 @@ window.careers = [
     stream: ["Science"],
     type: "Government & Private",
     tags: ["homeopathy", "homeopathy doctor", "natural medicine", "holistic healing", "alternative medicine", "healthcare", "BHMS"]
+},
+
+
+{
+    id: "hr-manager",
+    name: "HR Manager",
+    image: "images/hr-manager.jpeg",
+    page: "hr-manager.html",
+    bucket: "Business",
+    category: "Business and Management",
+    subjects: ["Business Studies", "Economics", "Mathematics"],
+    levels: ["Graduation"],
+    stream: ["Commerce", "Science", "Arts"],
+    type: "Government & Private",
+    tags: ["hr manager", "human resources", "hr", "management", "recruitment", "employee management"]
+},
+
+
+{
+    contentType: "exam",
+    id: "ibps-clerk",
+    name: "IBPS Clerk (Customer Service Associate)",
+    description: "IBPS Clerk is a recruitment exam conducted by the Institute of Banking Personnel Selection (IBPS) to select candidates for Customer Service Associate positions in participating public sector banks.",
+    page: "ibps-clerk.html",
+    keywords: ["IBPS Clerk", "IBPS Clerk exam", "IBPS Customer Service Associate", "IBPS CSA", "IBPS CSA exam", "IBPS banking exam", "bank clerk exam", "government bank jobs", "banking jobs", "public sector bank jobs"],
+    tags: ["Banking", "Government Jobs", "Competitive Exams", "Bank Exams"]
+},
+
+{
+    contentType: "exam",
+    id: "ibps-po",
+    name: "IBPS PO",
+    description: "IBPS PO (Probationary Officer) is a national-level recruitment exam conducted by the Institute of Banking Personnel Selection (IBPS) for the recruitment of Probationary Officers and Management Trainees in participating public-sector banks.",
+    page: "ibps-po.html",
+    keywords: ["IBPS PO", "IBPS Probationary Officer", "IBPS PO exam", "IBPS PO recruitment", "CRP PO MT", "bank PO exam", "bank officer exam"],
+    tags: ["banking", "government jobs", "public sector banks", "probationary officer", "bank officer", "IBPS"]
+},
+
+
+{
+    contentType: "exam",
+    id: "ibps-rrb",
+    name: "IBPS RRB",
+    description: "IBPS RRB Officer Scale-I is a recruitment examination conducted by the Institute of Banking Personnel Selection (IBPS) for selecting officers for Regional Rural Banks (RRBs) across India.",
+    page: "ibps-rrb.html",
+    keywords: ["IBPS RRB", "IBPS RRB Officer Scale-I", "RRB Officer", "Regional Rural Bank", "bank recruitment exam", "bank officer exam"],
+    tags: ["IBPS RRB", "Officer Scale-I", "RRB", "banking", "bank officer", "government bank", "entrance exam"]
+},
+
+
+{
+    contentType: "exam",
+    id: "ibps-rrb-office-assistant",
+    name: "IBPS RRB Office Assistant",
+    description: "IBPS RRB Office Assistant (Multipurpose) is a recruitment examination conducted by the Institute of Banking Personnel Selection (IBPS) for selecting candidates for Office Assistant positions in Regional Rural Banks (RRBs) across India.",
+    page: "ibps-rrb-office-assistant.html",
+    keywords: ["IBPS RRB Office Assistant", "IBPS RRB", "RRB Office Assistant", "Office Assistant Multipurpose", "Regional Rural Bank", "bank recruitment exam", "bank clerk exam"],
+    tags: ["IBPS RRB", "Office Assistant", "RRB", "banking", "bank clerk", "government bank", "entrance exam"]
+},
+
+{
+    contentType: "exam",
+    id: "icitss-training",
+    name: "ICITSS Training",
+    description: "ICITSS is a mandatory training program for CA students that includes Information Technology Training and an Orientation Course. Students must complete it before starting their practical training.",
+    page: "icitss-training.html",
+    keywords: ["ICITSS", "ICITSS training", "ICAI ICITSS", "Information Technology Training", "Orientation Course", "CA training", "CA articleship", "Chartered Accountant"],
+    tags: ["ca", "icitss", "training", "icai", "information technology", "soft skills", "orientation"]
 },
 
 
@@ -2083,7 +2305,7 @@ window.careers = [
     image: "images/plumber.jpeg",
     page: "plumber.html",
     bucket: "Practical",
-    subjects: ["Mathematics", "Physics", "Chemistry", "Computer Science"],
+    subjects: ["Mathematics", "Physics", "Computer Science"],
     levels: ["10th", "12th","ITI"],
     stream: ["Science"],
     type: "Government & Private",
@@ -2109,6 +2331,21 @@ window.careers = [
     page: "practical-performance-exam.html",
     keywords: ["practical performance exam", "performance test", "performing arts admission", "music performance exam", "dance performance exam"],
     tags: ["performing arts", "performance", "practical exam", "admission"]
+},
+
+
+{
+    id: "probationary-officer",
+    name: "Probationary Officer",
+    image: "images/probationary-officer.jpeg",
+    page: "probationary-officer.html",
+    bucket: "Business",
+    category: "Banking",
+    subjects: ["Commerce", "Mathematics", "Economics"],
+    levels: ["12th", "Graduation"],
+    stream: ["Arts", "Science", "Commerce"],
+    type: "Government & Private",
+    tags: ["probationary officer", "PO", "bank officer", "banking", "finance", "public sector banks"]
 },
 
 {
@@ -2189,6 +2426,28 @@ stream: ["Science","Arts"]
     page: "sat.html",
     keywords: ["sat", "scholastic assessment test", "college board", "study abroad", "undergraduate admission"],
     tags: ["international exam", "study abroad", "undergraduate", "college admission", "college board"]
+},
+
+
+{
+    contentType: "exam",
+    id: "sbi-clerk",
+    name: "SBI Clerk",
+    description: "SBI Clerk is a recruitment examination conducted by the State Bank of India for appointment as Junior Associates (Customer Support & Sales) in its clerical cadre.",
+    page: "sbi-clerk.html",
+    keywords: ["sbi clerk", "state bank of india clerk", "sbi junior associate", "sbi clerk exam", "bank clerk exam", "sbi junior associate exam"],
+    tags: ["banking", "government", "sbi", "clerk", "junior associate", "bank clerk", "entrance exam"]
+},
+
+
+{
+    contentType: "exam",
+    id: "sbi-po",
+    name: "SBI PO",
+    description: "SBI PO (State Bank of India Probationary Officer) is a recruitment examination conducted by the State Bank of India for appointment as Probationary Officers.",
+    page: "sbi-po.html",
+    keywords: ["sbi po", "state bank of india po", "sbi probationary officer", "probationary officer exam", "bank po exam", "sbi officer exam"],
+    tags: ["banking", "government", "sbi", "po", "probationary officer", "bank officer", "entrance exam"]
 },
 
 {
