@@ -1493,7 +1493,7 @@ font-weight: 500;
 .grey   { background: #e5e7eb; color: #333; }
 .pink   { background: #fce7f3; color: #333; }
 .brown  { background: #f3e5d8; color: #5a3e2b; }
-.olive  { background: #f4faea; color: #333; }
+.olive  { background: #FAFAFA; color: #333; }
 .beige  { background: #f7efe5; color: #333; }
 .peach  { background: #fff2eb; color: #333; }
 .teal   { background: #FAFAFA; color: #333; }
@@ -1532,6 +1532,16 @@ border-top:0.5px solid #14b8a6;
 border-bottom:0.5px solid #14b8a6;
 background:#FAFAFA;
 }
+
+
+.olive{
+border-left:6px solid #A8D66D;
+border-right:6px solid #A8D66D;
+border-top:0.5px solid #A8D66D;
+border-bottom:0.5px solid #A8D66D;
+background:#FAFAFA;
+}
+
 
 
 
@@ -3797,18 +3807,19 @@ h2, .career-header h2, .section-heading {
 }
 
 
+
 @media (max-width: 768px) {
-
-    .career-action .share-button {
-        width: 130px !important;
-        height: 48px !important;
-        padding: 0 !important;
-        margin-left: 0 !important;
-        font-size: 14px !important;
-        gap: 6px !important;
+    .career-action button {
+        width: 130px;
+        height: 48px;
+        padding: 0;
+        font-size: 14px;
+        gap: 6px;
+        margin-left: 0;
     }
-
 }
+
+
 
 
 
