@@ -3810,18 +3810,13 @@ h2, .career-header h2, .section-heading {
 
 @media (max-width: 768px) {
     .career-action .share-button {
-        width: 90px !important;
+        width: auto !important;
         height: 40px !important;
         padding: 4px 8px !important;
         margin-left: 0 !important;
         font-size: 9px !important;
         gap: 4px !important;
         border-radius: 15px !important;
-    }
-
-    .career-action .share-button .share-icon {
-        width: 14px !important;
-        height: 14px !important;
     }
 }
 
