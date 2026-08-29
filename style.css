@@ -3765,6 +3765,13 @@ h2, .career-header h2, .section-heading {
 }
 
 
+@media (max-width: 768px) {
+    .hero-video {
+        display: none;
+    }
+}
+
+
 
 
 
