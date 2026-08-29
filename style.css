@@ -3809,16 +3809,15 @@ h2, .career-header h2, .section-heading {
 
 
 @media (max-width: 768px) {
-    .career-action button {
-        width: 130px;
-        height: 48px;
-        padding: 0;
-        font-size: 14px;
-        gap: 6px;
-        margin-left: 0;
+    .career-action .share-button {
+        width: 90px !important;
+        height: 40px !important;
+        padding: 0 !important;
+        margin-left: 0 !important;
+        font-size: 14px !important;
+        gap: 5px !important;
     }
 }
-
 
 
 
