@@ -1420,12 +1420,7 @@ font-weight: 500;
 
 
 
-.accordion-header::after {
-  content: " (Tap to view)";
-  font-size: 13px;
-  color: #555;
-  margin-left: 6px;
-}
+
 
 .accordion-header:hover {
   transform: translateY(-5px);
