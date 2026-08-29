@@ -2102,6 +2102,16 @@ box-shadow: 0 8px 20px rgba(59,130,246,0.3);
   .hero-text button {
     width: 100px;
   }
+
+.career-action button {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.career-action button svg {
+    width: 18px;
+    height: 18px;
+}
 }
 
 
