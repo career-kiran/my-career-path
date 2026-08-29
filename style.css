@@ -2103,15 +2103,7 @@ box-shadow: 0 8px 20px rgba(59,130,246,0.3);
     width: 100px;
   }
 
-.career-action button {
-    font-size: 14px;
-    padding: 5px 10px;
-}
 
-.career-action button svg {
-    width: 18px;
-    height: 18px;
-}
 }
 
 
@@ -3802,6 +3794,17 @@ h2, .career-header h2, .section-heading {
     font-weight: 500;
     display: inline-block;
     margin-top: 8px;
+}
+
+
+@media (max-width: 768px) {
+
+    .career-action .share-button {
+        font-size: 14px;
+        padding: 5px 10px;
+        gap: 5px;
+    }
+
 }
 
 
