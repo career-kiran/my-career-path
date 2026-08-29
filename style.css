@@ -2068,12 +2068,14 @@ box-shadow: 0 8px 20px rgba(59,130,246,0.3);
 /* ================= RESPONSIVE ================= */
 
 @media (max-width: 768px) {
-  .hero-section {
-    flex-direction: column;
-    text-align: center;
-    justify-content: flex-start;
-    gap: 20px;
-  }
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+        justify-content: flex-start;
+        gap: 20px;
+        height: auto;
+        min-height: auto;
+    }
 
   .hero {
     width: 90%;
