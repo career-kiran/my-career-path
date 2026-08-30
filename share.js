@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         button.textContent = "";
         button.appendChild(icon);
-        button.appendChild(document.createTextNode("Share"));
+        
     });
 
 });

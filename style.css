@@ -2453,7 +2453,7 @@ box-shadow: 0 8px 20px rgba(59,130,246,0.3);
   margin-left: 10px;
   padding: 6px 12px;
   border: 1px solid #D1DDD4;
-  background: #fff;
+  background: #3B82F6 !important;
   border-radius: 6px;
   cursor: pointer;
   display: inline-flex;
@@ -2467,12 +2467,21 @@ box-shadow: 0 8px 20px rgba(59,130,246,0.3);
 
 
 .share-button {
-    color: #222222;
-    font-weight: 500;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    margin-left: 10px;
+    border: 1px solid #D1DDD4;
+    background: #EFF6FF;
+    border-radius: 50% !important;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .share-button .share-icon {
-    color: #3B82F6;
+    color: #ffffff;
 }
 
 
@@ -3803,17 +3812,6 @@ h2, .career-header h2, .section-heading {
 
 
 
-@media (max-width: 768px) {
-    .career-action .share-button {
-        width: auto !important;
-        height: auto !important;
-        padding: 4px 10px !important;
-        margin-left: 0 !important;
-        font-size: 10px !important;
-        gap: 4px !important;
-        border-radius: 15px !important;
-    }
-}
 
 
 
