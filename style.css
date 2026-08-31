@@ -3813,28 +3813,7 @@ h2, .career-header h2, .section-heading {
 
 
 
-@media (max-width: 600px) {
 
-    .career-header {
-        display: flex;
-        flex-wrap: nowrap;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .career-header h1,
-    .career-header h2 {
-        flex: 1;
-        min-width: 0;
-        margin: 0;
-    }
-
-    .career-action {
-        flex-shrink: 0;
-        margin-left: 10px;
-    }
-
-}
 
 
 
