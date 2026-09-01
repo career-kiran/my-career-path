@@ -3814,18 +3814,18 @@ h2, .career-header h2, .section-heading {
 
 @media (max-width: 600px) {
 
-    .main .career-header {
+    .career-header:has(.career-action) {
         flex-wrap: nowrap;
     }
 
-    .main .career-header h1,
-    .main .career-header h2 {
+    .career-header:has(.career-action) h1,
+    .career-header:has(.career-action) h2 {
         flex: 1;
         min-width: 0;
         margin: 0;
     }
 
-    .main .career-action {
+    .career-header:has(.career-action) .career-action {
         flex-shrink: 0;
         margin-left: 10px;
     }
