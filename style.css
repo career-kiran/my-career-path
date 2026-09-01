@@ -3812,6 +3812,25 @@ h2, .career-header h2, .section-heading {
 
 
 
+@media (max-width: 600px) {
+
+    .main .career-header {
+        flex-wrap: nowrap;
+    }
+
+    .main .career-header h1,
+    .main .career-header h2 {
+        flex: 1;
+        min-width: 0;
+        margin: 0;
+    }
+
+    .main .career-action {
+        flex-shrink: 0;
+        margin-left: 10px;
+    }
+
+}
 
 
 
