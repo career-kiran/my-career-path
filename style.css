@@ -28,7 +28,7 @@ body {
 
 /* ===== HEADER ===== */
 .header {
-    background: #243B5A;
+    background: #14285F;
     
     padding: 16px 0;
 }
@@ -2460,7 +2460,7 @@ box-shadow: 0 8px 20px rgba(59,130,246,0.3);
   margin-left: 10px;
   padding: 6px 12px;
   border: 1px solid #D1DDD4;
-  background: #3B82F6 !important;
+  background: #2E7D5B !important;
   border-radius: 6px;
   cursor: pointer;
   display: inline-flex;
@@ -3657,7 +3657,7 @@ h2, .career-header h2, .section-heading {
 
 
 .back-button {
-    background-color: #3b82f6;
+    background-color: #2E7D5B;
     color: white;
     border: none;
     border-radius: 20px;
