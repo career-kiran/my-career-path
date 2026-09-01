@@ -28,7 +28,7 @@ body {
 
 /* ===== HEADER ===== */
 .header {
-    background: #172554;
+    background: #2F4858;
     
     padding: 16px 0;
 }
@@ -142,7 +142,7 @@ body {
 
 .home-page .logo {
   font-size: 44px;
-  color: #5B2A86; /* Google Blue for 'Gai' */
+  color: #4B227A; /* Google Blue for 'Gai' */
   font-weight: 700;
   font-family: 'Plus Jakarta Sans', sans-serif;
   letter-spacing: 0.5px;
@@ -3691,7 +3691,7 @@ h2, .career-header h2, .section-heading {
         font-weight: 700;
         font-family: 'Poppins', sans-serif;
         letter-spacing: 0.5px;
-        color: #1E40AF;   /* Blue */
+        color: #4B227A;   /* Blue */
     }
 
     .home-page .logo span {
