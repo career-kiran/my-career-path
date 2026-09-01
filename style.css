@@ -2942,12 +2942,12 @@ gap:30px;
 padding-left:20px;
 line-height:1.8;
 flex:1;
-color:black;
+color:#222222;
 }
 
 .story-list li{
 margin-bottom:15px;
-color:black;
+color:#222222;
 }
 
 
@@ -2966,7 +2966,7 @@ border-radius:16px;
 margin:20px 0;
 
 
-background:#C5D3C9;
+background:#D1DDD4;
 }
 
 
