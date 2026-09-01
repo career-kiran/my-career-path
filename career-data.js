@@ -205,7 +205,7 @@ window.careers = [
     id: "aiims-bsc-nursing",
     name: "AIIMS B.Sc Nursing",
     description: "AIIMS B.Sc Nursing Entrance Examination",
-    page: "aiims-nursing.html",
+    page: "aiims-nursing-exam.html",
     keywords: ["aiims bsc nursing", "aiims nursing entrance exam", "bsc nursing admission", "aiims nursing", "nursing entrance exam", "aiims nursing eligibility"],
     tags: ["nursing", "bsc nursing", "aiims", "healthcare", "entrance exam"]
 },
