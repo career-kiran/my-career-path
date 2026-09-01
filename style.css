@@ -3823,6 +3823,7 @@ h2, .career-header h2, .section-heading {
         flex: 1;
         min-width: 0;
         margin: 0;
+        text-align: left;
     }
 
     .career-header:has(.career-action) .career-action {
@@ -3831,7 +3832,6 @@ h2, .career-header h2, .section-heading {
     }
 
 }
-
 
 
 
