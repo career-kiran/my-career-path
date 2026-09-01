@@ -2460,7 +2460,7 @@ box-shadow: 0 8px 20px rgba(59,130,246,0.3);
   margin-left: 10px;
   padding: 6px 12px;
   border: 1px solid #D1DDD4;
-  background: #2E7D5B !important;
+  background: #3B82F6 !important;
   border-radius: 6px;
   cursor: pointer;
   display: inline-flex;
@@ -2942,12 +2942,12 @@ gap:30px;
 padding-left:20px;
 line-height:1.8;
 flex:1;
-color:white;
+color:black;
 }
 
 .story-list li{
 margin-bottom:15px;
-color:white;
+color:black;
 }
 
 
@@ -2965,8 +2965,8 @@ padding:30px;
 border-radius:16px;
 margin:20px 0;
 
-background:#235A01;
-background:#1E3A8A;
+
+background:#B9C9BE;
 }
 
 
@@ -3657,7 +3657,7 @@ h2, .career-header h2, .section-heading {
 
 
 .back-button {
-    background-color: #2E7D5B;
+    background-color: #3B82F6;
     color: white;
     border: none;
     border-radius: 20px;
