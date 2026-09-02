@@ -30,6 +30,7 @@ body {
 .header {
     background: #3D1E47;
     
+    
     padding: 16px 0;
 }
 
@@ -81,6 +82,12 @@ body {
     margin-bottom: 14px;
     line-height: 1.1;
     color:#FAFAFA;
+    
+}
+
+.site-title img {
+    height: auto;
+    width: 50px;
     
 }
 
@@ -148,14 +155,14 @@ body {
 
 .home-page .logo {
   font-size: 44px;
-  color: #4B227A; /* Google Blue for 'Gai' */
+  color: #3D1E47; /* Google Blue for 'Gai' */
   font-weight: 700;
   font-family: 'Plus Jakarta Sans', sans-serif;
   letter-spacing: 0.5px;
 }
 
 .home-page .logo span {
-  color: #22C55E; /* Google Green for 'vo' */
+  color: #3D1E47; /* Google Green for 'vo' */
 }
 
 .home-page .main {
@@ -2460,7 +2467,7 @@ box-shadow: 0 8px 20px rgba(59,130,246,0.3);
   margin-left: 10px;
   padding: 6px 12px;
   border: 1px solid #D1DDD4;
-  background: #2E7D5B !important;
+  background: #3B82F6 !important;
   border-radius: 6px;
   cursor: pointer;
   display: inline-flex;
@@ -2800,7 +2807,7 @@ html{
 
 
 .footer{
-    background:#0F172A;
+    background:#172A46;
     color:white;
     margin-top:30px;
     padding:20px 20px 20px;
@@ -3275,10 +3282,13 @@ padding-left:20px;
         padding: 8px 0;
     }
 
-    .site-title {
-        font-size: 26px;
-        margin-bottom: 12px;
-    }
+ .site-title {
+    margin-bottom: 12px;
+}
+
+.site-title img {
+    height: 48px;
+}
 
 }
 
@@ -3659,7 +3669,7 @@ h2, .career-header h2, .section-heading {
 
 
 .back-button {
-    background-color: #2E7D5B;
+    background-color: #3B82F6;
     color: white;
     border: none;
     border-radius: 20px;
