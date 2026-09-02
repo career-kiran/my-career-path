@@ -28,10 +28,10 @@ body {
 
 /* ===== HEADER ===== */
 .header {
-    background: #3D1E47;
+    background: #1E3A68;
     
     
-    padding: 16px 0;
+    ppadding: 10px 0;
 }
 
 .header .container {
@@ -2807,7 +2807,7 @@ html{
 
 
 .footer{
-    background:#172A46;
+    background:#222222;
     color:white;
     margin-top:30px;
     padding:20px 20px 20px;
@@ -2835,7 +2835,7 @@ html{
 
     font-size: 28px;
 
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     margin-top: 40px;
 }
 
@@ -2878,7 +2878,7 @@ html{
 
     margin-top: 20px;
 
-    padding-top: 12px;
+    padding-top: 6px;
 
     text-align: center;
 
@@ -3628,7 +3628,7 @@ h2, .career-header h2, .section-heading {
 
 .footer-bottom{
     margin-top:15px;
-    padding-top:10px;
+    padding-top:6px;
     text-align:center;
 }
 
@@ -3854,8 +3854,23 @@ h2, .career-header h2, .section-heading {
 }
 
 
+@media (min-width: 769px) {
+    .header {
+        padding: 5px 0;
+    }
+
+    .site-search {
+        margin: 0;
+    }
+}
 
 
+
+@media (min-width: 769px) {
+    .footer {
+        padding-bottom: 10px;
+    }
+}
 
 
 
