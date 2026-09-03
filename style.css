@@ -2634,6 +2634,10 @@ ul li {
 
 @media (max-width: 768px) {
 
+    .home-buckets {
+        padding: 40px 20px;
+    }
+
     .home-buckets .role-grid {
         display: flex;
         flex-direction: column;
