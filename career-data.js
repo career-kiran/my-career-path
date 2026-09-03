@@ -1969,7 +1969,7 @@ window.careers = [
     id: "merit-based-post-basic-bsc-nursing-admission",
     name: "Merit-Based Post Basic B.Sc Nursing Admission",
     description: "Merit-based admission process for Post Basic B.Sc Nursing courses in India",
-    page: "merit-based-post-basic-bsc-nursing-admission.html",
+    page: "merit-post-basic-bsc-nursing-admission.html",
     keywords: ["merit based post basic bsc nursing admission", "post basic bsc nursing admission", "pbbsc nursing admission"],
     tags: ["nursing", "post basic bsc nursing", "healthcare", "merit based admission"]
 },
