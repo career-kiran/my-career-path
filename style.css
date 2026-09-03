@@ -2657,15 +2657,9 @@ ul li {
 
 
 
-/* Keep mobile header links white in every link state */
 @media (max-width: 768px) {
-    .bucket-nav a,
-    .bucket-nav a:visited,
-    .bucket-nav a:hover,
-    .bucket-nav a:active,
-    .bucket-nav a:focus {
+    .header .bucket-nav a {
         color: #FAFAFA !important;
-        text-decoration: none !important;
     }
 }
 
