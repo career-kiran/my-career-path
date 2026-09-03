@@ -2249,10 +2249,18 @@ ul li {
         overflow: hidden;
     }
 
-    .nav-links a {
-        font-size: 18px;
-        font-weight: 600;
-    }
+   .nav-links a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #FAFAFA !important;
+}
+
+.nav-links a:hover,
+.nav-links a:focus,
+.nav-links a:active,
+.nav-links a:visited {
+    color: #FAFAFA !important;
+}
 
     .nav-links.active {
         transform: translateX(0);
