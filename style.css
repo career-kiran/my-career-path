@@ -1974,11 +1974,14 @@ ul li {
     padding-right: 20px;
 }
 
+
+
 .footer-left h3 {
     color: white;
     font-size: 28px;
     margin-bottom: 8px;
     margin-top: 40px;
+    text-align: center;
 }
 
 .footer-left p {
@@ -1991,11 +1994,11 @@ ul li {
 .footer-links {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-start;
     gap: 100px;
-    margin-right: 120px;
-    margin-top: 8px;
+    margin-right: 0;
+    grid-column: 2;
 }
 
 .footer-links a {
@@ -2020,6 +2023,8 @@ ul li {
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 15px;
+    text-align: center;
+    
 }
 
 .footer-column a {
@@ -2028,6 +2033,7 @@ ul li {
     font-size: 15px;
     margin-bottom: 8px;
     transition: 0.3s;
+    text-align: center;
 }
 
 .footer-column a:hover {
@@ -2576,11 +2582,28 @@ ul li {
 }
 
 
+@media (max-width: 768px) {
+
+    .card-container {
+        align-items: center;
+    }
+
+    .role-card {
+        width: 90%;
+        max-width: 90%;
+        min-width: 0;
+        flex: 0 1 auto;
+        box-sizing: border-box;
+    }
+}
+
+
 /* =========================================================
    29. DESKTOP-ONLY ADJUSTMENTS
    ========================================================= */
 
 @media (min-width: 769px) {
+
     .header {
         padding: 5px 0;
     }
@@ -2592,16 +2615,27 @@ ul li {
     .footer {
         padding-bottom: 10px;
     }
+
+  .home-buckets .role-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+.home-buckets .role-card {
+    min-width: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 
 
-@media (max-width: 768px) {
+}
 
+
+@media (max-width: 768px) {
     .home-buckets .role-card {
         width: 90%;
         max-width: 90%;
         box-sizing: border-box;
     }
-
 }
