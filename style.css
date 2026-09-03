@@ -2249,10 +2249,10 @@ ul li {
         overflow: hidden;
     }
 
-   .nav-links a {
+ .nav-links a {
     font-size: 18px;
     font-weight: 600;
-    
+    color: #222 !important;
 }
 
     .nav-links.active {
