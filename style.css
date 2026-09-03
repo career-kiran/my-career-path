@@ -2593,3 +2593,15 @@ ul li {
         padding-bottom: 10px;
     }
 }
+
+
+
+@media (max-width: 768px) {
+
+    .home-buckets .role-card {
+        width: 90%;
+        max-width: 90%;
+        box-sizing: border-box;
+    }
+
+}
