@@ -2633,9 +2633,19 @@ ul li {
 
 
 @media (max-width: 768px) {
+
+    .home-buckets .role-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
     .home-buckets .role-card {
         width: 90%;
         max-width: 90%;
+        min-width: 0;
         box-sizing: border-box;
     }
+
 }
