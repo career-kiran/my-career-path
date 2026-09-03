@@ -2668,7 +2668,7 @@ ul li {
 
     .role-grid {
         grid-template-columns: repeat(3, 1fr);
-        gap: 1px;
+        gap: 3px;
     }
 
     .role-grid .role-card {
@@ -2679,6 +2679,14 @@ ul li {
 
 }
 
+
+
+
+@media (max-width: 768px) {
+    .role-grid {
+        justify-items: center;
+    }
+}
 
 
 
