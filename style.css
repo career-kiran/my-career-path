@@ -2481,14 +2481,14 @@ ul li {
     }
 
     .footer {
-        padding: 10px 20px 20px;
+        padding: 8px 20px 10px;
     }
 
     .footer-container {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 15px;
+        gap: 8px;
     }
 
     .footer-left {
@@ -2528,8 +2528,8 @@ ul li {
     }
 
     .footer-bottom {
-        margin-top: 15px;
-        padding-top: 6px;
+        margin-top: 8px;
+        padding-top: 4px;
         text-align: center;
     }
 
