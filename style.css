@@ -2654,3 +2654,16 @@ ul li {
     }
 
 }
+
+
+
+
+/* Fix mobile header link color after returning with Back */
+@media (max-width: 768px) {
+    .nav-links a:focus,
+    .nav-links a:active,
+    .nav-links a:focus-visible {
+        color: #fff !important;
+        outline: none !important;
+    }
+}
