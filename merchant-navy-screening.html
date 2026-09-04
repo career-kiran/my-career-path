@@ -6,6 +6,18 @@
 <html lang="en">
 
 <head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FP729ERNGC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FP729ERNGC');
+</script>
+
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -46,8 +58,8 @@
 
 <div class="career-action">
 
-<button onclick="savePage()">⭐ Save</button>
-<button onclick="sharePage()">📤 Share</button>
+
+<button onclick="sharePage()" class="share-button">Share</button>
 </div>
 </div>
 
@@ -136,6 +148,8 @@ behavior:'smooth'
 
 
 <script src="accordion.js"></script>
+
+<script src="share.js"></script>
 
 
 
