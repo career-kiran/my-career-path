@@ -1487,6 +1487,7 @@ ul li {
 .step-card p {
     font-size: 16px;
     color: #333;
+    line-height: 1.6;
 }
 
 .step1 { background: #0ea5e9; }
