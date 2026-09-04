@@ -7,6 +7,17 @@
 
 <head>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FP729ERNGC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FP729ERNGC');
+</script>
+
+
 <meta charset="UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -53,8 +64,8 @@
 
 
 
-<button onclick="savePage()">⭐ Save</button>
-<button onclick="sharePage()">📤 Share</button>
+
+<button onclick="sharePage()" class="share-button">Share</button>
 
 
 </div>
@@ -77,7 +88,7 @@
 
 
 
-<h2>🧑‍💻 What Do They Do?</h2>
+<h2> What Do They Do?</h2>
 
 <div class="story-card story-text">
 <div class="story-content">
@@ -251,7 +262,9 @@ University Entrance Exam
 
 
 
+<button class="accordion-header olive">   Colleges & Institutes</button>
 
+<div class="accordion-content">
 
 
 <div class="important-box">
@@ -319,16 +332,16 @@ Bennett University, Greater Noida
 
 
 
-
-
 </div>
 
 </div>
+
+</div>
 </div>
 
 
 
-<button class="accordion-header lavender">⏰ A Day in the Life of a UX / Content Designer</button>
+<button class="accordion-header lavender"> A Day at Work</button>
 
 <div class="accordion-content">
 
@@ -386,7 +399,7 @@ Bennett University, Greater Noida
 
 
 
-<button class="accordion-header orange">💼 Where do They work?</button>
+<button class="accordion-header orange"> Where do They work?</button>
 
 <div class="accordion-content">
 
@@ -519,7 +532,7 @@ Leads content design teams and builds communication systems for tech products.
 
 
 
-<button class="accordion-header teal">🌍 Global Opportunities</button>
+<button class="accordion-header teal"> Global Opportunities</button>
 
 <div class="accordion-content">
 
@@ -567,7 +580,7 @@ Leads content design teams and builds communication systems for tech products.
 
 
 
-<button class="accordion-header red">🤔 Is this the career for you?</button>
+<button class="accordion-header red"> Is this the career for you?</button>
 
 
 
@@ -660,6 +673,8 @@ behavior:'smooth'
 <script src="career-actions.js"></script>
 
 <script src="accordion.js"></script>
+
+<script src="share.js"></script>
 
 
 
