@@ -966,7 +966,7 @@ ul li {
 }
 
 .subject-bg {
-    background: #F8FAFC;
+    background: #C3D2C3;
     padding: 30px 20px;
     width: 100%;
 }
@@ -978,7 +978,7 @@ ul li {
 }
 
 .education-bg {
-    background: #C3D2C3;
+    background: #F8FAFC;
     padding: 20px;
     width: 100%;
 }
@@ -996,7 +996,7 @@ ul li {
 
 .home-buckets {
     padding: 40px 60px;
-    background: #C3D2C3;
+    background: #F8FAFC;
 }
 
 .home-buckets .section-heading {
@@ -1010,7 +1010,7 @@ ul li {
 
 .self-discovery-section {
     padding: 60px;
-    background: #F8FAFC;
+    background: #C3D2C3;
 }
 
 .notion-grid {
