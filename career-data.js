@@ -636,7 +636,7 @@ window.careers = [
 {
     contentType: "exam",
     id: "cdac-ccat",
-    name: "C-DAC C-CAT",
+    name: "CDAC CCAT",
     description: "A national-level entrance examination conducted by the Centre for Development of Advanced Computing (C-DAC) for admission to postgraduate diploma programmes in advanced computing and related fields.",
     page: "cdac-ccat.html",
     keywords: ["C-DAC C-CAT", "CDAC CCAT", "Common Admission Test", "C-DAC entrance exam", "PG diploma admission"],
@@ -844,6 +844,18 @@ window.careers = [
 },
 
 
+
+{
+    contentType: "exam",
+    id: "cma-final",
+    name: "CMA Final",
+    description: "CMA Final is the third and final level of the Cost and Management Accountancy course in India. It is conducted by the Institute of Cost Accountants of India (ICMAI).",
+    page: "cma-final.html",
+    keywords: ["cma final", "cma final exam", "cost and management accountant", "icmai final", "cma exam"],
+    tags: ["cma", "cma final", "icmai", "accounting", "finance", "cost accounting", "management accounting"]
+},
+
+
 {
     contentType: "exam",
     id: "cma-foundation",
@@ -863,6 +875,18 @@ window.careers = [
     page: "cma-intermediate.html",
     keywords: ["cma intermediate", "cma intermediate exam", "cost and management accountant", "icmai intermediate", "cma exam"],
     tags: ["cma", "cma intermediate", "accounting", "finance", "cost accounting", "management accounting", "icmai"]
+},
+
+
+
+{
+    contentType: "exam",
+    id: "cmat",
+    name: "CMAT",
+    description: "Common Management Admission Test (CMAT) is a national-level entrance exam for admission to management programmes such as MBA and PGDM in participating institutions across India.",
+    page: "cmat.html",
+    keywords: ["cmat", "cmat exam", "common management admission test", "cmat mba", "cmat entrance exam", "management entrance exam", "mba entrance exam", "nta cmat"],
+    tags: ["cmat", "management", "mba", "pgdm", "entrance exam", "nta"]
 },
 
 
@@ -886,12 +910,6 @@ window.careers = [
     keywords: ["college post basic bsc nursing entrance exam", "post basic bsc nursing admission", "pbbsc nursing entrance exam", "college nursing entrance exam"],
     tags: ["nursing", "post basic bsc nursing", "healthcare", "college exam"]
 },
-
-
-
-
-
-
 
 
 
@@ -931,6 +949,17 @@ window.careers = [
     page: "creative-test.html",
     keywords: ["creative test", "creative assessment", "animation admission", "design admission", "creative course admission"],
     tags: ["creative", "admission process", "design", "animation", "fine arts"]
+},
+
+
+{
+    contentType: "exam",
+    id: "csir-ugc-net",
+    name: "CSIR-UGC NET",
+    description: "CSIR-UGC NET is a national-level eligibility exam for students who want to pursue research, become eligible for Assistant Professor positions, or pursue a Ph.D. in science-related fields.",
+    page: "csir-ugc-net.html",
+    keywords: ["csir ugc net", "csir net", "csir ugc net exam", "csir net exam", "national eligibility test", "csir net jrf", "csir net life sciences", "csir net chemical sciences", "csir net physical sciences", "csir net mathematical sciences", "csir net earth sciences"],
+    tags: ["csir net", "ugc net", "jrf", "research", "assistant professor", "phd", "science", "nta"]
 },
 
 {
@@ -1612,6 +1641,17 @@ window.careers = [
 
 
 {
+    contentType: "exam",
+    id: "imu-cet",
+    name: "IMU CET",
+    description: "Indian Maritime University Common Entrance Test (IMU CET) is a national-level entrance exam for admission to undergraduate, postgraduate, and other maritime-related programmes offered by Indian Maritime University.",
+    page: "imu-cet.html",
+    keywords: ["imu cet", "imu cet exam", "indian maritime university common entrance test", "imu entrance exam", "imu cet ug", "imu cet btech", "imu cet marine engineering", "imu cet nautical science", "maritime entrance exam", "indian maritime university"],
+    tags: ["imu cet", "maritime", "marine engineering", "nautical science", "btech", "entrance exam", "imu"]
+},
+
+
+{
     id: "iot-developer",
     name: "IoT Developer",
     image: "images/iot-developer.jpeg",
@@ -2179,6 +2219,18 @@ window.careers = [
     stream: ["Science"],
     type: "Private & Freelance",
     tags: ["nlp engineer", "natural language processing", "chatbot developer", "language ai", "conversational ai", "speech recognition", "artificial intelligence", "machine learning"]
+},
+
+
+
+{
+    contentType: "exam",
+    id: "nlsat",
+    name: "NLSAT",
+    description: "National Law School Admission Test (NLSAT) is an entrance exam conducted by the National Law School of India University (NLSIU), Bengaluru, for admission to its three-year LL.B. (Hons.) programme.",
+    page: "nlsat.html",
+    keywords: ["nlsat", "nlsat exam", "national law school admission test", "nlsiu nlsat", "nlsat llb", "nlsat llb entrance exam", "nlsiu llb entrance exam", "three year llb entrance exam", "nlsiu admission test", "nlsat 3 year llb"],
+    tags: ["nlsat", "nlsiu", "law", "llb", "3 year llb", "entrance exam", "law entrance exam"]
 },
 
 
@@ -3039,6 +3091,16 @@ stream: ["Science","Arts"]
     tags: ["writing", "admission", "creative writing", "journalism", "literature"]
 },
 
+
+{
+    contentType: "exam",
+    id: "wwi-entrance-exam",
+    name: "WWI Entrance Exam",
+    description: "WWI Entrance Exam is the entrance and selection process conducted by Whistling Woods International (WWI), Mumbai, for admission to various programmes in filmmaking, animation, design, media, communication, music, acting, and other creative fields.",
+    page: "wwi-entrance-exam.html",
+    keywords: ["wwi entrance exam", "wwi entrance", "whistling woods international entrance exam", "whistling woods entrance exam", "wwi admission", "wwi entrance test", "whistling woods admission", "wwi mecAT", "wwi creative aptitude test", "wwi admission process"],
+    tags: ["wwi", "whistling woods", "entrance exam", "media", "filmmaking", "animation", "design", "acting", "music", "creative courses"]
+},
 
 {
     contentType: "exam",
