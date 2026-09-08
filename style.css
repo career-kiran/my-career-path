@@ -252,8 +252,8 @@ ul li {
 
 .home-page .logo {
     font-size: 42px;
-    color: #000000;
-    font-weight: 500;
+    color: #1557B0;
+    font-weight: 600;
     font-family: 'DM Sans', sans-serif;
     letter-spacing: 1px;
 }
@@ -2288,10 +2288,10 @@ ul li {
     /* Home */
 .home-page .logo {
     font-size: 38px;
-    font-weight: 500;
+    font-weight: 600;
     font-family: 'DM Sans', sans-serif;
     letter-spacing: 1px;
-    color: #000000;
+    color: #1557B0;
 }
 
     /* Hero */
@@ -2779,6 +2779,11 @@ ul li {
         flex-shrink: 0;
     }
 
+}
+
+
+.logo-green {
+    color: #22A447;
 }
 
 
