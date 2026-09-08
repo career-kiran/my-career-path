@@ -252,9 +252,9 @@ ul li {
 
 .home-page .logo {
     font-size: 44px;
-    color: #B8860B;
+    color: #000000;
     font-weight: 700;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Anton', sans-serif;
     letter-spacing: 1px;
 }
 
@@ -2289,9 +2289,9 @@ ul li {
 .home-page .logo {
     font-size: 32px;
     font-weight: 700;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Anton', sans-serif;
     letter-spacing: 1px;
-    color: #B8860B;
+    color: #000000;
 }
 
     /* Hero */
