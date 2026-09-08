@@ -252,9 +252,9 @@ ul li {
 
 .home-page .logo {
     font-size: 44px;
-    color: #512B81;
+    color: #000000;
     font-weight: 700;
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     letter-spacing: 1px;
 }
 
@@ -2289,9 +2289,9 @@ ul li {
 .home-page .logo {
     font-size: 38px;
     font-weight: 700;
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'DM', sans-serif;
     letter-spacing: 1px;
-    color: #512B81;
+    color: #000000;
 }
 
     /* Hero */
