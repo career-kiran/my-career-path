@@ -2719,7 +2719,7 @@ stream: ["Science","Arts"]
     id: "state-level-iti-selection",
     name: "State Level ITI Selection",
     description: "State-level admission process for Industrial Training Institute (ITI) courses based on Class 8, Class 10, or Class 12 marks, depending on the course and state rules.",
-    page: "state-iti-selection.html",
+    page: "state-level-iti-selection.html",
     keywords: ["state iti selection", "iti admission", "iti merit list", "state iti admission", "industrial training institute", "iti counselling"],
     tags: ["ITI", "state admission", "merit-based", "vocational education", "skill development"]
 },
