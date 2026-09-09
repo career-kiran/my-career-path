@@ -8,8 +8,14 @@ document.addEventListener("DOMContentLoaded", function () {
   const careerList = document.getElementById("career-list");
   if (!careerList) return;
 
+
+
+
   const category = document.body.dataset.category;
   const subject = document.body.dataset.subject;
+
+const educationPath = document.body.dataset.educationPath;
+
 
 
 const params = new URLSearchParams(window.location.search);
@@ -30,6 +36,12 @@ filtered.forEach(career => {
 
 if (
   (!level || (career.levels && career.levels.includes(level))) &&
+  (!educationPath || (
+    career.educationPath &&
+    career.educationPath.toLowerCase().trim() === educationPath.toLowerCase().trim()
+  )) &&
+
+
   (!bucket || (career.bucket && career.bucket.toLowerCase().trim() === bucket.toLowerCase().trim())) &&
  (!category || (
     career.category &&

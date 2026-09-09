@@ -13,6 +13,7 @@ window.careers = [
   category: "Designing",
   subjects: ["Art and Design"],
   levels: ["10th", "12th", "Graduation"],
+  educationPath: "Creativity and Expression",
   stream: ["Arts", "Science", "Commerce"],
   type: "Private",
   tags: ["animation", "3d design", "visual effects", "gaming", "creative media"]
@@ -29,6 +30,7 @@ window.careers = [
   category: "Designing",
   subjects: ["Art and Design"],
   levels: ["10th", "12th", "Graduation"],
+  educationPath: "Creativity and Expression",
   stream: ["Arts", "Science", "Commerce"],
   type: "Private",
   tags: ["3d modeling", "texturing", "gaming", "visual effects", "creative media"]
@@ -70,6 +72,7 @@ window.careers = [
     category: "Performing and Entertaining",
     subjects: ["Sociology", "Psychology", "Art & Design", "Language & Literature"],
     levels: ["10th", "12th", "Graduation"],
+    educationPath: "Creativity and Expression",
     stream: ["Arts", "Science", "Commerce"],
     type: "Private",
     tags: ["acting", "performing arts", "cinema", "theatre", "entertainment"]
@@ -116,6 +119,7 @@ window.careers = [
     category: "Law",
     subjects: ["Political Science", "History", "English"],
     levels: ["Graduation"],
+    educationPath: "Business, Finance and Law",
     stream: ["Commerce", "Science", "Arts"],
     type: "Government & Private",
     tags: ["advocate", "lawyer", "law", "legal services", "court", "litigation", "legal advisor", "criminal law", "civil law", "justice"]
@@ -131,6 +135,7 @@ window.careers = [
     category: "Engineering Design and Technology",
     subjects: ["Physics", "Mathematics", "Computer Science"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["aeronautical engineer", "aeronautical engineering", "aircraft design", "aviation engineer", "aerospace engineering", "aerodynamics", "aircraft systems", "aviation technology", "aircraft maintenance", "aviation career"]
@@ -145,6 +150,7 @@ window.careers = [
     category: "Engineering Design and Technology",
     subjects: ["Physics", "Mathematics", "Computer Science"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["aerospace engineer", "aerospace engineering", "rocket engineer", "satellite engineer", "spacecraft engineer", "space technology", "rocket design", "satellite systems", "space missions", "avionics engineer", "aerospace career", "rocket science", "space exploration", "space engineering", "launch vehicle engineer"]
@@ -169,6 +175,7 @@ window.careers = [
     category: "Writing and Content Creation",
     subjects: ["Language and Literature"],
     levels: ["10th", "12th", "Graduation"],
+    educationPath: "Creativity and Expression",
     stream: ["Arts", "Science", "Commerce"],
     type: "Private",
     tags: ["AI", "content", "marketing", "writing", "strategy"]
@@ -183,6 +190,7 @@ window.careers = [
   category: ["Data and Artificial Intelligence", "Engineering Design and Technology"],
     subjects: ["Computer Science", "Mathematics", "Programming"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Freelance",
     tags: ["ai engineer", "artificial intelligence engineer", "machine learning engineer", "deep learning engineer", "generative ai", "ai developer", "ml engineer", "data science"]
@@ -263,6 +271,7 @@ window.careers = [
     category: ["Robotics and Automation", "Engineering Design and Technology"],
     subjects: ["Physics", "Mathematics", "Computer Science"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["ai robotics engineer", "artificial intelligence", "robotics", "machine learning", "computer vision", "autonomous systems", "intelligent robots", "robotics automation", "ai engineer", "robotics career"]
@@ -276,6 +285,7 @@ window.careers = [
     bucket: "Health Care",
     subjects: ["Biology", "Chemistry"],
     levels: ["12th", "Graduation"],
+    educationPath: "Health Care",
     stream: ["Science"],
     type: "Government & Private",
     tags: ["doctor", "physician", "medical", "hospital", "healthcare", "medicine"]
@@ -302,6 +312,7 @@ window.careers = [
   category: "Designing",
   subjects: ["Art and Design", "Computer Science"],
   levels: ["10th", "12th", "Graduation"],
+  educationPath: "Creativity and Expression",
   stream: ["Arts", "Science", "Commerce"],
   type: "Private",
   tags: ["animation", "2d animation", "3d animation", "visual effects", "gaming", "creative media"]
@@ -338,6 +349,7 @@ window.careers = [
   category: "Designing",
   subjects: ["Art and Design"],
   levels: ["10th", "12th", "Graduation"],
+  educationPath: "Creativity and Expression",
   stream: ["Arts", "Science", "Commerce"],
   type: "Private",
   tags: ["design", "creative direction", "visual design", "media", "branding"]
@@ -379,6 +391,7 @@ window.careers = [
     category: "Writing and Content Creation",
     subjects: ["Language and Literature"],
     levels: ["10th", "12th", "Graduation"],
+    educationPath: "Creativity and Expression",
     stream: ["Arts", "Science", "Commerce"],
     type: "Private",
     tags: ["writing", "storytelling", "publishing", "books", "creative writing"]
@@ -394,6 +407,7 @@ window.careers = [
     category: "Engineering Design and Technology",
     subjects: ["Physics", "Mathematics", "Computer Science"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["automobile engineer", "automobile engineering", "automotive engineer", "vehicle design", "car engineer", "automotive technology", "vehicle systems", "car manufacturing", "electric vehicles", "automobile industry", "vehicle testing", "automotive career", "automotive jobs", "engine design", "transportation engineering"]
@@ -408,6 +422,7 @@ window.careers = [
     category: ["Robotics and Automation", "Engineering Design and Technology"],
     subjects: ["Physics", "Mathematics", "Computer Science"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["autonomous systems engineer", "self driving cars", "autonomous vehicles", "autonomous robots", "artificial intelligence", "robotics", "automation", "computer vision", "drones", "intelligent systems"]
@@ -425,6 +440,7 @@ window.careers = [
     bucket: "Health Care",
     subjects: ["Biology", "Chemistry"],
     levels: ["12th", "Graduation"],
+    educationPath: "Health Care",
     stream: ["Science"],
     type: "Government & Private",
     tags: ["ayurveda", "ayurvedic doctor", "herbal medicine", "natural healing", "panchakarma", "healthcare", "medicine"]
@@ -440,6 +456,7 @@ window.careers = [
     category: "Software & App Development",
     subjects: ["Computer Science", "Mathematics"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science", "Commerce"],
     type: "Private & Freelance",
     tags: ["backend developer", "software developer", "server-side developer", "api developer", "database developer", "node js", "python developer", "java backend"]
@@ -455,6 +472,7 @@ window.careers = [
     category: "Banking",
     subjects: ["Commerce", "Mathematics", "Economics"],
     levels: ["12th", "Graduation"],
+    educationPath: "Business, Finance and Law",
     stream: ["Arts", "Science", "Commerce"],
     type: "Government & Private",
     tags: ["bank clerk", "banking", "banking career", "bank jobs", "clerical jobs", "finance", "bank"]
@@ -470,6 +488,7 @@ window.careers = [
     category: "Banking",
     subjects: ["Commerce", "Mathematics", "Economics"],
     levels: ["12th", "Graduation"],
+    educationPath: "Business, Finance and Law",
     stream: ["Arts", "Science", "Commerce"],
     type: "Government & Private",
     tags: ["bank manager", "banking", "bank officer", "PO", "finance", "bank"]
@@ -510,6 +529,7 @@ window.careers = [
     category: "Engineering Design and Technology",
     subjects: ["Biology", "Chemistry", "Mathematics"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["biochemical engineer", "biochemical engineering", "biotechnology engineer", "bioengineering", "bioprocess engineer", "pharmaceutical engineer", "vaccine production", "biotechnology industry", "food processing", "biochemical technology"]
@@ -526,6 +546,7 @@ window.careers = [
     category: "Engineering Design and Technology",
     subjects: ["Biology", "Physics", "Mathematics"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["biomedical engineer", "biomedical engineering", "medical devices", "healthcare technology", "medical equipment", "x ray machine", "MRI scanner", "prosthetics", "hospital technology", "biomedical technology"]
@@ -540,6 +561,7 @@ window.careers = [
     bucket: "Arts",
     subjects: ["Biology", "Chemistry", "Genetics", "Microbiology"],
     levels: ["Graduation"],
+    educationPath: "Arts, Humanities and Science",
     stream: ["Science"],
     type: "Government & Private",
     tags: ["biotechnologist", "biotechnology", "genetics", "research", "vaccines", "microbiology"]
@@ -554,6 +576,7 @@ window.careers = [
     category: "Engineering Design and Technology",
     subjects: ["Biology", "Chemistry", "Mathematics"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["biotechnology engineer", "biotechnology engineering", "biotech engineer", "genetic engineering", "biotechnology", "vaccines", "medicines", "genetic technology", "biotechnology industry", "biotechnology career"]
@@ -569,6 +592,7 @@ window.careers = [
     category: "Business and Management",
     subjects: ["Business Studies", "Economics", "Mathematics"],
     levels: ["Graduation"],
+    educationPath: "Business, Finance and Law",
     stream: ["Commerce", "Science", "Arts"],
     type: "Government & Private",
     tags: ["business analyst", "data analysis", "business strategy", "market research", "business intelligence", "analytics", "operations", "management"]
@@ -696,6 +720,7 @@ window.careers = [
     category: "Finance",
     subjects: ["Accountancy", "Mathematics", "Economics", "Commerce"],
     levels: ["12th", "Graduation"],
+    educationPath: "Business, Finance and Law",
     stream: ["Commerce", "Science", "Arts"],
     type: "Government & Private",
     tags: ["chartered accountant", "CA", "accounting", "taxation", "auditing", "finance", "business", "ICAI"]
@@ -711,6 +736,7 @@ window.careers = [
     category: "Finance",
     subjects: ["Accountancy", "Mathematics", "Economics", "Commerce"],
     levels: ["12th", "Graduation"],
+    educationPath: "Business, Finance and Law",
     stream: ["Commerce", "Science", "Arts"],
     type: "Professional Course",
     tags: ["cost and management accountant", "cma", "cost accountant", "management accountant", "accounting", "finance", "taxation", "auditing", "business", "icmai"]
@@ -725,6 +751,7 @@ window.careers = [
     category: "Finance",
     subjects: ["Accountancy", "Mathematics", "Economics", "Finance"],
     levels: ["Graduation"],
+    educationPath: "Business, Finance and Law",
     stream: ["Commerce", "Science", "Arts"],
     type: "Professional Certification",
     tags: ["chartered financial analyst", "cfa", "cfa charter", "financial analyst", "finance", "investment", "portfolio management", "financial markets", "cfa institute"]
@@ -740,6 +767,7 @@ window.careers = [
     category: "Engineering Design and Technology",
     subjects: ["Chemistry", "Physics", "Mathematics"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["chemical engineer", "chemical engineering", "chemical process engineer", "industrial chemistry", "chemical manufacturing", "petrochemical engineer", "fertilizer industry", "pharmaceutical manufacturing", "chemical technology", "chemical engineering career"]
@@ -755,6 +783,7 @@ window.careers = [
     category: "Performing and Entertaining",
     subjects: ["Physical Education", "Art & Design", "Psychology", "Language & Literature"],
     levels: ["10th", "12th", "Graduation"],
+    educationPath: "Creativity and Expression",
     stream: ["Arts", "Science", "Commerce"],
     type: "Private",
     tags: ["dance", "choreography", "performance", "stage", "entertainment"]
@@ -769,6 +798,7 @@ window.careers = [
     category: "Film Making and Video Creation",
     subjects: ["Language & Literature"],
     levels: ["10th", "12th", "Graduation"],
+    educationPath: "Creativity and Expression",
     stream: ["Arts", "Science", "Commerce"],
     type: "Private",
     tags: ["cinematography", "camera work", "film production", "visual storytelling", "director of photography"]
@@ -783,6 +813,7 @@ window.careers = [
     category: "Engineering Design and Technology",
     subjects: ["Mathematics", "Physics", "Engineering Drawing"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["civil engineer", "civil engineering", "construction engineer", "structural engineer", "building construction", "road construction", "bridge engineer", "infrastructure engineer", "civil engineering career", "civil engineering jobs"]
@@ -820,6 +851,7 @@ window.careers = [
     category: "Cloud and Network Systems",
     subjects: ["Computer Science", "Information Technology", "Mathematics"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["cloud administrator", "cloud computing", "cloud engineer", "aws", "azure", "google cloud", "cloud infrastructure", "server administration"]
@@ -838,6 +870,7 @@ window.careers = [
     category: ["Cloud and Network Systems", "Engineering Design and Technology"],
     subjects: ["Computer Science", "Information Technology", "Mathematics"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["cloud engineer", "cloud computing", "cloud infrastructure", "aws", "azure", "google cloud", "cloud architecture", "cloud deployment"]
@@ -923,6 +956,7 @@ window.careers = [
     category: "Writing and Content Creation",
     subjects: ["Language and Literature"],
     levels: ["10th", "12th", "Graduation"],
+    educationPath: "Creativity and Expression",
     stream: ["Arts", "Science", "Commerce"],
     type: "Private",
     tags: ["writing", "blogs", "articles", "content", "creative writing"]
@@ -1002,6 +1036,7 @@ window.careers = [
     category: "Cybersecurity and Digital Safety",
     subjects: ["Computer Science", "Information Technology", "Mathematics"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["cybersecurity analyst", "cyber security", "ethical hacking", "network security", "information security", "cyber threats", "incident response", "digital security"]
@@ -1017,6 +1052,7 @@ window.careers = [
     category: "Performing and Entertaining",
     subjects: ["Physical Education", "Art & Design", "Psychology", "Language & Literature"],
     levels: ["10th", "12th", "Graduation"],
+    educationPath: "Creativity and Expression",
     stream: ["Arts", "Science", "Commerce"],
     type: "Private",
     tags: ["dance", "performance", "stage", "entertainment", "choreography"]
@@ -1031,6 +1067,7 @@ window.careers = [
     bucket: "Arts",
     subjects: ["Mathematics", "Statistics", "Computer Science", "Economics"],
     levels: ["10th", "12th", "Graduation"],
+    educationPath: "Arts, Humanities and Science",
     stream: ["Science", "Commerce"],
     type: "Government & Private",
     tags: ["data analyst", "data analysis", "statistics", "business analytics", "reports", "data visualization"]
@@ -1047,6 +1084,7 @@ window.careers = [
     category: "Data and Artificial Intelligence",
     subjects: ["Mathematics", "Computer Science", "Statistics"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Freelance",
     tags: ["data scientist", "data science", "big data", "analytics", "statistics", "machine learning", "artificial intelligence", "business intelligence"]
@@ -1072,6 +1110,7 @@ window.careers = [
     bucket: "Health Care",
     subjects: ["Biology", "Chemistry"],
     levels: ["12th", "Graduation"],
+    educationPath: "Health Care",
     stream: ["Science"],
     type: "Government & Private",
     tags: ["dentist", "dental", "teeth", "oral health", "dental care", "dental surgery"]
@@ -1088,6 +1127,7 @@ window.careers = [
     category: ["Cloud and Network Systems", "Engineering Design and Technology"],
     subjects: ["Computer Science", "Information Technology", "Mathematics"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["devops engineer", "devops", "cloud computing", "automation", "software deployment", "cloud infrastructure", "system administration", "ci cd"]
@@ -1115,6 +1155,7 @@ window.careers = [
     category: "Cybersecurity and Digital Safety",
     subjects: ["Computer Science", "Information Technology", "Mathematics"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Government & Private",
     tags: ["digital forensics expert", "digital forensics", "computer forensics", "cyber crime investigation", "digital evidence", "forensic analyst", "cyber investigation", "cybersecurity"]
@@ -1132,6 +1173,7 @@ window.careers = [
     category: "Business and Management",
     subjects: ["Commerce", "Computer Science"],
     levels: ["10th", "12th", "Graduation"],
+    educationPath: "Business, Finance and Law",
     stream: ["Commerce", "Science", "Arts"],
     type: "Government & Private",
     tags: ["digital marketing", "social media", "SEO", "online advertising", "content marketing", "analytics", "branding", "marketing"]
@@ -1167,6 +1209,7 @@ window.careers = [
     bucket: "Arts",
     subjects: ["Economics", "Mathematics", "Statistics", "Sociology"],
     levels: ["12th", "Graduation"],
+    educationPath: "Arts, Humanities and Science",
     stream: ["Arts", "Commerce"],
     type: "Government & Private",
     tags: ["economist", "economics", "finance", "economy", "business analysis", "policy making"]
@@ -1196,6 +1239,7 @@ window.careers = [
     category: "Engineering Design and Technology",
     subjects: ["Physics", "Mathematics", "Electronics"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["electronics engineer", "communication engineer", "electronics and communication engineering", "ece engineer", "telecommunication engineer", "embedded systems", "network engineer", "communication systems", "electronics career", "ece jobs"]
@@ -1211,6 +1255,7 @@ window.careers = [
     category: ["Electronics and Hardware", "Engineering Design and Technology"],
     subjects: ["Physics", "Mathematics", "Computer Science"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["electronics engineer", "electronics engineering", "electronic circuits", "electronics design", "hardware engineer", "embedded systems", "communication systems", "electronic devices", "electronics technology", "electronics career"]
@@ -1225,6 +1270,7 @@ window.careers = [
     category: "Engineering Design and Technology",
     subjects: ["Physics", "Mathematics", "Electricity"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["electrical engineer", "electrical engineering", "power engineer", "electricity", "power systems", "electrical design", "electrical maintenance", "power generation", "electrical engineering career", "electrical jobs"]
@@ -1239,6 +1285,7 @@ window.careers = [
     category: ["Electronics and Hardware", "Engineering Design and Technology"],
     subjects: ["Physics", "Mathematics", "Computer Science"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["embedded systems engineer", "embedded systems", "microcontroller", "firmware", "electronics", "iot", "arduino", "raspberry pi", "embedded software", "embedded hardware"]
@@ -1252,6 +1299,7 @@ window.careers = [
     bucket: "Arts",
     subjects: ["Biology", "Chemistry", "Environmental Science", "Geography"],
     levels: ["Graduation"],
+    educationPath: "Arts, Humanities and Science",
     stream: ["Science"],
     type: "Government & Private",
     tags: ["environmental scientist", "environment", "climate change", "pollution", "ecology", "sustainability"]
@@ -1267,6 +1315,7 @@ window.careers = [
     category: "Cybersecurity and Digital Safety",
     subjects: ["Computer Science", "Information Technology", "Mathematics"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["ethical hacker", "ethical hacking", "penetration tester", "cybersecurity", "network security", "vulnerability assessment", "security testing", "cyber defense"]
@@ -1281,6 +1330,7 @@ window.careers = [
     category: "Engineering Design and Technology",
     subjects: ["Environmental Science", "Chemistry", "Biology"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["environmental engineer", "environmental engineering", "pollution control", "waste management", "water treatment", "air pollution", "sustainability", "environmental protection", "green technology", "environmental career"]
@@ -1297,6 +1347,7 @@ window.careers = [
     category: "Designing",
     subjects: ["Art and Design"],
     levels: ["10th", "12th", "Graduation"],
+    educationPath: "Creativity and Expression",
     stream: ["Arts", "Science", "Commerce"],
     type: "Private",
     tags: ["fashion", "clothing design", "style", "textile", "creative design"]
@@ -1326,6 +1377,7 @@ window.careers = [
     category: "Film Making and Video Creation",
     subjects: ["Language & Literature"],
     levels: ["10th", "12th", "Graduation"],
+    educationPath: "Creativity and Expression",
     stream: ["Arts", "Science", "Commerce"],
     type: "Private",
     tags: ["film making", "direction", "cinema", "storytelling", "video production"]
@@ -1353,6 +1405,7 @@ window.careers = [
     category: "Software & App Development",
     subjects: ["Computer Science", "Design & Creativity"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science", "Commerce"],
     type: "Private & Freelance",
     tags: ["frontend developer", "web developer", "ui developer", "react developer", "html css javascript", "website designer", "frontend engineer", "responsive design"]
@@ -1378,6 +1431,7 @@ window.careers = [
     category: "Software & App Development",
     subjects: ["Computer Science", "Programming"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science", "Commerce"],
     type: "Private & Freelance",
     tags: ["full stack developer", "web developer", "mern stack developer", "software engineer", "frontend backend developer", "react nodejs developer", "app developer", "full stack engineer"]
@@ -1397,6 +1451,7 @@ window.careers = [
     category: "Software & App Development",
     subjects: ["Computer Science", "Programming"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science", "Commerce"],
     type: "Private & Freelance",
     tags: ["game developer", "game programmer", "unity developer", "unreal engine developer", "mobile game developer", "video game designer", "game coding", "indie game developer"]
@@ -1467,6 +1522,7 @@ window.careers = [
     category: "Designing",
     subjects: ["Art and Design"],
     levels: ["10th", "12th", "Graduation"],
+    educationPath: "Creativity and Expression",
     stream: ["Arts", "Science", "Commerce"],
     type: "Private",
     tags: ["graphic design", "branding", "visual design", "advertising", "creative media", "digital design"]
@@ -1500,6 +1556,7 @@ window.careers = [
     bucket: "Health Care",
     subjects: ["Biology", "Chemistry"],
     levels: ["12th", "Graduation"],
+    educationPath: "Health Care",
     stream: ["Science"],
     type: "Government & Private",
     tags: ["homeopathy", "homeopathy doctor", "natural medicine", "holistic healing", "alternative medicine", "healthcare", "BHMS"]
@@ -1515,6 +1572,7 @@ window.careers = [
     category: "Business and Management",
     subjects: ["Business Studies", "Economics", "Mathematics"],
     levels: ["Graduation"],
+    educationPath: "Business, Finance and Law",
     stream: ["Commerce", "Science", "Arts"],
     type: "Government & Private",
     tags: ["hr manager", "human resources", "hr", "management", "recruitment", "employee management"]
@@ -1660,6 +1718,7 @@ window.careers = [
     category: "Electronics and Hardware",
     subjects: ["Physics", "Mathematics", "Computer Science"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["iot developer", "internet of things", "iot engineer", "smart devices", "sensors", "embedded systems", "connected devices", "iot applications", "automation", "smart technology"]
@@ -1683,6 +1742,7 @@ window.careers = [
     category: "Cybersecurity and Digital Safety",
     subjects: ["Computer Science", "Information Technology", "Mathematics"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["information security analyst", "information security", "cybersecurity", "data protection", "network security", "risk management", "security monitoring", "digital safety"]
@@ -1776,6 +1836,7 @@ window.careers = [
     category: "Music and Sound Creation",
     subjects: ["Arts & Design", "Language & Literature"],
     levels: ["10th", "12th", "Graduation"],
+    educationPath: "Creativity and Expression",
     stream: ["Arts", "Commerce", "Science"],
     type: "Freelance & Private",
     tags: ["instrumentalist", "musician", "guitarist", "pianist", "drummer", "music performance", "studio musician", "live music"]
@@ -1847,6 +1908,7 @@ window.careers = [
     category: "Writing and Content Creation",
     subjects: ["Language and Literature"],
     levels: ["10th", "12th", "Graduation"],
+    educationPath: "Creativity and Expression",
     stream: ["Arts", "Science", "Commerce"],
     type: "Private",
     tags: ["journalism", "news", "reporting", "media", "writing"]
@@ -1862,6 +1924,7 @@ window.careers = [
     category: "Law",
     subjects: ["Political Science", "History", "English"],
     levels: ["Graduation"],
+    educationPath: "Business, Finance and Law",
     stream: ["Commerce", "Science", "Arts"],
     type: "Government",
     tags: ["judge", "judiciary", "law", "court", "justice", "civil judge", "judicial magistrate", "district judge", "high court judge", "supreme court judge"]
@@ -1876,6 +1939,7 @@ window.careers = [
     category: "Logistics and Supply Chain",
     subjects: ["Business Studies", "Economics", "Mathematics"],
     levels: ["Graduation"],
+    educationPath: "Business, Finance and Law",
     stream: ["Commerce", "Science", "Arts"],
     type: "Government & Private",
     tags: ["logistics manager", "supply chain", "transportation", "warehouse management", "shipping", "delivery management", "operations", "inventory"]
@@ -1903,6 +1967,7 @@ window.careers = [
     category: ["Data and Artificial Intelligence", "Engineering Design and Technology"],
     subjects: ["Computer Science", "Mathematics", "Programming"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Freelance",
     tags: ["machine learning engineer", "ml engineer", "artificial intelligence", "machine learning", "deep learning", "predictive analytics", "ai developer", "data science"]
@@ -1917,6 +1982,7 @@ window.careers = [
     category: "Engineering Design and Technology",
     subjects: ["Physics", "Mathematics", "Mechanical Systems"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["marine engineer", "marine engineering", "ship engineer", "merchant navy", "ship engines", "marine machinery", "cargo ships", "marine engineering career", "marine jobs", "ship maintenance"]
@@ -1942,6 +2008,7 @@ window.careers = [
     category: "Engineering Design and Technology",
     subjects: ["Physics", "Mathematics", "Mechanical Systems"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["mechanical engineer", "mechanical engineering", "machines", "engines", "automobiles", "robotics", "manufacturing", "industrial machinery", "mechanical design", "engineering career"]
@@ -1956,6 +2023,7 @@ window.careers = [
     category: ["Robotics and Automation", "Engineering Design and Technology"],
     subjects: ["Physics", "Mathematics", "Computer Science"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["mechatronics engineer", "mechatronics", "robotics", "automation", "electronics", "mechanical systems", "control systems", "embedded systems", "industrial automation", "robotics engineering"]
@@ -2024,6 +2092,7 @@ window.careers = [
     category: ["Data and Artificial Intelligence", "Engineering Design and Technology"],
     subjects: ["Computer Science", "Mathematics", "Programming"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Freelance",
     tags: ["mlops engineer", "machine learning operations", "ai deployment engineer", "model deployment", "cloud engineering", "devops", "machine learning", "artificial intelligence"]
@@ -2038,6 +2107,7 @@ window.careers = [
     category: "Software & App Development",
     subjects: ["Computer Science", "Programming"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science", "Commerce"],
     type: "Private & Freelance",
     tags: ["mobile app developer", "android developer", "ios developer", "flutter developer", "react native developer", "app programmer", "mobile software engineer", "application developer"]
@@ -2072,6 +2142,7 @@ window.careers = [
     category: "Music and Sound Creation",
     subjects: ["Language & Literature", "Art & Design"],
     levels: ["10th", "12th", "Graduation"],
+    educationPath: "Creativity and Expression",
     stream: ["Arts", "Science", "Commerce"],
     type: "Private",
     tags: ["music", "composer", "melody", "film music", "background score", "songwriting"]
@@ -2086,6 +2157,7 @@ window.careers = [
     category: "Music and Sound Creation",
     subjects: ["Language & Literature", "Art & Design"],
     levels: ["10th", "12th", "Graduation"],
+    educationPath: "Creativity and Expression",
     stream: ["Arts", "Science", "Commerce"],
     type: "Private",
     tags: ["music", "producer", "beat making", "mixing", "recording", "audio production"]
@@ -2159,6 +2231,7 @@ window.careers = [
     category: ["Cloud and Network Systems", "Engineering Design and Technology"],
     subjects: ["Computer Science", "Information Technology", "Mathematics"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["network security engineer", "network security", "cybersecurity", "firewall", "network protection", "security engineer", "cyber defense", "network monitoring"]
@@ -2216,6 +2289,7 @@ window.careers = [
     category: "Data and Artificial Intelligence",
     subjects: ["Computer Science", "Mathematics", "Programming"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Freelance",
     tags: ["nlp engineer", "natural language processing", "chatbot developer", "language ai", "conversational ai", "speech recognition", "artificial intelligence", "machine learning"]
@@ -2275,6 +2349,7 @@ window.careers = [
     bucket: "Health Care",
     subjects: ["Biology", "Chemistry"],
     levels: ["12th", "Graduation"],
+    educationPath: "Health Care",
     stream: ["Science"],
     type: "Government & Private",
     tags: ["nurse", "nursing", "healthcare", "patient care", "hospital", "medical support"]
@@ -2290,6 +2365,7 @@ window.careers = [
     category: ["Electronics and Hardware", "Engineering Design and Technology"],
     subjects: ["Physics", "Mathematics", "Computer Science"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["pcb design engineer", "pcb designer", "printed circuit board", "electronics engineer", "circuit board", "hardware design", "pcb layout", "electronics hardware", "circuit design", "pcb development"]
@@ -2328,6 +2404,7 @@ window.careers = [
     category: "Engineering Design and Technology",
     subjects: ["Chemistry", "Physics", "Mathematics"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["petrochemical engineer", "petrochemical engineering", "oil refinery", "petroleum industry", "natural gas", "fuels", "plastics", "fertilizers", "chemicals", "refinery engineer", "petrochemical plants", "energy industry"]
@@ -2341,6 +2418,7 @@ window.careers = [
   bucket: "Arts",
   subjects: ["Physical Education", "Sports Science", "Biology"],
   levels: ["Graduation", "Post Graduation"],
+  educationPath: "Arts, Humanities and Science",
   stream: ["Arts", "Science", "Commerce"],
   type: "Private & Government",
   tags: ["physical education", "pe teacher", "sports", "fitness", "coach"]
@@ -2354,6 +2432,7 @@ window.careers = [
     bucket: "Health Care",
     subjects: ["Biology", "Chemistry"],
     levels: ["12th", "Graduation"],
+    educationPath: "Health Care",
     stream: ["Science"],
     type: "Government & Private",
     tags: ["physiotherapist", "physiotherapy", "physical therapy", "rehabilitation", "pain relief", "exercise therapy", "BPT"]
@@ -2409,6 +2488,7 @@ window.careers = [
     category: "Banking",
     subjects: ["Commerce", "Mathematics", "Economics"],
     levels: ["12th", "Graduation"],
+    educationPath: "Business, Finance and Law",
     stream: ["Arts", "Science", "Commerce"],
     type: "Government & Private",
     tags: ["probationary officer", "PO", "bank officer", "banking", "finance", "public sector banks"]
@@ -2425,6 +2505,7 @@ window.careers = [
     category: "Logistics and Supply Chain",
     subjects: ["Business Studies", "Economics", "Mathematics"],
     levels: ["Graduation"],
+    educationPath: "Business, Finance and Law",
     stream: ["Commerce", "Science", "Arts"],
     type: "Government & Private",
     tags: ["procurement manager", "procurement", "purchasing", "supply chain", "vendor management", "business management"]
@@ -2438,6 +2519,7 @@ bucket: "Creativity and Expression",
 category: "Designing",
 subjects: ["Art","Design","Computer Science","Physics","Psychology"],
 levels: ["12th","Graduation"],
+educationPath: "Creativity and Expression",
 stream: ["Science","Arts"]
 },
 
@@ -2450,6 +2532,7 @@ stream: ["Science","Arts"]
     bucket: "Arts",
     subjects: ["Psychology", "Biology", "Sociology", "Language & Literature"],
     levels: ["12th", "Graduation"],
+    educationPath: "Arts, Humanities and Science",
     stream: ["Arts", "Science"],
     type: "Government & Private",
     tags: ["psychologist", "psychology", "mental health", "counselling", "therapy", "human behaviour"]
@@ -2464,6 +2547,7 @@ stream: ["Science","Arts"]
     category: "Performing and Entertaining",
     subjects: ["Language & Literature", "Psychology", "Art & Design"],
     levels: ["10th", "12th", "Graduation"],
+    educationPath: "Creativity and Expression",
     stream: ["Arts", "Science", "Commerce"],
     type: "Private",
     tags: ["radio", "hosting", "podcast", "communication", "entertainment"]
@@ -2479,6 +2563,7 @@ stream: ["Science","Arts"]
     category: ["Robotics and Automation", "Engineering Design and Technology"],
     subjects: ["Physics", "Mathematics", "Computer Science"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["robotics engineer", "robotics", "robot design", "automation", "industrial robots", "robotics engineering", "mechatronics", "sensors", "control systems", "robot development"]
@@ -2493,6 +2578,7 @@ stream: ["Science","Arts"]
     category: ["Robotics and Automation", "Engineering Design and Technology"],
     subjects: ["Physics", "Mathematics", "Computer Science"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["robotics software engineer","robotics","robot programming","automation","artificial intelligence","computer vision",
@@ -2541,6 +2627,7 @@ stream: ["Science","Arts"]
     category: "Film Making and Video Creation",
     subjects: ["Language & Literature"],
     levels: ["10th", "12th", "Graduation"],
+    educationPath: "Creativity and Expression",
     stream: ["Arts", "Science", "Commerce"],
     type: "Private",
     tags: ["screenwriting", "storytelling", "cinema", "dialogue writing", "film writing"]
@@ -2566,6 +2653,7 @@ stream: ["Science","Arts"]
     category: "Music and Sound Creation",
     subjects: ["Language & Literature", "Art & Design"],
     levels: ["10th", "12th", "Graduation"],
+    educationPath: "Creativity and Expression",
     stream: ["Arts", "Science", "Commerce"],
     type: "Private",
     tags: ["singing", "music", "vocal", "playback", "performance", "entertainment"]
@@ -2580,6 +2668,7 @@ stream: ["Science","Arts"]
     category: ["Cloud and Network Systems", "Engineering Design and Technology"],
     subjects: ["Computer Science", "Information Technology", "Mathematics"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["site reliability engineer", "sre", "system reliability", "cloud computing", "infrastructure", "system monitoring", "automation", "uptime"]
@@ -2618,6 +2707,7 @@ stream: ["Science","Arts"]
     category: "Engineering Design and Technology",
     subjects: ["Computer Science", "Mathematics", "Programming"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["software engineer", "software engineering", "computer programming", "coding", "app development", "web development", "software developer", "computer science", "technology career", "software jobs"]
@@ -2629,9 +2719,10 @@ stream: ["Science","Arts"]
     image: "images/sound-engineer.jpeg",
     page: "sound-engineer.html",
     bucket: "Creativity and Expression",
-    category: ["Music and Sound Creation", "Engineering Design and Technology"],
+    category: "Music and Sound Creation",
     subjects: ["Physics", "Art & Design"],
     levels: ["10th", "12th", "Graduation"],
+    educationPath: "Creativity and Expression",
     stream: ["Arts", "Science", "Commerce"],
     type: "Private",
     tags: ["sound", "audio", "mixing", "recording", "studio", "live sound"]
@@ -2840,6 +2931,7 @@ stream: ["Science","Arts"]
     category: "Logistics and Supply Chain",
     subjects: ["Business Studies", "Economics", "Mathematics", "Commerce"],
     levels: ["Graduation"],
+    educationPath: "Business, Finance and Law",
     stream: ["Commerce", "Science", "Arts"],
     type: "Government & Private",
     tags: ["supply chain manager", "logistics", "warehouse management", "inventory control", "transportation", "distribution", "operations", "supply chain"]
@@ -2906,6 +2998,7 @@ stream: ["Science","Arts"]
     category: "Designing",
     subjects: ["Art and Design"],
     levels: ["10th", "12th", "Graduation"],
+    educationPath: "Creativity and Expression",
     stream: ["Arts", "Science", "Commerce"],
     type: "Private",
     tags: ["ui ux", "user interface", "user experience", "digital design", "product design"]
@@ -2976,6 +3069,7 @@ stream: ["Science","Arts"]
     category: "Writing and Content Creation",
     subjects: ["Language and Literature", "Psychology", "Art and Design"],
     levels: ["12th", "Graduation"],
+    educationPath: "Creativity and Expression",
     stream: ["Arts", "Science", "Commerce"],
     type: "Private",
     tags: ["ux", "content design", "ui", "writing", "digital products"]
@@ -2990,6 +3084,7 @@ stream: ["Science","Arts"]
     bucket: "Health Care",
     subjects: ["Biology", "Chemistry"],
     levels: ["12th", "Graduation"],
+    educationPath: "Health Care",
     stream: ["Science"],
     type: "Government & Private",
     tags: ["veterinary doctor", "veterinarian", "animal doctor", "pet care", "animal healthcare", "veterinary science", "BVSc"]
@@ -3004,6 +3099,7 @@ stream: ["Science","Arts"]
     category: "Film Making and Video Creation",
     subjects: ["Language & Literature"],
     levels: ["10th", "12th", "Graduation"],
+    educationPath: "Creativity and Expression",
     stream: ["Arts", "Science", "Commerce"],
     type: "Private",
     tags: ["vfx", "visual effects", "cgi", "animation", "digital graphics", "film production"]
@@ -3019,6 +3115,7 @@ stream: ["Science","Arts"]
     category: "Film Making and Video Creation",
     subjects: ["Language & Literature"],
     levels: ["10th", "12th", "Graduation"],
+    educationPath: "Creativity and Expression",
     stream: ["Arts", "Science", "Commerce"],
     type: "Private",
     tags: ["video editing", "film editing", "youtube editing", "digital media", "post production"]
@@ -3033,6 +3130,7 @@ stream: ["Science","Arts"]
     category: "Electronics and Hardware",
     subjects: ["Physics", "Mathematics", "Electronics"],
     levels: ["Diploma", "Graduation"],
+    educationPath: "Technology and Engineering",
     stream: ["Science"],
     type: "Private & Government",
     tags: ["vlsi engineer", "semiconductor engineer", "chip design engineer", "integrated circuits", "ic design", "microelectronics", "semiconductor", "chip design", "hardware engineering", "vlsi"]
@@ -3047,6 +3145,7 @@ stream: ["Science","Arts"]
     category: "Performing and Entertaining",
     subjects: ["Language & Literature", "Psychology", "Art & Design"],
     levels: ["10th", "12th", "Graduation"],
+    educationPath: "Creativity and Expression",
     stream: ["Arts", "Science", "Commerce"],
     type: "Private",
     tags: ["voice acting", "dubbing", "audio", "radio", "entertainment"]
@@ -3075,6 +3174,7 @@ stream: ["Science","Arts"]
     category: "Designing",
     subjects: ["Art and Design", "Computer"],
     levels: ["10th", "12th", "Graduation"],
+    educationPath: "Creativity and Expression",
     stream: ["Arts", "Science", "Commerce"],
     type: "Private",
     tags: ["web design", "website", "ui", "creative", "digital design"]
