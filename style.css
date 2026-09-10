@@ -2796,7 +2796,22 @@ ul li {
 }
 
 
+/* HEADER NAVIGATION - POINTER FIX */
+.header {
+    position: relative;
+    z-index: 1000;
+}
 
+.bucket-nav,
+.nav-links {
+    position: relative;
+    z-index: 1001;
+}
+
+.bucket-nav a,
+.nav-links a {
+    cursor: pointer;
+}
 
 
 
