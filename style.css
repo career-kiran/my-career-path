@@ -2940,18 +2940,15 @@ ul li {
 @media (max-width: 768px) {
 
     .site-search input {
-        border: none !important;
-        outline: none !important;
+        border: 0 !important;
+        outline: 0 !important;
         box-shadow: none !important;
         background: transparent !important;
-    }
-
-    .site-search button {
-        font-size: 0 !important;
+        appearance: none;
+        -webkit-appearance: none;
     }
 
 }
-
 
 
 
