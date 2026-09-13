@@ -2868,7 +2868,10 @@ ul li {
         width: auto;
         height: 100%;
         padding: 0 16px;
-        font-size: 16px;
+        font-size: 15px;
+        border: none;
+        outline: none;
+        box-shadow: none;
         box-sizing: border-box;
     }
 
