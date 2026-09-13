@@ -2908,10 +2908,10 @@ ul li {
 @media (max-width: 768px) {
 
 .site-search {
-    width: 70%;
+    width: 60%;
     max-width: 420px;
-    height: 38px;
-    margin: 20px auto;
+    height: 34px;
+    margin: 20px 10px 20px auto;
     padding: 3px;
     box-sizing: border-box;
 
