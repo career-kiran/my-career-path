@@ -2853,7 +2853,7 @@ ul li {
 
 
     .home-search {
-        width: 92%;
+        width: 82%;
         max-width: none;
         height: 48px;
         margin: 24px auto;
@@ -2874,24 +2874,24 @@ ul li {
 
     .home-search button {
         flex-shrink: 0;
-        width: 32px;
-        height: 32px;
+        width: 28px;
+        height: 28px;
         margin: 0;
     }
 
     .home-search button::before {
-        width: 15px;
-        height: 15px;
-        left: 14px;
-        top: 12px;
+        width: 13px;
+        height: 13px;
+        left: 11px;
+        top: 10px;
         border-width: 2.5px;
     }
 
     .home-search button::after {
-        width: 9px;
-        height: 2.5px;
-        left: 28px;
-        top: 29px;
+        width: 8px;
+        height: 2px;
+        left: 23px;
+        top: 22px;
     }
 
 }
