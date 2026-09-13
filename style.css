@@ -2840,7 +2840,7 @@ ul li {
 
 .site-search input {
     font-size: 15px;
-    border: none;
+    border: none !important;
     outline: none;
     box-shadow: none;
 }
