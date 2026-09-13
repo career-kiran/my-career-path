@@ -2931,6 +2931,11 @@ ul li {
     font-size: 0;
 }
 
+#suggestions {
+    right: 0;
+    left: auto;
+}
+
 
     .home-search {
         width: 82%;
