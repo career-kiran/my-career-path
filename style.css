@@ -2841,7 +2841,7 @@ ul li {
 .site-search:not(.home-search) {
     width: 60%;
     height: 32px;
-    transform: translateX(10px);
+    margin: 20px 15% 20px 25%;
 }
     
     
