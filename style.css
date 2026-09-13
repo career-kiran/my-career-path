@@ -2911,7 +2911,7 @@ ul li {
     width: 50%;
     max-width: 420px;
     height: 34px;
-    margin: 20px 10px 20px auto;
+    margin: 20px auto 20px 10px;
     padding: 3px;
     box-sizing: border-box;
 
