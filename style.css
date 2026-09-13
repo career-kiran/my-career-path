@@ -2936,6 +2936,22 @@ ul li {
 }
 
 
+/* MOBILE FIXES */
+@media (max-width: 768px) {
+
+    .site-search input {
+        border: none !important;
+        outline: none !important;
+        box-shadow: none !important;
+        background: transparent !important;
+    }
+
+    .site-search button {
+        font-size: 0 !important;
+    }
+
+}
+
 
 
 
