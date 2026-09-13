@@ -2001,12 +2001,12 @@ ul li {
 /* Hover */
 
 .site-search button:hover {
-    background: #1D4ED8;
+    background-color: #1D4ED8;
     transform: scale(1.04);
 }
 
 .home-search button:hover {
-    background: #1D4ED8;
+    background-color: #1D4ED8;
     transform: scale(1.04);
 }
 
