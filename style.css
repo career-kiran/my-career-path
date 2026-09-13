@@ -2835,6 +2835,8 @@ ul li {
     margin: 20px auto;
     padding: 3px;
     box-sizing: border-box;
+    position: relative;
+    left: 10px;
 }
 
 
