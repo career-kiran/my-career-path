@@ -1860,42 +1860,103 @@ ul li {
    21. SEARCH
    ========================================================= */
 
+
+/* =========================================
+   MODERN GAIVO SEARCH
+   ========================================= */
+
 .site-search {
     position: relative;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
-    width: 100%;
-    margin: 15px 0;
-    text-align: right;
-    clear: both;
-    border-radius: 8px;
+    width: 40%;
+    max-width: 560px;
+    height: 38px;
+    margin: 28px auto;
+    padding: 3px;
+    box-sizing: border-box;
+    background: #ffffff;
+    border: 1px solid #dbe5f5;
+    border-radius: 40px;
+    box-shadow: 0 8px 25px rgba(37, 99, 235, 0.10);
 }
+
+/* Search input */
 
 .site-search input {
-    padding: 8px 12px;
-    width: 180px;
-    border: 3px solid #333;
-    border-radius: 8px;
+    flex: 1;
+    min-width: 0;
+    width: auto;
+    height: 100%;
+    padding: 0 22px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+    color: #172554;
+    font-size: 14px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    box-sizing: border-box;
 }
 
-.site-search button {
-    margin-left: 12px;
-    padding: 10px 18px;
-    background: #2563EB;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    font-size: 16px;
-    font-weight: 700;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    cursor: pointer;
-    transition: 0.2s ease;
+/* Placeholder */
+
+.site-search input::placeholder {
+    color: #8b96aa;
+    opacity: 1;
 }
+
+/* Search button */
+
+.site-search button {
+    position: relative;
+    flex-shrink: 0;
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background: #2563EB;
+    cursor: pointer;
+    font-size: 0;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+
+
+
+/* Magnifying glass icon */
+.site-search button {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M10.5 5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11ZM15 15l5 5' fill='none' stroke='%23ffffff' stroke-width='2.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px 16px;
+}
+
+
+/* Hover */
 
 .site-search button:hover {
     background: #1D4ED8;
+    transform: scale(1.04);
 }
+
+/* =========================================
+   DESKTOP
+   ========================================= */
+
+@media (min-width: 769px) {
+
+    .site-search {
+        width: 25%;
+        max-width: 450px;
+        height: 36px;
+        margin: 32px 30px 32px auto;
+    }
+
+}
+
 
 #careerSearch {
     border: 1px solid #ccc;
@@ -2616,10 +2677,7 @@ ul li {
         padding: 5px 0;
     }
 
-    .site-search {
-        margin: 0;
-    }
-
+ 
     .footer {
         padding-bottom: 10px;
     }
@@ -2770,22 +2828,67 @@ ul li {
 
 @media (max-width: 768px) {
 
+.site-search {
+    width: 90%;
+    max-width: 420px;
+    height: 38px;
+    margin: 20px auto;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+
+.site-search input {
+    font-size: 15px;
+}
+
+.site-search button {
+    width: 30px;
+    height: 30px;
+}
+
+
+
     .home-search {
-        display: flex;
-        width: 100%;
+        width: 92%;
+        max-width: none;
+        height: 58px;
+        margin: 24px auto;
+        padding: 5px;
+        border-radius: 32px;
         box-sizing: border-box;
-        gap: 12px;
     }
 
     .home-search input {
         flex: 1;
         min-width: 0;
         width: auto;
+        height: 100%;
+        padding: 0 16px;
+        font-size: 16px;
         box-sizing: border-box;
     }
 
     .home-search button {
         flex-shrink: 0;
+        width: 48px;
+        height: 48px;
+        margin: 0;
+    }
+
+    .home-search button::before {
+        width: 15px;
+        height: 15px;
+        left: 14px;
+        top: 12px;
+        border-width: 2.5px;
+    }
+
+    .home-search button::after {
+        width: 9px;
+        height: 2.5px;
+        left: 28px;
+        top: 29px;
     }
 
 }
@@ -2817,6 +2920,18 @@ ul li {
         cursor: pointer;
     }
 }
+
+
+
+@media (min-width: 769px) {
+    .site-search input {
+        border: none !important;
+        outline: none !important;
+        box-shadow: none !important;
+        background: transparent !important;
+    }
+}
+
 
 
 
