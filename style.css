@@ -2908,7 +2908,7 @@ ul li {
 @media (max-width: 768px) {
 
 .site-search {
-    width: 60%;
+    width: 50%;
     max-width: 420px;
     height: 34px;
     margin: 20px 10px 20px auto;
