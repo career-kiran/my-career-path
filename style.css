@@ -2838,13 +2838,11 @@ ul li {
 
 }
 
-.site-search:not(.home-search) {
+#header .site-search {
     width: 60%;
     height: 32px;
-    margin: 20px 15% 20px 25%;
-}
-    
-    
+    margin: 20px 15% 20px auto;
+}    
 
 
 
