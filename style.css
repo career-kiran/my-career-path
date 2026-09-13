@@ -2855,7 +2855,7 @@ ul li {
     .home-search {
         width: 92%;
         max-width: none;
-        height: 58px;
+        height: 48px;
         margin: 24px auto;
         padding: 5px;
         border-radius: 32px;
@@ -2947,6 +2947,9 @@ ul li {
         appearance: none;
         -webkit-appearance: none;
     }
+     .home-search {
+        height: 48px;
+}
 
 }
 
