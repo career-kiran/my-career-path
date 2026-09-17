@@ -207,6 +207,16 @@ window.careers = [
 },
 
 
+{
+  contentType: "exam",
+  id: "aiims-bsc-allied-health-care-entrance-exam",
+  name: "AIIMS B.Sc. Allied & Health Care Entrance Examination",
+  description: "Entrance examination conducted by AIIMS for admission to B.Sc. Allied & Health Care courses (erstwhile B.Sc. Paramedical) offered by participating AIIMS institutions.",
+  page: "aiims-bsc-allied-health-care-entrance-exam.html",
+  keywords: ["AIIMS B.Sc. Allied & Health Care Entrance Examination", "AIIMS B.Sc. Paramedical Entrance Exam", "AIIMS Allied Health Care Entrance Exam", "AIIMS Paramedical Entrance Exam", "AIIMS B.Sc. Allied Health Care", "AIIMS Paramedical Admission"],
+  tags: ["AIIMS", "allied healthcare", "paramedical", "B.Sc.", "entrance exam", "after 12th"]
+},
+
 
 {
     contentType: "exam",
@@ -220,6 +230,17 @@ window.careers = [
 
 
 {
+  contentType: "exam",
+  id: "aiims-msc-entrance-exam",
+  name: "AIIMS M.Sc. Entrance Examination",
+  description: "Entrance examination conducted by AIIMS for admission to various M.Sc. programmes in medical, health and related sciences.",
+  page: "aiims-msc-entrance-exam.html",
+  keywords: ["AIIMS M.Sc. Entrance Examination", "AIIMS M.Sc. Entrance Exam", "AIIMS M.Sc. Admission", "AIIMS M.Sc. Courses", "M.Sc. Entrance Exam"],
+  tags: ["AIIMS", "M.Sc.", "university entrance exam", "postgraduate", "healthcare", "after graduation"]
+},
+
+
+{
     contentType: "exam",
     id: "aiims-msc-nursing-exam",
     name: "AIIMS M.Sc Nursing Entrance Examination",
@@ -227,6 +248,16 @@ window.careers = [
     page: "aiims-msc-nursing-exam.html",
     keywords: ["aiims msc nursing", "aiims msc nursing entrance exam", "msc nursing admission", "aiims nursing pg", "postgraduate nursing"],
     tags: ["nursing", "msc nursing", "aiims", "postgraduate", "entrance exam"]
+},
+
+{
+  contentType: "exam",
+  id: "aiish-entrance-examination",
+  name: "AIISH Entrance Examination",
+  description: "Entrance examination conducted by AIISH, Mysuru for admission to B.ASLP, M.Sc. Audiology and M.Sc. Speech-Language Pathology.",
+  page: "aiish-entrance-exam.html",
+  keywords: ["AIISH Entrance Examination", "AIISH Entrance Exam", "AIISH Admission", "B.ASLP Entrance Exam", "M.Sc. Audiology Entrance Exam", "M.Sc. Speech-Language Pathology Entrance Exam"],
+  tags: ["AIISH", "B.ASLP", "Audiology", "Speech-Language Pathology", "university entrance exam", "after 12th", "after graduation"]
 },
 
 {
@@ -277,6 +308,17 @@ window.careers = [
     tags: ["ai robotics engineer", "artificial intelligence", "robotics", "machine learning", "computer vision", "autonomous systems", "intelligent robots", "robotics automation", "ai engineer", "robotics career"]
 },
 
+
+{
+    id: "allied-healthcare",
+    name: "Allied Healthcare",
+    image: "images/allied-healthcare.jpeg",
+    page: "allied-healthcare.html",
+    bucket: "Health Care",
+    category: ["Allied Healthcare Hub"],
+    tags: ["allied healthcare", "healthcare", "health care"]
+},
+
 {
     id: "allopathic doctor",
     name: "Allopathic Doctor",
@@ -284,7 +326,7 @@ window.careers = [
     page: "doctor.html",
     bucket: "Health Care",
     subjects: ["Biology", "Chemistry"],
-    levels: ["12th", "Graduation"],
+    levels: ["Graduation"],
     educationPath: "Health Care",
     stream: ["Science"],
     type: "Government & Private",
@@ -300,6 +342,22 @@ window.careers = [
     page: "ame-cet.html",
     keywords: ["AME CET", "Aircraft Maintenance Engineering Common Entrance Test", "aviation entrance exam", "AME admission", "aeronautical engineering entrance exam"],
     tags: ["aviation", "aircraft maintenance engineering", "aeronautical engineering", "entrance exam"]
+},
+
+
+{
+    id: "anaesthesia-technician",
+    name: "Anaesthesia Technician",
+    image: "images/anaesthesia-technician.jpeg",
+    page: "anaesthesia-technician.html",
+    packet: "Health Care",
+    category: ["Allied Healthcare"],
+    subjects: ["Biology", "Physics"],
+    levels: ["12th", "Diploma", "Graduation"],
+    educationPath: "Health Care",
+    streams: ["Science", "Private"],
+    type: "Government & Private",
+    tags: ["anaesthesia technician", "anaesthesia technology", "anaesthesia technologist", "anaesthetic technician", "anaesthetic technology", "anaesthetic technologist", "anaesthesia technician courses", "anaesthesia technology courses", "anaesthesia", "critical care", "anaesthesia equipment", "healthcare"]
 },
 
 
@@ -355,6 +413,21 @@ window.careers = [
   tags: ["design", "creative direction", "visual design", "media", "branding"]
 },
 
+
+{
+    id: "audiologist",
+    name: "Audiologist",
+    image: "images/audiologist.jpeg",
+    page: "audiologist.html",
+    packet: "Health Care",
+    category: ["Allied Healthcare"],
+    subjects: ["Biology", "Physics"],
+    levels: ["12th", "Graduation"],
+    educationPath: "Health Care",
+    streams: ["Science", "Private"],
+    type: "Government & Private",
+    tags: ["audiologist", "audiology", "hearing specialist", "hearing care", "hearing disorders", "hearing assessment", "hearing loss", "hearing aids", "balance disorders", "auditory rehabilitation", "BASLP", "M.Sc. Audiology", "MASLP", "speech and hearing", "allied healthcare"]
+},
 
 
 
@@ -439,7 +512,7 @@ window.careers = [
     page: "ayurvedic-doctor.html",
     bucket: "Health Care",
     subjects: ["Biology", "Chemistry"],
-    levels: ["12th", "Graduation"],
+    levels: ["Graduation"],
     educationPath: "Health Care",
     stream: ["Science"],
     type: "Government & Private",
@@ -621,6 +694,16 @@ window.careers = [
 
 
 {
+  contentType: "exam",
+  id: "common-allied-healthcare-entrance-test",
+  name: "Common Allied Healthcare Entrance Test (CAHET)",
+  description: "Admission examination and selection process conducted by Atal Bihari Vajpayee Medical University (ABVMU), Uttar Pradesh, for selected Allied & Healthcare Bachelor and Master courses.",
+  page: "cahet.html",
+  keywords: ["Common Allied Healthcare Entrance Test", "CAHET", "ABVMU CAHET", "ABVMU Allied Healthcare Entrance Exam", "CAHET Entrance Exam", "CAHET Admission", "Allied Healthcare Admission", "ABVMU Paramedical Entrance Exam"],
+  tags: ["ABVMU", "CAHET", "allied healthcare", "paramedical", "UG", "PG", "entrance exam"]
+},
+
+{
     contentType: "exam",
     id: "ca-intermediate",
     name: "CA Intermediate",
@@ -642,6 +725,22 @@ window.careers = [
     stream: ["Science", "Commerce", "Arts"],
     type: "Government & Private",
     tags: ["carpenter", "woodworking", "furniture making", "wood work", "construction", "interior work", "carpentry"]
+},
+
+
+{
+    id: "cardiac-care-technician",
+    name: "Cardiac Care Technician",
+    image: "images/cardiac-care-technician.jpeg",
+    page: "cardiac-care-technician.html",
+    packet: "Health Care",
+    category: ["Allied Healthcare"],
+    subjects: ["Biology", "Physics"],
+    levels: ["12th", "Diploma", "Graduation"],
+    educationPath: "Health Care",
+    streams: ["Science", "Private"],
+    type: "Government & Private",
+    tags: ["cardiac care technician", "cardiac technician", "cardiac care technology", "cardiovascular technology", "cardiology technician", "ECG technician", "cardiac", "cardiovascular", "ECG", "echo", "TMT", "cath lab", "healthcare"]
 },
 
 
@@ -1142,6 +1241,22 @@ window.careers = [
     page: "dhr-bret.html",
     keywords: ["dhr bret", "biomedical research eligibility test", "jrf exam", "biomedical research fellowship", "health research"],
     tags: ["biomedical sciences", "research", "jrf", "phd", "national exam"]
+},
+
+
+{
+    id: "dialysistechnician",
+    name: "Dialysis Technician",
+    image: "images/dialysis-technician.jpeg",
+    page: "dialysis-technician.html",
+    bucket: "Health Care",
+    category: ["Allied Healthcare"],
+    subjects: ["Biology", "Chemistry"],
+    levels: ["12th", "Diploma", "Graduation"],
+    educationPath: "Health Care",
+    stream: ["Science"],
+    type: "Government & Private",
+    tags: ["dialysis technologist", "dialysis technician", "dialysis technologist technician", "dialysis technology", "dialysis therapy technology", "renal dialysis technology", "dialysis", "kidney care", "renal care", "allied healthcare", "healthcare"]
 },
 
 
@@ -1907,7 +2022,7 @@ window.careers = [
     bucket: "Creativity and Expression",
     category: "Writing and Content Creation",
     subjects: ["Language and Literature"],
-    levels: ["10th", "12th", "Graduation"],
+    levels: ["12th", "Diploma", "Graduation"],
     educationPath: "Creativity and Expression",
     stream: ["Arts", "Science", "Commerce"],
     type: "Private",
@@ -2027,6 +2142,38 @@ window.careers = [
     stream: ["Science"],
     type: "Private & Government",
     tags: ["mechatronics engineer", "mechatronics", "robotics", "automation", "electronics", "mechanical systems", "control systems", "embedded systems", "industrial automation", "robotics engineering"]
+},
+
+
+{
+    id: "medical-imaging-technologist",
+    name: "Medical Imaging Technologist",
+    image: "images/medical-imaging-technologist.jpeg",
+    page: "medical-imaging-technologist.html",
+    bucket: "Health Care",
+    category: ["Allied Healthcare"],
+    subjects: ["Physics", "Biology"],
+    levels: ["Diploma", "Graduation"],
+    educationPath: "Health Care",
+    stream: ["Science"],
+    type: "Government & Private",
+    tags: ["medical imaging technologist", "medical imaging", "x ray technician", "x ray technologist", "radiology", "radiographer", "radiography", "diagnostic imaging", "medical imaging technology", "radiological imaging", "healthcare"]
+},
+
+
+{
+    id: "medical-laboratory-technologist",
+    name: "Medical Laboratory Technologist",
+    image: "images/medical-laboratory-technologist.jpeg",
+    page: "medical-laboratory-technologist.html",
+    bucket: "Health Care",
+    category: ["Allied Healthcare"],
+    subjects: ["Biology", "Chemistry"],
+    levels: ["Diploma", "Graduation"],
+    educationPath: "Health Care",
+    stream: ["Science"],
+    type: "Government & Private",
+    tags: ["medical laboratory technologist", "medical laboratory", "medical lab technician", "laboratory technologist", "lab technician", "pathology", "diagnostic laboratory", "healthcare"]
 },
 
 {
@@ -2353,6 +2500,53 @@ window.careers = [
     stream: ["Science"],
     type: "Government & Private",
     tags: ["nurse", "nursing", "healthcare", "patient care", "hospital", "medical support"]
+},
+
+
+{
+    id: "occupational-therapist",
+    name: "Occupational Therapist",
+    image: "images/occupational-therapist.jpeg",
+    page: "occupational-therapist.html",
+    packet: "Health Care",
+    category: ["Allied Healthcare"],
+    subjects: ["Biology", "Physics"],
+    levels: ["12th", "Graduation"],
+    educationPath: "Health Care",
+    streams: ["Science", "Private"],
+    type: "Government & Private",
+    tags: ["occupational therapist", "occupational therapy", "OT therapist", "occupational therapy career", "rehabilitation", "physical rehabilitation", "disability rehabilitation", "pediatric occupational therapy", "mental health occupational therapy", "allied healthcare"]
+},
+
+{
+    id: "operation-theatre-technician",
+    name: "Operation Theatre Technician",
+    image: "images/operation-theatre-technician.jpeg",
+    page: "operation-theatre-technician.html",
+    packet: "Health Care",
+    category: ["Allied Healthcare"],
+    subjects: ["Biology", "Physics"],
+    levels: ["12th", "Diploma", "Graduation"],
+    educationPath: "Health Care",
+    streams: ["Science", "Private"],
+    type: "Government & Private",
+    tags: ["operation theatre technician", "operation theatre technology", "operation theatre technologist", "OT technician", "OT technologist", "operation theater technician", "operation theater technology", "surgical technician", "surgical technologist", "anaesthesia technician", "anesthesia technician", "OT technology", "surgical procedures", "operation theatre", "healthcare"]
+},
+
+
+{
+    id: "optometrist",
+    name: "Optometrist",
+    image: "images/optometrist.jpeg",
+    page: "optometrist.html",
+    bucket: "Health Care",
+    category: ["Allied Healthcare"],
+    subjects: ["Physics", "Biology"],
+    levels: ["12th", "Diploma", "Graduation"],
+    educationPath: "Health Care",
+    stream: ["Science"],
+    type: "Government & Private",
+    tags: "optometrist, optometry, eye care, eye care specialist, vision care, optometrist career, optometry career, how to become an optometrist, optometry courses, eye health, vision testing, allied healthcare"
 },
 
 
@@ -2730,6 +2924,22 @@ stream: ["Science","Arts"]
 
 
 {
+    id: "speech-therapist",
+    name: "Speech Therapist",
+    image: "images/speech-therapist.jpeg",
+    page: "speech-therapist.html",
+    bucket: "Health Care",
+    category: ["Allied Healthcare"],
+    subjects: ["Biology", "Psychology"],
+    levels: ["12th", "Diploma", "Graduation"],
+    educationPath: "Health Care",
+    stream: ["Science"],
+    type: "Government & Private",
+    tags: ["speech therapist", "speech-language pathologist", "speech therapy", "speech language pathology", "speech and language therapist", "speech therapy career", "speech therapist courses", "speech-language pathology", "communication disorders", "allied healthcare", "healthcare"]
+},
+
+
+{
     contentType: "exam",
     id: "srfti-entrance-test",
     name: "SRFTI Entrance Test",
@@ -2858,6 +3068,39 @@ stream: ["Science","Arts"]
 
 
 {
+  contentType: "exam",
+  id: "state-medical-university-entrance-exams",
+  name: "State Medical University Entrance Exams",
+  description: "Overview of entrance examinations and admission processes conducted by state medical and health science universities for selected healthcare and health science programmes.",
+  page: "state-medical-university-entrance-exams.html",
+  keywords: ["State Medical University Entrance Exams", "State Medical Entrance Exams", "Medical University Entrance Exam", "Health Science University Entrance Exams", "State University Entrance Exams", "Healthcare Entrance Exams"],
+  tags: ["state medical university", "health science", "entrance exam", "healthcare", "after 12th", "after graduation"]
+},
+
+
+{
+  contentType: "exam",
+  id: "state-paramedical-counselling",
+  name: "State Paramedical Counselling",
+  description: "Overview of the state-level counselling and admission process for paramedical and allied healthcare courses.",
+  page: "state-paramedical-counselling.html",
+  keywords: ["State Paramedical Counselling", "Paramedical Counselling", "Paramedical Admission", "State Paramedical Admission", "Allied Healthcare Counselling", "Paramedical Course Admission"],
+  tags: ["paramedical", "counselling", "admission", "allied healthcare", "after 12th"]
+},
+
+
+{
+  contentType: "exam",
+  id: "state-paramedical-entrance-exams",
+  name: "State Paramedical Entrance Exams",
+  description: "Overview of state-level paramedical entrance examinations and admission processes in India for admission to paramedical and allied healthcare courses.",
+  page: "state-paramedical-entrance-exams.html",
+  keywords: ["state paramedical entrance exams", "paramedical entrance exam", "paramedical admission", "state paramedical admission", "paramedical courses after 12th", "allied healthcare courses", "paramedical entrance exams India"],
+  tags: ["paramedical", "state entrance exam", "healthcare", "allied healthcare", "after 12th"]
+},
+
+
+{
     contentType: "exam",
     id: "state-pg-nursing-entrance-exams",
     name: "State PG Nursing Entrance Exams",
@@ -2939,7 +3182,15 @@ stream: ["Science","Arts"]
 
 
 
-
+{
+  contentType: "exam",
+  id: "svnirtar-pget",
+  name: "SVNIRTAR PGET",
+  description: "Post Graduate Entrance Test conducted by SVNIRTAR for admission to selected postgraduate courses in Physiotherapy and Occupational Therapy.",
+  page: "svnirtar-pget.html",
+  keywords: ["SVNIRTAR PGET", "SVNIRTAR Post Graduate Entrance Test", "SVNIRTAR PGET Entrance Exam", "SVNIRTAR PG Entrance Exam", "SVNIRTAR MPT Admission", "SVNIRTAR MOT Admission"],
+  tags: ["SVNIRTAR", "PGET", "postgraduate", "Physiotherapy", "Occupational Therapy", "MPT", "MOT", "entrance exam", "after graduation"]
+},
 
 
 
@@ -3221,6 +3472,22 @@ stream: ["Science","Arts"]
     page: "xoet.html",
     keywords: ["xoet", "xavier university entrance test", "xavier university", "bba admission", "bcom admission"],
     tags: ["xavier university", "management", "commerce", "undergraduate"]
+},
+
+
+{
+    id: "x-ray-technician",
+    name: "X-Ray Technician",
+    image: "images/xray-technician.jpeg",
+    page: "xray-technician.html",
+    bucket: "Health Care",
+    category: ["Allied Healthcare"],
+    subjects: ["Physics", "Biology"],
+    levels: ["10th", "12th", "Diploma", "Graduation"],
+    educationPath: "Health Care",
+    stream: ["Science"],
+    type: "Government & Private",
+    tags: ["x-ray technician", "x ray technician", "x-ray technologist", "x ray technologist", "radiographer", "radiography", "x-ray", "medical imaging", "radiology", "diagnostic imaging", "healthcare"]
 },
 
 

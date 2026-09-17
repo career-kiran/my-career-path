@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const educationPath = document.body.dataset.educationPath;
 
-
+const excludeCategory = document.body.dataset.excludeCategory;
 
 const params = new URLSearchParams(window.location.search);
 
@@ -43,6 +43,13 @@ if (
 
 
   (!bucket || (career.bucket && career.bucket.toLowerCase().trim() === bucket.toLowerCase().trim())) &&
+
+(!excludeCategory || !(
+    Array.isArray(career.category)
+        ? career.category.some(c => c.toLowerCase().trim() === excludeCategory.toLowerCase().trim())
+        : career.category && career.category.toLowerCase().trim() === excludeCategory.toLowerCase().trim()
+)) &&
+
  (!category || (
     career.category &&
     (
