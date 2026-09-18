@@ -486,6 +486,20 @@ window.careers = [
     tags: ["automobile engineer", "automobile engineering", "automotive engineer", "vehicle design", "car engineer", "automotive technology", "vehicle systems", "car manufacturing", "electric vehicles", "automobile industry", "vehicle testing", "automotive career", "automotive jobs", "engine design", "transportation engineering"]
 },
 
+
+{
+    id: "automobile-mechanic",
+    name: "Automobile Mechanic",
+    image: "images/automobile-mechanic.jpeg",
+    page: "automobile-mechanic.html",
+    bucket: "Practical",
+    subjects: ["Mathematics", "Physics", "Computer Science"],
+    levels: ["10th", "12th", "ITI"],
+    stream: ["Science", "Commerce", "Arts"],
+    type: "Government & Private",
+    tags: ["automobile mechanic", "automobile mechanic career", "car mechanic", "bike mechanic", "vehicle mechanic", "automobile repair", "vehicle repair", "car repair", "bike repair", "auto mechanic", "mechanic courses", "ITI mechanic motor vehicle", "MMV", "automobile servicing"]
+},
+
 {
     id: "autonomous-systems-engineer",
     name: "Autonomous Systems Engineer",
