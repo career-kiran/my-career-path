@@ -2288,6 +2288,21 @@ window.careers = [
     tags: ["mobile app developer", "android developer", "ios developer", "flutter developer", "react native developer", "app programmer", "mobile software engineer", "application developer"]
 },
 
+
+{
+    id: "mobile-phone-technician",
+    name: "Mobile Phone Technician",
+    image: "images/mobile-phone-technician.jpeg",
+    page: "mobile-phone-technician.html",
+    bucket: "Practical",
+    subjects: ["Mathematics", "Physics", "Computer Science"],
+    levels: ["10th", "12th"],
+    stream: ["Science", "Commerce", "Arts"],
+    type: "Government & Private",
+    tags: ["mobile phone technician", "mobile technician", "mobile repair technician", "mobile phone repair", "smartphone repair", "mobile repair", "phone repair", "mobile hardware repair", "mobile software repair"]
+},
+
+
 {
     contentType: "exam",
     id: "music-aptitude-interview",
