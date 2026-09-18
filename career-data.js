@@ -1511,6 +1511,20 @@ window.careers = [
     tags: ["fine arts", "painting", "applied arts", "sculpture", "drawing", "bfa"]
 },
 
+
+{
+    id: "fitter",
+    name: "Fitter",
+    image: "images/fitter.jpeg",
+    page: "fitter.html",
+    bucket: "Practical",
+    subjects: ["Mathematics", "Physics", "Computer Science"],
+    levels: ["10th", "12th", "ITI"],
+    stream: ["Science", "Commerce", "Arts"],
+    type: "Government & Private",
+    tags: ["fitter", "fitter career", "fitter technician", "mechanical fitter", "fitting", "machine assembly", "machine maintenance", "fitter courses", "fitter training", "ITI fitter", "mechanical fitting"]
+},
+
 {
     id: "frontend-developer",
     name: "Frontend Developer",
@@ -3429,6 +3443,21 @@ stream: ["Science","Arts"]
     stream: ["Arts", "Science", "Commerce"],
     type: "Private",
     tags: ["web design", "website", "ui", "creative", "digital design"]
+},
+
+
+{
+    id: "welder",
+    name: "Welder",
+    image: "images/welder.jpeg",
+    page: "welder.html",
+    bucket: "Practical",
+    subjects: ["Mathematics", "Physics"],
+    levels: ["10th", "12th", "ITI"],
+    educationPath: "Skill & Technical",
+    streams: ["Science", "Vocational", "Arts"],
+    type: "Government & Private",
+    tags: ["welder", "welding", "welding career", "welding technician", "welding courses", "welding technology", "metal welding", "welding jobs", "welder course", "welding training"]
 },
 
 
