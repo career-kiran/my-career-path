@@ -1,0 +1,145 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FP729ERNGC"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-FP729ERNGC');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Explore Careers Based on Your Interest</title>
+
+    <meta name="description" content="Explore careers based on your interests and discover careers that match what you enjoy doing.">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div id="header"></div>
+
+<script src="layout.js"></script>
+
+<script src="career-data.js"></script>
+<script src="search.js"></script>
+
+
+
+<div class="main">
+
+    <button onclick="goBack()" class="back-button">← Back</button>
+
+
+    <div class="career-header">
+
+       <p class="section-subtitle highlight-text">Explore Careers Based on Your Interest</p>
+
+
+        <div class="career-action">
+
+            <button onclick="sharePage()" class="share-button">
+                Share
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="subjects-container">
+
+        <a href="interest-helping-people.html" class="subject-card">
+             I like helping people
+        </a>
+
+        <a href="interest-fixing-things.html" class="subject-card">
+             I enjoy fixing things
+        </a>
+
+        <a href="interest-creative.html" class="subject-card">
+             I love being creative
+        </a>
+
+        <a href="interest-designing.html" class="subject-card">
+             I love designing
+        </a>
+
+        <a href="interest-technology.html" class="subject-card">
+             I am interested in technology
+        </a>
+
+        <a href="interest-working-with-machines.html" class="subject-card">
+             I like working with machines
+        </a>
+
+        <a href="interest-organising-things.html" class="subject-card">
+             I enjoy organising things
+        </a>
+
+     
+
+        <a href="interest-research-experiments.html" class="subject-card">
+             I love to do research and experiments
+        </a>
+
+     <a href="interest-public-service.html" class="subject-card">
+             I want to serve the public
+        </a>
+
+
+
+    </div>
+
+
+    <button onclick="scrollToTop()" id="scrollTopBtn">
+        ↑ Top
+    </button>
+
+</div>
+
+
+
+
+<script>
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
+</script>
+
+
+<script src="navigation.js"></script>
+
+
+<div id="footer"></div>
+
+
+<script src="share.js"></script>
+
+<script src="career-actions.js"></script>
+
+
+
+</body>
+</html>

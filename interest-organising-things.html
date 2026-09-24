@@ -1,0 +1,96 @@
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FP729ERNGC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FP729ERNGC');
+</script>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>I Like Organising Things | Careers</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body data-interest="organising-things">
+
+<div id="header"></div>
+
+<script src="layout.js"></script>
+
+<script src="search.js"></script>
+
+
+<div class="main">
+
+<button onclick="goBack()" class="back-button">← Back</button>
+
+
+<div class="career-header">
+
+
+
+<div class="career-action">
+
+<button onclick="sharePage()" class="share-button">Share</button>
+
+</div>
+
+</div>
+
+
+<p class="section-subtitle highlight-text">
+Careers you may enjoy exploring
+</p>
+
+
+<div id="career-list" class="role-grid"></div>
+
+
+<script src="career-data.js"></script>
+
+<script src="career-loader.js"></script>
+
+
+<script src="reflection.js"></script>
+
+
+<button onclick="scrollToTop()" id="scrollTopBtn">↑ Top</button>
+
+<script>
+function scrollToTop(){
+  window.scrollTo({
+    top:0,
+    behavior:'smooth'
+  });
+}
+</script>
+
+</div>
+
+
+<div id="footer"></div>
+
+<script src="navigation.js"></script>
+
+<script src="career-actions.js"></script>
+
+<script src="share.js"></script>
+
+</body>
+
+</html>
