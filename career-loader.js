@@ -12,7 +12,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
   const category = document.body.dataset.category;
-  const subject = document.body.dataset.subject;
+const subject = document.body.dataset.subject;
+const interest = document.body.dataset.interest;
+
 
 const educationPath = document.body.dataset.educationPath;
 
@@ -64,6 +66,13 @@ if (
     )
 )) &&
   (!subject || (career.subjects && career.subjects.includes(subject)))
+
+
+&&
+(!interest || (
+  career.interests &&
+  career.interests.includes(interest)
+))
 )
  {
 
