@@ -1,8 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
-
-
-
 /* =========================================================
    GAIVO — MAIN STYLESHEET
    Organized version
@@ -320,6 +316,16 @@ ul li {
     max-width: 400px;
     animation: fadeUp 1s ease forwards;
 }
+
+
+.hero-text {
+    max-width: 400px;
+    animation: none;
+    opacity: 1;
+    transform: none;
+}
+
+
 
 .hero-text h1 {
     font-size: 50px;
@@ -2403,6 +2409,7 @@ ul li {
  .nav-links a {
     font-size: 18px;
     font-weight: 600;
+    padding: 14px;
     
 }
 
@@ -2891,6 +2898,7 @@ ul li {
     .footer-column a {
         font-size: 15px !important;
         margin-bottom: 5px !important;
+        padding: 6px 0 !important;
     }
 
     .footer-bottom {
@@ -3036,6 +3044,14 @@ ul li {
         height: 40px;
 }
 
+}
+
+@media (max-width: 768px) {
+    .hero-text {
+        animation: none;
+        opacity: 1;
+        transform: none;
+    }
 }
 
 
