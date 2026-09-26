@@ -1,24 +1,39 @@
 
 
 
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 
 
-<link href="https://fonts.googleapis.com/css2?family=DM Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FP729ERNGC"></script>
+
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+window.addEventListener('load', function () {
+    setTimeout(function () {
 
-  gtag('config', 'G-FP729ERNGC');
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'G-FP729ERNGC');
+
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-FP729ERNGC';
+
+        document.head.appendChild(script);
+
+    }, 1500);
+});
 </script>
-
 
 
   <meta charset="UTF-8">
@@ -31,10 +46,11 @@
 
   <meta name="keywords" content="career guidance, career test, find your career, student career help, career path, choose career">
 
+<link rel="canonical" href="https://gaivo.in/index.html">
+
   <link rel="stylesheet" href="style.css">
 
 
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
 
 
 </head>
@@ -96,15 +112,9 @@
 </div>
 
 
-<script src="career-data.js"></script>
+<script src="career-data.js" defer></script>
+<script src="search.js" defer></script>
 
-<script src="search.js"></script>
-
-
- <script src="layout.js"></script>
-
-
-</nav>
 
 
 
@@ -149,10 +159,10 @@
 <a href="#education-section" class="feature-link">
 <div class="feature-card">
 
-    <div class="feature-icon">🎓</div>
+ 
+   <div class="feature-icon">🎓</div>
 
-
-    <h3>Education Pathways</h3>
+    <h2>Education Pathways</h2>
 
     <p>
         Find out what you can do after 10th, 12th, diploma or graduation.
@@ -169,7 +179,7 @@
 <div class="feature-card">
     <div class="feature-icon">📚</div>
 
-    <h3>Subject Pathways</h3>
+    <h2>Subject Pathways</h2>
 
     <p>
         Discover careers related to subjects like Science, Commerce, Arts and more.
@@ -187,7 +197,7 @@
 <div class="feature-card">
     <div class="feature-icon">💼</div>
 
-    <h3>Career Information</h3>
+    <h2>Career Information</h2>
 
     <p>
         We will help you to understand a career, which exams to pass, and whether a career suits you or not.
@@ -237,7 +247,7 @@
 <div class="role-card">
 <a href="helping-people.html">
 <div class="card-image">
-<img src="images/helping-people.jpeg">
+<img src="images/helping-people.jpg" alt="Helping People">
 
 <div class="overlay-text">
 Health Care
@@ -253,7 +263,7 @@ Health Care
   <a href="arts-humanities-science.html">
 
     <div class="card-image">
-      <img src="images/arts-humanities.jpeg" alt="Arts Humanities and Science">
+      <img src="images/arts-humanities.jpg" alt="Arts Humanities and Science">
 
       <div class="overlay-text">
         Science & Research
@@ -270,7 +280,7 @@ Health Care
   <a href="technology.html">
 
     <div class="card-image">
-      <img src="images/technology.jpeg" alt="Technology and Problem Solving">
+      <img src="images/technology.jpg" alt="Technology and Problem Solving">
 
       <div class="overlay-text">
         Technology & Engineering
