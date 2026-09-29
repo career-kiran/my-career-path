@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gaivo AI Guide — Prototype</title>
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Arial,sans-serif;background:#f7f9fc;color:#1f2937}
+  .app{max-width:720px;margin:0 auto;padding:24px 16px 50px}
+  .brand{font-size:28px;font-weight:700;text-align:center;margin:8px 0 24px}
+  .card{background:#fff;border-radius:18px;padding:24px;box-shadow:0 6px 24px rgba(0,0,0,.07)}
+  h1{font-size:24px;margin:0 0 10px;line-height:1.3}
+  h2{font-size:20px;margin:0 0 18px}
+  p{line-height:1.55;color:#4b5563}
+  .buttons{display:flex;flex-direction:column;gap:12px;margin-top:22px}
+  button{font:inherit;cursor:pointer}
+  .choice{border:1px solid #d7dee8;background:#fff;border-radius:12px;padding:14px 16px;text-align:left}
+  .choice:hover{background:#f2f6fb}
+  .choice.selected{border:2px solid #2563eb;background:#eff6ff}
+  .primary{width:100%;border:0;border-radius:12px;padding:14px 18px;background:#2563eb;color:#fff;font-weight:600;margin-top:20px}
+  .secondary{width:100%;border:1px solid #cbd5e1;border-radius:12px;padding:12px;background:#fff;margin-top:10px}
+  .hint{font-size:14px;color:#64748b;margin-top:10px}
+  .progress{font-size:13px;color:#64748b;margin-bottom:12px}
+  .career-list{display:flex;flex-direction:column;gap:10px;margin-top:20px}
+  .career{display:block;text-decoration:none;color:#111827;background:#fff;border:1px solid #e1e7ef;border-radius:12px;padding:16px;font-weight:600}
+  .career:hover{border-color:#2563eb;background:#f8fbff}
+  .section-title{font-size:18px;margin:28px 0 12px}
+  .match-heading{font-size:20px;line-height:1.3;margin:38px 0 14px;font-weight:700}
+  .match-heading.closest-heading{color:#2563eb}
+  .match-heading.related-heading{color:#0f766e}
+  .empty{padding:18px;border-radius:12px;background:#f8fafc;color:#475569}
+  .small{font-size:13px;color:#64748b}
+  .tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}
+  .tag{background:#eef2ff;color:#334155;border-radius:999px;padding:6px 10px;font-size:13px}
+  .back{border:0;background:none;color:#2563eb;padding:0;margin-bottom:16px}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="brand">Gaivo</div>
+  <div id="app"></div>
+</div>
+<script src="career-data.js"></script>
+<script>
+(function(){
+  const careers = Array.isArray(window.careers) ? window.careers : [];
+  const app = document.getElementById('app');
+  const state = { education:null, interests:[], subjects:[] };
+
+  const interestOptions = [
+    ['helping-people','I like helping people'],
+    ['fixing-things','I enjoy fixing things'],
+    ['creative','I love being creative'],
+    ['designing','I love designing'],
+    ['technology','I am interested in technology'],
+    ['working-with-machines','I like working with machines'],
+    ['organising-things','I enjoy organising things'],
+    ['research-experiments','I love to do research and experiments'],
+    ['public-service','I want to serve the public'],
+    ['__skip__','Skip this question']
+  ];
+
+  const subjectOptions = [
+    ['Physics','Physics'],['Chemistry','Chemistry'],['Mathematics','Mathematics'],
+    ['Computer Science','Computer Science'],['Biology','Biology'],['Commerce','Commerce / Business'],
+    ['Economics','Economics'],['Accountancy','Accountancy'],['Psychology','Psychology'],
+    ['Art and Design','Art & Design'],['Language and Literature','Language & Literature'],
+    ['__other__','None of these / Other']
+  ];
+
+  const aliases = {
+    'art & design':'art and design',
+    'art and design':'art and design',
+    'language & literature':'language and literature',
+    'language and literature':'language and literature',
+    'commerce / business':'commerce',
+    'commerce':'commerce'
+  };
+  const norm = v => aliases[String(v||'').trim().toLowerCase()] || String(v||'').trim().toLowerCase();
+  const arr = v => Array.isArray(v) ? v : [];
+
+  function cleanCareers(){
+    return careers.filter(c => c && c.name && c.contentType !== 'exam' && c.page);
+  }
+
+  function educationMatches(c){
+    if(!state.education || state.education==='Other') return true;
+    const levelMap={
+      'Below Class 10':['10th'],
+      'Class 10':['10th'],
+      'Class 12':['12th'],
+      'Graduate':['Graduation']
+    };
+    return arr(c.levels).some(x=>levelMap[state.education]?.includes(x));
+  }
+
+  // Matching priority:
+  // 1. If interest(s) are selected, interest is the main filter.
+  //    Within those careers, subject match comes next, then education.
+  // 2. If no interest is selected but subject(s) are selected, subject is
+  //    the main filter. Education is used only to rank those subject careers.
+  // 3. If only education is selected, show careers for that education level.
+  //
+  // This prevents unrelated careers that match only the education level
+  // from appearing when the student has also selected an interest/subject.
+  function careerMatchDetails(c){
+    const ci=arr(c.interests).map(norm);
+    const cs=arr(c.subjects).map(norm);
+
+    const interestMatches=state.interests.filter(x=>ci.includes(norm(x))).length;
+    const subjectMatches=state.subjects.filter(x=>cs.includes(norm(x))).length;
+    const educationMatch=(
+      state.education &&
+      state.education!=='Other' &&
+      educationMatches(c)
+    ) ? 1 : 0;
+
+    return {interestMatches, subjectMatches, educationMatch};
+  }
+
+  function getMatches(){
+    const pool=cleanCareers();
+
+    const hasEducation=!!(state.education && state.education!=='Other');
+    const hasInterest=state.interests.length>0;
+    const hasSubject=state.subjects.length>0;
+
+    if(!hasEducation && !hasInterest && !hasSubject){
+      return {groups:[], total:0};
+    }
+
+    let scored=[];
+
+    if(hasInterest){
+      // Interest is the primary filter. Do not show careers that match
+      // only Physics/education while ignoring the selected interest.
+      scored=pool
+        .map(c=>({career:c, ...careerMatchDetails(c)}))
+        .filter(x=>x.interestMatches>0);
+
+      // Lexicographic priority:
+      // interest match count -> subject match count -> education match.
+      scored.sort((a,b)=>
+        b.interestMatches-a.interestMatches ||
+        b.subjectMatches-a.subjectMatches ||
+        b.educationMatch-a.educationMatch
+      );
+
+      const groups=[];
+      let previousKey=null;
+
+      for(const x of scored){
+        const key=`${x.interestMatches}|${x.subjectMatches}|${x.educationMatch}`;
+        if(key!==previousKey){
+          const title =
+            x.interestMatches===state.interests.length &&
+            x.subjectMatches===state.subjects.length &&
+            (!hasEducation || x.educationMatch===1)
+              ? 'Careers that closely match what you told me'
+              : (x.subjectMatches>0
+                  ? 'Related Careers'
+                  : (x.educationMatch>0
+                      ? 'Related Careers'
+                      : 'Related Careers'));
+
+          groups.push({title,list:[]});
+          previousKey=key;
+        }
+        groups[groups.length-1].list.push(x.career);
+      }
+
+      return {groups,total:scored.length};
+    }
+
+    if(hasSubject){
+      // No interest selected: subject is the primary filter.
+      scored=pool
+        .map(c=>({career:c, ...careerMatchDetails(c)}))
+        .filter(x=>x.subjectMatches>0);
+
+      // Subject match first, education match second.
+      scored.sort((a,b)=>
+        b.subjectMatches-a.subjectMatches ||
+        b.educationMatch-a.educationMatch
+      );
+
+      const groups=[];
+      let previousKey=null;
+
+      for(const x of scored){
+        const key=`${x.subjectMatches}|${x.educationMatch}`;
+        if(key!==previousKey){
+          const title =
+            x.subjectMatches===state.subjects.length &&
+            (!hasEducation || x.educationMatch===1)
+              ? 'Careers that closely match what you told me'
+              : (x.educationMatch>0
+                  ? 'Related Careers'
+                  : 'Related Careers');
+
+          groups.push({title,list:[]});
+          previousKey=key;
+        }
+        groups[groups.length-1].list.push(x.career);
+      }
+
+      return {groups,total:scored.length};
+    }
+
+    // Only education selected: now education is the filter.
+    const list=pool.filter(c=>educationMatches(c));
+    return {
+      groups:list.length ? [{title:'Careers related to your study level',list}] : [],
+      total:list.length
+    };
+  }
+
+  function renderStart(){
+    app.innerHTML=`<div class="card">
+      <h1>Are you confused about which career to choose? 😊</h1>
+      <div class="buttons">
+        <button class="choice" id="confused">Yes, I'm confused</button>
+        <button class="choice" id="known">No, I'm not confused</button>
+      </div>
+    </div>`;
+    document.getElementById('confused').onclick=()=>renderEducation();
+    document.getElementById('known').onclick=()=>renderKnown();
+  }
+
+  function renderEducation(){
+    app.innerHTML=`<div class="card">
+      <div class="progress">1 of 3</div>
+      <button class="back" id="back">← Back</button>
+      <h2>Where are you right now in your studies? 😊</h2>
+      <div class="buttons" id="educationButtons">
+        ${['Below Class 10','Class 10','Class 12','Graduate','Other'].map(x=>`<button class="choice ${state.education===x?'selected':''}" data-value="${x}">${x}</button>`).join('')}
+      </div>
+    </div>`;
+    document.getElementById('back').onclick=renderStart;
+    document.querySelectorAll('#educationButtons .choice').forEach(b=>b.onclick=()=>{
+      state.education=b.dataset.value;
+      renderInterests();
+    });
+  }
+
+  function renderInterests(){
+    app.innerHTML=`<div class="card">
+      <div class="progress">2 of 3</div>
+      <button class="back" id="back">← Back</button>
+      <h2>What are your interests? 😊</h2>
+      <p class="hint">You can choose more than one.</p>
+      <div class="buttons" id="interestButtons">
+        ${interestOptions.map(([v,t])=>`<button class="choice ${state.interests.includes(v)?'selected':''}" data-value="${v}">${t}</button>`).join('')}
+      </div>
+      <button class="primary" id="next">Continue</button>
+    </div>`;
+    document.getElementById('back').onclick=renderEducation;
+    document.querySelectorAll('#interestButtons .choice').forEach(b=>b.onclick=()=>{
+      const v=b.dataset.value;
+      if(v==='__skip__'){
+        state.interests=[];
+        document.querySelectorAll('#interestButtons .choice').forEach(x=>x.classList.remove('selected'));
+        b.classList.add('selected');
+        return;
+      }
+      document.querySelector('#interestButtons [data-value=\"__skip__\"]').classList.remove('selected');
+      b.classList.toggle('selected');
+      state.interests=state.interests.includes(v)?state.interests.filter(x=>x!==v):[...state.interests,v];
+    });
+    document.getElementById('next').onclick=()=>{
+      renderSubjects();
+    };
+  }
+
+  function renderSubjects(){
+    app.innerHTML=`<div class="card">
+      <div class="progress">3 of 3</div>
+      <button class="back" id="back">← Back</button>
+      <h2>Which subjects do you like the most? 😊</h2>
+      <p class="hint">You can choose more than one.</p>
+      <div class="buttons" id="subjectButtons">
+        ${subjectOptions.map(([v,t])=>`<button class="choice ${state.subjects.includes(v)?'selected':''}" data-value="${v}">${t}</button>`).join('')}
+      </div>
+      <button class="primary" id="show">Show careers</button>
+    </div>`;
+    document.getElementById('back').onclick=renderInterests;
+    document.querySelectorAll('#subjectButtons .choice').forEach(b=>b.onclick=()=>{
+      const v=b.dataset.value;
+      if(v==='__other__'){
+        state.subjects=state.subjects.includes('__other__')?[]:['__other__'];
+        document.querySelectorAll('#subjectButtons .choice').forEach(x=>{if(x!==b)x.classList.remove('selected')});
+      } else {
+        state.subjects=state.subjects.filter(x=>x!=='__other__');
+        state.subjects=state.subjects.includes(v)?state.subjects.filter(x=>x!==v):[...state.subjects,v];
+        document.querySelector('[data-value="__other__"]').classList.remove('selected');
+      }
+      b.classList.toggle('selected', state.subjects.includes(v));
+    });
+    document.getElementById('show').onclick=()=>{
+      if(state.subjects.includes('__other__')) state.subjects=[];
+      renderResults();
+    };
+  }
+
+  function resetAndStart(){
+    state.education=null;
+    state.interests=[];
+    state.subjects=[];
+    renderStart();
+  }
+
+  function renderKnown(){
+    app.innerHTML=`<div class="card">
+      <button class="back" id="back">← Back</button>
+      <h2>That's great! 😊 Which careers are you thinking about?</h2>
+      <p class="hint">Type one or more career names, separated by commas.</p>
+      <textarea id="careerInput" style="width:100%;min-height:110px;margin-top:14px;padding:12px;border:1px solid #cbd5e1;border-radius:12px;font:inherit"></textarea>
+      <button class="primary" id="find">Find Careers</button>
+    </div>`;
+    document.getElementById('back').onclick=renderStart;
+    document.getElementById('find').onclick=()=>{
+      const input=document.getElementById('careerInput').value.toLowerCase();
+      const terms=input.split(/[,\n]+/).map(x=>x.trim()).filter(Boolean);
+      const available=cleanCareers();
+      const found=available.filter(c=>terms.some(t=>c.name.toLowerCase()===t || c.name.toLowerCase().includes(t) || t.includes(c.name.toLowerCase())));
+      const missing=terms.filter(t=>!available.some(c=>c.name.toLowerCase()===t || c.name.toLowerCase().includes(t) || t.includes(c.name.toLowerCase())));
+      const missingHtml=missing.length?`<div class="empty" style="margin-top:18px">${missing.map(name=>`Sorry, the <strong>${name}</strong> career page you are looking for is not yet available on Gaivo.`).join('<br><br>')}</div>`:'';
+      app.innerHTML=`<div class="card"><button class="back" id="back">← Back</button><h1>Careers on Gaivo 😊</h1>
+        ${found.length?`<div class="career-list">${found.map(c=>`<a class="career" href="${c.page}">${c.name}</a>`).join('')}</div>`:''}
+        ${missingHtml}
+        ${!found.length && !missing.length ? `<div class="empty">Please enter a career name.</div>` : ''}
+        <button class="secondary" id="startAgain">Start again</button>
+      </div>`;
+      document.getElementById('back').onclick=renderKnown;
+      document.getElementById('startAgain').onclick=resetAndStart;
+    };
+  }
+
+  function renderResults(){
+    const result=getMatches();
+    const totalMatches=result.groups.reduce((sum,g)=>sum+g.list.length,0);
+
+    // Keep one closest-match section and merge all broader groups into
+    // one Related Careers section. This avoids repeating the same heading.
+    const closestGroups=result.groups.filter(g=>g.title==='Careers that closely match what you told me');
+    const relatedList=result.groups
+      .filter(g=>g.title!=='Careers that closely match what you told me')
+      .flatMap(g=>g.list);
+
+    let groupsHtml='';
+
+    if(closestGroups.length){
+      const closestList=closestGroups.flatMap(g=>g.list);
+      groupsHtml += `
+        <h2 class="match-heading closest-heading">Careers that closely match what you told me</h2>
+        <div class="career-list">
+          ${closestList.map(c=>`<a class="career" href="${c.page}">${c.name}</a>`).join('')}
+        </div>`;
+    }
+
+    if(relatedList.length){
+      groupsHtml += `
+        <h2 class="match-heading related-heading">Related Careers</h2>
+        <div class="career-list">
+          ${relatedList.map(c=>`<a class="career" href="${c.page}">${c.name}</a>`).join('')}
+        </div>`;
+    }
+
+    app.innerHTML=`<div class="card">
+      <h1>I think I understand you a little better now. 😊</h1>
+      <p>Based on what you told me, here are some careers you can explore.</p>
+      ${totalMatches ? `<p class="small">${totalMatches} careers found</p>${groupsHtml}` : (!state.education && !state.interests.length && !state.subjects.length ? `<div class="empty"><strong>It's okay if you're not sure yet. 😊</strong><br><br>You can explore different careers on Gaivo and see what interests you.</div><a class="primary" href="career-paths.html" style="display:block;text-align:center;text-decoration:none;margin-top:16px">Explore Careers</a>` : `<div class="empty">I couldn't find a career matching your selected choices on Gaivo yet.</div>`)}
+      <button class="secondary" id="changeAnswers">← Change answers</button>
+      <button class="secondary" id="startAgain">Start again</button>
+    </div>`;
+    document.getElementById('changeAnswers').onclick=renderSubjects;
+    document.getElementById('startAgain').onclick=resetAndStart;
+  }
+
+  renderStart();
+})();
+</script>
+</body>
+</html>
