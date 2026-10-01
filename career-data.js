@@ -50,6 +50,17 @@ window.careers = [
 },
 
 
+{
+    contentType: "exam",
+    id: "jee-advanced-aat",
+    name: "JEE Advanced AAT",
+    description: "AAT (Architecture Aptitude Test) is an entrance test for students who want to study B.Arch. at selected IITs.",
+    page: "jee-advanced-aat.html",
+    keywords: ["jee advanced aat", "aat", "architecture aptitude test", "aat exam", "b.arch entrance exam", "iit b.arch admission"],
+    tags: ["architecture", "B.Arch", "IIT", "JEE Advanced", "AAT", "architecture entrance", "national entrance exam"]
+},
+
+
 
 {
     id: "actor",
@@ -391,6 +402,22 @@ window.careers = [
     tags: ["music", "instrumental music", "aptitude", "admission"]
 },
 
+{
+    id: "architect",
+    name: "Architect",
+    image: "images/architect.jpeg",
+    page: "architect.html",
+    bucket: "Creativity and Expression",
+    category: "Designing",
+    interests: ["designing", "creative"],
+    subjects: ["Mathematics", "Physics"],
+    levels: ["12th", "Graduation"],
+    educationPath: "Creativity and Expression",
+    stream: ["Science"],
+    type: "Private & Government",
+    tags: ["architecture", "design", "buildings", "construction", "B.Arch", "M.Arch", "architect"]
+},
+
 
 {
   id: "art-director",
@@ -420,7 +447,7 @@ window.careers = [
     subjects: ["Biology"],
     levels: ["12th", "Graduation"],
     educationPath: "Health Care",
-    streams: ["Science", "Private"],
+    streams: ["Science"],
     type: "Government & Private",
     tags: ["audiologist", "audiology", "hearing specialist", "hearing care", "hearing disorders", "hearing assessment", "hearing loss", "hearing aids", "balance disorders", "auditory rehabilitation", "BASLP", "M.Sc. Audiology", "MASLP", "speech and hearing", "allied healthcare"]
 },
@@ -2436,6 +2463,16 @@ window.careers = [
     tags: ["music", "music theory", "performing arts", "admission", "test"]
 },
 
+{
+    contentType: "exam",
+    id: "nata",
+    name: "NATA",
+    description: "NATA (National Aptitude Test in Architecture) is a national-level aptitude test for students who want to study B.Arch. in India.",
+    page: "nata.html",
+    keywords: ["nata", "nata exam", "national aptitude test in architecture", "architecture entrance exam", "b.arch entrance exam", "b.arch admission"],
+    tags: ["architecture", "B.Arch", "national entrance exam", "nata", "architecture entrance", "building design"]
+},
+
 
 {
     contentType: "exam",
@@ -2736,6 +2773,16 @@ window.careers = [
     stream: ["Science"],
     type: "Private & Government",
     tags: ["petrochemical engineer", "petrochemical engineering", "oil refinery", "petroleum industry", "natural gas", "fuels", "plastics", "fertilizers", "chemicals", "refinery engineer", "petrochemical plants", "energy industry"]
+},
+
+{
+    contentType: "exam",
+    id: "pgeta",
+    name: "PGETA",
+    description: "PGETA (Postgraduate Entrance Test in Architecture) is a national-level entrance exam for students who want to study M.Arch. in India.",
+    page: "pgeta.html",
+    keywords: ["pgeta", "pgeta exam", "postgraduate entrance test in architecture", "m.arch entrance exam", "architecture entrance exam", "m.arch admission"],
+    tags: ["architecture", "M.Arch", "national entrance exam", "postgraduate", "PGETA", "architecture entrance"]
 },
 
 
